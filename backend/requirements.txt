@@ -1,0 +1,9 @@
+fastapi>=0.110,<0.112
+uvicorn[standard]>=0.27,<0.29
+python-dotenv>=1.0,<1.1
+pydantic>=2.5,<2.7
+pydantic-settings>=2.2,<2.3
+opencv-python>=4.8,<4.10
+numpy>=1.26,<2.0
+pillow>=10.2,<11.0
+PyMuPDF>=1.23,<1.24
