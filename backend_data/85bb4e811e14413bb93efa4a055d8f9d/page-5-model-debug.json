@@ -1,0 +1,149 @@
+{
+  "page": 5,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"Page contains definitions and policy text (Hospice Care, Hospital, Licensed Health Care Practitioner, etc.)\",\n      \"Does not match known structured forms such as facility invoice, CMR, or UB-04\",\n      \"Layout is prose with headings and bullet lists rather than form fields or invoice tables\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Hospice Care\",\n      \"value\": \"Hospice Care is Qualified Long Term Care Services provided in the event you are diagnosed with a terminal disease. Hospice Care helps you, your primary caregiver and your Family with the physical, social and spiritual needs brought about by your terminal illness.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 40,\n        \"width\": 674,\n        \"height\": 70\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Hospital\",\n      \"value\": \"Hospital is an institution or facility that is:\\n\u2022 licensed as a Hospital by the proper authority of the state in which it is located; or\\n\u2022 accredited as a Hospital by the Joint Commission on Accreditation of Hospitals (JCAH).\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 120,\n        \"width\": 674,\n        \"height\": 100\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Licensed Health Care Practitioner\",\n      \"value\": \"Licensed Health Care Practitioner is:\\n\u2022 a physician as defined in section 1861(r)(1) of the Social Security Act; or\\n\u2022 a Registered Nurse; or\\n\u2022 a Licensed Social Worker.\\nThe Licensed Health Care Practitioner must not be a member of your Family. Nor can the Licensed Health Care Practitioner nor any member of the Licensed Health Care Practitioner's Family be an owner or in any way control the operation of a facility in which you receive care or treatment.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 240,\n        \"width\": 674,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Licensed Social Worker\",\n      \"value\": \"Licensed Social Worker is a duly licensed social worker acting within the scope of their license at the time the treatment or service is performed.\\nThe Licensed Social Worker must not be a member of your Family. Nor can the Licensed Social Worker nor any member of the Licensed Social Worker's Family be an owner or in any way control the operation of a facility in which you receive care or treatment.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 380,\n        \"width\": 674,\n        \"height\": 90\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Maintenance or Personal Care Services\",\n      \"value\": \"Maintenance or Personal Care Services is any care provided primarily to give needed assistance to you as a result of your being Chronically Ill (including protection of your health and safety due to a severe Cognitive Impairment).\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 490,\n        \"width\": 674,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Medicare\",\n      \"value\": \"Medicare means the Health Insurance for the Aged Act, Title XVIII of the Social Security Amendments of 1965 as then constituted or later amended.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 560,\n        \"width\": 674,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Mental or Nervous Disorders\",\n      \"value\": \"Mental or Nervous Disorders are: affective disorders; anxiety disorders; personality disorders; psychotic disorders; or other mental or emotional disease or disorders. This does not include Alzheimer\u2019s, Parkinson\u2019s, or other demonstrable organic diseases such as senile dementia.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 610,\n        \"width\": 674,\n        \"height\": 70\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Nursing Home\",\n      \"value\": \"Nursing Home is a facility or a distinctly separate part of a hospital or other institution which:\\n\u2022 is licensed by the appropriate licensing agency to engage primarily in providing nursing care and related services to inpatients; and\\n\u2022 provides 24-hour a day nursing service; and\\n\u2022 has a nurse on duty or on call at all times; and\\n\u2022 maintains clinical records for all patients.\\n\\nNursing Home does not include:\\n\u2022 facilities or parts thereof used or licensed as an Assisted Living Facility; or\\n\u2022 convalescent homes, board and rest homes, homes for the aged, residential care facilities, domiciliary and retirement care facilities, or training centers; or\\n\u2022 government or veterans facilities or any other facility where the patient is not required to pay.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 690,\n        \"width\": 674,\n        \"height\": 260\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Document Footer Code\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 960,\n        \"width\": 200,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Page Number\",\n      \"value\": \"Page 6\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 660,\n        \"y\": 960,\n        \"width\": 74,\n        \"height\": 24\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Page contains definitions and policy text (Hospice Care, Hospital, Licensed Health Care Practitioner, etc.)",
+        "Does not match known structured forms such as facility invoice, CMR, or UB-04",
+        "Layout is prose with headings and bullet lists rather than form fields or invoice tables"
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Hospice Care",
+        "value": "Hospice Care is Qualified Long Term Care Services provided in the event you are diagnosed with a terminal disease. Hospice Care helps you, your primary caregiver and your Family with the physical, social and spiritual needs brought about by your terminal illness.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 40,
+          "width": 674,
+          "height": 70
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Hospital",
+        "value": "Hospital is an institution or facility that is:\n\u2022 licensed as a Hospital by the proper authority of the state in which it is located; or\n\u2022 accredited as a Hospital by the Joint Commission on Accreditation of Hospitals (JCAH).",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 120,
+          "width": 674,
+          "height": 100
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Licensed Health Care Practitioner",
+        "value": "Licensed Health Care Practitioner is:\n\u2022 a physician as defined in section 1861(r)(1) of the Social Security Act; or\n\u2022 a Registered Nurse; or\n\u2022 a Licensed Social Worker.\nThe Licensed Health Care Practitioner must not be a member of your Family. Nor can the Licensed Health Care Practitioner nor any member of the Licensed Health Care Practitioner's Family be an owner or in any way control the operation of a facility in which you receive care or treatment.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 240,
+          "width": 674,
+          "height": 120
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Licensed Social Worker",
+        "value": "Licensed Social Worker is a duly licensed social worker acting within the scope of their license at the time the treatment or service is performed.\nThe Licensed Social Worker must not be a member of your Family. Nor can the Licensed Social Worker nor any member of the Licensed Social Worker's Family be an owner or in any way control the operation of a facility in which you receive care or treatment.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 380,
+          "width": 674,
+          "height": 90
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Maintenance or Personal Care Services",
+        "value": "Maintenance or Personal Care Services is any care provided primarily to give needed assistance to you as a result of your being Chronically Ill (including protection of your health and safety due to a severe Cognitive Impairment).",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 490,
+          "width": 674,
+          "height": 60
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Medicare",
+        "value": "Medicare means the Health Insurance for the Aged Act, Title XVIII of the Social Security Amendments of 1965 as then constituted or later amended.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 560,
+          "width": 674,
+          "height": 40
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Mental or Nervous Disorders",
+        "value": "Mental or Nervous Disorders are: affective disorders; anxiety disorders; personality disorders; psychotic disorders; or other mental or emotional disease or disorders. This does not include Alzheimer\u2019s, Parkinson\u2019s, or other demonstrable organic diseases such as senile dementia.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 610,
+          "width": 674,
+          "height": 70
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Nursing Home",
+        "value": "Nursing Home is a facility or a distinctly separate part of a hospital or other institution which:\n\u2022 is licensed by the appropriate licensing agency to engage primarily in providing nursing care and related services to inpatients; and\n\u2022 provides 24-hour a day nursing service; and\n\u2022 has a nurse on duty or on call at all times; and\n\u2022 maintains clinical records for all patients.\n\nNursing Home does not include:\n\u2022 facilities or parts thereof used or licensed as an Assisted Living Facility; or\n\u2022 convalescent homes, board and rest homes, homes for the aged, residential care facilities, domiciliary and retirement care facilities, or training centers; or\n\u2022 government or veterans facilities or any other facility where the patient is not required to pay.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 690,
+          "width": 674,
+          "height": 260
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Document Footer Code",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 960,
+          "width": 200,
+          "height": 24
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Page Number",
+        "value": "Page 6",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 660,
+          "y": 960,
+          "width": 74,
+          "height": 24
+        }
+      }
+    ],
+    "tables": []
+  }
+}

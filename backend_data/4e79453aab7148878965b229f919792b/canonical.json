@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2025-12-10T00:00:00Z",
+  "documentTypes": [
+    "other"
+  ],
+  "facilityInvoice": {},
+  "cmrForm": {},
+  "ub04": {},
+  "notes": [
+    "The document is an insurance policy / guide (Allianz Guaranteed Renewable Long Term Care Insurance). It does not contain content consistent with facility_invoice, cmr_form, or ub04 templates, so sections are left empty and documentTypes set to ['other'].",
+    "OCR-extracted fields (company_name, policy_title, form codes, many policy clause headings) were present across pages (e.g., field IDs like 'company_name' on page 1 and page 17) confirming this is a policy document rather than an invoice or claim form. See aggregated fields in the input for details.",
+    "No invoice-specific fields (invoiceNumber, totalAmount, balanceDue, line item tables) or CMR/UB-04 provider billing fields were found in the extracted data, so no canonical values were populated."
+  ]
+}

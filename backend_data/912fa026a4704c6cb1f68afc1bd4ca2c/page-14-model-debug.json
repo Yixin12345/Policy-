@@ -1,0 +1,109 @@
+{
+  "page": 14,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"Page contains insurance policy provisions and headings (Reinstatement, Joint Coverage) rather than invoice, CMR transport form, or UB-04 medical billing form.\",\n      \"Layout is multi-column policy text with bullets and legal language typical of insurance contracts.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"title_reinstatement\",\n      \"name\": \"Reinstatement - Lapse Due to Nonpayment of Premium\",\n      \"value\": \"Reinstatement - Lapse Due to Nonpayment of Premium\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 540,\n        \"y\": 10,\n        \"width\": 460,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"reinstatement_no_application\",\n      \"name\": \"No application required reinstatement clause\",\n      \"value\": \"Without requiring an application, we may accept your past due and unpaid premium and any nonforfeiture benefits paid to you, up to one year after lapse. Those payments will reinstate your Policy and put it back in force.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 540,\n        \"y\": 10,\n        \"width\": 460,\n        \"height\": 360\n      }\n    },\n    {\n      \"id\": \"reinstatement_application_requirements\",\n      \"name\": \"Application required reinstatement clause\",\n      \"value\": \"If we require an application for reinstatement, your coverage may be reinstated within one year after lapse provided you request reinstatement in writing, you complete the application for reinstatement, and we receive all past due and unpaid premiums (for which we will give you a conditional receipt) and any nonforfeiture benefits paid and unpaid. You must be insurable under underwriting rules in effect at the time you apply.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 540,\n        \"y\": 120,\n        \"width\": 460,\n        \"height\": 600\n      }\n    },\n    {\n      \"id\": \"conditional_receipt_timeline\",\n      \"name\": \"Conditional receipt and waiting periods\",\n      \"value\": \"Your reinstated Policy will cover only loss due to sickness incurred more than 10 days after the date of reinstatement and accidents occurring after the date of reinstatement. If we have not previously declined your application within 30 days after receipt, your coverage may be reinstated under specified conditions.\",\n      \"confidence\": 0.4,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 540,\n        \"y\": 240,\n        \"width\": 460,\n        \"height\": 500\n      }\n    },\n    {\n      \"id\": \"joint_coverage_provision_title\",\n      \"name\": \"Joint Coverage Provision\",\n      \"value\": \"Joint Coverage Provision\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 30,\n        \"y\": 20,\n        \"width\": 500,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"joint_coverage_summary\",\n      \"name\": \"Joint Coverage Provision summary\",\n      \"value\": \"This Policy provides equal coverage for two individuals. All benefits described in the Policy apply to each individual as shown on the Benefit Schedule. Premium rates for the reinstated Policy will be based on your original issue age. When more than one individual is covered under this Policy and one of you dies, upon receipt of proof of death, the coverage for the surviving individual may continue under terms described (including possible premium adjustments and effective dates). The new premium for continued coverage will be due on the Policy's next Premium Due Date.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 30,\n        \"y\": 20,\n        \"width\": 500,\n        \"height\": 700\n      }\n    },\n    {\n      \"id\": \"page_number\",\n      \"name\": \"Page number\",\n      \"value\": \"Page 15\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 5,\n        \"y\": 730,\n        \"width\": 80,\n        \"height\": 34\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Page contains insurance policy provisions and headings (Reinstatement, Joint Coverage) rather than invoice, CMR transport form, or UB-04 medical billing form.",
+        "Layout is multi-column policy text with bullets and legal language typical of insurance contracts."
+      ]
+    },
+    "fields": [
+      {
+        "id": "title_reinstatement",
+        "name": "Reinstatement - Lapse Due to Nonpayment of Premium",
+        "value": "Reinstatement - Lapse Due to Nonpayment of Premium",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 540,
+          "y": 10,
+          "width": 460,
+          "height": 120
+        }
+      },
+      {
+        "id": "reinstatement_no_application",
+        "name": "No application required reinstatement clause",
+        "value": "Without requiring an application, we may accept your past due and unpaid premium and any nonforfeiture benefits paid to you, up to one year after lapse. Those payments will reinstate your Policy and put it back in force.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 540,
+          "y": 10,
+          "width": 460,
+          "height": 360
+        }
+      },
+      {
+        "id": "reinstatement_application_requirements",
+        "name": "Application required reinstatement clause",
+        "value": "If we require an application for reinstatement, your coverage may be reinstated within one year after lapse provided you request reinstatement in writing, you complete the application for reinstatement, and we receive all past due and unpaid premiums (for which we will give you a conditional receipt) and any nonforfeiture benefits paid and unpaid. You must be insurable under underwriting rules in effect at the time you apply.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 540,
+          "y": 120,
+          "width": 460,
+          "height": 600
+        }
+      },
+      {
+        "id": "conditional_receipt_timeline",
+        "name": "Conditional receipt and waiting periods",
+        "value": "Your reinstated Policy will cover only loss due to sickness incurred more than 10 days after the date of reinstatement and accidents occurring after the date of reinstatement. If we have not previously declined your application within 30 days after receipt, your coverage may be reinstated under specified conditions.",
+        "confidence": 0.4,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 540,
+          "y": 240,
+          "width": 460,
+          "height": 500
+        }
+      },
+      {
+        "id": "joint_coverage_provision_title",
+        "name": "Joint Coverage Provision",
+        "value": "Joint Coverage Provision",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 30,
+          "y": 20,
+          "width": 500,
+          "height": 120
+        }
+      },
+      {
+        "id": "joint_coverage_summary",
+        "name": "Joint Coverage Provision summary",
+        "value": "This Policy provides equal coverage for two individuals. All benefits described in the Policy apply to each individual as shown on the Benefit Schedule. Premium rates for the reinstated Policy will be based on your original issue age. When more than one individual is covered under this Policy and one of you dies, upon receipt of proof of death, the coverage for the surviving individual may continue under terms described (including possible premium adjustments and effective dates). The new premium for continued coverage will be due on the Policy's next Premium Due Date.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 30,
+          "y": 20,
+          "width": 500,
+          "height": 700
+        }
+      },
+      {
+        "id": "page_number",
+        "name": "Page number",
+        "value": "Page 15",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 5,
+          "y": 730,
+          "width": 80,
+          "height": 34
+        }
+      }
+    ],
+    "tables": []
+  }
+}

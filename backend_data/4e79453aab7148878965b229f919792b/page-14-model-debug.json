@@ -1,0 +1,109 @@
+{
+  "page": 14,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Document contains insurance policy language (Reinstatement, Joint Coverage Provision) rather than invoice, CMR, or UB04 specific fields\",\n      \"Layout and headings match policy terms and conditions page\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"form_id\",\n      \"value\": \"N-3000-PF(LQ)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 8,\n        \"y\": 12,\n        \"width\": 44,\n        \"height\": 420\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"page_number\",\n      \"value\": \"Page 15\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 8,\n        \"y\": 971,\n        \"width\": 86,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"heading_reinstatement\",\n      \"value\": \"Reinstatement - Lapse Due to Nonpayment of Premium\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 666,\n        \"y\": 6,\n        \"width\": 320,\n        \"height\": 320\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"reinstatement_summary\",\n      \"value\": \"If we require an application for reinstatement, your coverage may be reinstated within one year after lapse. Those payments will reinstate your Policy and put it back in force.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 606,\n        \"y\": 36,\n        \"width\": 382,\n        \"height\": 220\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"reinstatement_requirements\",\n      \"value\": \"You must pay all past due and unpaid premiums and any nonforfeiture benefits paid to you, up to one year after lapse. You may be required to give satisfactory evidence of insurability. Upon reinstatement, the date of reinstatement and any applicable waiting periods apply; some coverages only cover loss due to sickness or injury occurring after 10 days following the date of reinstatement.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 586,\n        \"y\": 140,\n        \"width\": 404,\n        \"height\": 620\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"heading_joint_coverage_provision\",\n      \"value\": \"Joint Coverage Provision\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 312,\n        \"y\": 132,\n        \"width\": 330,\n        \"height\": 420\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"joint_coverage_summary\",\n      \"value\": \"This Policy provides equal coverage for two individuals, is both apply and are issued coverage under this Policy. All Benefits available under the Policy are shown on the Benefit Schedule. When more than one individual is covered under this Policy, if one of you dies, upon receipt of proof of death the death benefit payable will be the difference between the benefit which was paid and the single premium.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 200,\n        \"y\": 240,\n        \"width\": 420,\n        \"height\": 600\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Document contains insurance policy language (Reinstatement, Joint Coverage Provision) rather than invoice, CMR, or UB04 specific fields",
+        "Layout and headings match policy terms and conditions page"
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "form_id",
+        "value": "N-3000-PF(LQ)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 8,
+          "y": 12,
+          "width": 44,
+          "height": 420
+        }
+      },
+      {
+        "id": "f2",
+        "name": "page_number",
+        "value": "Page 15",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 8,
+          "y": 971,
+          "width": 86,
+          "height": 40
+        }
+      },
+      {
+        "id": "f3",
+        "name": "heading_reinstatement",
+        "value": "Reinstatement - Lapse Due to Nonpayment of Premium",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 666,
+          "y": 6,
+          "width": 320,
+          "height": 320
+        }
+      },
+      {
+        "id": "f4",
+        "name": "reinstatement_summary",
+        "value": "If we require an application for reinstatement, your coverage may be reinstated within one year after lapse. Those payments will reinstate your Policy and put it back in force.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 606,
+          "y": 36,
+          "width": 382,
+          "height": 220
+        }
+      },
+      {
+        "id": "f5",
+        "name": "reinstatement_requirements",
+        "value": "You must pay all past due and unpaid premiums and any nonforfeiture benefits paid to you, up to one year after lapse. You may be required to give satisfactory evidence of insurability. Upon reinstatement, the date of reinstatement and any applicable waiting periods apply; some coverages only cover loss due to sickness or injury occurring after 10 days following the date of reinstatement.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 586,
+          "y": 140,
+          "width": 404,
+          "height": 620
+        }
+      },
+      {
+        "id": "f6",
+        "name": "heading_joint_coverage_provision",
+        "value": "Joint Coverage Provision",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 312,
+          "y": 132,
+          "width": 330,
+          "height": 420
+        }
+      },
+      {
+        "id": "f7",
+        "name": "joint_coverage_summary",
+        "value": "This Policy provides equal coverage for two individuals, is both apply and are issued coverage under this Policy. All Benefits available under the Policy are shown on the Benefit Schedule. When more than one individual is covered under this Policy, if one of you dies, upon receipt of proof of death the death benefit payable will be the difference between the benefit which was paid and the single premium.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 200,
+          "y": 240,
+          "width": 420,
+          "height": 600
+        }
+      }
+    ],
+    "tables": []
+  }
+}

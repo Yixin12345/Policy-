@@ -1,0 +1,4951 @@
+{
+  "jobId": "fbcd59b4774a4f12bb0fbdfe58565a03",
+  "documentName": "alifestageadvan.pdf",
+  "sourcePdf": "source.pdf",
+  "status": {
+    "jobId": "fbcd59b4774a4f12bb0fbdfe58565a03",
+    "totalPages": 2,
+    "processedPages": 2,
+    "state": "completed",
+    "errors": [],
+    "startedAt": "2025-12-10T18:30:42.779051",
+    "finishedAt": "2025-12-10T18:33:43.595486"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "status": "completed",
+      "fields": [
+        {
+          "id": "title_1",
+          "page": 1,
+          "name": "Document Title",
+          "value": "MetLife LTC LifeStage AdvantageSM",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 40.0,
+            "y": 40.0,
+            "width": 688.0,
+            "height": 96.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "subtitle_1",
+          "page": 1,
+          "name": "Subtitle",
+          "value": "Plans-at-a-Glance",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 60.0,
+            "y": 120.0,
+            "width": 360.0,
+            "height": 36.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "header_right",
+          "page": 1,
+          "name": "Header Right",
+          "value": "INSURANCE | LONG-TERM CARE",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 508.0,
+            "y": 18.0,
+            "width": 240.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "brand",
+          "page": 1,
+          "name": "Brand",
+          "value": "MetLife",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 24.0,
+            "y": 164.0,
+            "width": 720.0,
+            "height": 76.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "plan_name_simple",
+          "page": 1,
+          "name": "Plan Name - Simple Advantage",
+          "value": "SIMPLE ADVANTAGE\u00174 PLAN",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 44.0,
+            "y": 268.0,
+            "width": 320.0,
+            "height": 36.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "plan_name_custom",
+          "page": 1,
+          "name": "Plan Name - Custom Advantage",
+          "value": "CUSTOM ADVANTAGE\u00174 PLAN",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 404.0,
+            "y": 268.0,
+            "width": 328.0,
+            "height": 36.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "plan_type_value",
+          "page": 1,
+          "name": "Plan Type (description)",
+          "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available \t6 see below)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 308.0,
+            "width": 684.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "issue_ages_simple",
+          "page": 1,
+          "name": "Issue Ages - Simple Advantage",
+          "value": "18 - 61 (premiums banded 18 - 30)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 56.0,
+            "y": 340.0,
+            "width": 312.0,
+            "height": 26.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "issue_ages_custom",
+          "page": 1,
+          "name": "Issue Ages - Custom Advantage",
+          "value": "18 - 84 (premiums banded 18 - 30)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 408.0,
+            "y": 340.0,
+            "width": 300.0,
+            "height": 26.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "mba_tba_label",
+          "page": 1,
+          "name": "MBA and TBA Label",
+          "value": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 372.0,
+            "width": 684.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "mba_tba_simple_values",
+          "page": 1,
+          "name": "MBA/TBA Options - Simple Advantage",
+          "value": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA (Total Benefit Amount) options shown: $75K, $100K, $200K, $300K, $400K, $500K (No $1MM for Simple with Cash Benefit Rider note).",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 48.0,
+            "y": 400.0,
+            "width": 320.0,
+            "height": 180.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "mba_tba_custom_values",
+          "page": 1,
+          "name": "MBA/TBA Options - Custom Advantage",
+          "value": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA options shown: $75K, $100K, $200K, $300K, $400K, $500K and $1MM (\"$1MM not available with Cash Benefit Rider\" noted).",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 412.0,
+            "y": 400.0,
+            "width": 320.0,
+            "height": 180.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "optional_riders_heading",
+          "page": 1,
+          "name": "Optional Riders Heading",
+          "value": "OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 40.0,
+            "y": 588.0,
+            "width": 688.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "rider_shared_care",
+          "page": 1,
+          "name": "Shared Care Rider - name",
+          "value": "Shared Care Rider",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 624.0,
+            "width": 320.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "rider_shared_care_desc",
+          "page": 1,
+          "name": "Shared Care Rider - description",
+          "value": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted. When insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost. Rider available at any time, subject to underwriting; Both spouse/partners must have identical policies.",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 48.0,
+            "y": 652.0,
+            "width": 680.0,
+            "height": 52.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "rider_nonforfeiture",
+          "page": 1,
+          "name": "Nonforfeiture Rider - name",
+          "value": "Nonforfeiture Rider",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 708.0,
+            "width": 320.0,
+            "height": 26.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "rider_nonforfeiture_desc",
+          "page": 1,
+          "name": "Nonforfeiture Rider - description",
+          "value": "Provides some benefits if policy lapses for nonpayment of premiums or is cancelled by insured. Rider must be in effect for 3 years and be in effect when the policy ends. Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA. Available at initial application only.",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 48.0,
+            "y": 734.0,
+            "width": 680.0,
+            "height": 64.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "rider_cash_benefit",
+          "page": 1,
+          "name": "Cash Benefit Rider - name",
+          "value": "Cash Benefit Rider",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 806.0,
+            "width": 320.0,
+            "height": 26.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "rider_cash_benefit_desc",
+          "page": 1,
+          "name": "Cash Benefit Rider - description",
+          "value": "Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services. Available at initial application only; $1MM TBA not available. Benefits paid over annual IRC limit may be taxable.",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 48.0,
+            "y": 832.0,
+            "width": 680.0,
+            "height": 72.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "gpo_heading",
+          "page": 1,
+          "name": "Guaranteed Purchase Option heading",
+          "value": "GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 916.0,
+            "width": 320.0,
+            "height": 48.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "gpo_bullets",
+          "page": 1,
+          "name": "Guaranteed Purchase Option details",
+          "value": "Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting. Premium for increase in coverage is at attained age rates. Lifetime maximum increase available is 2x initial TBA and 2x initial MBA. Minimum of 25% of initial coverage must be purchased each time GPO is exercised. Rider ends at earlier of policy anniversary date after insured's 65th birthday, or when insured no longer eligible.",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 48.0,
+            "y": 964.0,
+            "width": 700.0,
+            "height": 24.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        }
+      ],
+      "tables": [
+        {
+          "id": "table_plans_comparison",
+          "page": 1,
+          "caption": "Plan comparison: SIMPLE ADVANTAGE PLAN vs CUSTOM ADVANTAGE PLAN",
+          "confidence": 0.8,
+          "columns": [
+            {
+              "key": "col_plan",
+              "header": "Plan",
+              "type": "string",
+              "confidence": 1.0
+            },
+            {
+              "key": "col_plan_type",
+              "header": "Plan Type",
+              "type": "string",
+              "confidence": 0.8
+            },
+            {
+              "key": "col_issue_ages",
+              "header": "Issue Ages",
+              "type": "string",
+              "confidence": 0.8
+            },
+            {
+              "key": "col_mba_tba",
+              "header": "MBA / TBA options",
+              "type": "string",
+              "confidence": 0.6
+            }
+          ],
+          "rows": [
+            [
+              {
+                "value": "SIMPLE ADVANTAGE\u00174 PLAN",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 44.0,
+                  "y": 268.0,
+                  "width": 320.0,
+                  "height": 36.0
+                }
+              },
+              {
+                "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 308.0,
+                  "width": 320.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "18 - 61 (premiums banded 18 - 30)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 56.0,
+                  "y": 340.0,
+                  "width": 312.0,
+                  "height": 26.0
+                }
+              },
+              {
+                "value": "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 400.0,
+                  "width": 320.0,
+                  "height": 180.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "CUSTOM ADVANTAGE\u00174 PLAN",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 404.0,
+                  "y": 268.0,
+                  "width": 328.0,
+                  "height": 36.0
+                }
+              },
+              {
+                "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 408.0,
+                  "y": 308.0,
+                  "width": 320.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "18 - 84 (premiums banded 18 - 30)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 408.0,
+                  "y": 340.0,
+                  "width": 300.0,
+                  "height": 26.0
+                }
+              },
+              {
+                "value": "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K, $1MM",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 412.0,
+                  "y": 400.0,
+                  "width": 320.0,
+                  "height": 180.0
+                }
+              }
+            ]
+          ],
+          "bbox": null,
+          "normalized": true,
+          "table_group_id": "7c36448e64524bbfbd5d84c5d2c18470",
+          "continuation_of": null,
+          "inferred_headers": false,
+          "row_start_index": 0
+        },
+        {
+          "id": "table_optional_riders",
+          "page": 1,
+          "caption": "Optional Riders Available (shared across plans)",
+          "confidence": 0.8,
+          "columns": [
+            {
+              "key": "col_rider",
+              "header": "Rider",
+              "type": "string",
+              "confidence": 1.0
+            },
+            {
+              "key": "col_description",
+              "header": "Description",
+              "type": "string",
+              "confidence": 0.6
+            }
+          ],
+          "rows": [
+            [
+              {
+                "value": "Shared Care Rider",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 624.0,
+                  "width": 320.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted; when insured dies, remaining TBA transfers to spouse/partner at no extra cost; available at any time subject to underwriting.",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 652.0,
+                  "width": 680.0,
+                  "height": 52.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Nonforfeiture Rider",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 708.0,
+                  "width": 320.0,
+                  "height": 26.0
+                }
+              },
+              {
+                "value": "Provides benefits if policy lapses for nonpayment or is cancelled; must be in effect for 3 years; provides full MBA and a reduced TBA equal to greater of premiums paid or 1x MBA; available at initial application only.",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 734.0,
+                  "width": 680.0,
+                  "height": 64.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Cash Benefit Rider",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 806.0,
+                  "width": 320.0,
+                  "height": 26.0
+                }
+              },
+              {
+                "value": "Full MBA paid as cash payment instead of reimbursement for covered services; available at initial application only; $1MM TBA not available; tax implications may apply.",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 832.0,
+                  "width": 680.0,
+                  "height": 72.0
+                }
+              }
+            ]
+          ],
+          "bbox": null,
+          "normalized": true,
+          "table_group_id": "8d6cb6cff7ef47dfa314f17fed17ca44",
+          "continuation_of": null,
+          "inferred_headers": false,
+          "row_start_index": 0
+        }
+      ],
+      "imagePath": "page-1.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": "other",
+      "documentTypeConfidence": 1.0
+    },
+    {
+      "pageNumber": 2,
+      "status": "completed",
+      "fields": [
+        {
+          "id": "f1",
+          "page": 2,
+          "name": "document_title",
+          "value": "Policy Features and Benefits May Vary By State",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 180.0,
+            "y": 8.0,
+            "width": 408.0,
+            "height": 24.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f2",
+          "page": 2,
+          "name": "section_header",
+          "value": "FEATURES & BENEFITS AVAILABLE WITH BOTH SIMPLE ADVANTAGESM AND CUSTOM ADVANTAGESM",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 30.0,
+            "y": 42.0,
+            "width": 708.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f3",
+          "page": 2,
+          "name": "Home and Community Care (feature)",
+          "value": "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services - Services provided by a Home Care Aide, Social Worker or Independent Caregiver - Hospice Care; Adult Day Care",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 95.0,
+            "width": 438.0,
+            "height": 50.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f4",
+          "page": 2,
+          "name": "Facility Care (feature)",
+          "value": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 155.0,
+            "width": 438.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f5",
+          "page": 2,
+          "name": "Elimination Period",
+          "value": "100 Calendar Days; Once per lifetime and cumulative",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 188.0,
+            "width": 438.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f6",
+          "page": 2,
+          "name": "Alternate Service Provision",
+          "value": "A MetLife Care Coordinator may authorize benefits for QLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 218.0,
+            "width": 438.0,
+            "height": 36.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f7",
+          "page": 2,
+          "name": "Bed Reservation",
+          "value": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 248.0,
+            "width": 438.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f8",
+          "page": 2,
+          "name": "Return of Premium",
+          "value": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 278.0,
+            "width": 438.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f9",
+          "page": 2,
+          "name": "International Benefit",
+          "value": "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA is limited to the lesser of: (1) TBA less benefits paid while insured is in the U.S.; or (2) 50% of TBA; EP for International Benefit is doubled to 200 Calendar Days; If Cash Benefit Rider is added to policy: International Benefit is modified; pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 308.0,
+            "width": 438.0,
+            "height": 96.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f10",
+          "page": 2,
+          "name": "Contingent Benefit Upon Lapse",
+          "value": "Limited coverage is provided if the insured's policy ends due to non-payment of premiums, or the insured's written request to cancel, following a substantial premium increase (defined based on NAIC guidelines); Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA; Total benefits paid to the insured will not exceed the TBA in effect immediately prior to the nonforfeiture date",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 410.0,
+            "width": 438.0,
+            "height": 96.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f11",
+          "page": 2,
+          "name": "Initial Needs Assessment",
+          "value": "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If Care Management organization is selected by the insured \u2013 reimbursed up to $275 per lifetime",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 512.0,
+            "width": 438.0,
+            "height": 60.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f12",
+          "page": 2,
+          "name": "Premium Waiver",
+          "value": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 580.0,
+            "width": 438.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f13",
+          "page": 2,
+          "name": "Coordination of Benefits",
+          "value": "Coordination of Benefits (COB) and non-duplication of coverage with other MetLife LTCI coverage and Medicare (COB) and non-duplication of coverage not applicable with Cash Benefit Rider",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 612.0,
+            "width": 438.0,
+            "height": 40.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f14",
+          "page": 2,
+          "name": "additional_information_header",
+          "value": "ADDITIONAL INFORMATION FOR ALL POLICIES",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 30.0,
+            "y": 680.0,
+            "width": 708.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f15",
+          "page": 2,
+          "name": "Payment Options",
+          "value": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; The client should consult a tax advisor for further clarification",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 740.0,
+            "width": 438.0,
+            "height": 56.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f16",
+          "page": 2,
+          "name": "Care Coordination Services",
+          "value": "MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area. An insured can also call for advice about caring for a loved one who needs LTC services, even if their family member is not insured with MetLife.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 804.0,
+            "width": 438.0,
+            "height": 44.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f17",
+          "page": 2,
+          "name": "Discounts",
+          "value": "30% Spousal* \u2013 15% Marital** \u2013 15% Residential \u2013 10% Preferred Health (N/A for insureds age 80 - 84) \u2013 5% or 10% Multi-Life Discount for approved cases",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 852.0,
+            "width": 438.0,
+            "height": 36.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f18",
+          "page": 2,
+          "name": "Underwriting Classes",
+          "value": "Preferred (N/A for insureds age 80 - 84), Standard & Substandard (Always quote Standard!)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 892.0,
+            "width": 438.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f19",
+          "page": 2,
+          "name": "Save Age",
+          "value": "Premium based on age 30 days prior to application date (underwriting requirements based on age at date of signed application)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 924.0,
+            "width": 438.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f20",
+          "page": 2,
+          "name": "Policy Effective Dates",
+          "value": "With Premium (Conditional Receipt may apply): Date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 956.0,
+            "width": 438.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f21",
+          "page": 2,
+          "name": "Free Look Period",
+          "value": "Insured has 30 days to review policy and if desired, return it for a full refund",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 300.0,
+            "y": 988.0,
+            "width": 438.0,
+            "height": 12.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f22",
+          "page": 2,
+          "name": "Policy Delivery",
+          "value": "Policy Delivery Receipt (PDR) must be signed within 30 days of Policy Approval Date",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 30.0,
+            "y": 988.0,
+            "width": 260.0,
+            "height": 12.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f23",
+          "page": 2,
+          "name": "company_name",
+          "value": "Metropolitan Life Insurance Company",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 560.0,
+            "y": 960.0,
+            "width": 198.0,
+            "height": 32.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f24",
+          "page": 2,
+          "name": "company_address",
+          "value": "New York, NY 10166",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 560.0,
+            "y": 988.0,
+            "width": 198.0,
+            "height": 12.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        }
+      ],
+      "tables": [
+        {
+          "id": "t1",
+          "page": 2,
+          "caption": "Features & Benefits (Feature / Benefits)",
+          "confidence": 0.8,
+          "columns": [
+            {
+              "key": "col1",
+              "header": "Feature",
+              "type": "string",
+              "confidence": 0.8
+            },
+            {
+              "key": "col2",
+              "header": "Benefits / Description",
+              "type": "string",
+              "confidence": 0.8
+            }
+          ],
+          "rows": [
+            [
+              {
+                "value": "Home and Community Care",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 95.0,
+                  "width": 260.0,
+                  "height": 50.0
+                }
+              },
+              {
+                "value": "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services - Services provided by a Home Care Aide, Social Worker or Independent Caregiver - Hospice Care; Adult Day Care",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 95.0,
+                  "width": 438.0,
+                  "height": 50.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Facility Care",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 155.0,
+                  "width": 260.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 155.0,
+                  "width": 438.0,
+                  "height": 28.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Elimination Period",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 188.0,
+                  "width": 260.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "100 Calendar Days; Once per lifetime and cumulative",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 188.0,
+                  "width": 438.0,
+                  "height": 28.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Alternate Service Provision",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 218.0,
+                  "width": 260.0,
+                  "height": 36.0
+                }
+              },
+              {
+                "value": "MetLife Care Coordinator may authorize benefits for QLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative.",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 218.0,
+                  "width": 438.0,
+                  "height": 36.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Bed Reservation",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 248.0,
+                  "width": 260.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 248.0,
+                  "width": 438.0,
+                  "height": 28.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Return of Premium",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 278.0,
+                  "width": 260.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 278.0,
+                  "width": 438.0,
+                  "height": 28.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "International Benefit",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 308.0,
+                  "width": 260.0,
+                  "height": 96.0
+                }
+              },
+              {
+                "value": "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA limited to lesser of (1) TBA less benefits paid while insured in U.S.; or (2) 50% of TBA; EP for International Benefit doubled to 200 Calendar Days; If Cash Benefit Rider added, pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 308.0,
+                  "width": 438.0,
+                  "height": 96.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Contingent Benefit Upon Lapse",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 410.0,
+                  "width": 260.0,
+                  "height": 96.0
+                }
+              },
+              {
+                "value": "Limited coverage provided if policy ends due to non-payment or insured request following a substantial premium increase; Provides full MBA and reduced TBA equal to greater of total premium paid or 1x MBA; Total benefits paid will not exceed prior TBA",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 410.0,
+                  "width": 438.0,
+                  "height": 96.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Initial Needs Assessment",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 512.0,
+                  "width": 260.0,
+                  "height": 60.0
+                }
+              },
+              {
+                "value": "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If selected by insured \u2013 reimbursed up to $275 per lifetime",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 512.0,
+                  "width": 438.0,
+                  "height": 60.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Premium Waiver",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 580.0,
+                  "width": 260.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 580.0,
+                  "width": 438.0,
+                  "height": 28.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Coordination of Benefits",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 612.0,
+                  "width": 260.0,
+                  "height": 40.0
+                }
+              },
+              {
+                "value": "COB and non-duplication of coverage with other MetLife LTCI coverage and Medicare; non-duplication not applicable with Cash Benefit Rider",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 612.0,
+                  "width": 438.0,
+                  "height": 40.0
+                }
+              }
+            ]
+          ],
+          "bbox": null,
+          "normalized": true,
+          "table_group_id": "8d6cb6cff7ef47dfa314f17fed17ca44",
+          "continuation_of": "8d6cb6cff7ef47dfa314f17fed17ca44",
+          "inferred_headers": false,
+          "row_start_index": 3
+        },
+        {
+          "id": "t2",
+          "page": 2,
+          "caption": "Additional Information (Item / Details)",
+          "confidence": 0.8,
+          "columns": [
+            {
+              "key": "col1",
+              "header": "Item",
+              "type": "string",
+              "confidence": 0.8
+            },
+            {
+              "key": "col2",
+              "header": "Details",
+              "type": "string",
+              "confidence": 0.8
+            }
+          ],
+          "rows": [
+            [
+              {
+                "value": "Payment Options",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 740.0,
+                  "width": 260.0,
+                  "height": 56.0
+                }
+              },
+              {
+                "value": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; consult a tax advisor",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 740.0,
+                  "width": 438.0,
+                  "height": 56.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Care Coordination Services",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 804.0,
+                  "width": 260.0,
+                  "height": 44.0
+                }
+              },
+              {
+                "value": "MetLife Care Coordinators answer questions about LTC coverage, services and discounts; can advise on caring for a loved one even if not insured with MetLife",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 804.0,
+                  "width": 438.0,
+                  "height": 44.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Discounts",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 852.0,
+                  "width": 260.0,
+                  "height": 36.0
+                }
+              },
+              {
+                "value": "30% Spousal* \u2013 15% Marital** \u2013 15% Residential \u2013 10% Preferred Health (N/A ages 80 - 84) \u2013 5% or 10% Multi-Life Discount for approved cases",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 852.0,
+                  "width": 438.0,
+                  "height": 36.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Underwriting Classes",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 892.0,
+                  "width": 260.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "Preferred (N/A ages 80 - 84), Standard & Substandard",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 892.0,
+                  "width": 438.0,
+                  "height": 28.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Save Age",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 924.0,
+                  "width": 260.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "Premium based on age 30 days prior to application date (underwriting requirements based on age at date of signed application)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 924.0,
+                  "width": 438.0,
+                  "height": 28.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Policy Effective Dates",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 956.0,
+                  "width": 260.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "With Premium: date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 956.0,
+                  "width": 438.0,
+                  "height": 28.0
+                }
+              }
+            ]
+          ],
+          "bbox": null,
+          "normalized": true,
+          "table_group_id": "8d6cb6cff7ef47dfa314f17fed17ca44",
+          "continuation_of": "8d6cb6cff7ef47dfa314f17fed17ca44",
+          "inferred_headers": false,
+          "row_start_index": 3
+        }
+      ],
+      "imagePath": "page-2.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": "other",
+      "documentTypeConfidence": 0.8
+    }
+  ],
+  "aggregated": {
+    "jobId": "fbcd59b4774a4f12bb0fbdfe58565a03",
+    "fields": [
+      {
+        "canonicalName": "Document Title",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "MetLife LTC LifeStage AdvantageSM",
+            "confidence": 1.0
+          }
+        ],
+        "bestValue": "MetLife LTC LifeStage AdvantageSM",
+        "confidenceStats": {
+          "min": 1.0,
+          "max": 1.0,
+          "avg": 1.0
+        }
+      },
+      {
+        "canonicalName": "Subtitle",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "Plans-at-a-Glance",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Plans-at-a-Glance",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Header Right",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "INSURANCE | LONG-TERM CARE",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "INSURANCE | LONG-TERM CARE",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Brand",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "MetLife",
+            "confidence": 1.0
+          }
+        ],
+        "bestValue": "MetLife",
+        "confidenceStats": {
+          "min": 1.0,
+          "max": 1.0,
+          "avg": 1.0
+        }
+      },
+      {
+        "canonicalName": "Plan Name - Simple Advantage",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "SIMPLE ADVANTAGE\u00174 PLAN",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "SIMPLE ADVANTAGE\u00174 PLAN",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Plan Name - Custom Advantage",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "CUSTOM ADVANTAGE\u00174 PLAN",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "CUSTOM ADVANTAGE\u00174 PLAN",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Plan Type (description)",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available \t6 see below)",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available \t6 see below)",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Issue Ages - Simple Advantage",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "18 - 61 (premiums banded 18 - 30)",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "18 - 61 (premiums banded 18 - 30)",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Issue Ages - Custom Advantage",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "18 - 84 (premiums banded 18 - 30)",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "18 - 84 (premiums banded 18 - 30)",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "MBA and TBA Label",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "MBA/TBA Options - Simple Advantage",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA (Total Benefit Amount) options shown: $75K, $100K, $200K, $300K, $400K, $500K (No $1MM for Simple with Cash Benefit Rider note).",
+            "confidence": 0.6
+          }
+        ],
+        "bestValue": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA (Total Benefit Amount) options shown: $75K, $100K, $200K, $300K, $400K, $500K (No $1MM for Simple with Cash Benefit Rider note).",
+        "confidenceStats": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        }
+      },
+      {
+        "canonicalName": "MBA/TBA Options - Custom Advantage",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA options shown: $75K, $100K, $200K, $300K, $400K, $500K and $1MM (\"$1MM not available with Cash Benefit Rider\" noted).",
+            "confidence": 0.6
+          }
+        ],
+        "bestValue": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA options shown: $75K, $100K, $200K, $300K, $400K, $500K and $1MM (\"$1MM not available with Cash Benefit Rider\" noted).",
+        "confidenceStats": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        }
+      },
+      {
+        "canonicalName": "Optional Riders Heading",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE",
+            "confidence": 1.0
+          }
+        ],
+        "bestValue": "OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE",
+        "confidenceStats": {
+          "min": 1.0,
+          "max": 1.0,
+          "avg": 1.0
+        }
+      },
+      {
+        "canonicalName": "Shared Care Rider - name",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "Shared Care Rider",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Shared Care Rider",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Shared Care Rider - description",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted. When insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost. Rider available at any time, subject to underwriting; Both spouse/partners must have identical policies.",
+            "confidence": 0.6
+          }
+        ],
+        "bestValue": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted. When insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost. Rider available at any time, subject to underwriting; Both spouse/partners must have identical policies.",
+        "confidenceStats": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        }
+      },
+      {
+        "canonicalName": "Nonforfeiture Rider - name",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "Nonforfeiture Rider",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Nonforfeiture Rider",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Nonforfeiture Rider - description",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "Provides some benefits if policy lapses for nonpayment of premiums or is cancelled by insured. Rider must be in effect for 3 years and be in effect when the policy ends. Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA. Available at initial application only.",
+            "confidence": 0.6
+          }
+        ],
+        "bestValue": "Provides some benefits if policy lapses for nonpayment of premiums or is cancelled by insured. Rider must be in effect for 3 years and be in effect when the policy ends. Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA. Available at initial application only.",
+        "confidenceStats": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        }
+      },
+      {
+        "canonicalName": "Cash Benefit Rider - name",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "Cash Benefit Rider",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Cash Benefit Rider",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Cash Benefit Rider - description",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services. Available at initial application only; $1MM TBA not available. Benefits paid over annual IRC limit may be taxable.",
+            "confidence": 0.6
+          }
+        ],
+        "bestValue": "Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services. Available at initial application only; $1MM TBA not available. Benefits paid over annual IRC limit may be taxable.",
+        "confidenceStats": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        }
+      },
+      {
+        "canonicalName": "Guaranteed Purchase Option heading",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Guaranteed Purchase Option details",
+        "pages": [
+          1
+        ],
+        "values": [
+          {
+            "page": 1,
+            "value": "Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting. Premium for increase in coverage is at attained age rates. Lifetime maximum increase available is 2x initial TBA and 2x initial MBA. Minimum of 25% of initial coverage must be purchased each time GPO is exercised. Rider ends at earlier of policy anniversary date after insured's 65th birthday, or when insured no longer eligible.",
+            "confidence": 0.6
+          }
+        ],
+        "bestValue": "Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting. Premium for increase in coverage is at attained age rates. Lifetime maximum increase available is 2x initial TBA and 2x initial MBA. Minimum of 25% of initial coverage must be purchased each time GPO is exercised. Rider ends at earlier of policy anniversary date after insured's 65th birthday, or when insured no longer eligible.",
+        "confidenceStats": {
+          "min": 0.6,
+          "max": 0.6,
+          "avg": 0.6
+        }
+      },
+      {
+        "canonicalName": "document_title",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Policy Features and Benefits May Vary By State",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Policy Features and Benefits May Vary By State",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "section_header",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "FEATURES & BENEFITS AVAILABLE WITH BOTH SIMPLE ADVANTAGESM AND CUSTOM ADVANTAGESM",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "FEATURES & BENEFITS AVAILABLE WITH BOTH SIMPLE ADVANTAGESM AND CUSTOM ADVANTAGESM",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Home and Community Care (feature)",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services - Services provided by a Home Care Aide, Social Worker or Independent Caregiver - Hospice Care; Adult Day Care",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services - Services provided by a Home Care Aide, Social Worker or Independent Caregiver - Hospice Care; Adult Day Care",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Facility Care (feature)",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Elimination Period",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "100 Calendar Days; Once per lifetime and cumulative",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "100 Calendar Days; Once per lifetime and cumulative",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Alternate Service Provision",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "A MetLife Care Coordinator may authorize benefits for QLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative.",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "A MetLife Care Coordinator may authorize benefits for QLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative.",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Bed Reservation",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Return of Premium",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "International Benefit",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA is limited to the lesser of: (1) TBA less benefits paid while insured is in the U.S.; or (2) 50% of TBA; EP for International Benefit is doubled to 200 Calendar Days; If Cash Benefit Rider is added to policy: International Benefit is modified; pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA is limited to the lesser of: (1) TBA less benefits paid while insured is in the U.S.; or (2) 50% of TBA; EP for International Benefit is doubled to 200 Calendar Days; If Cash Benefit Rider is added to policy: International Benefit is modified; pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Contingent Benefit Upon Lapse",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Limited coverage is provided if the insured's policy ends due to non-payment of premiums, or the insured's written request to cancel, following a substantial premium increase (defined based on NAIC guidelines); Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA; Total benefits paid to the insured will not exceed the TBA in effect immediately prior to the nonforfeiture date",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Limited coverage is provided if the insured's policy ends due to non-payment of premiums, or the insured's written request to cancel, following a substantial premium increase (defined based on NAIC guidelines); Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA; Total benefits paid to the insured will not exceed the TBA in effect immediately prior to the nonforfeiture date",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Initial Needs Assessment",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If Care Management organization is selected by the insured \u2013 reimbursed up to $275 per lifetime",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If Care Management organization is selected by the insured \u2013 reimbursed up to $275 per lifetime",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Premium Waiver",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Coordination of Benefits",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Coordination of Benefits (COB) and non-duplication of coverage with other MetLife LTCI coverage and Medicare (COB) and non-duplication of coverage not applicable with Cash Benefit Rider",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Coordination of Benefits (COB) and non-duplication of coverage with other MetLife LTCI coverage and Medicare (COB) and non-duplication of coverage not applicable with Cash Benefit Rider",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "additional_information_header",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "ADDITIONAL INFORMATION FOR ALL POLICIES",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "ADDITIONAL INFORMATION FOR ALL POLICIES",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Payment Options",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; The client should consult a tax advisor for further clarification",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; The client should consult a tax advisor for further clarification",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Care Coordination Services",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area. An insured can also call for advice about caring for a loved one who needs LTC services, even if their family member is not insured with MetLife.",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area. An insured can also call for advice about caring for a loved one who needs LTC services, even if their family member is not insured with MetLife.",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Discounts",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "30% Spousal* \u2013 15% Marital** \u2013 15% Residential \u2013 10% Preferred Health (N/A for insureds age 80 - 84) \u2013 5% or 10% Multi-Life Discount for approved cases",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "30% Spousal* \u2013 15% Marital** \u2013 15% Residential \u2013 10% Preferred Health (N/A for insureds age 80 - 84) \u2013 5% or 10% Multi-Life Discount for approved cases",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Underwriting Classes",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Preferred (N/A for insureds age 80 - 84), Standard & Substandard (Always quote Standard!)",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Preferred (N/A for insureds age 80 - 84), Standard & Substandard (Always quote Standard!)",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Save Age",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Premium based on age 30 days prior to application date (underwriting requirements based on age at date of signed application)",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Premium based on age 30 days prior to application date (underwriting requirements based on age at date of signed application)",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Policy Effective Dates",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "With Premium (Conditional Receipt may apply): Date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "With Premium (Conditional Receipt may apply): Date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Free Look Period",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Insured has 30 days to review policy and if desired, return it for a full refund",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Insured has 30 days to review policy and if desired, return it for a full refund",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "Policy Delivery",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Policy Delivery Receipt (PDR) must be signed within 30 days of Policy Approval Date",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Policy Delivery Receipt (PDR) must be signed within 30 days of Policy Approval Date",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "company_name",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "Metropolitan Life Insurance Company",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "Metropolitan Life Insurance Company",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      },
+      {
+        "canonicalName": "company_address",
+        "pages": [
+          2
+        ],
+        "values": [
+          {
+            "page": 2,
+            "value": "New York, NY 10166",
+            "confidence": 0.8
+          }
+        ],
+        "bestValue": "New York, NY 10166",
+        "confidenceStats": {
+          "min": 0.8,
+          "max": 0.8,
+          "avg": 0.8
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "originalFilename": "alifestageadvan.pdf",
+    "pageClassifications": [
+      {
+        "page": 1,
+        "label": "other",
+        "confidence": 1.0,
+        "reasons": [
+          "This page is a marketing/plans-at-a-glance brochure for MetLife LTC; it is not an invoice, CMR form, or UB04.",
+          "Contains product overview, plan comparison, and rider descriptions typical of brochure materials."
+        ]
+      },
+      {
+        "page": 2,
+        "label": "other",
+        "confidence": 0.8,
+        "reasons": [
+          "Document is a MetLife informational brochure page with policy features and benefits rather than an invoice, CMR form, or UB04 medical billing form.",
+          "Layout consists of descriptive sections and tables of policy features typical of marketing/benefit literature."
+        ]
+      }
+    ],
+    "pageCategories": {
+      "1": "other",
+      "2": "other"
+    },
+    "documentCategories": [
+      "other"
+    ],
+    "tableGroups": {
+      "7c36448e64524bbfbd5d84c5d2c18470": {
+        "pages": [
+          1
+        ],
+        "rowCount": 2,
+        "columns": [
+          "Plan",
+          "Plan Type",
+          "Issue Ages",
+          "MBA / TBA options"
+        ]
+      },
+      "8d6cb6cff7ef47dfa314f17fed17ca44": {
+        "pages": [
+          1,
+          2,
+          2
+        ],
+        "rowCount": 20,
+        "columns": [
+          "Rider",
+          "Description"
+        ]
+      }
+    },
+    "mergedTables": {
+      "7c36448e64524bbfbd5d84c5d2c18470": {
+        "id": "7c36448e64524bbfbd5d84c5d2c18470-merged",
+        "rows": [
+          [
+            "SIMPLE ADVANTAGE\u00174 PLAN",
+            "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+            "18 - 61 (premiums banded 18 - 30)",
+            "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K"
+          ],
+          [
+            "CUSTOM ADVANTAGE\u00174 PLAN",
+            "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+            "18 - 84 (premiums banded 18 - 30)",
+            "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K, $1MM"
+          ]
+        ],
+        "columns": [
+          "Plan",
+          "Plan Type",
+          "Issue Ages",
+          "MBA / TBA options"
+        ]
+      },
+      "8d6cb6cff7ef47dfa314f17fed17ca44": {
+        "id": "8d6cb6cff7ef47dfa314f17fed17ca44-merged",
+        "rows": [
+          [
+            "Shared Care Rider",
+            "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted; when insured dies, remaining TBA transfers to spouse/partner at no extra cost; available at any time subject to underwriting."
+          ],
+          [
+            "Nonforfeiture Rider",
+            "Provides benefits if policy lapses for nonpayment or is cancelled; must be in effect for 3 years; provides full MBA and a reduced TBA equal to greater of premiums paid or 1x MBA; available at initial application only."
+          ],
+          [
+            "Cash Benefit Rider",
+            "Full MBA paid as cash payment instead of reimbursement for covered services; available at initial application only; $1MM TBA not available; tax implications may apply."
+          ],
+          [
+            "Home and Community Care",
+            "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services - Services provided by a Home Care Aide, Social Worker or Independent Caregiver - Hospice Care; Adult Day Care"
+          ],
+          [
+            "Facility Care",
+            "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility"
+          ],
+          [
+            "Elimination Period",
+            "100 Calendar Days; Once per lifetime and cumulative"
+          ],
+          [
+            "Alternate Service Provision",
+            "MetLife Care Coordinator may authorize benefits for QLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative."
+          ],
+          [
+            "Bed Reservation",
+            "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason"
+          ],
+          [
+            "Return of Premium",
+            "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate"
+          ],
+          [
+            "International Benefit",
+            "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA limited to lesser of (1) TBA less benefits paid while insured in U.S.; or (2) 50% of TBA; EP for International Benefit doubled to 200 Calendar Days; If Cash Benefit Rider added, pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days"
+          ],
+          [
+            "Contingent Benefit Upon Lapse",
+            "Limited coverage provided if policy ends due to non-payment or insured request following a substantial premium increase; Provides full MBA and reduced TBA equal to greater of total premium paid or 1x MBA; Total benefits paid will not exceed prior TBA"
+          ],
+          [
+            "Initial Needs Assessment",
+            "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If selected by insured \u2013 reimbursed up to $275 per lifetime"
+          ],
+          [
+            "Premium Waiver",
+            "Premiums waived when EP is satisfied and the insured is receiving payment of benefits"
+          ],
+          [
+            "Coordination of Benefits",
+            "COB and non-duplication of coverage with other MetLife LTCI coverage and Medicare; non-duplication not applicable with Cash Benefit Rider"
+          ],
+          [
+            "Payment Options",
+            "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; consult a tax advisor"
+          ],
+          [
+            "Care Coordination Services",
+            "MetLife Care Coordinators answer questions about LTC coverage, services and discounts; can advise on caring for a loved one even if not insured with MetLife"
+          ],
+          [
+            "Discounts",
+            "30% Spousal* \u2013 15% Marital** \u2013 15% Residential \u2013 10% Preferred Health (N/A ages 80 - 84) \u2013 5% or 10% Multi-Life Discount for approved cases"
+          ],
+          [
+            "Underwriting Classes",
+            "Preferred (N/A ages 80 - 84), Standard & Substandard"
+          ],
+          [
+            "Save Age",
+            "Premium based on age 30 days prior to application date (underwriting requirements based on age at date of signed application)"
+          ],
+          [
+            "Policy Effective Dates",
+            "With Premium: date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date"
+          ]
+        ],
+        "columns": [
+          "Rider",
+          "Description"
+        ]
+      }
+    },
+    "canonicalDocumentTypes": [
+      "other"
+    ]
+  },
+  "documentType": "other",
+  "canonical": {
+    "generatedAt": "2025-12-10T00:00:00Z",
+    "documentTypes": [
+      "other"
+    ],
+    "facilityInvoice": {
+      "general": {},
+      "lineItems": []
+    },
+    "cmrForm": {},
+    "ub04": {},
+    "notes": [
+      "The provided document is an insurance product brochure (MetLife LTC LifeStage Advantage). It does not contain facility invoice, CMR form, or UB-04 claim data (invoice numbers, policy/claim service dates, line items, provider billing tax IDs, signatures, etc.).",
+      "All three target sections (facilityInvoice, cmrForm, ub04) are intentionally left empty because no applicable evidence was found in the OCR fields/tables. Fields such as company_name and company_address are present but part of brochure/legal footer and not invoice/provider billing information; therefore sections were not populated."
+    ]
+  },
+  "mappingTrace": {
+    "prompt": {
+      "system": "You are building canonical data for illumifin claims processing. You are given OCR extraction results (fields and tables) for a multi-page document along with page-level document type hints. Classify the overall content into one or more of: 'facility_invoice', 'cmr_form', 'ub04'. Input JSON includes a pages array where each page has fields with IDs, values, and normalized bounding boxes (x, y, width, height all between 0 and 1 relative to the page). When populating sources, always reference the provided field IDs (fieldId) or table IDs (tableId) and include the page number. Table metadata includes column headers/keys and cell-level bounding boxes; include the column name when pointing to table sources. Then produce a JSON object matching this schema exactly: {\n  \"generatedAt\": ISO8601 timestamp,\n  \"documentTypes\": [string],\n  \"facilityInvoice\": { optional, object with keys \"general\" (dict of canonical field name -> value object) and \"lineItems\" (list of dict canonicalName->value object) },\n  \"cmrForm\": { optional, similar structure with sections },\n  \"ub04\": { optional, provider fields },\n  \"notes\": [string]\n }.\nEach canonical value object must be of form {\"value\": string or null, \"confidence\": number 0-1, \"sources\": [ {\"page\": int optional, \"fieldId\": string optional, \"tableId\": string optional, \"column\": string optional } ] }. Confidence is your mapping confidence (not OCR confidence). Populate as many facility invoice fields as possible: policyNumber, policyholderName, policyholderAddress, providerName, providerAddress, invoiceNumber, invoiceDate, taxId, totalAmount, balanceDue, credits. For lineItems include description, startDate, endDate, unitType, quantity, amount, balance, totalDue, credits. For CMR include policyNumber, policyholderName, policyholderAddress, providerName, providerAddress, serviceFrom, serviceThrough, careLevelSelection, absenceIndicator (yes/no) plus absenceDetails (departureDate, returnDate, reason, admissionDate, dischargeDate), insuranceIndicator and insuranceSelections (medicare, medicaid, other), signaturePresent (yes/blank) and signatureDate. For UB04 include providerName, providerAddress. Always provide an empty object for a section if it applies but data is missing. If no content applies, set documentTypes to ['other'] and return empty sections. Do not invent data. Leave value as null when evidence is absent. Provide reasoning notes in the notes array when confidence is low.",
+      "payload": {
+        "jobId": "fbcd59b4774a4f12bb0fbdfe58565a03",
+        "documentType": "other",
+        "originalFilename": "alifestageadvan.pdf",
+        "pageClassifications": [
+          {
+            "page": 1,
+            "label": "other",
+            "confidence": 1.0
+          },
+          {
+            "page": 2,
+            "label": "other",
+            "confidence": 0.8
+          }
+        ],
+        "aggregated": {
+          "jobId": "fbcd59b4774a4f12bb0fbdfe58565a03",
+          "fields": [
+            {
+              "canonicalName": "Document Title",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "MetLife LTC LifeStage AdvantageSM",
+                  "confidence": 1.0
+                }
+              ],
+              "bestValue": "MetLife LTC LifeStage AdvantageSM",
+              "confidenceStats": {
+                "min": 1.0,
+                "max": 1.0,
+                "avg": 1.0
+              }
+            },
+            {
+              "canonicalName": "Subtitle",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "Plans-at-a-Glance",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Plans-at-a-Glance",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Header Right",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "INSURANCE | LONG-TERM CARE",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "INSURANCE | LONG-TERM CARE",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Brand",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "MetLife",
+                  "confidence": 1.0
+                }
+              ],
+              "bestValue": "MetLife",
+              "confidenceStats": {
+                "min": 1.0,
+                "max": 1.0,
+                "avg": 1.0
+              }
+            },
+            {
+              "canonicalName": "Plan Name - Simple Advantage",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "SIMPLE ADVANTAGE\u00174 PLAN",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "SIMPLE ADVANTAGE\u00174 PLAN",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Plan Name - Custom Advantage",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "CUSTOM ADVANTAGE\u00174 PLAN",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "CUSTOM ADVANTAGE\u00174 PLAN",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Plan Type (description)",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available \t6 see below)",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available \t6 see below)",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Issue Ages - Simple Advantage",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "18 - 61 (premiums banded 18 - 30)",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "18 - 61 (premiums banded 18 - 30)",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Issue Ages - Custom Advantage",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "18 - 84 (premiums banded 18 - 30)",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "18 - 84 (premiums banded 18 - 30)",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "MBA and TBA Label",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "MBA/TBA Options - Simple Advantage",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA (Total Benefit Amount) options shown: $75K, $100K, $200K, $300K, $400K, $500K (No $1MM for Simple with Cash Benefit Rider note).",
+                  "confidence": 0.6
+                }
+              ],
+              "bestValue": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA (Total Benefit Amount) options shown: $75K, $100K, $200K, $300K, $400K, $500K (No $1MM for Simple with Cash Benefit Rider note).",
+              "confidenceStats": {
+                "min": 0.6,
+                "max": 0.6,
+                "avg": 0.6
+              }
+            },
+            {
+              "canonicalName": "MBA/TBA Options - Custom Advantage",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA options shown: $75K, $100K, $200K, $300K, $400K, $500K and $1MM (\"$1MM not available with Cash Benefit Rider\" noted).",
+                  "confidence": 0.6
+                }
+              ],
+              "bestValue": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA options shown: $75K, $100K, $200K, $300K, $400K, $500K and $1MM (\"$1MM not available with Cash Benefit Rider\" noted).",
+              "confidenceStats": {
+                "min": 0.6,
+                "max": 0.6,
+                "avg": 0.6
+              }
+            },
+            {
+              "canonicalName": "Optional Riders Heading",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE",
+                  "confidence": 1.0
+                }
+              ],
+              "bestValue": "OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE",
+              "confidenceStats": {
+                "min": 1.0,
+                "max": 1.0,
+                "avg": 1.0
+              }
+            },
+            {
+              "canonicalName": "Shared Care Rider - name",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "Shared Care Rider",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Shared Care Rider",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Shared Care Rider - description",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted. When insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost. Rider available at any time, subject to underwriting; Both spouse/partners must have identical policies.",
+                  "confidence": 0.6
+                }
+              ],
+              "bestValue": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted. When insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost. Rider available at any time, subject to underwriting; Both spouse/partners must have identical policies.",
+              "confidenceStats": {
+                "min": 0.6,
+                "max": 0.6,
+                "avg": 0.6
+              }
+            },
+            {
+              "canonicalName": "Nonforfeiture Rider - name",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "Nonforfeiture Rider",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Nonforfeiture Rider",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Nonforfeiture Rider - description",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "Provides some benefits if policy lapses for nonpayment of premiums or is cancelled by insured. Rider must be in effect for 3 years and be in effect when the policy ends. Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA. Available at initial application only.",
+                  "confidence": 0.6
+                }
+              ],
+              "bestValue": "Provides some benefits if policy lapses for nonpayment of premiums or is cancelled by insured. Rider must be in effect for 3 years and be in effect when the policy ends. Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA. Available at initial application only.",
+              "confidenceStats": {
+                "min": 0.6,
+                "max": 0.6,
+                "avg": 0.6
+              }
+            },
+            {
+              "canonicalName": "Cash Benefit Rider - name",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "Cash Benefit Rider",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Cash Benefit Rider",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Cash Benefit Rider - description",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services. Available at initial application only; $1MM TBA not available. Benefits paid over annual IRC limit may be taxable.",
+                  "confidence": 0.6
+                }
+              ],
+              "bestValue": "Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services. Available at initial application only; $1MM TBA not available. Benefits paid over annual IRC limit may be taxable.",
+              "confidenceStats": {
+                "min": 0.6,
+                "max": 0.6,
+                "avg": 0.6
+              }
+            },
+            {
+              "canonicalName": "Guaranteed Purchase Option heading",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Guaranteed Purchase Option details",
+              "pages": [
+                1
+              ],
+              "values": [
+                {
+                  "page": 1,
+                  "value": "Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting. Premium for increase in coverage is at attained age rates. Lifetime maximum increase available is 2x initial TBA and 2x initial MBA. Minimum of 25% of initial coverage must be purchased each time GPO is exercised. Rider ends at earlier of policy anniversary date after insured's 65th birthday, or when insured no longer eligible.",
+                  "confidence": 0.6
+                }
+              ],
+              "bestValue": "Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting. Premium for increase in coverage is at attained age rates. Lifetime maximum increase available is 2x initial TBA and 2x initial MBA. Minimum of 25% of initial coverage must be purchased each time GPO is exercised. Rider ends at earlier of policy anniversary date after insured's 65th birthday, or when insured no longer eligible.",
+              "confidenceStats": {
+                "min": 0.6,
+                "max": 0.6,
+                "avg": 0.6
+              }
+            },
+            {
+              "canonicalName": "document_title",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Policy Features and Benefits May Vary By State",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Policy Features and Benefits May Vary By State",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "section_header",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "FEATURES & BENEFITS AVAILABLE WITH BOTH SIMPLE ADVANTAGESM AND CUSTOM ADVANTAGESM",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "FEATURES & BENEFITS AVAILABLE WITH BOTH SIMPLE ADVANTAGESM AND CUSTOM ADVANTAGESM",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Home and Community Care (feature)",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services - Services provided by a Home Care Aide, Social Worker or Independent Caregiver - Hospice Care; Adult Day Care",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services - Services provided by a Home Care Aide, Social Worker or Independent Caregiver - Hospice Care; Adult Day Care",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Facility Care (feature)",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Elimination Period",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "100 Calendar Days; Once per lifetime and cumulative",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "100 Calendar Days; Once per lifetime and cumulative",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Alternate Service Provision",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "A MetLife Care Coordinator may authorize benefits for QLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative.",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "A MetLife Care Coordinator may authorize benefits for QLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative.",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Bed Reservation",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Return of Premium",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "International Benefit",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA is limited to the lesser of: (1) TBA less benefits paid while insured is in the U.S.; or (2) 50% of TBA; EP for International Benefit is doubled to 200 Calendar Days; If Cash Benefit Rider is added to policy: International Benefit is modified; pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA is limited to the lesser of: (1) TBA less benefits paid while insured is in the U.S.; or (2) 50% of TBA; EP for International Benefit is doubled to 200 Calendar Days; If Cash Benefit Rider is added to policy: International Benefit is modified; pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Contingent Benefit Upon Lapse",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Limited coverage is provided if the insured's policy ends due to non-payment of premiums, or the insured's written request to cancel, following a substantial premium increase (defined based on NAIC guidelines); Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA; Total benefits paid to the insured will not exceed the TBA in effect immediately prior to the nonforfeiture date",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Limited coverage is provided if the insured's policy ends due to non-payment of premiums, or the insured's written request to cancel, following a substantial premium increase (defined based on NAIC guidelines); Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA; Total benefits paid to the insured will not exceed the TBA in effect immediately prior to the nonforfeiture date",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Initial Needs Assessment",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If Care Management organization is selected by the insured \u2013 reimbursed up to $275 per lifetime",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If Care Management organization is selected by the insured \u2013 reimbursed up to $275 per lifetime",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Premium Waiver",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Coordination of Benefits",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Coordination of Benefits (COB) and non-duplication of coverage with other MetLife LTCI coverage and Medicare (COB) and non-duplication of coverage not applicable with Cash Benefit Rider",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Coordination of Benefits (COB) and non-duplication of coverage with other MetLife LTCI coverage and Medicare (COB) and non-duplication of coverage not applicable with Cash Benefit Rider",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "additional_information_header",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "ADDITIONAL INFORMATION FOR ALL POLICIES",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "ADDITIONAL INFORMATION FOR ALL POLICIES",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Payment Options",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; The client should consult a tax advisor for further clarification",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; The client should consult a tax advisor for further clarification",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Care Coordination Services",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area. An insured can also call for advice about caring for a loved one who needs LTC services, even if their family member is not insured with MetLife.",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area. An insured can also call for advice about caring for a loved one who needs LTC services, even if their family member is not insured with MetLife.",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Discounts",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "30% Spousal* \u2013 15% Marital** \u2013 15% Residential \u2013 10% Preferred Health (N/A for insureds age 80 - 84) \u2013 5% or 10% Multi-Life Discount for approved cases",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "30% Spousal* \u2013 15% Marital** \u2013 15% Residential \u2013 10% Preferred Health (N/A for insureds age 80 - 84) \u2013 5% or 10% Multi-Life Discount for approved cases",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Underwriting Classes",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Preferred (N/A for insureds age 80 - 84), Standard & Substandard (Always quote Standard!)",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Preferred (N/A for insureds age 80 - 84), Standard & Substandard (Always quote Standard!)",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Save Age",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Premium based on age 30 days prior to application date (underwriting requirements based on age at date of signed application)",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Premium based on age 30 days prior to application date (underwriting requirements based on age at date of signed application)",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Policy Effective Dates",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "With Premium (Conditional Receipt may apply): Date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "With Premium (Conditional Receipt may apply): Date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Free Look Period",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Insured has 30 days to review policy and if desired, return it for a full refund",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Insured has 30 days to review policy and if desired, return it for a full refund",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "Policy Delivery",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Policy Delivery Receipt (PDR) must be signed within 30 days of Policy Approval Date",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Policy Delivery Receipt (PDR) must be signed within 30 days of Policy Approval Date",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "company_name",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "Metropolitan Life Insurance Company",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "Metropolitan Life Insurance Company",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            },
+            {
+              "canonicalName": "company_address",
+              "pages": [
+                2
+              ],
+              "values": [
+                {
+                  "page": 2,
+                  "value": "New York, NY 10166",
+                  "confidence": 0.8
+                }
+              ],
+              "bestValue": "New York, NY 10166",
+              "confidenceStats": {
+                "min": 0.8,
+                "max": 0.8,
+                "avg": 0.8
+              }
+            }
+          ]
+        },
+        "mergedTables": {
+          "7c36448e64524bbfbd5d84c5d2c18470": {
+            "id": "7c36448e64524bbfbd5d84c5d2c18470-merged",
+            "rows": [
+              [
+                "SIMPLE ADVANTAGE\u00174 PLAN",
+                "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+                "18 - 61 (premiums banded 18 - 30)",
+                "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K"
+              ],
+              [
+                "CUSTOM ADVANTAGE\u00174 PLAN",
+                "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+                "18 - 84 (premiums banded 18 - 30)",
+                "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K, $1MM"
+              ]
+            ],
+            "columns": [
+              "Plan",
+              "Plan Type",
+              "Issue Ages",
+              "MBA / TBA options"
+            ]
+          },
+          "8d6cb6cff7ef47dfa314f17fed17ca44": {
+            "id": "8d6cb6cff7ef47dfa314f17fed17ca44-merged",
+            "rows": [
+              [
+                "Shared Care Rider",
+                "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted; when insured dies, remaining TBA transfers to spouse/partner at no extra cost; available at any time subject to underwriting."
+              ],
+              [
+                "Nonforfeiture Rider",
+                "Provides benefits if policy lapses for nonpayment or is cancelled; must be in effect for 3 years; provides full MBA and a reduced TBA equal to greater of premiums paid or 1x MBA; available at initial application only."
+              ],
+              [
+                "Cash Benefit Rider",
+                "Full MBA paid as cash payment instead of reimbursement for covered services; available at initial application only; $1MM TBA not available; tax implications may apply."
+              ],
+              [
+                "Home and Community Care",
+                "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services - Services provided by a Home Care Aide, Social Worker or Independent Caregiver - Hospice Care; Adult Day Care"
+              ],
+              [
+                "Facility Care",
+                "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility"
+              ],
+              [
+                "Elimination Period",
+                "100 Calendar Days; Once per lifetime and cumulative"
+              ],
+              [
+                "Alternate Service Provision",
+                "MetLife Care Coordinator may authorize benefits for QLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative."
+              ],
+              [
+                "Bed Reservation",
+                "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason"
+              ],
+              [
+                "Return of Premium",
+                "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate"
+              ],
+              [
+                "International Benefit",
+                "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA limited to lesser of (1) TBA less benefits paid while insured in U.S.; or (2) 50% of TBA; EP for International Benefit doubled to 200 Calendar Days; If Cash Benefit Rider added, pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days"
+              ],
+              [
+                "Contingent Benefit Upon Lapse",
+                "Limited coverage provided if policy ends due to non-payment or insured request following a substantial premium increase; Provides full MBA and reduced TBA equal to greater of total premium paid or 1x MBA; Total benefits paid will not exceed prior TBA"
+              ],
+              [
+                "Initial Needs Assessment",
+                "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If selected by insured \u2013 reimbursed up to $275 per lifetime"
+              ],
+              [
+                "Premium Waiver",
+                "Premiums waived when EP is satisfied and the insured is receiving payment of benefits"
+              ],
+              [
+                "Coordination of Benefits",
+                "COB and non-duplication of coverage with other MetLife LTCI coverage and Medicare; non-duplication not applicable with Cash Benefit Rider"
+              ],
+              [
+                "Payment Options",
+                "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; consult a tax advisor"
+              ],
+              [
+                "Care Coordination Services",
+                "MetLife Care Coordinators answer questions about LTC coverage, services and discounts; can advise on caring for a loved one even if not insured with MetLife"
+              ],
+              [
+                "Discounts",
+                "30% Spousal* \u2013 15% Marital** \u2013 15% Residential \u2013 10% Preferred Health (N/A ages 80 - 84) \u2013 5% or 10% Multi-Life Discount for approved cases"
+              ],
+              [
+                "Underwriting Classes",
+                "Preferred (N/A ages 80 - 84), Standard & Substandard"
+              ],
+              [
+                "Save Age",
+                "Premium based on age 30 days prior to application date (underwriting requirements based on age at date of signed application)"
+              ],
+              [
+                "Policy Effective Dates",
+                "With Premium: date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date"
+              ]
+            ],
+            "columns": [
+              "Rider",
+              "Description"
+            ]
+          }
+        },
+        "tableGroups": {
+          "7c36448e64524bbfbd5d84c5d2c18470": {
+            "pages": [
+              1
+            ],
+            "rowCount": 2,
+            "columns": [
+              "Plan",
+              "Plan Type",
+              "Issue Ages",
+              "MBA / TBA options"
+            ]
+          },
+          "8d6cb6cff7ef47dfa314f17fed17ca44": {
+            "pages": [
+              1,
+              2,
+              2
+            ],
+            "rowCount": 20,
+            "columns": [
+              "Rider",
+              "Description"
+            ]
+          }
+        },
+        "pages": [
+          {
+            "pageNumber": 1,
+            "status": "completed",
+            "documentTypeHint": "other",
+            "documentTypeConfidence": 1.0,
+            "rotationApplied": 0,
+            "fields": [
+              {
+                "id": "title_1",
+                "page": 1,
+                "name": "Document Title",
+                "value": "MetLife LTC LifeStage AdvantageSM",
+                "confidence": 1.0,
+                "bbox": {
+                  "x": 40.0,
+                  "y": 40.0,
+                  "width": 688.0,
+                  "height": 96.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "subtitle_1",
+                "page": 1,
+                "name": "Subtitle",
+                "value": "Plans-at-a-Glance",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 120.0,
+                  "width": 360.0,
+                  "height": 36.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "header_right",
+                "page": 1,
+                "name": "Header Right",
+                "value": "INSURANCE | LONG-TERM CARE",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 508.0,
+                  "y": 18.0,
+                  "width": 240.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "brand",
+                "page": 1,
+                "name": "Brand",
+                "value": "MetLife",
+                "confidence": 1.0,
+                "bbox": {
+                  "x": 24.0,
+                  "y": 164.0,
+                  "width": 720.0,
+                  "height": 76.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "plan_name_simple",
+                "page": 1,
+                "name": "Plan Name - Simple Advantage",
+                "value": "SIMPLE ADVANTAGE\u00174 PLAN",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 44.0,
+                  "y": 268.0,
+                  "width": 320.0,
+                  "height": 36.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "plan_name_custom",
+                "page": 1,
+                "name": "Plan Name - Custom Advantage",
+                "value": "CUSTOM ADVANTAGE\u00174 PLAN",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 404.0,
+                  "y": 268.0,
+                  "width": 328.0,
+                  "height": 36.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "plan_type_value",
+                "page": 1,
+                "name": "Plan Type (description)",
+                "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available \t6 see below)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 308.0,
+                  "width": 684.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "issue_ages_simple",
+                "page": 1,
+                "name": "Issue Ages - Simple Advantage",
+                "value": "18 - 61 (premiums banded 18 - 30)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 56.0,
+                  "y": 340.0,
+                  "width": 312.0,
+                  "height": 26.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "issue_ages_custom",
+                "page": 1,
+                "name": "Issue Ages - Custom Advantage",
+                "value": "18 - 84 (premiums banded 18 - 30)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 408.0,
+                  "y": 340.0,
+                  "width": 300.0,
+                  "height": 26.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "mba_tba_label",
+                "page": 1,
+                "name": "MBA and TBA Label",
+                "value": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 372.0,
+                  "width": 684.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "mba_tba_simple_values",
+                "page": 1,
+                "name": "MBA/TBA Options - Simple Advantage",
+                "value": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA (Total Benefit Amount) options shown: $75K, $100K, $200K, $300K, $400K, $500K (No $1MM for Simple with Cash Benefit Rider note).",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 400.0,
+                  "width": 320.0,
+                  "height": 180.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "mba_tba_custom_values",
+                "page": 1,
+                "name": "MBA/TBA Options - Custom Advantage",
+                "value": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA options shown: $75K, $100K, $200K, $300K, $400K, $500K and $1MM (\"$1MM not available with Cash Benefit Rider\" noted).",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 412.0,
+                  "y": 400.0,
+                  "width": 320.0,
+                  "height": 180.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "optional_riders_heading",
+                "page": 1,
+                "name": "Optional Riders Heading",
+                "value": "OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE",
+                "confidence": 1.0,
+                "bbox": {
+                  "x": 40.0,
+                  "y": 588.0,
+                  "width": 688.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "rider_shared_care",
+                "page": 1,
+                "name": "Shared Care Rider - name",
+                "value": "Shared Care Rider",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 624.0,
+                  "width": 320.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "rider_shared_care_desc",
+                "page": 1,
+                "name": "Shared Care Rider - description",
+                "value": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted. When insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost. Rider available at any time, subject to underwriting; Both spouse/partners must have identical policies.",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 652.0,
+                  "width": 680.0,
+                  "height": 52.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "rider_nonforfeiture",
+                "page": 1,
+                "name": "Nonforfeiture Rider - name",
+                "value": "Nonforfeiture Rider",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 708.0,
+                  "width": 320.0,
+                  "height": 26.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "rider_nonforfeiture_desc",
+                "page": 1,
+                "name": "Nonforfeiture Rider - description",
+                "value": "Provides some benefits if policy lapses for nonpayment of premiums or is cancelled by insured. Rider must be in effect for 3 years and be in effect when the policy ends. Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA. Available at initial application only.",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 734.0,
+                  "width": 680.0,
+                  "height": 64.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "rider_cash_benefit",
+                "page": 1,
+                "name": "Cash Benefit Rider - name",
+                "value": "Cash Benefit Rider",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 806.0,
+                  "width": 320.0,
+                  "height": 26.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "rider_cash_benefit_desc",
+                "page": 1,
+                "name": "Cash Benefit Rider - description",
+                "value": "Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services. Available at initial application only; $1MM TBA not available. Benefits paid over annual IRC limit may be taxable.",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 832.0,
+                  "width": 680.0,
+                  "height": 72.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "gpo_heading",
+                "page": 1,
+                "name": "Guaranteed Purchase Option heading",
+                "value": "GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 916.0,
+                  "width": 320.0,
+                  "height": 48.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "gpo_bullets",
+                "page": 1,
+                "name": "Guaranteed Purchase Option details",
+                "value": "Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting. Premium for increase in coverage is at attained age rates. Lifetime maximum increase available is 2x initial TBA and 2x initial MBA. Minimum of 25% of initial coverage must be purchased each time GPO is exercised. Rider ends at earlier of policy anniversary date after insured's 65th birthday, or when insured no longer eligible.",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 48.0,
+                  "y": 964.0,
+                  "width": 700.0,
+                  "height": 24.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              }
+            ],
+            "tables": [
+              {
+                "id": "table_plans_comparison",
+                "page": 1,
+                "caption": "Plan comparison: SIMPLE ADVANTAGE PLAN vs CUSTOM ADVANTAGE PLAN",
+                "confidence": 0.8,
+                "bbox": null,
+                "normalized": true,
+                "columns": [
+                  {
+                    "key": "col_plan",
+                    "header": "Plan",
+                    "type": "string",
+                    "confidence": 1.0
+                  },
+                  {
+                    "key": "col_plan_type",
+                    "header": "Plan Type",
+                    "type": "string",
+                    "confidence": 0.8
+                  },
+                  {
+                    "key": "col_issue_ages",
+                    "header": "Issue Ages",
+                    "type": "string",
+                    "confidence": 0.8
+                  },
+                  {
+                    "key": "col_mba_tba",
+                    "header": "MBA / TBA options",
+                    "type": "string",
+                    "confidence": 0.6
+                  }
+                ],
+                "rows": [
+                  [
+                    {
+                      "value": "SIMPLE ADVANTAGE\u00174 PLAN",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 44.0,
+                        "y": 268.0,
+                        "width": 320.0,
+                        "height": 36.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 48.0,
+                        "y": 308.0,
+                        "width": 320.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "18 - 61 (premiums banded 18 - 30)",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 56.0,
+                        "y": 340.0,
+                        "width": 312.0,
+                        "height": 26.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K",
+                      "confidence": 0.6,
+                      "bbox": {
+                        "x": 48.0,
+                        "y": 400.0,
+                        "width": 320.0,
+                        "height": 180.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "CUSTOM ADVANTAGE\u00174 PLAN",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 404.0,
+                        "y": 268.0,
+                        "width": 328.0,
+                        "height": 36.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 408.0,
+                        "y": 308.0,
+                        "width": 320.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "18 - 84 (premiums banded 18 - 30)",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 408.0,
+                        "y": 340.0,
+                        "width": 300.0,
+                        "height": 26.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K, $1MM",
+                      "confidence": 0.6,
+                      "bbox": {
+                        "x": 412.0,
+                        "y": 400.0,
+                        "width": 320.0,
+                        "height": 180.0,
+                        "normalized": true
+                      }
+                    }
+                  ]
+                ],
+                "tableGroupId": "7c36448e64524bbfbd5d84c5d2c18470",
+                "continuationOf": null,
+                "inferredHeaders": false,
+                "rowStartIndex": 0
+              },
+              {
+                "id": "table_optional_riders",
+                "page": 1,
+                "caption": "Optional Riders Available (shared across plans)",
+                "confidence": 0.8,
+                "bbox": null,
+                "normalized": true,
+                "columns": [
+                  {
+                    "key": "col_rider",
+                    "header": "Rider",
+                    "type": "string",
+                    "confidence": 1.0
+                  },
+                  {
+                    "key": "col_description",
+                    "header": "Description",
+                    "type": "string",
+                    "confidence": 0.6
+                  }
+                ],
+                "rows": [
+                  [
+                    {
+                      "value": "Shared Care Rider",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 48.0,
+                        "y": 624.0,
+                        "width": 320.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted; when insured dies, remaining TBA transfers to spouse/partner at no extra cost; available at any time subject to underwriting.",
+                      "confidence": 0.6,
+                      "bbox": {
+                        "x": 48.0,
+                        "y": 652.0,
+                        "width": 680.0,
+                        "height": 52.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Nonforfeiture Rider",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 48.0,
+                        "y": 708.0,
+                        "width": 320.0,
+                        "height": 26.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Provides benefits if policy lapses for nonpayment or is cancelled; must be in effect for 3 years; provides full MBA and a reduced TBA equal to greater of premiums paid or 1x MBA; available at initial application only.",
+                      "confidence": 0.6,
+                      "bbox": {
+                        "x": 48.0,
+                        "y": 734.0,
+                        "width": 680.0,
+                        "height": 64.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Cash Benefit Rider",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 48.0,
+                        "y": 806.0,
+                        "width": 320.0,
+                        "height": 26.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Full MBA paid as cash payment instead of reimbursement for covered services; available at initial application only; $1MM TBA not available; tax implications may apply.",
+                      "confidence": 0.6,
+                      "bbox": {
+                        "x": 48.0,
+                        "y": 832.0,
+                        "width": 680.0,
+                        "height": 72.0,
+                        "normalized": true
+                      }
+                    }
+                  ]
+                ],
+                "tableGroupId": "8d6cb6cff7ef47dfa314f17fed17ca44",
+                "continuationOf": null,
+                "inferredHeaders": false,
+                "rowStartIndex": 0
+              }
+            ],
+            "imagePath": "backend_data\\fbcd59b4774a4f12bb0fbdfe58565a03\\page-1.png",
+            "imageMime": "image/png"
+          },
+          {
+            "pageNumber": 2,
+            "status": "completed",
+            "documentTypeHint": "other",
+            "documentTypeConfidence": 0.8,
+            "rotationApplied": 0,
+            "fields": [
+              {
+                "id": "f1",
+                "page": 2,
+                "name": "document_title",
+                "value": "Policy Features and Benefits May Vary By State",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 180.0,
+                  "y": 8.0,
+                  "width": 408.0,
+                  "height": 24.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f2",
+                "page": 2,
+                "name": "section_header",
+                "value": "FEATURES & BENEFITS AVAILABLE WITH BOTH SIMPLE ADVANTAGESM AND CUSTOM ADVANTAGESM",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 42.0,
+                  "width": 708.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f3",
+                "page": 2,
+                "name": "Home and Community Care (feature)",
+                "value": "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services - Services provided by a Home Care Aide, Social Worker or Independent Caregiver - Hospice Care; Adult Day Care",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 95.0,
+                  "width": 438.0,
+                  "height": 50.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f4",
+                "page": 2,
+                "name": "Facility Care (feature)",
+                "value": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 155.0,
+                  "width": 438.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f5",
+                "page": 2,
+                "name": "Elimination Period",
+                "value": "100 Calendar Days; Once per lifetime and cumulative",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 188.0,
+                  "width": 438.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f6",
+                "page": 2,
+                "name": "Alternate Service Provision",
+                "value": "A MetLife Care Coordinator may authorize benefits for QLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative.",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 218.0,
+                  "width": 438.0,
+                  "height": 36.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f7",
+                "page": 2,
+                "name": "Bed Reservation",
+                "value": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 248.0,
+                  "width": 438.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f8",
+                "page": 2,
+                "name": "Return of Premium",
+                "value": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 278.0,
+                  "width": 438.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f9",
+                "page": 2,
+                "name": "International Benefit",
+                "value": "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA is limited to the lesser of: (1) TBA less benefits paid while insured is in the U.S.; or (2) 50% of TBA; EP for International Benefit is doubled to 200 Calendar Days; If Cash Benefit Rider is added to policy: International Benefit is modified; pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 308.0,
+                  "width": 438.0,
+                  "height": 96.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f10",
+                "page": 2,
+                "name": "Contingent Benefit Upon Lapse",
+                "value": "Limited coverage is provided if the insured's policy ends due to non-payment of premiums, or the insured's written request to cancel, following a substantial premium increase (defined based on NAIC guidelines); Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA; Total benefits paid to the insured will not exceed the TBA in effect immediately prior to the nonforfeiture date",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 410.0,
+                  "width": 438.0,
+                  "height": 96.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f11",
+                "page": 2,
+                "name": "Initial Needs Assessment",
+                "value": "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If Care Management organization is selected by the insured \u2013 reimbursed up to $275 per lifetime",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 512.0,
+                  "width": 438.0,
+                  "height": 60.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f12",
+                "page": 2,
+                "name": "Premium Waiver",
+                "value": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 580.0,
+                  "width": 438.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f13",
+                "page": 2,
+                "name": "Coordination of Benefits",
+                "value": "Coordination of Benefits (COB) and non-duplication of coverage with other MetLife LTCI coverage and Medicare (COB) and non-duplication of coverage not applicable with Cash Benefit Rider",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 612.0,
+                  "width": 438.0,
+                  "height": 40.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f14",
+                "page": 2,
+                "name": "additional_information_header",
+                "value": "ADDITIONAL INFORMATION FOR ALL POLICIES",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 680.0,
+                  "width": 708.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f15",
+                "page": 2,
+                "name": "Payment Options",
+                "value": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; The client should consult a tax advisor for further clarification",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 740.0,
+                  "width": 438.0,
+                  "height": 56.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f16",
+                "page": 2,
+                "name": "Care Coordination Services",
+                "value": "MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area. An insured can also call for advice about caring for a loved one who needs LTC services, even if their family member is not insured with MetLife.",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 804.0,
+                  "width": 438.0,
+                  "height": 44.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f17",
+                "page": 2,
+                "name": "Discounts",
+                "value": "30% Spousal* \u2013 15% Marital** \u2013 15% Residential \u2013 10% Preferred Health (N/A for insureds age 80 - 84) \u2013 5% or 10% Multi-Life Discount for approved cases",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 852.0,
+                  "width": 438.0,
+                  "height": 36.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f18",
+                "page": 2,
+                "name": "Underwriting Classes",
+                "value": "Preferred (N/A for insureds age 80 - 84), Standard & Substandard (Always quote Standard!)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 892.0,
+                  "width": 438.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f19",
+                "page": 2,
+                "name": "Save Age",
+                "value": "Premium based on age 30 days prior to application date (underwriting requirements based on age at date of signed application)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 924.0,
+                  "width": 438.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f20",
+                "page": 2,
+                "name": "Policy Effective Dates",
+                "value": "With Premium (Conditional Receipt may apply): Date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 956.0,
+                  "width": 438.0,
+                  "height": 28.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f21",
+                "page": 2,
+                "name": "Free Look Period",
+                "value": "Insured has 30 days to review policy and if desired, return it for a full refund",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 300.0,
+                  "y": 988.0,
+                  "width": 438.0,
+                  "height": 12.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f22",
+                "page": 2,
+                "name": "Policy Delivery",
+                "value": "Policy Delivery Receipt (PDR) must be signed within 30 days of Policy Approval Date",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 30.0,
+                  "y": 988.0,
+                  "width": 260.0,
+                  "height": 12.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f23",
+                "page": 2,
+                "name": "company_name",
+                "value": "Metropolitan Life Insurance Company",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 560.0,
+                  "y": 960.0,
+                  "width": 198.0,
+                  "height": 32.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              },
+              {
+                "id": "f24",
+                "page": 2,
+                "name": "company_address",
+                "value": "New York, NY 10166",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 560.0,
+                  "y": 988.0,
+                  "width": 198.0,
+                  "height": 12.0,
+                  "normalized": true
+                },
+                "sourceType": "ocr",
+                "revised": false
+              }
+            ],
+            "tables": [
+              {
+                "id": "t1",
+                "page": 2,
+                "caption": "Features & Benefits (Feature / Benefits)",
+                "confidence": 0.8,
+                "bbox": null,
+                "normalized": true,
+                "columns": [
+                  {
+                    "key": "col1",
+                    "header": "Feature",
+                    "type": "string",
+                    "confidence": 0.8
+                  },
+                  {
+                    "key": "col2",
+                    "header": "Benefits / Description",
+                    "type": "string",
+                    "confidence": 0.8
+                  }
+                ],
+                "rows": [
+                  [
+                    {
+                      "value": "Home and Community Care",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 95.0,
+                        "width": 260.0,
+                        "height": 50.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services - Services provided by a Home Care Aide, Social Worker or Independent Caregiver - Hospice Care; Adult Day Care",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 95.0,
+                        "width": 438.0,
+                        "height": 50.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Facility Care",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 155.0,
+                        "width": 260.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 155.0,
+                        "width": 438.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Elimination Period",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 188.0,
+                        "width": 260.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "100 Calendar Days; Once per lifetime and cumulative",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 188.0,
+                        "width": 438.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Alternate Service Provision",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 218.0,
+                        "width": 260.0,
+                        "height": 36.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "MetLife Care Coordinator may authorize benefits for QLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative.",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 218.0,
+                        "width": 438.0,
+                        "height": 36.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Bed Reservation",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 248.0,
+                        "width": 260.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 248.0,
+                        "width": 438.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Return of Premium",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 278.0,
+                        "width": 260.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 278.0,
+                        "width": 438.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "International Benefit",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 308.0,
+                        "width": 260.0,
+                        "height": 96.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA limited to lesser of (1) TBA less benefits paid while insured in U.S.; or (2) 50% of TBA; EP for International Benefit doubled to 200 Calendar Days; If Cash Benefit Rider added, pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 308.0,
+                        "width": 438.0,
+                        "height": 96.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Contingent Benefit Upon Lapse",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 410.0,
+                        "width": 260.0,
+                        "height": 96.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Limited coverage provided if policy ends due to non-payment or insured request following a substantial premium increase; Provides full MBA and reduced TBA equal to greater of total premium paid or 1x MBA; Total benefits paid will not exceed prior TBA",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 410.0,
+                        "width": 438.0,
+                        "height": 96.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Initial Needs Assessment",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 512.0,
+                        "width": 260.0,
+                        "height": 60.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If selected by insured \u2013 reimbursed up to $275 per lifetime",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 512.0,
+                        "width": 438.0,
+                        "height": 60.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Premium Waiver",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 580.0,
+                        "width": 260.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 580.0,
+                        "width": 438.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Coordination of Benefits",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 612.0,
+                        "width": 260.0,
+                        "height": 40.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "COB and non-duplication of coverage with other MetLife LTCI coverage and Medicare; non-duplication not applicable with Cash Benefit Rider",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 612.0,
+                        "width": 438.0,
+                        "height": 40.0,
+                        "normalized": true
+                      }
+                    }
+                  ]
+                ],
+                "tableGroupId": "8d6cb6cff7ef47dfa314f17fed17ca44",
+                "continuationOf": "8d6cb6cff7ef47dfa314f17fed17ca44",
+                "inferredHeaders": false,
+                "rowStartIndex": 3
+              },
+              {
+                "id": "t2",
+                "page": 2,
+                "caption": "Additional Information (Item / Details)",
+                "confidence": 0.8,
+                "bbox": null,
+                "normalized": true,
+                "columns": [
+                  {
+                    "key": "col1",
+                    "header": "Item",
+                    "type": "string",
+                    "confidence": 0.8
+                  },
+                  {
+                    "key": "col2",
+                    "header": "Details",
+                    "type": "string",
+                    "confidence": 0.8
+                  }
+                ],
+                "rows": [
+                  [
+                    {
+                      "value": "Payment Options",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 740.0,
+                        "width": 260.0,
+                        "height": 56.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; consult a tax advisor",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 740.0,
+                        "width": 438.0,
+                        "height": 56.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Care Coordination Services",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 804.0,
+                        "width": 260.0,
+                        "height": 44.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "MetLife Care Coordinators answer questions about LTC coverage, services and discounts; can advise on caring for a loved one even if not insured with MetLife",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 804.0,
+                        "width": 438.0,
+                        "height": 44.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Discounts",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 852.0,
+                        "width": 260.0,
+                        "height": 36.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "30% Spousal* \u2013 15% Marital** \u2013 15% Residential \u2013 10% Preferred Health (N/A ages 80 - 84) \u2013 5% or 10% Multi-Life Discount for approved cases",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 852.0,
+                        "width": 438.0,
+                        "height": 36.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Underwriting Classes",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 892.0,
+                        "width": 260.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Preferred (N/A ages 80 - 84), Standard & Substandard",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 892.0,
+                        "width": 438.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Save Age",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 924.0,
+                        "width": 260.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "Premium based on age 30 days prior to application date (underwriting requirements based on age at date of signed application)",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 924.0,
+                        "width": 438.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "value": "Policy Effective Dates",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 30.0,
+                        "y": 956.0,
+                        "width": 260.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    },
+                    {
+                      "value": "With Premium: date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date",
+                      "confidence": 0.8,
+                      "bbox": {
+                        "x": 300.0,
+                        "y": 956.0,
+                        "width": 438.0,
+                        "height": 28.0,
+                        "normalized": true
+                      }
+                    }
+                  ]
+                ],
+                "tableGroupId": "8d6cb6cff7ef47dfa314f17fed17ca44",
+                "continuationOf": "8d6cb6cff7ef47dfa314f17fed17ca44",
+                "inferredHeaders": false,
+                "rowStartIndex": 3
+              }
+            ],
+            "imagePath": "backend_data\\fbcd59b4774a4f12bb0fbdfe58565a03\\page-2.png",
+            "imageMime": "image/png"
+          }
+        ]
+      }
+    },
+    "response": "{\n  \"generatedAt\": \"2025-12-10T00:00:00Z\",\n  \"documentTypes\": [\n    \"other\"\n  ],\n  \"facilityInvoice\": {\n    \"general\": {},\n    \"lineItems\": []\n  },\n  \"cmrForm\": {},\n  \"ub04\": {},\n  \"notes\": [\n    \"The provided document is an insurance product brochure (MetLife LTC LifeStage Advantage). It does not contain facility invoice, CMR form, or UB-04 claim data (invoice numbers, policy/claim service dates, line items, provider billing tax IDs, signatures, etc.).\",\n    \"All three target sections (facilityInvoice, cmrForm, ub04) are intentionally left empty because no applicable evidence was found in the OCR fields/tables. Fields such as company_name and company_address are present but part of brochure/legal footer and not invoice/provider billing information; therefore sections were not populated.\"\n  ]\n}",
+    "model": "gpt-5-mini"
+  },
+  "summary": {
+    "totalPages": 2,
+    "totalFields": 45,
+    "totalTables": 4,
+    "totalProcessingMs": 180816,
+    "startedAt": "2025-12-10T18:30:42.779051",
+    "finishedAt": "2025-12-10T18:33:43.595486",
+    "confidenceBuckets": [
+      0,
+      0,
+      6,
+      36,
+      3,
+      0
+    ],
+    "lowConfidenceCount": 0
+  },
+  "lastModified": "2025-12-10T18:33:43.597985",
+  "snapshotVersion": 1
+}

@@ -1,0 +1,109 @@
+{
+  "page": 14,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Document contains insurance policy provisions (Reinstatement, Joint Coverage Provision) rather than invoice, CMR consignment, or UB-04 hospital billing form.\",\n      \"Layout is multi-column policy text with bullets and clauses, typical of policy booklets.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Title - Reinstatement section\",\n      \"value\": \"Reinstatement - Lapse Due to Nonpayment of Premium\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 680,\n        \"y\": 10,\n        \"width\": 330,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Reinstatement - main paragraph\",\n      \"value\": \"Without requiring an application, we may accept your past due and unpaid premiums and any nonforfeiture benefits paid to you, up to one year after lapse. Those payments will reinstate your Policy and put it back in force.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 680,\n        \"y\": 140,\n        \"width\": 330,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Reinstatement - conditions (bulleted list excerpt)\",\n      \"value\": \"If we require an application for reinstatement, your coverage may be reinstated within one year after lapse provided: you request reinstatement in writing; you receive all past due and unpaid premiums (for which we will give you a conditional receipt); you complete the application for reinstatement; you are insurable under underwriting rules in effect at the time you apply for reinstatement.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 680,\n        \"y\": 260,\n        \"width\": 330,\n        \"height\": 420\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Heading - Joint Coverage Provision\",\n      \"value\": \"Joint Coverage Provision\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 360,\n        \"y\": 40,\n        \"width\": 300,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Joint Coverage - main text\",\n      \"value\": \"This Policy provides equal coverage for two individuals, if both apply and are issued coverage under this Policy as shown on the Schedule of Benefits. All benefits, Eligibility for Benefits, Payment of Benefits, Elimination Periods, Benefit Payment Periods and Limitations and Exclusions described in this Policy or shown on the Benefit Schedule apply to each individual separately except as stated below. When more than one individual is covered under this Policy, if one of you dies, upon receipt of proof of death the benefits for the deceased person will cease and the Policy will continue for the surviving insured. If both insureds are eligible for benefits under this Policy at the same time, each will be paid their benefit as described in the Schedule of Benefits. The new premium for the continued coverage will be due on the Policy's next Premium Due Date. If you divorce or legally separate and request termination of joint coverage, upon receipt of proof of divorce or legal separation the coverage for the former spouse will terminate as of the date of divorce or legal separation.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 300,\n        \"y\": 90,\n        \"width\": 430,\n        \"height\": 600\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Page indicator / form id (left margin)\",\n      \"value\": \"N-3000-P FL (Q)\\nPage 15\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 6,\n        \"y\": 6,\n        \"width\": 64,\n        \"height\": 700\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Reinstatement - additional bullet details\",\n      \"value\": \"Upon reinstatement, we will cover only loss due to sickness incurred more than 10 days after the date of reinstatement, and injury sustained after the date of reinstatement. Premium rates for the reinstated Policy will be based on your original issue age.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 680,\n        \"y\": 420,\n        \"width\": 330,\n        \"height\": 200\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Document contains insurance policy provisions (Reinstatement, Joint Coverage Provision) rather than invoice, CMR consignment, or UB-04 hospital billing form.",
+        "Layout is multi-column policy text with bullets and clauses, typical of policy booklets."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Title - Reinstatement section",
+        "value": "Reinstatement - Lapse Due to Nonpayment of Premium",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 680,
+          "y": 10,
+          "width": 330,
+          "height": 140
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Reinstatement - main paragraph",
+        "value": "Without requiring an application, we may accept your past due and unpaid premiums and any nonforfeiture benefits paid to you, up to one year after lapse. Those payments will reinstate your Policy and put it back in force.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 680,
+          "y": 140,
+          "width": 330,
+          "height": 120
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Reinstatement - conditions (bulleted list excerpt)",
+        "value": "If we require an application for reinstatement, your coverage may be reinstated within one year after lapse provided: you request reinstatement in writing; you receive all past due and unpaid premiums (for which we will give you a conditional receipt); you complete the application for reinstatement; you are insurable under underwriting rules in effect at the time you apply for reinstatement.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 680,
+          "y": 260,
+          "width": 330,
+          "height": 420
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Heading - Joint Coverage Provision",
+        "value": "Joint Coverage Provision",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 360,
+          "y": 40,
+          "width": 300,
+          "height": 40
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Joint Coverage - main text",
+        "value": "This Policy provides equal coverage for two individuals, if both apply and are issued coverage under this Policy as shown on the Schedule of Benefits. All benefits, Eligibility for Benefits, Payment of Benefits, Elimination Periods, Benefit Payment Periods and Limitations and Exclusions described in this Policy or shown on the Benefit Schedule apply to each individual separately except as stated below. When more than one individual is covered under this Policy, if one of you dies, upon receipt of proof of death the benefits for the deceased person will cease and the Policy will continue for the surviving insured. If both insureds are eligible for benefits under this Policy at the same time, each will be paid their benefit as described in the Schedule of Benefits. The new premium for the continued coverage will be due on the Policy's next Premium Due Date. If you divorce or legally separate and request termination of joint coverage, upon receipt of proof of divorce or legal separation the coverage for the former spouse will terminate as of the date of divorce or legal separation.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 300,
+          "y": 90,
+          "width": 430,
+          "height": 600
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Page indicator / form id (left margin)",
+        "value": "N-3000-P FL (Q)\nPage 15",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 6,
+          "y": 6,
+          "width": 64,
+          "height": 700
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Reinstatement - additional bullet details",
+        "value": "Upon reinstatement, we will cover only loss due to sickness incurred more than 10 days after the date of reinstatement, and injury sustained after the date of reinstatement. Premium rates for the reinstated Policy will be based on your original issue age.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 680,
+          "y": 420,
+          "width": 330,
+          "height": 200
+        }
+      }
+    ],
+    "tables": []
+  }
+}

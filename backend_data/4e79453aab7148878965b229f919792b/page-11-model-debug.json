@@ -1,0 +1,222 @@
+{
+  "page": 11,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Document contains multi-paragraph policy language and headings (Payment of Claims, Extension of Benefits, Beneficiary) rather than invoice or transport or UB-04 form fields.\",\n      \"No tabular invoice line items, CMR transport consignment fields, or UB04 box labels detected.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Claims Reimbursement Policy Paragraph 1\",\n      \"value\": \"We will reimburse all claims, or any portion of any claim from you or your assignees for payment under this policy, within 45 days after our receipt of the claim. If a claim or a portion of a claim is contested by us, we will notify you or your assignees, in writing, that the claim is contested or denied, within 45 days after our receipt of the claim. The notice that a claim is contested shall identify the contested portion of the claim and the reasons for contesting the claim.\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 36,\n        \"width\": 672,\n        \"height\": 112\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Claims Reimbursement Policy Paragraph 2\",\n      \"value\": \"Upon our receipt of any additional information we requested from you or your assignees, we will pay or deny the contested claim or a portion of the contested claim, within 60 days.\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 148,\n        \"width\": 672,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Claims Reimbursement Policy Paragraph 3\",\n      \"value\": \"We will pay or deny any claim no later than 120 days after our receipt of the claim.\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 190,\n        \"width\": 672,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Payment Treatment Paragraph\",\n      \"value\": \"Payment shall be treated as being made on the date a draft or other valid instrument which is equivalent to payment was placed in the United States mail in a properly addressed, postpaid envelope or, if not so posted, on the date of delivery.\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 224,\n        \"width\": 672,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Overdue Payment Interest\",\n      \"value\": \"All overdue payment shall bear interest at the rate of 10 percent per year.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 268,\n        \"width\": 672,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Payment of Claims (heading)\",\n      \"value\": \"Payment of Claims\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 300,\n        \"width\": 300,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Payment of Claims (body)\",\n      \"value\": \"We will pay all benefits to you or your assignee. Such payments will discharge us to the full extent of those payments. If unassigned benefits remain due upon your death, we will pay any amount remaining due as described in the Beneficiary section.\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 328,\n        \"width\": 672,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Extension of Benefits (heading)\",\n      \"value\": \"Extension of Benefits\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 400,\n        \"width\": 320,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Extension of Benefits (body)\",\n      \"value\": \"Termination of this Policy will not terminate any benefits payable for Facility Care if your confinement begins while your Policy is in force and continues without interruption after the Policy terminates. Any benefits payable under this provision are subject to: the Benefit Amount; any applicable Elimination Period; and all other provisions and limitations of this Policy.\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 430,\n        \"width\": 672,\n        \"height\": 84\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Coordination of Benefits with Medicare (heading)\",\n      \"value\": \"Coordination of Benefits with Medicare\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 528,\n        \"width\": 420,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"Coordination of Benefits with Medicare (body)\",\n      \"value\": \"Benefits are not payable under this Policy for expenses incurred to the extent that such expenses are reimbursable under Medicare or would be so reimbursable but for the application of a deductible or coinsurance amount.\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 558,\n        \"width\": 672,\n        \"height\": 44\n      }\n    },\n    {\n      \"id\": \"f12\",\n      \"name\": \"Beneficiary (heading)\",\n      \"value\": \"Beneficiary\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 614,\n        \"width\": 200,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"f13\",\n      \"name\": \"Beneficiary (body paragraph 1)\",\n      \"value\": \"The Beneficiary will be the person or persons, named in the application or subsequently changed by written request, to receive any unassigned benefit payments due upon your death (second-to-die in the case of joint coverage).\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 644,\n        \"width\": 672,\n        \"height\": 48\n      }\n    },\n    {\n      \"id\": \"f14\",\n      \"name\": \"Beneficiary (body paragraph 2)\",\n      \"value\": \"You may change the Beneficiary at any time by giving us written notice. A change will not be effective until recorded by us. Once recorded, the change will apply as of the date the request was signed. We will not be liable for any action taken or payment made before a Beneficiary change is recorded. The Beneficiary's consent is not required to change the Policy or Beneficiary, unless the designation of the Beneficiary is irrevocable.\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 700,\n        \"width\": 672,\n        \"height\": 84\n      }\n    },\n    {\n      \"id\": \"f15\",\n      \"name\": \"Beneficiary (body paragraph 3)\",\n      \"value\": \"If you designate more than one person as Beneficiary, the interests of all Beneficiaries will be equal unless your designation specifically provides otherwise. The share of any Beneficiary who does not survive you shall pass equally to the surviving Beneficiaries, unless your designation specifically provides otherwise. If no Beneficiary is designated or no Beneficiary survives you, then your estate will be the Beneficiary.\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 784,\n        \"width\": 672,\n        \"height\": 96\n      }\n    },\n    {\n      \"id\": \"f16\",\n      \"name\": \"Form Number\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 916,\n        \"width\": 180,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"f17\",\n      \"name\": \"Page Number\",\n      \"value\": \"Page 12\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 620,\n        \"y\": 916,\n        \"width\": 100,\n        \"height\": 24\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Document contains multi-paragraph policy language and headings (Payment of Claims, Extension of Benefits, Beneficiary) rather than invoice or transport or UB-04 form fields.",
+        "No tabular invoice line items, CMR transport consignment fields, or UB04 box labels detected."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Claims Reimbursement Policy Paragraph 1",
+        "value": "We will reimburse all claims, or any portion of any claim from you or your assignees for payment under this policy, within 45 days after our receipt of the claim. If a claim or a portion of a claim is contested by us, we will notify you or your assignees, in writing, that the claim is contested or denied, within 45 days after our receipt of the claim. The notice that a claim is contested shall identify the contested portion of the claim and the reasons for contesting the claim.",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 48,
+          "y": 36,
+          "width": 672,
+          "height": 112
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Claims Reimbursement Policy Paragraph 2",
+        "value": "Upon our receipt of any additional information we requested from you or your assignees, we will pay or deny the contested claim or a portion of the contested claim, within 60 days.",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 48,
+          "y": 148,
+          "width": 672,
+          "height": 36
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Claims Reimbursement Policy Paragraph 3",
+        "value": "We will pay or deny any claim no later than 120 days after our receipt of the claim.",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 48,
+          "y": 190,
+          "width": 672,
+          "height": 28
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Payment Treatment Paragraph",
+        "value": "Payment shall be treated as being made on the date a draft or other valid instrument which is equivalent to payment was placed in the United States mail in a properly addressed, postpaid envelope or, if not so posted, on the date of delivery.",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 48,
+          "y": 224,
+          "width": 672,
+          "height": 36
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Overdue Payment Interest",
+        "value": "All overdue payment shall bear interest at the rate of 10 percent per year.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 48,
+          "y": 268,
+          "width": 672,
+          "height": 20
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Payment of Claims (heading)",
+        "value": "Payment of Claims",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 48,
+          "y": 300,
+          "width": 300,
+          "height": 22
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Payment of Claims (body)",
+        "value": "We will pay all benefits to you or your assignee. Such payments will discharge us to the full extent of those payments. If unassigned benefits remain due upon your death, we will pay any amount remaining due as described in the Beneficiary section.",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 48,
+          "y": 328,
+          "width": 672,
+          "height": 60
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Extension of Benefits (heading)",
+        "value": "Extension of Benefits",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 48,
+          "y": 400,
+          "width": 320,
+          "height": 22
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Extension of Benefits (body)",
+        "value": "Termination of this Policy will not terminate any benefits payable for Facility Care if your confinement begins while your Policy is in force and continues without interruption after the Policy terminates. Any benefits payable under this provision are subject to: the Benefit Amount; any applicable Elimination Period; and all other provisions and limitations of this Policy.",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 48,
+          "y": 430,
+          "width": 672,
+          "height": 84
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Coordination of Benefits with Medicare (heading)",
+        "value": "Coordination of Benefits with Medicare",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 48,
+          "y": 528,
+          "width": 420,
+          "height": 22
+        }
+      },
+      {
+        "id": "f11",
+        "name": "Coordination of Benefits with Medicare (body)",
+        "value": "Benefits are not payable under this Policy for expenses incurred to the extent that such expenses are reimbursable under Medicare or would be so reimbursable but for the application of a deductible or coinsurance amount.",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 48,
+          "y": 558,
+          "width": 672,
+          "height": 44
+        }
+      },
+      {
+        "id": "f12",
+        "name": "Beneficiary (heading)",
+        "value": "Beneficiary",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 48,
+          "y": 614,
+          "width": 200,
+          "height": 22
+        }
+      },
+      {
+        "id": "f13",
+        "name": "Beneficiary (body paragraph 1)",
+        "value": "The Beneficiary will be the person or persons, named in the application or subsequently changed by written request, to receive any unassigned benefit payments due upon your death (second-to-die in the case of joint coverage).",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 48,
+          "y": 644,
+          "width": 672,
+          "height": 48
+        }
+      },
+      {
+        "id": "f14",
+        "name": "Beneficiary (body paragraph 2)",
+        "value": "You may change the Beneficiary at any time by giving us written notice. A change will not be effective until recorded by us. Once recorded, the change will apply as of the date the request was signed. We will not be liable for any action taken or payment made before a Beneficiary change is recorded. The Beneficiary's consent is not required to change the Policy or Beneficiary, unless the designation of the Beneficiary is irrevocable.",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 48,
+          "y": 700,
+          "width": 672,
+          "height": 84
+        }
+      },
+      {
+        "id": "f15",
+        "name": "Beneficiary (body paragraph 3)",
+        "value": "If you designate more than one person as Beneficiary, the interests of all Beneficiaries will be equal unless your designation specifically provides otherwise. The share of any Beneficiary who does not survive you shall pass equally to the surviving Beneficiaries, unless your designation specifically provides otherwise. If no Beneficiary is designated or no Beneficiary survives you, then your estate will be the Beneficiary.",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 48,
+          "y": 784,
+          "width": 672,
+          "height": 96
+        }
+      },
+      {
+        "id": "f16",
+        "name": "Form Number",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 48,
+          "y": 916,
+          "width": 180,
+          "height": 24
+        }
+      },
+      {
+        "id": "f17",
+        "name": "Page Number",
+        "value": "Page 12",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 620,
+          "y": 916,
+          "width": 100,
+          "height": 24
+        }
+      }
+    ],
+    "tables": []
+  }
+}

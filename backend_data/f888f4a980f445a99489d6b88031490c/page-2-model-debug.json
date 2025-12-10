@@ -1,0 +1,464 @@
+{
+  "page": 2,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"Document is a policy guide / table of contents page (not an invoice, CMR form, or UB04).\",\n      \"Contains headings like 'GUIDE TO YOUR POLICY' and a multi-entry table of contents.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"title_1\",\n      \"name\": \"Title\",\n      \"value\": \"GUIDE TO YOUR POLICY\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 180,\n        \"y\": 24,\n        \"width\": 252,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"footer_code\",\n      \"name\": \"Document Code\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 20,\n        \"y\": 752,\n        \"width\": 160,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"page_number\",\n      \"name\": \"Page Number\",\n      \"value\": \"Page 2\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 520,\n        \"y\": 752,\n        \"width\": 72,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"toc_renewability\",\n      \"name\": \"RENEWABILITY\",\n      \"value\": \"1\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 96,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"toc_benefit_schedule\",\n      \"name\": \"BENEFIT SCHEDULE\",\n      \"value\": \"3\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 132,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"toc_definitions\",\n      \"name\": \"DEFINITIONS\",\n      \"value\": \"4\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 168,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"toc_benefit_provisions\",\n      \"name\": \"BENEFIT PROVISIONS\",\n      \"value\": \"7\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 204,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"toc_limitations_eligibility\",\n      \"name\": \"LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS\",\n      \"value\": \"10\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 360,\n        \"width\": 380,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"toc_claim_procedures\",\n      \"name\": \"CLAIM PROCEDURES\",\n      \"value\": \"11\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 420,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"toc_time_of_payment_of_claims\",\n      \"name\": \"Time of Payment of Claims\",\n      \"value\": \"11\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 340,\n        \"y\": 96,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"toc_payment_of_claims\",\n      \"name\": \"Payment of Claims\",\n      \"value\": \"12\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 340,\n        \"y\": 132,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"toc_extension_of_benefits\",\n      \"name\": \"Extension of Benefits\",\n      \"value\": \"12\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 340,\n        \"y\": 168,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"toc_coordination_with_medicare\",\n      \"name\": \"Coordination of Benefits with Medicare\",\n      \"value\": \"12\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 340,\n        \"y\": 204,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"toc_policy_administration\",\n      \"name\": \"POLICY ADMINISTRATION\",\n      \"value\": \"13\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 340,\n        \"y\": 300,\n        \"width\": 300,\n        \"height\": 20\n      }\n    }\n  ],\n  \"tables\": [\n    {\n      \"id\": \"toc_table\",\n      \"caption\": \"Table of Contents (left and right columns)\",\n      \"confidence\": 0.8,\n      \"columns\": [\n        {\n          \"key\": \"topic\",\n          \"header\": \"Topic\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        },\n        {\n          \"key\": \"page\",\n          \"header\": \"Page\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        }\n      ],\n      \"rows\": [\n        [\n          {\n            \"value\": \"RENEWABILITY\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 96,\n              \"width\": 260,\n              \"height\": 18\n            }\n          },\n          {\n            \"value\": \"1\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 312,\n              \"y\": 96,\n              \"width\": 36,\n              \"height\": 18\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"BENEFIT SCHEDULE\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 132,\n              \"width\": 260,\n              \"height\": 18\n            }\n          },\n          {\n            \"value\": \"3\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 312,\n              \"y\": 132,\n              \"width\": 36,\n              \"height\": 18\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"DEFINITIONS\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 168,\n              \"width\": 260,\n              \"height\": 18\n            }\n          },\n          {\n            \"value\": \"4\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 312,\n              \"y\": 168,\n              \"width\": 36,\n              \"height\": 18\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"BENEFIT PROVISIONS\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 204,\n              \"width\": 260,\n              \"height\": 18\n            }\n          },\n          {\n            \"value\": \"7\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 312,\n              \"y\": 204,\n              \"width\": 36,\n              \"height\": 18\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 360,\n              \"width\": 380,\n              \"height\": 20\n            }\n          },\n          {\n            \"value\": \"10\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 440,\n              \"y\": 360,\n              \"width\": 28,\n              \"height\": 20\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"CLAIM PROCEDURES\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 420,\n              \"width\": 260,\n              \"height\": 18\n            }\n          },\n          {\n            \"value\": \"11\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 312,\n              \"y\": 420,\n              \"width\": 36,\n              \"height\": 18\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Time of Payment of Claims\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 340,\n              \"y\": 96,\n              \"width\": 300,\n              \"height\": 18\n            }\n          },\n          {\n            \"value\": \"11\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 620,\n              \"y\": 96,\n              \"width\": 24,\n              \"height\": 18\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Payment of Claims\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 340,\n              \"y\": 132,\n              \"width\": 300,\n              \"height\": 18\n            }\n          },\n          {\n            \"value\": \"12\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 620,\n              \"y\": 132,\n              \"width\": 24,\n              \"height\": 18\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Extension of Benefits\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 340,\n              \"y\": 168,\n              \"width\": 300,\n              \"height\": 18\n            }\n          },\n          {\n            \"value\": \"12\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 620,\n              \"y\": 168,\n              \"width\": 24,\n              \"height\": 18\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Coordination of Benefits with Medicare\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 340,\n              \"y\": 204,\n              \"width\": 300,\n              \"height\": 18\n            }\n          },\n          {\n            \"value\": \"12\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 620,\n              \"y\": 204,\n              \"width\": 24,\n              \"height\": 18\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"POLICY ADMINISTRATION\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 340,\n              \"y\": 300,\n              \"width\": 300,\n              \"height\": 20\n            }\n          },\n          {\n            \"value\": \"13\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 620,\n              \"y\": 300,\n              \"width\": 24,\n              \"height\": 20\n            }\n          }\n        ]\n      ]\n    }\n  ]\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Document is a policy guide / table of contents page (not an invoice, CMR form, or UB04).",
+        "Contains headings like 'GUIDE TO YOUR POLICY' and a multi-entry table of contents."
+      ]
+    },
+    "fields": [
+      {
+        "id": "title_1",
+        "name": "Title",
+        "value": "GUIDE TO YOUR POLICY",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 180,
+          "y": 24,
+          "width": 252,
+          "height": 28
+        }
+      },
+      {
+        "id": "footer_code",
+        "name": "Document Code",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 20,
+          "y": 752,
+          "width": 160,
+          "height": 18
+        }
+      },
+      {
+        "id": "page_number",
+        "name": "Page Number",
+        "value": "Page 2",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 520,
+          "y": 752,
+          "width": 72,
+          "height": 18
+        }
+      },
+      {
+        "id": "toc_renewability",
+        "name": "RENEWABILITY",
+        "value": "1",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 96,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "toc_benefit_schedule",
+        "name": "BENEFIT SCHEDULE",
+        "value": "3",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 132,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "toc_definitions",
+        "name": "DEFINITIONS",
+        "value": "4",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 168,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "toc_benefit_provisions",
+        "name": "BENEFIT PROVISIONS",
+        "value": "7",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 204,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "toc_limitations_eligibility",
+        "name": "LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS",
+        "value": "10",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 360,
+          "width": 380,
+          "height": 20
+        }
+      },
+      {
+        "id": "toc_claim_procedures",
+        "name": "CLAIM PROCEDURES",
+        "value": "11",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 420,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "toc_time_of_payment_of_claims",
+        "name": "Time of Payment of Claims",
+        "value": "11",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 340,
+          "y": 96,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "toc_payment_of_claims",
+        "name": "Payment of Claims",
+        "value": "12",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 340,
+          "y": 132,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "toc_extension_of_benefits",
+        "name": "Extension of Benefits",
+        "value": "12",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 340,
+          "y": 168,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "toc_coordination_with_medicare",
+        "name": "Coordination of Benefits with Medicare",
+        "value": "12",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 340,
+          "y": 204,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "toc_policy_administration",
+        "name": "POLICY ADMINISTRATION",
+        "value": "13",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 340,
+          "y": 300,
+          "width": 300,
+          "height": 20
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "toc_table",
+        "caption": "Table of Contents (left and right columns)",
+        "confidence": 0.8,
+        "columns": [
+          {
+            "key": "topic",
+            "header": "Topic",
+            "type": "string",
+            "confidence": 0.8
+          },
+          {
+            "key": "page",
+            "header": "Page",
+            "type": "string",
+            "confidence": 0.8
+          }
+        ],
+        "rows": [
+          [
+            {
+              "value": "RENEWABILITY",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 48,
+                "y": 96,
+                "width": 260,
+                "height": 18
+              }
+            },
+            {
+              "value": "1",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 312,
+                "y": 96,
+                "width": 36,
+                "height": 18
+              }
+            }
+          ],
+          [
+            {
+              "value": "BENEFIT SCHEDULE",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 48,
+                "y": 132,
+                "width": 260,
+                "height": 18
+              }
+            },
+            {
+              "value": "3",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 312,
+                "y": 132,
+                "width": 36,
+                "height": 18
+              }
+            }
+          ],
+          [
+            {
+              "value": "DEFINITIONS",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 48,
+                "y": 168,
+                "width": 260,
+                "height": 18
+              }
+            },
+            {
+              "value": "4",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 312,
+                "y": 168,
+                "width": 36,
+                "height": 18
+              }
+            }
+          ],
+          [
+            {
+              "value": "BENEFIT PROVISIONS",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 48,
+                "y": 204,
+                "width": 260,
+                "height": 18
+              }
+            },
+            {
+              "value": "7",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 312,
+                "y": 204,
+                "width": 36,
+                "height": 18
+              }
+            }
+          ],
+          [
+            {
+              "value": "LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 48,
+                "y": 360,
+                "width": 380,
+                "height": 20
+              }
+            },
+            {
+              "value": "10",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 440,
+                "y": 360,
+                "width": 28,
+                "height": 20
+              }
+            }
+          ],
+          [
+            {
+              "value": "CLAIM PROCEDURES",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 48,
+                "y": 420,
+                "width": 260,
+                "height": 18
+              }
+            },
+            {
+              "value": "11",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 312,
+                "y": 420,
+                "width": 36,
+                "height": 18
+              }
+            }
+          ],
+          [
+            {
+              "value": "Time of Payment of Claims",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 340,
+                "y": 96,
+                "width": 300,
+                "height": 18
+              }
+            },
+            {
+              "value": "11",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 620,
+                "y": 96,
+                "width": 24,
+                "height": 18
+              }
+            }
+          ],
+          [
+            {
+              "value": "Payment of Claims",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 340,
+                "y": 132,
+                "width": 300,
+                "height": 18
+              }
+            },
+            {
+              "value": "12",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 620,
+                "y": 132,
+                "width": 24,
+                "height": 18
+              }
+            }
+          ],
+          [
+            {
+              "value": "Extension of Benefits",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 340,
+                "y": 168,
+                "width": 300,
+                "height": 18
+              }
+            },
+            {
+              "value": "12",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 620,
+                "y": 168,
+                "width": 24,
+                "height": 18
+              }
+            }
+          ],
+          [
+            {
+              "value": "Coordination of Benefits with Medicare",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 340,
+                "y": 204,
+                "width": 300,
+                "height": 18
+              }
+            },
+            {
+              "value": "12",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 620,
+                "y": 204,
+                "width": 24,
+                "height": 18
+              }
+            }
+          ],
+          [
+            {
+              "value": "POLICY ADMINISTRATION",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 340,
+                "y": 300,
+                "width": 300,
+                "height": 20
+              }
+            },
+            {
+              "value": "13",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 620,
+                "y": 300,
+                "width": 24,
+                "height": 20
+              }
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}

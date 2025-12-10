@@ -1,0 +1,341 @@
+{
+  "jobId": "d141b1dd34f84f02b4ec3463f9a73292",
+  "documentName": "Policy1 - example.pdf",
+  "sourcePdf": "source.pdf",
+  "status": {
+    "jobId": "d141b1dd34f84f02b4ec3463f9a73292",
+    "totalPages": 17,
+    "processedPages": 17,
+    "state": "partial",
+    "errors": [
+      {
+        "page": 1,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 2,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 3,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 4,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 5,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 6,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 7,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 8,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 9,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 10,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 11,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 12,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 13,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 14,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 15,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 16,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "page": 17,
+        "message": "Azure OpenAI configuration is incomplete for vision processing"
+      },
+      {
+        "stage": "mapping",
+        "message": "Azure OpenAI configuration is incomplete for mapping service"
+      }
+    ],
+    "startedAt": "2025-12-10T14:57:06.191708",
+    "finishedAt": "2025-12-10T14:57:06.249687"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-1.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 2,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-2.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 3,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-3.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 4,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-4.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 5,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-5.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 6,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-6.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 7,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-7.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 8,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-8.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 9,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-9.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 10,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-10.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 11,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-11.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 12,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-12.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 13,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-13.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 14,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-14.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 90,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 15,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-15.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 16,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-16.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 17,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-17.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Azure OpenAI configuration is incomplete for vision processing",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    }
+  ],
+  "aggregated": {
+    "jobId": "d141b1dd34f84f02b4ec3463f9a73292",
+    "fields": []
+  },
+  "metadata": {
+    "originalFilename": "Policy1 - example.pdf",
+    "tableGroups": {},
+    "mergedTables": {}
+  },
+  "documentType": null,
+  "canonical": null,
+  "mappingTrace": {},
+  "summary": {
+    "totalPages": 17,
+    "totalFields": 0,
+    "totalTables": 0,
+    "totalProcessingMs": 57,
+    "startedAt": "2025-12-10T14:57:06.191708",
+    "finishedAt": "2025-12-10T14:57:06.249687",
+    "confidenceBuckets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lowConfidenceCount": 0
+  },
+  "lastModified": "2025-12-10T14:57:06.249687",
+  "snapshotVersion": 1
+}

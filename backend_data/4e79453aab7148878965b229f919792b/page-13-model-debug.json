@@ -1,0 +1,135 @@
+{
+  "page": 13,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page contains policy language headings such as 'Premium Due Dates', 'Waiver of Premium', 'Grace Period', which are not typical of facility invoices, CMR forms, or UB-04 medical billing forms.\",\n      \"Layout is prose text with section headings and bullets rather than structured invoice or consignment form tables.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Premium Due Dates\",\n      \"value\": \"The first premium is due on the Policy Effective Date. After the first premium, premiums will be due in the amount and frequency shown on your premium statement.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 40,\n        \"width\": 688,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Waiver of Premium\",\n      \"value\": \"After you (either insured for joint coverage) have been confined in a Nursing Home or an Assisted Living Facility for a period of 90 days, and you meet the requirements in the Eligibility for Benefits provision, no premiums will be due following the 90th day. The 90 days need not be consecutive, but must be satisfied during a single claim period. Premiums already paid but no longer due will be refunded to you on a pro-rata basis. Premiums will again be due after your confinement ends. Any subsequent confinement separated by a period of at least 180 consecutive days will be considered a new claim period, subject to a new 90 day waiting period as described above.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 140,\n        \"width\": 688,\n        \"height\": 160\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Payment Responsibility\",\n      \"value\": \"You are responsible for payment of all your premiums due while coverage is in force. Payment shall be sent to us at our Long Term Care Administrative Office, or any other office that we may designate.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 320,\n        \"width\": 688,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Unpaid Premium\",\n      \"value\": \"Any premium due and unpaid may be deducted from any claim payment payable under this Policy.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 420,\n        \"width\": 688,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Grace Period\",\n      \"value\": \"Except for the first premium, you will have 31 days after each due date to pay the premium due. If your premium is not paid by the 30th day of the Grace Period, we will notify you and an individual designated by you to receive notice of lapse due to non-payment of premium. Your Policy remains in force during the Grace Period. If your premium is not paid by the 65th day after the due date, the Policy lapses.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 480,\n        \"width\": 688,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Policy Termination\",\n      \"value\": \"This Policy will terminate at 12:01 A.M. Standard Time and your coverage will end on the earliest of: the date we receive a written request from you (both insureds in the case of joint coverage) to cancel this Policy (or a later date specified by you in the cancellation request); or the date the Grace Period ends as described in the Grace Period provision; or the date of your death (second-to-die in the case of joint coverage).\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 640,\n        \"width\": 688,\n        \"height\": 160\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Reinstatement \u2013 Lapse Due to Cognitive Impairment or Functional Incapacity\",\n      \"value\": \"If your coverage has lapsed due to your Cognitive Impairment or functional incapacity, your coverage may be reinstated without an application if: you or your representative requests reinstatement within six (6) months after your last premium was due; and we receive evidence satisfactory to us that you have a Cognitive Impairment or functional incapacity; and we receive all past due and unpaid premiums and any nonforfeiture benefits paid to you. Your Policy will then be reinstated as of the date of lapse and both you and we shall have the same rights that existed prior to the due date of the premium in default.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 820,\n        \"width\": 688,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Form Identifier\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 970,\n        \"width\": 200,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Page Number\",\n      \"value\": \"Page 14\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 660,\n        \"y\": 970,\n        \"width\": 80,\n        \"height\": 20\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page contains policy language headings such as 'Premium Due Dates', 'Waiver of Premium', 'Grace Period', which are not typical of facility invoices, CMR forms, or UB-04 medical billing forms.",
+        "Layout is prose text with section headings and bullets rather than structured invoice or consignment form tables."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Premium Due Dates",
+        "value": "The first premium is due on the Policy Effective Date. After the first premium, premiums will be due in the amount and frequency shown on your premium statement.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 40,
+          "width": 688,
+          "height": 80
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Waiver of Premium",
+        "value": "After you (either insured for joint coverage) have been confined in a Nursing Home or an Assisted Living Facility for a period of 90 days, and you meet the requirements in the Eligibility for Benefits provision, no premiums will be due following the 90th day. The 90 days need not be consecutive, but must be satisfied during a single claim period. Premiums already paid but no longer due will be refunded to you on a pro-rata basis. Premiums will again be due after your confinement ends. Any subsequent confinement separated by a period of at least 180 consecutive days will be considered a new claim period, subject to a new 90 day waiting period as described above.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 140,
+          "width": 688,
+          "height": 160
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Payment Responsibility",
+        "value": "You are responsible for payment of all your premiums due while coverage is in force. Payment shall be sent to us at our Long Term Care Administrative Office, or any other office that we may designate.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 320,
+          "width": 688,
+          "height": 80
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Unpaid Premium",
+        "value": "Any premium due and unpaid may be deducted from any claim payment payable under this Policy.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 420,
+          "width": 688,
+          "height": 40
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Grace Period",
+        "value": "Except for the first premium, you will have 31 days after each due date to pay the premium due. If your premium is not paid by the 30th day of the Grace Period, we will notify you and an individual designated by you to receive notice of lapse due to non-payment of premium. Your Policy remains in force during the Grace Period. If your premium is not paid by the 65th day after the due date, the Policy lapses.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 480,
+          "width": 688,
+          "height": 140
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Policy Termination",
+        "value": "This Policy will terminate at 12:01 A.M. Standard Time and your coverage will end on the earliest of: the date we receive a written request from you (both insureds in the case of joint coverage) to cancel this Policy (or a later date specified by you in the cancellation request); or the date the Grace Period ends as described in the Grace Period provision; or the date of your death (second-to-die in the case of joint coverage).",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 640,
+          "width": 688,
+          "height": 160
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Reinstatement \u2013 Lapse Due to Cognitive Impairment or Functional Incapacity",
+        "value": "If your coverage has lapsed due to your Cognitive Impairment or functional incapacity, your coverage may be reinstated without an application if: you or your representative requests reinstatement within six (6) months after your last premium was due; and we receive evidence satisfactory to us that you have a Cognitive Impairment or functional incapacity; and we receive all past due and unpaid premiums and any nonforfeiture benefits paid to you. Your Policy will then be reinstated as of the date of lapse and both you and we shall have the same rights that existed prior to the due date of the premium in default.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 820,
+          "width": 688,
+          "height": 140
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Form Identifier",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 970,
+          "width": 200,
+          "height": 20
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Page Number",
+        "value": "Page 14",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 660,
+          "y": 970,
+          "width": 80,
+          "height": 20
+        }
+      }
+    ],
+    "tables": []
+  }
+}

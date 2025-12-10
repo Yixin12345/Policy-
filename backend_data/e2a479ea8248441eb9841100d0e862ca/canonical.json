@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2025-12-10T00:00:00Z",
+  "documentTypes": [
+    "other"
+  ],
+  "facilityInvoice": {
+    "general": {},
+    "lineItems": []
+  },
+  "cmrForm": {},
+  "ub04": {},
+  "notes": [
+    "The document is an insurance product brochure (MetLife LTC LifeStage Advantage) based on fields such as document_title (fieldId: title_1 on pages 1 and 2) and company_name_and_address (fieldId: footer_company on page 2).",
+    "No evidence of facility invoice, CMR form, or UB04 content was found (no invoice numbers, provider billing fields, claim line items, CMR service/dates, or UB04 provider blocks). Returning documentTypes ['other'] and empty sections.",
+    "If a different document type was expected, provide an input that contains invoice/CMR/UB04-specific fields or pages."
+  ]
+}

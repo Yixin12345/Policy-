@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2025-12-10T00:00:00Z",
+  "documentTypes": [
+    "other"
+  ],
+  "facilityInvoice": {},
+  "cmrForm": {},
+  "ub04": {},
+  "notes": [
+    "This document is an insurance product brochure (MetLife LTC LifeStage Advantage / Policy Features & Benefits) rather than a facility invoice, CMR form, or UB-04 claim form. Key evidence: Document Title (page 1 fieldId=f_title; page 2 fieldId=title_1), Brand (page 1 fieldId=f_brand), and Company Name and Address (page 2 fieldId=footer_company).",
+    "Extracted structured content is policy/features information (plan names, MBAs/TBAs, riders, features). Table evidence includes the plan comparison table (table id=t1_plan_comparison and merged table id=20d200dcc25a45fe8948113519da1126) and features table (page 2 table id=features_table).",
+    "Several extracted values have lower OCR confidence and may be uncertain (examples: f_monthly_benefit_custom, f_total_benefit_custom, f_gpo_summary, f_fpo_summary on page 1; feature_international_benefit on page 2 with confidence 0.6). Because this is not a claims/invoice form, facilityInvoice, cmrForm, and ub04 sections are intentionally left empty."
+  ]
+}

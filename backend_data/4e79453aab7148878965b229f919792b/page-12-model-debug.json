@@ -1,0 +1,138 @@
+{
+  "page": 12,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page contains policy/legal prose and headings (Examinations, Appealing a Claim, POLICY ADMINISTRATION) rather than invoice or medical transport form or UB04 format.\",\n      \"Layout is continuous text paragraphs and section headings, not tabular billing or CMR fields.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Examinations\",\n      \"value\": \"We may require that a physician or other individuals practicing within the scope of their licenses examine you, while a claim is pending or while you are receiving benefits, as often as reasonably required. We will pay for these examinations and will choose the individual to perform them.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 40,\n        \"width\": 648,\n        \"height\": 100\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Appealing a Claim\",\n      \"value\": \"We will evaluate your claim based on the provisions of this Policy and the information given by you, your physician, and other available sources. We will inform you in writing if we deny your claim or any part of your claim. If you do not agree with a claim decision, you or your representative may appeal the denial. The appeal must be in writing to us and include all information that pertains to the claim. No special form is needed. We will review your request and notify you or your representative of our decision within 30 days of receiving the request.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 150,\n        \"width\": 648,\n        \"height\": 150\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Right of Recovery\",\n      \"value\": \"If we make any errors in processing your claim, we have the right to recover any overpayment of benefits. We will recover by offset any amounts that have not been previously recovered at the time we make another benefit payment.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 310,\n        \"width\": 648,\n        \"height\": 70\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Legal Action\",\n      \"value\": \"Legal action to recover benefits under this Policy may not be started earlier than 60 days after required Proof of Loss has been filed with us. Further, no legal action may be started after the expiration of the applicable Statute of Limitation from the time required Proof of Loss is required to be filed with us.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 380,\n        \"width\": 648,\n        \"height\": 90\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Policy Administration (heading)\",\n      \"value\": \"POLICY ADMINISTRATION\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 220,\n        \"y\": 485,\n        \"width\": 328,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Entire Contract; Changes\",\n      \"value\": \"This Policy and the attached application, plus any additional attachments, is the entire contract. No agent, employee, or person other than one of our officers has authority to change the Policy. Any change must be shown on your Policy and approved in writing.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 520,\n        \"width\": 648,\n        \"height\": 90\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Incontestability\",\n      \"value\": \"If your Policy has been in force for less than six (6) months, upon a showing of misrepresentation that is material to the acceptance of coverage, we may rescind your Policy or deny an otherwise valid claim on your Policy.\\n\\nIf your Policy has been in force for at least six (6) months, but less than (2) years, and if we can show the misrepresentation is both material to the acceptance of coverage and that it pertains to the condition for which benefits are sought, we may rescind your Policy or deny an otherwise valid claim on your Policy.\\n\\nAfter this Policy has been in force for two (2) years it is not contestable upon the grounds of misrepresentation alone. After two (2) years, the Policy may be contested only upon a showing that you knowingly and intentionally misrepresented relevant facts relating to your health.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 610,\n        \"width\": 648,\n        \"height\": 210\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Misstatement of Age\",\n      \"value\": \"If your age is misstated on the application, we may, at any time, adjust your benefits and/or premiums to reflect your correct age. If no coverage would have been provided based on your correct age, our liability will be limited to a refund of any premium paid for this Policy, and the Policy is null and void as of the Policy Effective Date.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 830,\n        \"width\": 648,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Document Code\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 955,\n        \"width\": 180,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Page Number\",\n      \"value\": \"Page 13\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 650,\n        \"y\": 955,\n        \"width\": 80,\n        \"height\": 24\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page contains policy/legal prose and headings (Examinations, Appealing a Claim, POLICY ADMINISTRATION) rather than invoice or medical transport form or UB04 format.",
+        "Layout is continuous text paragraphs and section headings, not tabular billing or CMR fields."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Examinations",
+        "value": "We may require that a physician or other individuals practicing within the scope of their licenses examine you, while a claim is pending or while you are receiving benefits, as often as reasonably required. We will pay for these examinations and will choose the individual to perform them.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 40,
+          "width": 648,
+          "height": 100
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Appealing a Claim",
+        "value": "We will evaluate your claim based on the provisions of this Policy and the information given by you, your physician, and other available sources. We will inform you in writing if we deny your claim or any part of your claim. If you do not agree with a claim decision, you or your representative may appeal the denial. The appeal must be in writing to us and include all information that pertains to the claim. No special form is needed. We will review your request and notify you or your representative of our decision within 30 days of receiving the request.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 150,
+          "width": 648,
+          "height": 150
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Right of Recovery",
+        "value": "If we make any errors in processing your claim, we have the right to recover any overpayment of benefits. We will recover by offset any amounts that have not been previously recovered at the time we make another benefit payment.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 310,
+          "width": 648,
+          "height": 70
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Legal Action",
+        "value": "Legal action to recover benefits under this Policy may not be started earlier than 60 days after required Proof of Loss has been filed with us. Further, no legal action may be started after the expiration of the applicable Statute of Limitation from the time required Proof of Loss is required to be filed with us.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 380,
+          "width": 648,
+          "height": 90
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Policy Administration (heading)",
+        "value": "POLICY ADMINISTRATION",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 220,
+          "y": 485,
+          "width": 328,
+          "height": 28
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Entire Contract; Changes",
+        "value": "This Policy and the attached application, plus any additional attachments, is the entire contract. No agent, employee, or person other than one of our officers has authority to change the Policy. Any change must be shown on your Policy and approved in writing.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 520,
+          "width": 648,
+          "height": 90
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Incontestability",
+        "value": "If your Policy has been in force for less than six (6) months, upon a showing of misrepresentation that is material to the acceptance of coverage, we may rescind your Policy or deny an otherwise valid claim on your Policy.\n\nIf your Policy has been in force for at least six (6) months, but less than (2) years, and if we can show the misrepresentation is both material to the acceptance of coverage and that it pertains to the condition for which benefits are sought, we may rescind your Policy or deny an otherwise valid claim on your Policy.\n\nAfter this Policy has been in force for two (2) years it is not contestable upon the grounds of misrepresentation alone. After two (2) years, the Policy may be contested only upon a showing that you knowingly and intentionally misrepresented relevant facts relating to your health.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 610,
+          "width": 648,
+          "height": 210
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Misstatement of Age",
+        "value": "If your age is misstated on the application, we may, at any time, adjust your benefits and/or premiums to reflect your correct age. If no coverage would have been provided based on your correct age, our liability will be limited to a refund of any premium paid for this Policy, and the Policy is null and void as of the Policy Effective Date.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 830,
+          "width": 648,
+          "height": 120
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Document Code",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 955,
+          "width": 180,
+          "height": 24
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Page Number",
+        "value": "Page 13",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 650,
+          "y": 955,
+          "width": 80,
+          "height": 24
+        }
+      }
+    ],
+    "tables": []
+  }
+}

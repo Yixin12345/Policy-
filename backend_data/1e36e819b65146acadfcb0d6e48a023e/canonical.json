@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2025-12-10T00:00:00Z",
+  "documentTypes": [
+    "other"
+  ],
+  "facilityInvoice": {},
+  "cmrForm": {},
+  "ub04": {},
+  "notes": [
+    "Classified as 'other' \u2014 document content is an insurance brochure / product summary (MetLife LTC). Evidence: title field f1 (page 1), company field f3 (page 1), document_title field title_1 (page 2), company_name field company_name (page 2).",
+    "No facility invoice, CMR form, or UB04-specific fields were detected (no invoiceNumber, invoiceDate, providerAddress, policyholder name/address, service dates, signature fields, or UB04 provider blocks). Returning empty sections."
+  ]
+}

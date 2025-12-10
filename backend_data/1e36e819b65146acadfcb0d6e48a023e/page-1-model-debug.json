@@ -1,0 +1,1222 @@
+{
+  "page": 1,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Document is a product brochure/plan summary for MetLife LTC LifeStage Advantage (not an invoice, CMR, or UB04 form).\",\n      \"Contains branding, plan names, option descriptions and charts typical of a brochure.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"title\",\n      \"value\": \"MetLife LTC LifeStage AdvantageSM\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 20,\n        \"width\": 688,\n        \"height\": 110\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"subtitle\",\n      \"value\": \"Plans-at-a-Glance\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 100,\n        \"width\": 400,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"company\",\n      \"value\": \"MetLife\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 10,\n        \"y\": 140,\n        \"width\": 200,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"insurance_line\",\n      \"value\": \"INSURANCE | LONG-TERM CARE\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 520,\n        \"y\": 30,\n        \"width\": 220,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"plan_header_simple\",\n      \"value\": \"SIMPLE ADVANTAGE\u2120 PLAN\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 240,\n        \"width\": 320,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"plan_header_custom\",\n      \"value\": \"CUSTOM ADVANTAGE\u2120 PLAN\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 405,\n        \"y\": 240,\n        \"width\": 320,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"plan_type_simple\",\n      \"value\": \"Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 280,\n        \"width\": 320,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"plan_type_custom\",\n      \"value\": \"Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 405,\n        \"y\": 280,\n        \"width\": 320,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"issue_ages_simple\",\n      \"value\": \"18 - 61 (premiums banded 18 - 30)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 306,\n        \"width\": 320,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"issue_ages_custom\",\n      \"value\": \"18 - 84 (premiums banded 18 - 30)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 405,\n        \"y\": 306,\n        \"width\": 320,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"mba_tba_chart_heading\",\n      \"value\": \"Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 328,\n        \"width\": 700,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f12\",\n      \"name\": \"mba_values\",\n      \"value\": \"$3K, $6K, $9K, $12K, $15K\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 360,\n        \"width\": 260,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f13\",\n      \"name\": \"tba_values_simple\",\n      \"value\": \"$75K, $100K, $200K, $300K, $400K, $500K\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 220,\n        \"y\": 350,\n        \"width\": 240,\n        \"height\": 100\n      }\n    },\n    {\n      \"id\": \"f14\",\n      \"name\": \"tba_values_custom\",\n      \"value\": \"$75K, $100K, $200K, $300K, $400K, $500K, $1MM*\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 480,\n        \"y\": 350,\n        \"width\": 260,\n        \"height\": 100\n      }\n    },\n    {\n      \"id\": \"f15\",\n      \"name\": \"tba_note\",\n      \"value\": \"*$1MM not available with Cash Benefit Rider\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 480,\n        \"y\": 420,\n        \"width\": 260,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f16\",\n      \"name\": \"optional_riders_heading\",\n      \"value\": \"OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 460,\n        \"width\": 700,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"f17\",\n      \"name\": \"shared_care_rider_summary\",\n      \"value\": \"Shared Care Rider: Insured and spouse/partner*** can access benefits under each other's policy once the TBA under their own policy is exhausted; when insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost; rider available at any time, subject to underwriting.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 506,\n        \"width\": 700,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"f18\",\n      \"name\": \"nonforfeiture_rider_summary\",\n      \"value\": \"Nonforfeiture Rider: Provides some benefits if policy lapses for nonpayment of premiums or if cancelled by insured; rider must be in effect for 3 years and be in effect when the policy ends; provides full MBA and reduced TBA equal to the greater of: total amount of premium paid or 1x MBA; available at initial application only.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 576,\n        \"width\": 700,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"f19\",\n      \"name\": \"cash_benefit_rider_summary\",\n      \"value\": \"Cash Benefit Rider: Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services; available at initial application only; $1MM TBA not available; benefits paid over annual IRC limit may be taxable.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 642,\n        \"width\": 700,\n        \"height\": 68\n      }\n    },\n    {\n      \"id\": \"f20\",\n      \"name\": \"guaranteed_purchase_option_heading\",\n      \"value\": \"GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 720,\n        \"width\": 340,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f21\",\n      \"name\": \"gpo_summary_first_bullets\",\n      \"value\": \"Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting; premium for increase in coverage is at attained age rates; lifetime maximum increase available is 2x initial TBA and 2x initial MBA.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 750,\n        \"width\": 340,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f22\",\n      \"name\": \"benefit_increase_options_heading\",\n      \"value\": \"BENEFIT INCREASE OPTIONS (AVAILABLE WITH CUSTOM ADVANTAGE ONLY)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 720,\n        \"width\": 340,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f23\",\n      \"name\": \"future_purchase_option_fpo_summary\",\n      \"value\": \"Future Purchase Option (FPO): Increases the MBA and remaining portion of the TBA automatically by 5% of the MBA/remaining TBA in effect at the end of the previous policy year; increases occur unless insured rejects in writing; rider available at any time, subject to underwriting.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 750,\n        \"width\": 340,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f24\",\n      \"name\": \"automatic_compound_inflation_protection_summary\",\n      \"value\": \"Automatic Compound Inflation Protection Riders: Increases the MBA and remaining portion of the TBA in effect at end of previous policy year either 3% or 5% with corresponding increase in premium; coverage continues while insured is eligible for benefits; rider available at any time with additional underwriting.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 880,\n        \"width\": 340,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f25\",\n      \"name\": \"footer_disclaimer\",\n      \"value\": \"FOR PRODUCER OR BROKER/DEALER USE ONLY. NOT FOR PUBLIC DISTRIBUTION. Metropolitan Life Insurance Company (MetLife)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 924,\n        \"width\": 700,\n        \"height\": 60\n      }\n    }\n  ],\n  \"tables\": [\n    {\n      \"id\": \"t1\",\n      \"caption\": \"Simple Advantage Plan - MBA vs TBA availability (chart)\",\n      \"confidence\": 0.6,\n      \"columns\": [\n        {\n          \"key\": \"col0\",\n          \"header\": \"MBA\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        },\n        {\n          \"key\": \"col1\",\n          \"header\": \"$75K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col2\",\n          \"header\": \"$100K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col3\",\n          \"header\": \"$200K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col4\",\n          \"header\": \"$300K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col5\",\n          \"header\": \"$400K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col6\",\n          \"header\": \"$500K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"rows\": [\n        [\n          {\n            \"value\": \"$3K\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 60,\n              \"y\": 340,\n              \"width\": 80,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 160,\n              \"y\": 340,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 340,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 300,\n              \"y\": 340,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 370,\n              \"y\": 340,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 440,\n              \"y\": 340,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 510,\n              \"y\": 340,\n              \"width\": 60,\n              \"height\": 30\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"$6K\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 60,\n              \"y\": 380,\n              \"width\": 80,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 160,\n              \"y\": 380,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 380,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 300,\n              \"y\": 380,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 370,\n              \"y\": 380,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 440,\n              \"y\": 380,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 510,\n              \"y\": 380,\n              \"width\": 60,\n              \"height\": 30\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"$9K\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 60,\n              \"y\": 420,\n              \"width\": 80,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 160,\n              \"y\": 420,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 420,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 300,\n              \"y\": 420,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 370,\n              \"y\": 420,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 440,\n              \"y\": 420,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 510,\n              \"y\": 420,\n              \"width\": 60,\n              \"height\": 30\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"$12K\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 60,\n              \"y\": 460,\n              \"width\": 80,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 160,\n              \"y\": 460,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 460,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 300,\n              \"y\": 460,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 370,\n              \"y\": 460,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 440,\n              \"y\": 460,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 510,\n              \"y\": 460,\n              \"width\": 60,\n              \"height\": 30\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"$15K\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 60,\n              \"y\": 500,\n              \"width\": 80,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 160,\n              \"y\": 500,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 500,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 300,\n              \"y\": 500,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 370,\n              \"y\": 500,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 440,\n              \"y\": 500,\n              \"width\": 60,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 510,\n              \"y\": 500,\n              \"width\": 60,\n              \"height\": 30\n            }\n          }\n        ]\n      ]\n    },\n    {\n      \"id\": \"t2\",\n      \"caption\": \"Custom Advantage Plan - MBA vs TBA availability (chart)\",\n      \"confidence\": 0.6,\n      \"columns\": [\n        {\n          \"key\": \"col0\",\n          \"header\": \"MBA\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        },\n        {\n          \"key\": \"col1\",\n          \"header\": \"$75K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col2\",\n          \"header\": \"$100K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col3\",\n          \"header\": \"$200K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col4\",\n          \"header\": \"$300K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col5\",\n          \"header\": \"$400K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col6\",\n          \"header\": \"$500K\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        },\n        {\n          \"key\": \"col7\",\n          \"header\": \"$1MM\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"rows\": [\n        [\n          {\n            \"value\": \"$3K\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 480,\n              \"y\": 340,\n              \"width\": 70,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 560,\n              \"y\": 340,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 610,\n              \"y\": 340,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 660,\n              \"y\": 340,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 560,\n              \"y\": 380,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 610,\n              \"y\": 380,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 660,\n              \"y\": 380,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available*\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 710,\n              \"y\": 360,\n              \"width\": 36,\n              \"height\": 30\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"$6K\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 480,\n              \"y\": 380,\n              \"width\": 70,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 560,\n              \"y\": 420,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 610,\n              \"y\": 420,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 660,\n              \"y\": 420,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 560,\n              \"y\": 460,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 610,\n              \"y\": 460,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 660,\n              \"y\": 460,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available*\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 710,\n              \"y\": 440,\n              \"width\": 36,\n              \"height\": 30\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"$9K\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 480,\n              \"y\": 420,\n              \"width\": 70,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 560,\n              \"y\": 500,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 610,\n              \"y\": 500,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 660,\n              \"y\": 500,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 560,\n              \"y\": 540,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 610,\n              \"y\": 540,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 660,\n              \"y\": 540,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available*\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 710,\n              \"y\": 520,\n              \"width\": 36,\n              \"height\": 30\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"$12K\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 480,\n              \"y\": 460,\n              \"width\": 70,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 560,\n              \"y\": 580,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 610,\n              \"y\": 580,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 660,\n              \"y\": 580,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 560,\n              \"y\": 620,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 610,\n              \"y\": 620,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 660,\n              \"y\": 620,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available*\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 710,\n              \"y\": 600,\n              \"width\": 36,\n              \"height\": 30\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"$15K\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 480,\n              \"y\": 500,\n              \"width\": 70,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 560,\n              \"y\": 660,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 610,\n              \"y\": 660,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 660,\n              \"y\": 660,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 560,\n              \"y\": 700,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 610,\n              \"y\": 700,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 660,\n              \"y\": 700,\n              \"width\": 40,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"available*\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 710,\n              \"y\": 680,\n              \"width\": 36,\n              \"height\": 30\n            }\n          }\n        ]\n      ]\n    }\n  ]\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Document is a product brochure/plan summary for MetLife LTC LifeStage Advantage (not an invoice, CMR, or UB04 form).",
+        "Contains branding, plan names, option descriptions and charts typical of a brochure."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "title",
+        "value": "MetLife LTC LifeStage AdvantageSM",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 20,
+          "width": 688,
+          "height": 110
+        }
+      },
+      {
+        "id": "f2",
+        "name": "subtitle",
+        "value": "Plans-at-a-Glance",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 100,
+          "width": 400,
+          "height": 40
+        }
+      },
+      {
+        "id": "f3",
+        "name": "company",
+        "value": "MetLife",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 10,
+          "y": 140,
+          "width": 200,
+          "height": 60
+        }
+      },
+      {
+        "id": "f4",
+        "name": "insurance_line",
+        "value": "INSURANCE | LONG-TERM CARE",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 520,
+          "y": 30,
+          "width": 220,
+          "height": 40
+        }
+      },
+      {
+        "id": "f5",
+        "name": "plan_header_simple",
+        "value": "SIMPLE ADVANTAGE\u2120 PLAN",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 240,
+          "width": 320,
+          "height": 40
+        }
+      },
+      {
+        "id": "f6",
+        "name": "plan_header_custom",
+        "value": "CUSTOM ADVANTAGE\u2120 PLAN",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 405,
+          "y": 240,
+          "width": 320,
+          "height": 40
+        }
+      },
+      {
+        "id": "f7",
+        "name": "plan_type_simple",
+        "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 280,
+          "width": 320,
+          "height": 28
+        }
+      },
+      {
+        "id": "f8",
+        "name": "plan_type_custom",
+        "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 405,
+          "y": 280,
+          "width": 320,
+          "height": 28
+        }
+      },
+      {
+        "id": "f9",
+        "name": "issue_ages_simple",
+        "value": "18 - 61 (premiums banded 18 - 30)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 306,
+          "width": 320,
+          "height": 24
+        }
+      },
+      {
+        "id": "f10",
+        "name": "issue_ages_custom",
+        "value": "18 - 84 (premiums banded 18 - 30)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 405,
+          "y": 306,
+          "width": 320,
+          "height": 24
+        }
+      },
+      {
+        "id": "f11",
+        "name": "mba_tba_chart_heading",
+        "value": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 328,
+          "width": 700,
+          "height": 120
+        }
+      },
+      {
+        "id": "f12",
+        "name": "mba_values",
+        "value": "$3K, $6K, $9K, $12K, $15K",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 360,
+          "width": 260,
+          "height": 80
+        }
+      },
+      {
+        "id": "f13",
+        "name": "tba_values_simple",
+        "value": "$75K, $100K, $200K, $300K, $400K, $500K",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 220,
+          "y": 350,
+          "width": 240,
+          "height": 100
+        }
+      },
+      {
+        "id": "f14",
+        "name": "tba_values_custom",
+        "value": "$75K, $100K, $200K, $300K, $400K, $500K, $1MM*",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 480,
+          "y": 350,
+          "width": 260,
+          "height": 100
+        }
+      },
+      {
+        "id": "f15",
+        "name": "tba_note",
+        "value": "*$1MM not available with Cash Benefit Rider",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 480,
+          "y": 420,
+          "width": 260,
+          "height": 20
+        }
+      },
+      {
+        "id": "f16",
+        "name": "optional_riders_heading",
+        "value": "OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 460,
+          "width": 700,
+          "height": 36
+        }
+      },
+      {
+        "id": "f17",
+        "name": "shared_care_rider_summary",
+        "value": "Shared Care Rider: Insured and spouse/partner*** can access benefits under each other's policy once the TBA under their own policy is exhausted; when insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost; rider available at any time, subject to underwriting.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 506,
+          "width": 700,
+          "height": 60
+        }
+      },
+      {
+        "id": "f18",
+        "name": "nonforfeiture_rider_summary",
+        "value": "Nonforfeiture Rider: Provides some benefits if policy lapses for nonpayment of premiums or if cancelled by insured; rider must be in effect for 3 years and be in effect when the policy ends; provides full MBA and reduced TBA equal to the greater of: total amount of premium paid or 1x MBA; available at initial application only.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 576,
+          "width": 700,
+          "height": 60
+        }
+      },
+      {
+        "id": "f19",
+        "name": "cash_benefit_rider_summary",
+        "value": "Cash Benefit Rider: Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services; available at initial application only; $1MM TBA not available; benefits paid over annual IRC limit may be taxable.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 642,
+          "width": 700,
+          "height": 68
+        }
+      },
+      {
+        "id": "f20",
+        "name": "guaranteed_purchase_option_heading",
+        "value": "GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 720,
+          "width": 340,
+          "height": 28
+        }
+      },
+      {
+        "id": "f21",
+        "name": "gpo_summary_first_bullets",
+        "value": "Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting; premium for increase in coverage is at attained age rates; lifetime maximum increase available is 2x initial TBA and 2x initial MBA.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 750,
+          "width": 340,
+          "height": 140
+        }
+      },
+      {
+        "id": "f22",
+        "name": "benefit_increase_options_heading",
+        "value": "BENEFIT INCREASE OPTIONS (AVAILABLE WITH CUSTOM ADVANTAGE ONLY)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 400,
+          "y": 720,
+          "width": 340,
+          "height": 28
+        }
+      },
+      {
+        "id": "f23",
+        "name": "future_purchase_option_fpo_summary",
+        "value": "Future Purchase Option (FPO): Increases the MBA and remaining portion of the TBA automatically by 5% of the MBA/remaining TBA in effect at the end of the previous policy year; increases occur unless insured rejects in writing; rider available at any time, subject to underwriting.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 400,
+          "y": 750,
+          "width": 340,
+          "height": 120
+        }
+      },
+      {
+        "id": "f24",
+        "name": "automatic_compound_inflation_protection_summary",
+        "value": "Automatic Compound Inflation Protection Riders: Increases the MBA and remaining portion of the TBA in effect at end of previous policy year either 3% or 5% with corresponding increase in premium; coverage continues while insured is eligible for benefits; rider available at any time with additional underwriting.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 400,
+          "y": 880,
+          "width": 340,
+          "height": 80
+        }
+      },
+      {
+        "id": "f25",
+        "name": "footer_disclaimer",
+        "value": "FOR PRODUCER OR BROKER/DEALER USE ONLY. NOT FOR PUBLIC DISTRIBUTION. Metropolitan Life Insurance Company (MetLife)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 924,
+          "width": 700,
+          "height": 60
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "t1",
+        "caption": "Simple Advantage Plan - MBA vs TBA availability (chart)",
+        "confidence": 0.6,
+        "columns": [
+          {
+            "key": "col0",
+            "header": "MBA",
+            "type": "string",
+            "confidence": 0.8
+          },
+          {
+            "key": "col1",
+            "header": "$75K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col2",
+            "header": "$100K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col3",
+            "header": "$200K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col4",
+            "header": "$300K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col5",
+            "header": "$400K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col6",
+            "header": "$500K",
+            "type": "string",
+            "confidence": 0.6
+          }
+        ],
+        "rows": [
+          [
+            {
+              "value": "$3K",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 60,
+                "y": 340,
+                "width": 80,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 160,
+                "y": 340,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 230,
+                "y": 340,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 300,
+                "y": 340,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 370,
+                "y": 340,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 440,
+                "y": 340,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 510,
+                "y": 340,
+                "width": 60,
+                "height": 30
+              }
+            }
+          ],
+          [
+            {
+              "value": "$6K",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 60,
+                "y": 380,
+                "width": 80,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 160,
+                "y": 380,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 230,
+                "y": 380,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 300,
+                "y": 380,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 370,
+                "y": 380,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 440,
+                "y": 380,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 510,
+                "y": 380,
+                "width": 60,
+                "height": 30
+              }
+            }
+          ],
+          [
+            {
+              "value": "$9K",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 60,
+                "y": 420,
+                "width": 80,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 160,
+                "y": 420,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 230,
+                "y": 420,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 300,
+                "y": 420,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 370,
+                "y": 420,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 440,
+                "y": 420,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 510,
+                "y": 420,
+                "width": 60,
+                "height": 30
+              }
+            }
+          ],
+          [
+            {
+              "value": "$12K",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 60,
+                "y": 460,
+                "width": 80,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 160,
+                "y": 460,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 230,
+                "y": 460,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 300,
+                "y": 460,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 370,
+                "y": 460,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 440,
+                "y": 460,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 510,
+                "y": 460,
+                "width": 60,
+                "height": 30
+              }
+            }
+          ],
+          [
+            {
+              "value": "$15K",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 60,
+                "y": 500,
+                "width": 80,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 160,
+                "y": 500,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 230,
+                "y": 500,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 300,
+                "y": 500,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 370,
+                "y": 500,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 440,
+                "y": 500,
+                "width": 60,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 510,
+                "y": 500,
+                "width": 60,
+                "height": 30
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "id": "t2",
+        "caption": "Custom Advantage Plan - MBA vs TBA availability (chart)",
+        "confidence": 0.6,
+        "columns": [
+          {
+            "key": "col0",
+            "header": "MBA",
+            "type": "string",
+            "confidence": 0.8
+          },
+          {
+            "key": "col1",
+            "header": "$75K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col2",
+            "header": "$100K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col3",
+            "header": "$200K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col4",
+            "header": "$300K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col5",
+            "header": "$400K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col6",
+            "header": "$500K",
+            "type": "string",
+            "confidence": 0.6
+          },
+          {
+            "key": "col7",
+            "header": "$1MM",
+            "type": "string",
+            "confidence": 0.6
+          }
+        ],
+        "rows": [
+          [
+            {
+              "value": "$3K",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 480,
+                "y": 340,
+                "width": 70,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 560,
+                "y": 340,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 610,
+                "y": 340,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 660,
+                "y": 340,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 560,
+                "y": 380,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 610,
+                "y": 380,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 660,
+                "y": 380,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available*",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 710,
+                "y": 360,
+                "width": 36,
+                "height": 30
+              }
+            }
+          ],
+          [
+            {
+              "value": "$6K",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 480,
+                "y": 380,
+                "width": 70,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 560,
+                "y": 420,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 610,
+                "y": 420,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 660,
+                "y": 420,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 560,
+                "y": 460,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 610,
+                "y": 460,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 660,
+                "y": 460,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available*",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 710,
+                "y": 440,
+                "width": 36,
+                "height": 30
+              }
+            }
+          ],
+          [
+            {
+              "value": "$9K",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 480,
+                "y": 420,
+                "width": 70,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 560,
+                "y": 500,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 610,
+                "y": 500,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 660,
+                "y": 500,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 560,
+                "y": 540,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 610,
+                "y": 540,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 660,
+                "y": 540,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available*",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 710,
+                "y": 520,
+                "width": 36,
+                "height": 30
+              }
+            }
+          ],
+          [
+            {
+              "value": "$12K",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 480,
+                "y": 460,
+                "width": 70,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 560,
+                "y": 580,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 610,
+                "y": 580,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 660,
+                "y": 580,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 560,
+                "y": 620,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 610,
+                "y": 620,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 660,
+                "y": 620,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available*",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 710,
+                "y": 600,
+                "width": 36,
+                "height": 30
+              }
+            }
+          ],
+          [
+            {
+              "value": "$15K",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 480,
+                "y": 500,
+                "width": 70,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 560,
+                "y": 660,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 610,
+                "y": 660,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 660,
+                "y": 660,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 560,
+                "y": 700,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 610,
+                "y": 700,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 660,
+                "y": 700,
+                "width": 40,
+                "height": 30
+              }
+            },
+            {
+              "value": "available*",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 710,
+                "y": 680,
+                "width": 36,
+                "height": 30
+              }
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}

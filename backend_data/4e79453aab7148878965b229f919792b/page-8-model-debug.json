@@ -1,0 +1,174 @@
+{
+  "page": 8,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page contains policy/benefit text and section headings rather than invoice fields or standardized form fields.\",\n      \"No table-like grid, billing codes, or transport consignment fields present that would match facility_invoice, ub04, or cmr_form.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Nursing Home Benefit (heading)\",\n      \"value\": \"Nursing Home Benefit\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 28,\n        \"width\": 512,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Nursing Home Benefit (text)\",\n      \"value\": \"During a Benefit Payment Period and while you are confined in a Nursing Home, we will pay a benefit for each day of Nursing Home Care you receive.\\n\\nPayment will be the actual daily Nursing Home charges you incur, up to the Nursing Home Daily Benefit. Your Nursing Home Daily Benefit is shown on the Benefit Schedule. Benefits paid are subtracted from the Benefit Amount for Facility Care.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 56,\n        \"width\": 512,\n        \"height\": 110\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Assisted Living Facility Benefit (heading)\",\n      \"value\": \"Assisted Living Facility Benefit\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 170,\n        \"width\": 512,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Assisted Living Facility Benefit (text)\",\n      \"value\": \"During a Benefit Payment Period and while you reside in an Assisted Living Facility, we will pay a benefit for each day of Nursing Home Care you receive.\\n\\nPayment will be the actual daily Assisted Living Facility charges you incur, up to the Assisted Living Facility Daily Benefit. Your Assisted Living Facility Daily Benefit is shown on the Benefit Schedule. Benefits paid are subtracted from the Benefit Amount for Facility Care.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 198,\n        \"width\": 512,\n        \"height\": 110\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Home and Community Services Benefit (heading)\",\n      \"value\": \"Home and Community Services Benefit\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 310,\n        \"width\": 512,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Home and Community Services Benefit (text)\",\n      \"value\": \"The Home and Community Services Benefit is covered and payable only if there is a dollar value shown on the Benefit Schedule for this benefit. Your Home and Community Services Daily Benefit, if any, is shown on the Benefit Schedule.\\n\\nDuring a Benefit Payment Period, we will pay for covered Home and Community Services (Adult Day Care, Home Care, Hospice Care) you receive, so long as: you are not receiving Nursing Home Benefits or Assisted Living Facility Benefits; and you are not confined in a Hospital.\\n\\nPayment will be the actual Home and Community Services charges you incur, up to the Home and Community Services Daily Benefit. Benefits paid are subtracted from the Benefit Amount for Home and Community Services.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 338,\n        \"width\": 512,\n        \"height\": 150\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Bed Reservation Benefit (heading)\",\n      \"value\": \"Bed Reservation Benefit\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 492,\n        \"width\": 512,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Bed Reservation Benefit (text)\",\n      \"value\": \"During a Benefit Payment Period, we will pay you a Bed Reservation Benefit if you:\\n\\n\u2022 are confined in a Nursing Home or reside in an Assisted Living Facility; and\\n\u2022 become hospitalized; and\\n\u2022 are billed by the Nursing Home or Assisted Living Facility to reserve your accommodations.\\n\\nPayment will be the actual daily Nursing Home or Assisted Living Facility charges you incur, up to the Nursing Home Daily Benefit or Assisted Living Facility Daily Benefit, as appropriate. The Daily Benefits are shown on the Benefit Schedule. Benefits paid are subtracted from the Benefit Amount for Facility Care. This benefit is payable for a maximum of 21 days per calendar year.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 520,\n        \"width\": 512,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Respite Care Benefit (heading)\",\n      \"value\": \"Respite Care Benefit\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 670,\n        \"width\": 512,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Respite Care Benefit (text)\",\n      \"value\": \"If you meet the requirements in the Eligibility for Benefits provision, we will pay a Respite Care Benefit for:\\n\\n\u2022 the actual daily charges you incur for each day of Nursing Home Care in a Nursing Home, up to the Nursing Home Daily Benefit; or\\n\u2022 the actual expenses you incur for each day you receive Home and Community Services (if shown on the Benefit Schedule), up to the Home and Community Services Daily Benefit.\\n\\nBenefits paid are subtracted from the Benefit Amount for Facility Care or from the Benefit Amount for Home and Community Services, depending on the service provided. Days on which you receive a Respite Care Benefit will not count towards the Elimination Period. The Respite Care Benefit is payable for a maximum of 21 days per calendar year.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 698,\n        \"width\": 512,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"Document code (footer left)\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 772,\n        \"width\": 200,\n        \"height\": 16\n      }\n    },\n    {\n      \"id\": \"f12\",\n      \"name\": \"Page number (footer right)\",\n      \"value\": \"Page 9\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 500,\n        \"y\": 772,\n        \"width\": 60,\n        \"height\": 16\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page contains policy/benefit text and section headings rather than invoice fields or standardized form fields.",
+        "No table-like grid, billing codes, or transport consignment fields present that would match facility_invoice, ub04, or cmr_form."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Nursing Home Benefit (heading)",
+        "value": "Nursing Home Benefit",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 28,
+          "width": 512,
+          "height": 28
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Nursing Home Benefit (text)",
+        "value": "During a Benefit Payment Period and while you are confined in a Nursing Home, we will pay a benefit for each day of Nursing Home Care you receive.\n\nPayment will be the actual daily Nursing Home charges you incur, up to the Nursing Home Daily Benefit. Your Nursing Home Daily Benefit is shown on the Benefit Schedule. Benefits paid are subtracted from the Benefit Amount for Facility Care.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 56,
+          "width": 512,
+          "height": 110
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Assisted Living Facility Benefit (heading)",
+        "value": "Assisted Living Facility Benefit",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 170,
+          "width": 512,
+          "height": 28
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Assisted Living Facility Benefit (text)",
+        "value": "During a Benefit Payment Period and while you reside in an Assisted Living Facility, we will pay a benefit for each day of Nursing Home Care you receive.\n\nPayment will be the actual daily Assisted Living Facility charges you incur, up to the Assisted Living Facility Daily Benefit. Your Assisted Living Facility Daily Benefit is shown on the Benefit Schedule. Benefits paid are subtracted from the Benefit Amount for Facility Care.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 198,
+          "width": 512,
+          "height": 110
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Home and Community Services Benefit (heading)",
+        "value": "Home and Community Services Benefit",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 310,
+          "width": 512,
+          "height": 28
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Home and Community Services Benefit (text)",
+        "value": "The Home and Community Services Benefit is covered and payable only if there is a dollar value shown on the Benefit Schedule for this benefit. Your Home and Community Services Daily Benefit, if any, is shown on the Benefit Schedule.\n\nDuring a Benefit Payment Period, we will pay for covered Home and Community Services (Adult Day Care, Home Care, Hospice Care) you receive, so long as: you are not receiving Nursing Home Benefits or Assisted Living Facility Benefits; and you are not confined in a Hospital.\n\nPayment will be the actual Home and Community Services charges you incur, up to the Home and Community Services Daily Benefit. Benefits paid are subtracted from the Benefit Amount for Home and Community Services.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 338,
+          "width": 512,
+          "height": 150
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Bed Reservation Benefit (heading)",
+        "value": "Bed Reservation Benefit",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 492,
+          "width": 512,
+          "height": 28
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Bed Reservation Benefit (text)",
+        "value": "During a Benefit Payment Period, we will pay you a Bed Reservation Benefit if you:\n\n\u2022 are confined in a Nursing Home or reside in an Assisted Living Facility; and\n\u2022 become hospitalized; and\n\u2022 are billed by the Nursing Home or Assisted Living Facility to reserve your accommodations.\n\nPayment will be the actual daily Nursing Home or Assisted Living Facility charges you incur, up to the Nursing Home Daily Benefit or Assisted Living Facility Daily Benefit, as appropriate. The Daily Benefits are shown on the Benefit Schedule. Benefits paid are subtracted from the Benefit Amount for Facility Care. This benefit is payable for a maximum of 21 days per calendar year.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 520,
+          "width": 512,
+          "height": 140
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Respite Care Benefit (heading)",
+        "value": "Respite Care Benefit",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 670,
+          "width": 512,
+          "height": 28
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Respite Care Benefit (text)",
+        "value": "If you meet the requirements in the Eligibility for Benefits provision, we will pay a Respite Care Benefit for:\n\n\u2022 the actual daily charges you incur for each day of Nursing Home Care in a Nursing Home, up to the Nursing Home Daily Benefit; or\n\u2022 the actual expenses you incur for each day you receive Home and Community Services (if shown on the Benefit Schedule), up to the Home and Community Services Daily Benefit.\n\nBenefits paid are subtracted from the Benefit Amount for Facility Care or from the Benefit Amount for Home and Community Services, depending on the service provided. Days on which you receive a Respite Care Benefit will not count towards the Elimination Period. The Respite Care Benefit is payable for a maximum of 21 days per calendar year.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 698,
+          "width": 512,
+          "height": 80
+        }
+      },
+      {
+        "id": "f11",
+        "name": "Document code (footer left)",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 772,
+          "width": 200,
+          "height": 16
+        }
+      },
+      {
+        "id": "f12",
+        "name": "Page number (footer right)",
+        "value": "Page 9",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 500,
+          "y": 772,
+          "width": 60,
+          "height": 16
+        }
+      }
+    ],
+    "tables": []
+  }
+}

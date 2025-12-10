@@ -1,0 +1,200 @@
+{
+  "page": 3,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page contains definition text for an insurance policy (DEFINITIONS) rather than invoice or standardized medical forms.\",\n      \"No typical layout or fields of facility_invoice, cmr_form, or ub04 detected.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"hdr_001\",\n      \"name\": \"header\",\n      \"value\": \"DEFINITIONS\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 240,\n        \"y\": 26,\n        \"width\": 288,\n        \"height\": 44\n      }\n    },\n    {\n      \"id\": \"f_you_your\",\n      \"name\": \"You, Your\",\n      \"value\": \"You, Your means the person (or persons, for joint coverage) named as the insured(s) on the Benefit Schedule.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 92,\n        \"width\": 672,\n        \"height\": 48\n      }\n    },\n    {\n      \"id\": \"f_we_us_our\",\n      \"name\": \"We, Us, Our\",\n      \"value\": \"We, Us, Our means Allianz Life Insurance Company of North America.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 144,\n        \"width\": 672,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f_adls_title\",\n      \"name\": \"Activities of Daily Living (ADLs) - title\",\n      \"value\": \"Activities of Daily Living (ADLs) are the following:\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 176,\n        \"width\": 672,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f_adls_bullets\",\n      \"name\": \"Activities of Daily Living (ADLs) - items\",\n      \"value\": \"\u2022 Bathing: washing oneself by sponge bath; or in either a tub or shower, including the task of getting into or out of the tub or shower.\\n\u2022 Continence: the ability to maintain control of bowel and bladder function; or, when unable to maintain control of bowel or bladder function, the ability to perform associated personal hygiene (including caring for catheter or colostomy bag).\\n\u2022 Dressing: putting on and taking off all items of clothing and any necessary braces, fasteners, or artificial limbs.\\n\u2022 Eating: feeding oneself by getting food into the body from a receptacle (such as a plate, cup or table) or by a feeding tube or intravenously.\\n\u2022 Toileting: getting to and from the toilet, getting on and off the toilet, and performing associated personal hygiene.\\n\u2022 Transferring: moving into or out of a bed, chair, or wheelchair.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 196,\n        \"width\": 672,\n        \"height\": 220\n      }\n    },\n    {\n      \"id\": \"f_adult_day_care_title\",\n      \"name\": \"Adult Day Care - title\",\n      \"value\": \"Adult Day Care is a program of services provided through an Adult Day Care Center that includes:\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 424,\n        \"width\": 672,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f_adult_day_care_bullets\",\n      \"name\": \"Adult Day Care - items\",\n      \"value\": \"\u2022 care for six (6) or more individuals; and\\n\u2022 health-related services; and\\n\u2022 Maintenance or Personal Care Services; and\\n\u2022 recreational and social services provided during the day in a community group setting.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 452,\n        \"width\": 672,\n        \"height\": 84\n      }\n    },\n    {\n      \"id\": \"f_adult_day_care_purpose\",\n      \"name\": \"Adult Day Care - purpose\",\n      \"value\": \"The purpose of such a program is to support frail, impaired elderly or other disabled adults who can benefit from care in a group setting outside the home.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 540,\n        \"width\": 672,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f_adult_day_care_center\",\n      \"name\": \"Adult Day Care Center\",\n      \"value\": \"Adult Day Care Center is a facility licensed under state law, if any, to provide Adult Day Care. It provides Adult Day Care services to adults who do not require 24-hour institutional care, but are not capable of full-time, independent living.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 576,\n        \"width\": 672,\n        \"height\": 44\n      }\n    },\n    {\n      \"id\": \"f_assisted_living_title\",\n      \"name\": \"Assisted Living Facility - title\",\n      \"value\": \"Assisted Living Facility is a facility engaged primarily in providing ongoing care and related services, to adults who require such services, in one location, and which meets all of the following criteria:\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 634,\n        \"width\": 672,\n        \"height\": 44\n      }\n    },\n    {\n      \"id\": \"f_assisted_living_bullets\",\n      \"name\": \"Assisted Living Facility - items\",\n      \"value\": \"\u2022 provides services for a period exceeding 24 hours; and\\n\u2022 provides continuous room and board (e.g., housing and food services); and\\n\u2022 provides Maintenance or Personal Care required by residents due to their inability to perform the Activities of Daily Living or due to Cognitive Impairment; and\\n\u2022 is licensed under Florida law to provide such care as described.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 676,\n        \"width\": 672,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f_assisted_living_note\",\n      \"name\": \"Assisted Living Facility - note\",\n      \"value\": \"Assisted Living Facility does not include Hospitals. Unless otherwise excluded in this Policy, Assisted Living Facilities include facilities otherwise named (such as adult congregate living facility), but which meet the above criteria. For confinement in a facility in any other state, the appropriate licensing laws of that state (if such licensing is required) will apply to that facility.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 816,\n        \"width\": 672,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f_form_id\",\n      \"name\": \"form_id\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 948,\n        \"width\": 220,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f_page_number\",\n      \"name\": \"page_number\",\n      \"value\": \"Page 4\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 664,\n        \"y\": 948,\n        \"width\": 56,\n        \"height\": 20\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page contains definition text for an insurance policy (DEFINITIONS) rather than invoice or standardized medical forms.",
+        "No typical layout or fields of facility_invoice, cmr_form, or ub04 detected."
+      ]
+    },
+    "fields": [
+      {
+        "id": "hdr_001",
+        "name": "header",
+        "value": "DEFINITIONS",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 240,
+          "y": 26,
+          "width": 288,
+          "height": 44
+        }
+      },
+      {
+        "id": "f_you_your",
+        "name": "You, Your",
+        "value": "You, Your means the person (or persons, for joint coverage) named as the insured(s) on the Benefit Schedule.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 92,
+          "width": 672,
+          "height": 48
+        }
+      },
+      {
+        "id": "f_we_us_our",
+        "name": "We, Us, Our",
+        "value": "We, Us, Our means Allianz Life Insurance Company of North America.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 144,
+          "width": 672,
+          "height": 28
+        }
+      },
+      {
+        "id": "f_adls_title",
+        "name": "Activities of Daily Living (ADLs) - title",
+        "value": "Activities of Daily Living (ADLs) are the following:",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 176,
+          "width": 672,
+          "height": 20
+        }
+      },
+      {
+        "id": "f_adls_bullets",
+        "name": "Activities of Daily Living (ADLs) - items",
+        "value": "\u2022 Bathing: washing oneself by sponge bath; or in either a tub or shower, including the task of getting into or out of the tub or shower.\n\u2022 Continence: the ability to maintain control of bowel and bladder function; or, when unable to maintain control of bowel or bladder function, the ability to perform associated personal hygiene (including caring for catheter or colostomy bag).\n\u2022 Dressing: putting on and taking off all items of clothing and any necessary braces, fasteners, or artificial limbs.\n\u2022 Eating: feeding oneself by getting food into the body from a receptacle (such as a plate, cup or table) or by a feeding tube or intravenously.\n\u2022 Toileting: getting to and from the toilet, getting on and off the toilet, and performing associated personal hygiene.\n\u2022 Transferring: moving into or out of a bed, chair, or wheelchair.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 196,
+          "width": 672,
+          "height": 220
+        }
+      },
+      {
+        "id": "f_adult_day_care_title",
+        "name": "Adult Day Care - title",
+        "value": "Adult Day Care is a program of services provided through an Adult Day Care Center that includes:",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 424,
+          "width": 672,
+          "height": 28
+        }
+      },
+      {
+        "id": "f_adult_day_care_bullets",
+        "name": "Adult Day Care - items",
+        "value": "\u2022 care for six (6) or more individuals; and\n\u2022 health-related services; and\n\u2022 Maintenance or Personal Care Services; and\n\u2022 recreational and social services provided during the day in a community group setting.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 452,
+          "width": 672,
+          "height": 84
+        }
+      },
+      {
+        "id": "f_adult_day_care_purpose",
+        "name": "Adult Day Care - purpose",
+        "value": "The purpose of such a program is to support frail, impaired elderly or other disabled adults who can benefit from care in a group setting outside the home.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 540,
+          "width": 672,
+          "height": 28
+        }
+      },
+      {
+        "id": "f_adult_day_care_center",
+        "name": "Adult Day Care Center",
+        "value": "Adult Day Care Center is a facility licensed under state law, if any, to provide Adult Day Care. It provides Adult Day Care services to adults who do not require 24-hour institutional care, but are not capable of full-time, independent living.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 576,
+          "width": 672,
+          "height": 44
+        }
+      },
+      {
+        "id": "f_assisted_living_title",
+        "name": "Assisted Living Facility - title",
+        "value": "Assisted Living Facility is a facility engaged primarily in providing ongoing care and related services, to adults who require such services, in one location, and which meets all of the following criteria:",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 634,
+          "width": 672,
+          "height": 44
+        }
+      },
+      {
+        "id": "f_assisted_living_bullets",
+        "name": "Assisted Living Facility - items",
+        "value": "\u2022 provides services for a period exceeding 24 hours; and\n\u2022 provides continuous room and board (e.g., housing and food services); and\n\u2022 provides Maintenance or Personal Care required by residents due to their inability to perform the Activities of Daily Living or due to Cognitive Impairment; and\n\u2022 is licensed under Florida law to provide such care as described.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 676,
+          "width": 672,
+          "height": 140
+        }
+      },
+      {
+        "id": "f_assisted_living_note",
+        "name": "Assisted Living Facility - note",
+        "value": "Assisted Living Facility does not include Hospitals. Unless otherwise excluded in this Policy, Assisted Living Facilities include facilities otherwise named (such as adult congregate living facility), but which meet the above criteria. For confinement in a facility in any other state, the appropriate licensing laws of that state (if such licensing is required) will apply to that facility.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 816,
+          "width": 672,
+          "height": 120
+        }
+      },
+      {
+        "id": "f_form_id",
+        "name": "form_id",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 948,
+          "width": 220,
+          "height": 20
+        }
+      },
+      {
+        "id": "f_page_number",
+        "name": "page_number",
+        "value": "Page 4",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 664,
+          "y": 948,
+          "width": 56,
+          "height": 20
+        }
+      }
+    ],
+    "tables": []
+  }
+}

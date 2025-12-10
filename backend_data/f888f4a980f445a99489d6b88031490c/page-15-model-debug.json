@@ -1,0 +1,162 @@
+{
+  "page": 15,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page contains policy terms and section headings (Policy Ownership, Assignment, Refund of Unearned Premium)\",\n      \"No invoice fields, billing amounts, or table of charges present (rules out facility_invoice)\",\n      \"No CMR transport form structure or UB04 medical billing form layout detected\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"field_1\",\n      \"name\": \"Conversion / Continuation (top paragraph)\",\n      \"value\": \"Other than divorce or legal separation, there is no right of conversion to an individual Policy. Coverage may be continued by timely payment of the joint premium rate, even if one of you no longer wants to be covered. In the event of the death of one of you, continued individual coverage will be offered as described above.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 28,\n        \"width\": 898,\n        \"height\": 88\n      }\n    },\n    {\n      \"id\": \"field_2\",\n      \"name\": \"Policy Ownership (heading)\",\n      \"value\": \"Policy Ownership\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 120,\n        \"width\": 400,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"field_3\",\n      \"name\": \"Policy Ownership (text)\",\n      \"value\": \"You (both insureds in the case of joint coverage) are the owner of this Policy unless otherwise provided in the application or changed by written request. While you are living, the owner may exercise every right and receive every benefit provided by this Policy. If the owner is not you and the owner dies while you are living, unless otherwise provided, all rights of the owner shall be transferred to the owner's executors or administrators.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 148,\n        \"width\": 898,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"field_4\",\n      \"name\": \"Assignment (heading)\",\n      \"value\": \"Assignment\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 292,\n        \"width\": 220,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"field_5\",\n      \"name\": \"Assignment (text)\",\n      \"value\": \"No assignment of interest under your Policy shall be binding upon us unless the original or a copy of the assignment is filed with us at our Long Term Care Administrative Office. We do not assume any responsibility for the validity of an assignment.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 320,\n        \"width\": 898,\n        \"height\": 92\n      }\n    },\n    {\n      \"id\": \"field_6\",\n      \"name\": \"Refund of Unearned Premium (heading)\",\n      \"value\": \"Refund of Unearned Premium\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 420,\n        \"width\": 400,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"field_7\",\n      \"name\": \"Refund of Unearned Premium (text)\",\n      \"value\": \"Upon your death (second-to-die in the case of joint coverage), we will refund any unearned premium for this Policy to your Beneficiary on a pro-rata basis. We will make this refund within 30 days of receipt of proof of your death.\\n\\nIf you (both insureds in the case of joint coverage) request in writing to cancel this Policy, we will refund any unearned premium to you on a pro-rata basis. Cancellation will be effective upon: receipt of your request; or a later date specified by you. Cancellation will be without prejudice to any claim originating prior to the effective date of cancellation.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 448,\n        \"width\": 898,\n        \"height\": 160\n      }\n    },\n    {\n      \"id\": \"field_8\",\n      \"name\": \"Conformity with State Statutes (heading)\",\n      \"value\": \"Conformity with State Statutes\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 616,\n        \"width\": 420,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"field_9\",\n      \"name\": \"Conformity with State Statutes (text)\",\n      \"value\": \"Any part of this Policy that, on the Policy Effective Date, conflicts with the laws of the state in which you reside on such date, is hereby amended to meet the minimum requirements of those laws.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 644,\n        \"width\": 898,\n        \"height\": 64\n      }\n    },\n    {\n      \"id\": \"field_10\",\n      \"name\": \"Form ID (footer left)\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 720,\n        \"width\": 160,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"field_11\",\n      \"name\": \"Page Number (footer right)\",\n      \"value\": \"Page 16\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 820,\n        \"y\": 720,\n        \"width\": 120,\n        \"height\": 28\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page contains policy terms and section headings (Policy Ownership, Assignment, Refund of Unearned Premium)",
+        "No invoice fields, billing amounts, or table of charges present (rules out facility_invoice)",
+        "No CMR transport form structure or UB04 medical billing form layout detected"
+      ]
+    },
+    "fields": [
+      {
+        "id": "field_1",
+        "name": "Conversion / Continuation (top paragraph)",
+        "value": "Other than divorce or legal separation, there is no right of conversion to an individual Policy. Coverage may be continued by timely payment of the joint premium rate, even if one of you no longer wants to be covered. In the event of the death of one of you, continued individual coverage will be offered as described above.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 28,
+          "width": 898,
+          "height": 88
+        }
+      },
+      {
+        "id": "field_2",
+        "name": "Policy Ownership (heading)",
+        "value": "Policy Ownership",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 120,
+          "width": 400,
+          "height": 28
+        }
+      },
+      {
+        "id": "field_3",
+        "name": "Policy Ownership (text)",
+        "value": "You (both insureds in the case of joint coverage) are the owner of this Policy unless otherwise provided in the application or changed by written request. While you are living, the owner may exercise every right and receive every benefit provided by this Policy. If the owner is not you and the owner dies while you are living, unless otherwise provided, all rights of the owner shall be transferred to the owner's executors or administrators.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 148,
+          "width": 898,
+          "height": 120
+        }
+      },
+      {
+        "id": "field_4",
+        "name": "Assignment (heading)",
+        "value": "Assignment",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 292,
+          "width": 220,
+          "height": 24
+        }
+      },
+      {
+        "id": "field_5",
+        "name": "Assignment (text)",
+        "value": "No assignment of interest under your Policy shall be binding upon us unless the original or a copy of the assignment is filed with us at our Long Term Care Administrative Office. We do not assume any responsibility for the validity of an assignment.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 320,
+          "width": 898,
+          "height": 92
+        }
+      },
+      {
+        "id": "field_6",
+        "name": "Refund of Unearned Premium (heading)",
+        "value": "Refund of Unearned Premium",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 420,
+          "width": 400,
+          "height": 24
+        }
+      },
+      {
+        "id": "field_7",
+        "name": "Refund of Unearned Premium (text)",
+        "value": "Upon your death (second-to-die in the case of joint coverage), we will refund any unearned premium for this Policy to your Beneficiary on a pro-rata basis. We will make this refund within 30 days of receipt of proof of your death.\n\nIf you (both insureds in the case of joint coverage) request in writing to cancel this Policy, we will refund any unearned premium to you on a pro-rata basis. Cancellation will be effective upon: receipt of your request; or a later date specified by you. Cancellation will be without prejudice to any claim originating prior to the effective date of cancellation.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 448,
+          "width": 898,
+          "height": 160
+        }
+      },
+      {
+        "id": "field_8",
+        "name": "Conformity with State Statutes (heading)",
+        "value": "Conformity with State Statutes",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 616,
+          "width": 420,
+          "height": 24
+        }
+      },
+      {
+        "id": "field_9",
+        "name": "Conformity with State Statutes (text)",
+        "value": "Any part of this Policy that, on the Policy Effective Date, conflicts with the laws of the state in which you reside on such date, is hereby amended to meet the minimum requirements of those laws.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 644,
+          "width": 898,
+          "height": 64
+        }
+      },
+      {
+        "id": "field_10",
+        "name": "Form ID (footer left)",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 720,
+          "width": 160,
+          "height": 28
+        }
+      },
+      {
+        "id": "field_11",
+        "name": "Page Number (footer right)",
+        "value": "Page 16",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 820,
+          "y": 720,
+          "width": 120,
+          "height": 28
+        }
+      }
+    ],
+    "tables": []
+  }
+}

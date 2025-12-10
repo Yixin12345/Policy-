@@ -1,0 +1,2449 @@
+{
+  "jobId": "85bb4e811e14413bb93efa4a055d8f9d",
+  "documentName": "Policy1 - example.pdf",
+  "sourcePdf": "source.pdf",
+  "status": {
+    "jobId": "85bb4e811e14413bb93efa4a055d8f9d",
+    "totalPages": 17,
+    "processedPages": 5,
+    "state": "running",
+    "errors": [],
+    "startedAt": "2025-12-10T17:32:53.502197",
+    "finishedAt": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "status": "completed",
+      "fields": [
+        {
+          "id": "company_name",
+          "page": 1,
+          "name": "Company Name",
+          "value": "Allianz Life Insurance Company of North America",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 50.0,
+            "y": 40.0,
+            "width": 560.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "home_office",
+          "page": 1,
+          "name": "Home Office Location",
+          "value": "Home Office: Minneapolis, MN",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 50.0,
+            "y": 70.0,
+            "width": 420.0,
+            "height": 18.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "administrative_office",
+          "page": 1,
+          "name": "Administrative Office",
+          "value": "Long Term Care Administrative Office",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 50.0,
+            "y": 90.0,
+            "width": 480.0,
+            "height": 18.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "mailing_address_line1",
+          "page": 1,
+          "name": "Mailing Address Line 1",
+          "value": "Post Office Box 4243",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 50.0,
+            "y": 110.0,
+            "width": 420.0,
+            "height": 18.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "mailing_address_line2",
+          "page": 1,
+          "name": "Mailing Address Line 2",
+          "value": "Woodland Hills, CA 91365-4243",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 50.0,
+            "y": 130.0,
+            "width": 420.0,
+            "height": 18.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "phone_main",
+          "page": 1,
+          "name": "Phone",
+          "value": "(888) 503-8106",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 50.0,
+            "y": 150.0,
+            "width": 220.0,
+            "height": 18.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "policy_title",
+          "page": 1,
+          "name": "Policy Title",
+          "value": "Guaranteed Renewable Long Term Care Insurance",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 90.0,
+            "y": 230.0,
+            "width": 590.0,
+            "height": 36.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "policy_effective_time",
+          "page": 1,
+          "name": "Policy Effective Time",
+          "value": "This Policy takes effect at 12:01 A.M. Standard Time on the Policy Effective Date",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 60.0,
+            "y": 200.0,
+            "width": 660.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "policy_intent_block",
+          "page": 1,
+          "name": "Policy Intent (qualified long term care)",
+          "value": "THIS POLICY IS INTENDED TO BE A QUALIFIED LONG TERM CARE INSURANCE CONTRACT AS DEFINED UNDER SECTION 7702B(b) OF THE INTERNAL REVENUE CODE OF 1986 and will be endorsed to conform to changes in that definition.",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 64.0,
+            "y": 265.0,
+            "width": 640.0,
+            "height": 120.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "notice_to_buyer",
+          "page": 1,
+          "name": "Notice to Buyer",
+          "value": "NOTICE TO BUYER: This Policy may not cover all of the costs associated with long term care which you may incur during the period of coverage.",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 64.0,
+            "y": 395.0,
+            "width": 640.0,
+            "height": 78.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "caution_block",
+          "page": 1,
+          "name": "Caution Block",
+          "value": "CAUTION: The issuance of this Long Term Care Insurance Policy is based upon your responses to the questions on your application. A copy of your application is enclosed. If responses are incorrect or untrue, we may have the right to deny benefits or rescind your Policy.",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 64.0,
+            "y": 480.0,
+            "width": 640.0,
+            "height": 110.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "important_notice_block",
+          "page": 1,
+          "name": "Important Notice",
+          "value": "IMPORTANT NOTICE: Please read the copy of the application attached to this Policy. Carefully check the application and write to the Company, ALLIANZ LIFE INSURANCE COMPANY OF NORTH AMERICA, P.O. Box 4243, Woodland Hills, CA 91365-4243, within 10 days, if any information shown on it is not correct and complete, or if any past medical history has been left out of the application.",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 64.0,
+            "y": 592.0,
+            "width": 640.0,
+            "height": 140.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "toll_free_contact",
+          "page": 1,
+          "name": "Toll Free Contact for Assistance",
+          "value": "1-888-503-8106",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 64.0,
+            "y": 745.0,
+            "width": 260.0,
+            "height": 18.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "renewability_statement",
+          "page": 1,
+          "name": "Renewability Statement",
+          "value": "RENEWABILITY: This Policy is guaranteed renewable for life.",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 64.0,
+            "y": 780.0,
+            "width": 640.0,
+            "height": 36.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "refund_rights_statement",
+          "page": 1,
+          "name": "30 Day Right to Examine Policy",
+          "value": "YOUR 30 DAY RIGHT TO EXAMINE YOUR POLICY: If you are not satisfied with this Policy, you may return it to our agent or us within 30 days from the date you receive it.",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 64.0,
+            "y": 820.0,
+            "width": 640.0,
+            "height": 46.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "signature_left_name",
+          "page": 1,
+          "name": "Left Signature Name",
+          "value": "Michael T. Westermeyer",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 120.0,
+            "y": 860.0,
+            "width": 220.0,
+            "height": 60.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "signature_left_title",
+          "page": 1,
+          "name": "Left Signature Title",
+          "value": "Secretary",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 120.0,
+            "y": 920.0,
+            "width": 220.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "signature_right_name",
+          "page": 1,
+          "name": "Right Signature Name",
+          "value": "Margery G. Hughes",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 420.0,
+            "y": 860.0,
+            "width": 240.0,
+            "height": 60.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "signature_right_title",
+          "page": 1,
+          "name": "Right Signature Title",
+          "value": "President",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 420.0,
+            "y": 920.0,
+            "width": 240.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "form_number",
+          "page": 1,
+          "name": "Form Number",
+          "value": "N-3000-P-FL(Q)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 980.0,
+            "width": 160.0,
+            "height": 20.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "page_number",
+          "page": 1,
+          "name": "Page Number",
+          "value": "Page 1",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 680.0,
+            "y": 980.0,
+            "width": 60.0,
+            "height": 20.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        }
+      ],
+      "tables": [],
+      "imagePath": "page-1.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": "other",
+      "documentTypeConfidence": 0.8
+    },
+    {
+      "pageNumber": 2,
+      "status": "completed",
+      "fields": [
+        {
+          "id": "title_1",
+          "page": 2,
+          "name": "Document Title",
+          "value": "GUIDE TO YOUR POLICY",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 240.0,
+            "y": 36.0,
+            "width": 288.0,
+            "height": 30.0
+          },
+          "source_type": "printed text",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "footer_code",
+          "page": 2,
+          "name": "Form Code",
+          "value": "N-3000-P-FL(Q)",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 30.0,
+            "y": 952.0,
+            "width": 160.0,
+            "height": 18.0
+          },
+          "source_type": "printed text",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "page_number",
+          "page": 2,
+          "name": "Page Number",
+          "value": "Page 2",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 660.0,
+            "y": 952.0,
+            "width": 80.0,
+            "height": 18.0
+          },
+          "source_type": "printed text",
+          "revised": false,
+          "original_value": null
+        }
+      ],
+      "tables": [
+        {
+          "id": "left_toc",
+          "page": 2,
+          "caption": "Left column - Table of Contents",
+          "confidence": 0.8,
+          "columns": [
+            {
+              "key": "section",
+              "header": "Section",
+              "type": "string",
+              "confidence": 0.8
+            },
+            {
+              "key": "page",
+              "header": "Page",
+              "type": "string",
+              "confidence": 0.8
+            }
+          ],
+          "rows": [
+            [
+              {
+                "value": "RENEWABILITY",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 120.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "1",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 120.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "BENEFIT SCHEDULE",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 144.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "3",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 144.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "DEFINITIONS",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 168.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "4",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 168.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "BENEFIT PROVISIONS",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 192.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "7",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 192.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Eligibility for Benefits",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 216.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "7",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 216.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Payment of Benefits",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 240.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "8",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 240.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Elimination Period",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 264.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "8",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 264.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Benefit Payment Period",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 288.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "8",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 288.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Benefit Amount",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 312.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "8",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 312.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Restoration of the Benefit Amount",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 336.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "8",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 336.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Nursing Home Benefit",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 360.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "9",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 360.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Assisted Living Facility Benefit",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 384.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "9",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 384.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Home and Community Services Benefit",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 408.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "9",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 408.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Bed Reservation Benefit",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 432.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "9",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 432.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Respite Care Benefit",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 456.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "9",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 456.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Alternative Plan of Care Benefit",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 480.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "10",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 480.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Personal Care Advisor",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 504.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "10",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 504.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 528.0,
+                  "width": 260.0,
+                  "height": 30.0
+                }
+              },
+              {
+                "value": "10",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 528.0,
+                  "width": 40.0,
+                  "height": 30.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Limitations and Exclusions",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 562.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "10",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 562.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Pre-Existing Conditions Limitation",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 586.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "11",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 586.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "CLAIM PROCEDURES",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 610.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "11",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 610.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Notice of Claim",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 634.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "11",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 634.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Claim Forms",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 658.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "11",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 658.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Proof of Loss",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 60.0,
+                  "y": 682.0,
+                  "width": 260.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "11",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 320.0,
+                  "y": 682.0,
+                  "width": 40.0,
+                  "height": 22.0
+                }
+              }
+            ]
+          ],
+          "bbox": null,
+          "normalized": true,
+          "table_group_id": null,
+          "continuation_of": null,
+          "inferred_headers": false,
+          "row_start_index": 0
+        },
+        {
+          "id": "right_toc",
+          "page": 2,
+          "caption": "Right column - Table of Contents",
+          "confidence": 0.8,
+          "columns": [
+            {
+              "key": "section",
+              "header": "Section",
+              "type": "string",
+              "confidence": 0.8
+            },
+            {
+              "key": "page",
+              "header": "Page",
+              "type": "string",
+              "confidence": 0.8
+            }
+          ],
+          "rows": [
+            [
+              {
+                "value": "Time of Payment of Claims",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 120.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "11",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 120.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Payment of Claims",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 144.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "12",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 144.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Extension of Benefits",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 168.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "12",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 168.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Coordination of Benefits with Medicare",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 192.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "12",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 192.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Beneficiary",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 216.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "12",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 216.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Examinations",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 240.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "13",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 240.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Appealing a Claim",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 264.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "13",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 264.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Right of Recovery",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 288.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "13",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 288.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Legal Action",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 312.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "13",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 312.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "POLICY ADMINISTRATION",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 336.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "13",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 336.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Entire Contract; Changes",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 360.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "13",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 360.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Incontestability",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 384.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "13",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 384.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Misstatement of Age",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 408.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "13",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 408.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Premium Due Dates",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 432.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "14",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 432.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Waiver of Premium",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 456.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "14",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 456.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Payment Responsibility",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 480.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "14",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 480.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Unpaid Premium",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 504.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "14",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 504.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Grace Period",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 528.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "14",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 528.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Policy Termination",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 552.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "14",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 552.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Reinstatement \u2013 Lapse Due to Cognitive Impairment or Functional Incapacity",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 576.0,
+                  "width": 240.0,
+                  "height": 44.0
+                }
+              },
+              {
+                "value": "14",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 576.0,
+                  "width": 44.0,
+                  "height": 44.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Reinstatement \u2013 Lapse Due to Nonpayment of Premium",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 624.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "15",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 624.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Joint Coverage Provision",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 648.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "15",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 648.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Policy Ownership",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 672.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "16",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 672.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Assignment",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 696.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "16",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 696.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Refund of Unearned Premium",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 720.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "16",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 720.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Conformity with State Statutes",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 410.0,
+                  "y": 744.0,
+                  "width": 240.0,
+                  "height": 22.0
+                }
+              },
+              {
+                "value": "16",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 660.0,
+                  "y": 744.0,
+                  "width": 44.0,
+                  "height": 22.0
+                }
+              }
+            ]
+          ],
+          "bbox": null,
+          "normalized": true,
+          "table_group_id": null,
+          "continuation_of": null,
+          "inferred_headers": false,
+          "row_start_index": 0
+        }
+      ],
+      "imagePath": "page-2.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": "other",
+      "documentTypeConfidence": 1.0
+    },
+    {
+      "pageNumber": 3,
+      "status": "completed",
+      "fields": [
+        {
+          "id": "f1",
+          "page": 3,
+          "name": "Header",
+          "value": "DEFINITIONS",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 240.0,
+            "y": 36.0,
+            "width": 288.0,
+            "height": 40.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f2",
+          "page": 3,
+          "name": "You, Your",
+          "value": "You, Your means the person (or persons, for joint coverage) named as the insured(s) on the Benefit Schedule.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 100.0,
+            "width": 672.0,
+            "height": 60.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f3",
+          "page": 3,
+          "name": "We, Us, Our",
+          "value": "We, Us, Our means Allianz Life Insurance Company of North America.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 170.0,
+            "width": 672.0,
+            "height": 40.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f4",
+          "page": 3,
+          "name": "Activities of Daily Living (ADLs)",
+          "value": "Activities of Daily Living (ADLs) are the following: Bathing: washing oneself by sponge bath; or in either a tub or shower, including the task of getting into or out of the tub or shower. Continence: the ability to maintain control of bowel and bladder function; or, when unable to maintain control of bowel or bladder function, the ability to perform associated personal hygiene (including caring for catheter or colostomy bag). Dressing: putting on and taking off all items of clothing and any necessary braces, fasteners, or artificial limbs. Eating: feeding oneself by getting food into the body from a receptacle (such as a plate, cup or table) or by a feeding tube or intravenously. Toileting: getting to and from the toilet, getting on and off the toilet, and performing associated personal hygiene. Transferring: moving into or out of a bed, chair, or wheelchair.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 220.0,
+            "width": 672.0,
+            "height": 260.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f5",
+          "page": 3,
+          "name": "Adult Day Care",
+          "value": "Adult Day Care is a program of services provided through an Adult Day Care Center that includes: care for six (6) or more individuals; and health-related services; and Maintenance or Personal Care Services; and recreational and social services provided during the day in a community group setting. The purpose of such a program is to support frail, impaired elderly or other disabled adults who can benefit from care in a group setting outside the home.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 500.0,
+            "width": 672.0,
+            "height": 80.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f6",
+          "page": 3,
+          "name": "Adult Day Care Center",
+          "value": "Adult Day Care Center is a facility licensed under state law, if any, to provide Adult Day Care. It provides Adult Day Care services to adults who do not require 24-hour institutional care, but are not capable of full-time, independent living.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 590.0,
+            "width": 672.0,
+            "height": 60.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f7",
+          "page": 3,
+          "name": "Assisted Living Facility",
+          "value": "Assisted Living Facility is a facility engaged primarily in providing ongoing care and related services, to adults who require such services, in one location, and which meets all of the following criteria: provides services for a period exceeding 24 hours; and provides continuous room and board (e.g., housing and food services); and provides Maintenance or Personal Care required by residents due to their inability to perform the Activities of Daily Living or due to Cognitive Impairment; and is licensed under Florida law to provide such care as described. Assisted Living Facility does not include Hospitals. Unless otherwise excluded in this Policy, Assisted Living Facilities include facilities otherwise named (such as adult congregate living facility), but which meet the above criteria. For confinement in a facility in any other state, the appropriate licensing laws of that state (if such licensing is required) will apply to that facility.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 660.0,
+            "width": 672.0,
+            "height": 200.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f8",
+          "page": 3,
+          "name": "Form Code",
+          "value": "N-3000-P-FL(Q)",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 48.0,
+            "y": 920.0,
+            "width": 200.0,
+            "height": 30.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f9",
+          "page": 3,
+          "name": "Page Number",
+          "value": "Page 4",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 620.0,
+            "y": 920.0,
+            "width": 100.0,
+            "height": 30.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        }
+      ],
+      "tables": [],
+      "imagePath": "page-3.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": "other",
+      "documentTypeConfidence": 0.8
+    },
+    {
+      "pageNumber": 4,
+      "status": "completed",
+      "fields": [
+        {
+          "id": "f1",
+          "page": 4,
+          "name": "Benefit Schedule",
+          "value": "Benefit Schedule is page 3 of this Policy that shows: insured information; Policy information; and benefit information.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 36.0,
+            "width": 700.0,
+            "height": 40.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f2",
+          "page": 4,
+          "name": "Chronically Ill - definition",
+          "value": "Chronically Ill means that within the previous 12 months, you have been certified by a Licensed Health Care Practitioner as:",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 92.0,
+            "width": 700.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f3",
+          "page": 4,
+          "name": "Chronically Ill - criteria bullet 1",
+          "value": "being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity; or",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 68.0,
+            "y": 122.0,
+            "width": 676.0,
+            "height": 40.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f4",
+          "page": 4,
+          "name": "Chronically Ill - criteria bullet 2",
+          "value": "having a severe Cognitive Impairment.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 68.0,
+            "y": 164.0,
+            "width": 676.0,
+            "height": 24.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f5",
+          "page": 4,
+          "name": "Cognitive Impairment - definition intro",
+          "value": "Cognitive Impairment is your deterioration or loss of intellectual capacity, which requires Substantial Supervision by another person to protect yourself or others from threats to health and safety. It is measured by clinical evidence and standardized tests that reliably measure your impairment in:",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 206.0,
+            "width": 700.0,
+            "height": 72.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f6",
+          "page": 4,
+          "name": "Cognitive Impairment - impairment area 1",
+          "value": "short or long term memory;",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 68.0,
+            "y": 282.0,
+            "width": 660.0,
+            "height": 20.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f7",
+          "page": 4,
+          "name": "Cognitive Impairment - impairment area 2",
+          "value": "your orientation as to person (such as who you are), place (such as your location) and time (such as day, date and year);",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 68.0,
+            "y": 306.0,
+            "width": 660.0,
+            "height": 36.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f8",
+          "page": 4,
+          "name": "Cognitive Impairment - impairment area 3",
+          "value": "deductive or abstract reasoning.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 68.0,
+            "y": 346.0,
+            "width": 660.0,
+            "height": 18.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f9",
+          "page": 4,
+          "name": "Cognitive Impairment - note",
+          "value": "A Cognitive Impairment includes Alzheimer\u2019s disease and similar forms of irreversible dementia.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 372.0,
+            "width": 700.0,
+            "height": 22.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f10",
+          "page": 4,
+          "name": "Facility Care",
+          "value": "Facility Care is care provided to you in a Nursing Home or an Assisted Living Facility.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 408.0,
+            "width": 700.0,
+            "height": 22.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f11",
+          "page": 4,
+          "name": "Family",
+          "value": "Family includes you or your spouse; and the mother, father, sister, brother, and children of either you or your spouse.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 438.0,
+            "width": 700.0,
+            "height": 30.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f12",
+          "page": 4,
+          "name": "Home and Community Services",
+          "value": "Home and Community Services are Qualified Long Term Care Services provided to you through: Adult Day Care; Home Care; and Hospice Care.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 476.0,
+            "width": 700.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f13",
+          "page": 4,
+          "name": "Home Care - definition intro",
+          "value": "Home Care is a program of services provided to you through a Home Health Care Agency, including:",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 512.0,
+            "width": 700.0,
+            "height": 22.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f14",
+          "page": 4,
+          "name": "Home Care - bullet professional nursing",
+          "value": "professional nursing care by or under the supervision of a RN or nurse; or",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 68.0,
+            "y": 540.0,
+            "width": 660.0,
+            "height": 24.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f15",
+          "page": 4,
+          "name": "Home Care - bullet home health aide",
+          "value": "care by a Home Health Aide; or",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 68.0,
+            "y": 568.0,
+            "width": 660.0,
+            "height": 20.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f16",
+          "page": 4,
+          "name": "Home Care - bullet therapeutic care",
+          "value": "therapeutic care services by or under the supervision of a speech, occupational, physical, or respiratory therapist licensed under state law, if any; or",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 68.0,
+            "y": 590.0,
+            "width": 660.0,
+            "height": 44.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f17",
+          "page": 4,
+          "name": "Home Care - bullet homemaker services",
+          "value": "homemaker services.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 68.0,
+            "y": 636.0,
+            "width": 660.0,
+            "height": 18.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f18",
+          "page": 4,
+          "name": "Home Care - additional note",
+          "value": "Home Care can be provided to you in a setting other than a Nursing Home, Hospital, or an Assisted Living Facility.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 658.0,
+            "width": 700.0,
+            "height": 28.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f19",
+          "page": 4,
+          "name": "Home Health Aide - definition",
+          "value": "Home Health Aide is a person, other than a RN or nurse, who provides: Maintenance or Personal Care; medical; speech; occupational; physical; or respiratory therapeutic care services under the supervision of a Home Health Care Agency.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 698.0,
+            "width": 700.0,
+            "height": 56.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f20",
+          "page": 4,
+          "name": "Home Health Aide - licensing requirement",
+          "value": "A Home Health Aide must be duly licensed or certified under state law, if any; and acting within the scope of his or her license or certification at the time the treatment or service is performed.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 760.0,
+            "width": 700.0,
+            "height": 48.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f21",
+          "page": 4,
+          "name": "Home Health Care Agency",
+          "value": "Home Health Care Agency is a Hospital, agency, or other provider licensed under state law, if any, to provide Home Care.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 48.0,
+            "y": 816.0,
+            "width": 700.0,
+            "height": 36.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        }
+      ],
+      "tables": [],
+      "imagePath": "page-4.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": "other",
+      "documentTypeConfidence": 1.0
+    },
+    {
+      "pageNumber": 5,
+      "status": "completed",
+      "fields": [
+        {
+          "id": "f1",
+          "page": 5,
+          "name": "Hospice Care",
+          "value": "Hospice Care is Qualified Long Term Care Services provided in the event you are diagnosed with a terminal disease. Hospice Care helps you, your primary caregiver and your Family with the physical, social and spiritual needs brought about by your terminal illness.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 60.0,
+            "y": 40.0,
+            "width": 674.0,
+            "height": 70.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f2",
+          "page": 5,
+          "name": "Hospital",
+          "value": "Hospital is an institution or facility that is:\n\u2022 licensed as a Hospital by the proper authority of the state in which it is located; or\n\u2022 accredited as a Hospital by the Joint Commission on Accreditation of Hospitals (JCAH).",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 60.0,
+            "y": 120.0,
+            "width": 674.0,
+            "height": 100.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f3",
+          "page": 5,
+          "name": "Licensed Health Care Practitioner",
+          "value": "Licensed Health Care Practitioner is:\n\u2022 a physician as defined in section 1861(r)(1) of the Social Security Act; or\n\u2022 a Registered Nurse; or\n\u2022 a Licensed Social Worker.\nThe Licensed Health Care Practitioner must not be a member of your Family. Nor can the Licensed Health Care Practitioner nor any member of the Licensed Health Care Practitioner's Family be an owner or in any way control the operation of a facility in which you receive care or treatment.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 60.0,
+            "y": 240.0,
+            "width": 674.0,
+            "height": 120.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f4",
+          "page": 5,
+          "name": "Licensed Social Worker",
+          "value": "Licensed Social Worker is a duly licensed social worker acting within the scope of their license at the time the treatment or service is performed.\nThe Licensed Social Worker must not be a member of your Family. Nor can the Licensed Social Worker nor any member of the Licensed Social Worker's Family be an owner or in any way control the operation of a facility in which you receive care or treatment.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 60.0,
+            "y": 380.0,
+            "width": 674.0,
+            "height": 90.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f5",
+          "page": 5,
+          "name": "Maintenance or Personal Care Services",
+          "value": "Maintenance or Personal Care Services is any care provided primarily to give needed assistance to you as a result of your being Chronically Ill (including protection of your health and safety due to a severe Cognitive Impairment).",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 60.0,
+            "y": 490.0,
+            "width": 674.0,
+            "height": 60.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f6",
+          "page": 5,
+          "name": "Medicare",
+          "value": "Medicare means the Health Insurance for the Aged Act, Title XVIII of the Social Security Amendments of 1965 as then constituted or later amended.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 60.0,
+            "y": 560.0,
+            "width": 674.0,
+            "height": 40.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f7",
+          "page": 5,
+          "name": "Mental or Nervous Disorders",
+          "value": "Mental or Nervous Disorders are: affective disorders; anxiety disorders; personality disorders; psychotic disorders; or other mental or emotional disease or disorders. This does not include Alzheimer\u2019s, Parkinson\u2019s, or other demonstrable organic diseases such as senile dementia.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 60.0,
+            "y": 610.0,
+            "width": 674.0,
+            "height": 70.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f8",
+          "page": 5,
+          "name": "Nursing Home",
+          "value": "Nursing Home is a facility or a distinctly separate part of a hospital or other institution which:\n\u2022 is licensed by the appropriate licensing agency to engage primarily in providing nursing care and related services to inpatients; and\n\u2022 provides 24-hour a day nursing service; and\n\u2022 has a nurse on duty or on call at all times; and\n\u2022 maintains clinical records for all patients.\n\nNursing Home does not include:\n\u2022 facilities or parts thereof used or licensed as an Assisted Living Facility; or\n\u2022 convalescent homes, board and rest homes, homes for the aged, residential care facilities, domiciliary and retirement care facilities, or training centers; or\n\u2022 government or veterans facilities or any other facility where the patient is not required to pay.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 60.0,
+            "y": 690.0,
+            "width": 674.0,
+            "height": 260.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f9",
+          "page": 5,
+          "name": "Document Footer Code",
+          "value": "N-3000-P-FL(Q)",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 60.0,
+            "y": 960.0,
+            "width": 200.0,
+            "height": 24.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "f10",
+          "page": 5,
+          "name": "Page Number",
+          "value": "Page 6",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 660.0,
+            "y": 960.0,
+            "width": 74.0,
+            "height": 24.0
+          },
+          "source_type": "ocr",
+          "revised": false,
+          "original_value": null
+        }
+      ],
+      "tables": [],
+      "imagePath": "page-5.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": "other",
+      "documentTypeConfidence": 1.0
+    },
+    {
+      "pageNumber": 6,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-6.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 7,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-7.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 8,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-8.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 9,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-9.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 10,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-10.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 11,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-11.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 12,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-12.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 13,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-13.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 14,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-14.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 90,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 15,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-15.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 16,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-16.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 17,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-17.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    }
+  ],
+  "aggregated": {},
+  "metadata": {
+    "originalFilename": "Policy1 - example.pdf"
+  },
+  "documentType": null,
+  "canonical": null,
+  "mappingTrace": {},
+  "summary": {
+    "totalPages": 17,
+    "totalFields": 64,
+    "totalTables": 2,
+    "totalProcessingMs": null,
+    "startedAt": "2025-12-10T17:32:53.502197",
+    "finishedAt": null,
+    "confidenceBuckets": [
+      0,
+      0,
+      8,
+      50,
+      6,
+      0
+    ],
+    "lowConfidenceCount": 0
+  },
+  "lastModified": "2025-12-10T17:37:43.045713",
+  "snapshotVersion": 1
+}

@@ -1,0 +1,496 @@
+{
+  "page": 1,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"This page is a marketing/plans-at-a-glance brochure for MetLife LTC; it is not an invoice, CMR form, or UB04.\",\n      \"Contains product overview, plan comparison, and rider descriptions typical of brochure materials.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"title_1\",\n      \"name\": \"Document Title\",\n      \"value\": \"MetLife LTC LifeStage AdvantageSM\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 40,\n        \"width\": 688,\n        \"height\": 96\n      }\n    },\n    {\n      \"id\": \"subtitle_1\",\n      \"name\": \"Subtitle\",\n      \"value\": \"Plans-at-a-Glance\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 120,\n        \"width\": 360,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"header_right\",\n      \"name\": \"Header Right\",\n      \"value\": \"INSURANCE | LONG-TERM CARE\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 508,\n        \"y\": 18,\n        \"width\": 240,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"brand\",\n      \"name\": \"Brand\",\n      \"value\": \"MetLife\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 24,\n        \"y\": 164,\n        \"width\": 720,\n        \"height\": 76\n      }\n    },\n    {\n      \"id\": \"plan_name_simple\",\n      \"name\": \"Plan Name - Simple Advantage\",\n      \"value\": \"SIMPLE ADVANTAGE\\u00174 PLAN\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 44,\n        \"y\": 268,\n        \"width\": 320,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"plan_name_custom\",\n      \"name\": \"Plan Name - Custom Advantage\",\n      \"value\": \"CUSTOM ADVANTAGE\\u00174 PLAN\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 404,\n        \"y\": 268,\n        \"width\": 328,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"plan_type_value\",\n      \"name\": \"Plan Type (description)\",\n      \"value\": \"Comprehensive; Monthly Reimbursement (Cash Benefit Rider available \\u00096 see below)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 308,\n        \"width\": 684,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"issue_ages_simple\",\n      \"name\": \"Issue Ages - Simple Advantage\",\n      \"value\": \"18 - 61 (premiums banded 18 - 30)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 56,\n        \"y\": 340,\n        \"width\": 312,\n        \"height\": 26\n      }\n    },\n    {\n      \"id\": \"issue_ages_custom\",\n      \"name\": \"Issue Ages - Custom Advantage\",\n      \"value\": \"18 - 84 (premiums banded 18 - 30)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 408,\n        \"y\": 340,\n        \"width\": 300,\n        \"height\": 26\n      }\n    },\n    {\n      \"id\": \"mba_tba_label\",\n      \"name\": \"MBA and TBA Label\",\n      \"value\": \"Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 372,\n        \"width\": 684,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"mba_tba_simple_values\",\n      \"name\": \"MBA/TBA Options - Simple Advantage\",\n      \"value\": \"MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA (Total Benefit Amount) options shown: $75K, $100K, $200K, $300K, $400K, $500K (No $1MM for Simple with Cash Benefit Rider note).\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 400,\n        \"width\": 320,\n        \"height\": 180\n      }\n    },\n    {\n      \"id\": \"mba_tba_custom_values\",\n      \"name\": \"MBA/TBA Options - Custom Advantage\",\n      \"value\": \"MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA options shown: $75K, $100K, $200K, $300K, $400K, $500K and $1MM (\\\"$1MM not available with Cash Benefit Rider\\\" noted).\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 412,\n        \"y\": 400,\n        \"width\": 320,\n        \"height\": 180\n      }\n    },\n    {\n      \"id\": \"optional_riders_heading\",\n      \"name\": \"Optional Riders Heading\",\n      \"value\": \"OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 588,\n        \"width\": 688,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"rider_shared_care\",\n      \"name\": \"Shared Care Rider - name\",\n      \"value\": \"Shared Care Rider\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 624,\n        \"width\": 320,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"rider_shared_care_desc\",\n      \"name\": \"Shared Care Rider - description\",\n      \"value\": \"Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted. When insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost. Rider available at any time, subject to underwriting; Both spouse/partners must have identical policies.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 652,\n        \"width\": 680,\n        \"height\": 52\n      }\n    },\n    {\n      \"id\": \"rider_nonforfeiture\",\n      \"name\": \"Nonforfeiture Rider - name\",\n      \"value\": \"Nonforfeiture Rider\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 708,\n        \"width\": 320,\n        \"height\": 26\n      }\n    },\n    {\n      \"id\": \"rider_nonforfeiture_desc\",\n      \"name\": \"Nonforfeiture Rider - description\",\n      \"value\": \"Provides some benefits if policy lapses for nonpayment of premiums or is cancelled by insured. Rider must be in effect for 3 years and be in effect when the policy ends. Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA. Available at initial application only.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 734,\n        \"width\": 680,\n        \"height\": 64\n      }\n    },\n    {\n      \"id\": \"rider_cash_benefit\",\n      \"name\": \"Cash Benefit Rider - name\",\n      \"value\": \"Cash Benefit Rider\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 806,\n        \"width\": 320,\n        \"height\": 26\n      }\n    },\n    {\n      \"id\": \"rider_cash_benefit_desc\",\n      \"name\": \"Cash Benefit Rider - description\",\n      \"value\": \"Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services. Available at initial application only; $1MM TBA not available. Benefits paid over annual IRC limit may be taxable.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 832,\n        \"width\": 680,\n        \"height\": 72\n      }\n    },\n    {\n      \"id\": \"gpo_heading\",\n      \"name\": \"Guaranteed Purchase Option heading\",\n      \"value\": \"GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 916,\n        \"width\": 320,\n        \"height\": 48\n      }\n    },\n    {\n      \"id\": \"gpo_bullets\",\n      \"name\": \"Guaranteed Purchase Option details\",\n      \"value\": \"Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting. Premium for increase in coverage is at attained age rates. Lifetime maximum increase available is 2x initial TBA and 2x initial MBA. Minimum of 25% of initial coverage must be purchased each time GPO is exercised. Rider ends at earlier of policy anniversary date after insured's 65th birthday, or when insured no longer eligible.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 964,\n        \"width\": 700,\n        \"height\": 24\n      }\n    }\n  ],\n  \"tables\": [\n    {\n      \"id\": \"table_plans_comparison\",\n      \"caption\": \"Plan comparison: SIMPLE ADVANTAGE PLAN vs CUSTOM ADVANTAGE PLAN\",\n      \"confidence\": 0.8,\n      \"columns\": [\n        {\n          \"key\": \"col_plan\",\n          \"header\": \"Plan\",\n          \"type\": \"string\",\n          \"confidence\": 1.0\n        },\n        {\n          \"key\": \"col_plan_type\",\n          \"header\": \"Plan Type\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        },\n        {\n          \"key\": \"col_issue_ages\",\n          \"header\": \"Issue Ages\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        },\n        {\n          \"key\": \"col_mba_tba\",\n          \"header\": \"MBA / TBA options\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"rows\": [\n        [\n          {\n            \"value\": \"SIMPLE ADVANTAGE\\u00174 PLAN\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 44,\n              \"y\": 268,\n              \"width\": 320,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 308,\n              \"width\": 320,\n              \"height\": 28\n            }\n          },\n          {\n            \"value\": \"18 - 61 (premiums banded 18 - 30)\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 56,\n              \"y\": 340,\n              \"width\": 312,\n              \"height\": 26\n            }\n          },\n          {\n            \"value\": \"MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 400,\n              \"width\": 320,\n              \"height\": 180\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"CUSTOM ADVANTAGE\\u00174 PLAN\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 404,\n              \"y\": 268,\n              \"width\": 328,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 408,\n              \"y\": 308,\n              \"width\": 320,\n              \"height\": 28\n            }\n          },\n          {\n            \"value\": \"18 - 84 (premiums banded 18 - 30)\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 408,\n              \"y\": 340,\n              \"width\": 300,\n              \"height\": 26\n            }\n          },\n          {\n            \"value\": \"MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K, $1MM\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 412,\n              \"y\": 400,\n              \"width\": 320,\n              \"height\": 180\n            }\n          }\n        ]\n      ]\n    },\n    {\n      \"id\": \"table_optional_riders\",\n      \"caption\": \"Optional Riders Available (shared across plans)\",\n      \"confidence\": 0.8,\n      \"columns\": [\n        {\n          \"key\": \"col_rider\",\n          \"header\": \"Rider\",\n          \"type\": \"string\",\n          \"confidence\": 1.0\n        },\n        {\n          \"key\": \"col_description\",\n          \"header\": \"Description\",\n          \"type\": \"string\",\n          \"confidence\": 0.6\n        }\n      ],\n      \"rows\": [\n        [\n          {\n            \"value\": \"Shared Care Rider\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 624,\n              \"width\": 320,\n              \"height\": 28\n            }\n          },\n          {\n            \"value\": \"Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted; when insured dies, remaining TBA transfers to spouse/partner at no extra cost; available at any time subject to underwriting.\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 652,\n              \"width\": 680,\n              \"height\": 52\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Nonforfeiture Rider\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 708,\n              \"width\": 320,\n              \"height\": 26\n            }\n          },\n          {\n            \"value\": \"Provides benefits if policy lapses for nonpayment or is cancelled; must be in effect for 3 years; provides full MBA and a reduced TBA equal to greater of premiums paid or 1x MBA; available at initial application only.\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 734,\n              \"width\": 680,\n              \"height\": 64\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Cash Benefit Rider\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 806,\n              \"width\": 320,\n              \"height\": 26\n            }\n          },\n          {\n            \"value\": \"Full MBA paid as cash payment instead of reimbursement for covered services; available at initial application only; $1MM TBA not available; tax implications may apply.\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 48,\n              \"y\": 832,\n              \"width\": 680,\n              \"height\": 72\n            }\n          }\n        ]\n      ]\n    }\n  ]\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "This page is a marketing/plans-at-a-glance brochure for MetLife LTC; it is not an invoice, CMR form, or UB04.",
+        "Contains product overview, plan comparison, and rider descriptions typical of brochure materials."
+      ]
+    },
+    "fields": [
+      {
+        "id": "title_1",
+        "name": "Document Title",
+        "value": "MetLife LTC LifeStage AdvantageSM",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 40,
+          "width": 688,
+          "height": 96
+        }
+      },
+      {
+        "id": "subtitle_1",
+        "name": "Subtitle",
+        "value": "Plans-at-a-Glance",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 120,
+          "width": 360,
+          "height": 36
+        }
+      },
+      {
+        "id": "header_right",
+        "name": "Header Right",
+        "value": "INSURANCE | LONG-TERM CARE",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 508,
+          "y": 18,
+          "width": 240,
+          "height": 28
+        }
+      },
+      {
+        "id": "brand",
+        "name": "Brand",
+        "value": "MetLife",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 24,
+          "y": 164,
+          "width": 720,
+          "height": 76
+        }
+      },
+      {
+        "id": "plan_name_simple",
+        "name": "Plan Name - Simple Advantage",
+        "value": "SIMPLE ADVANTAGE\u00174 PLAN",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 44,
+          "y": 268,
+          "width": 320,
+          "height": 36
+        }
+      },
+      {
+        "id": "plan_name_custom",
+        "name": "Plan Name - Custom Advantage",
+        "value": "CUSTOM ADVANTAGE\u00174 PLAN",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 404,
+          "y": 268,
+          "width": 328,
+          "height": 36
+        }
+      },
+      {
+        "id": "plan_type_value",
+        "name": "Plan Type (description)",
+        "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available \t6 see below)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 308,
+          "width": 684,
+          "height": 28
+        }
+      },
+      {
+        "id": "issue_ages_simple",
+        "name": "Issue Ages - Simple Advantage",
+        "value": "18 - 61 (premiums banded 18 - 30)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 56,
+          "y": 340,
+          "width": 312,
+          "height": 26
+        }
+      },
+      {
+        "id": "issue_ages_custom",
+        "name": "Issue Ages - Custom Advantage",
+        "value": "18 - 84 (premiums banded 18 - 30)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 408,
+          "y": 340,
+          "width": 300,
+          "height": 26
+        }
+      },
+      {
+        "id": "mba_tba_label",
+        "name": "MBA and TBA Label",
+        "value": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 372,
+          "width": 684,
+          "height": 28
+        }
+      },
+      {
+        "id": "mba_tba_simple_values",
+        "name": "MBA/TBA Options - Simple Advantage",
+        "value": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA (Total Benefit Amount) options shown: $75K, $100K, $200K, $300K, $400K, $500K (No $1MM for Simple with Cash Benefit Rider note).",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 400,
+          "width": 320,
+          "height": 180
+        }
+      },
+      {
+        "id": "mba_tba_custom_values",
+        "name": "MBA/TBA Options - Custom Advantage",
+        "value": "MBA options shown: $3K, $6K, $9K, $12K, $15K. TBA options shown: $75K, $100K, $200K, $300K, $400K, $500K and $1MM (\"$1MM not available with Cash Benefit Rider\" noted).",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 412,
+          "y": 400,
+          "width": 320,
+          "height": 180
+        }
+      },
+      {
+        "id": "optional_riders_heading",
+        "name": "Optional Riders Heading",
+        "value": "OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 588,
+          "width": 688,
+          "height": 28
+        }
+      },
+      {
+        "id": "rider_shared_care",
+        "name": "Shared Care Rider - name",
+        "value": "Shared Care Rider",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 624,
+          "width": 320,
+          "height": 28
+        }
+      },
+      {
+        "id": "rider_shared_care_desc",
+        "name": "Shared Care Rider - description",
+        "value": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted. When insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost. Rider available at any time, subject to underwriting; Both spouse/partners must have identical policies.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 652,
+          "width": 680,
+          "height": 52
+        }
+      },
+      {
+        "id": "rider_nonforfeiture",
+        "name": "Nonforfeiture Rider - name",
+        "value": "Nonforfeiture Rider",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 708,
+          "width": 320,
+          "height": 26
+        }
+      },
+      {
+        "id": "rider_nonforfeiture_desc",
+        "name": "Nonforfeiture Rider - description",
+        "value": "Provides some benefits if policy lapses for nonpayment of premiums or is cancelled by insured. Rider must be in effect for 3 years and be in effect when the policy ends. Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA. Available at initial application only.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 734,
+          "width": 680,
+          "height": 64
+        }
+      },
+      {
+        "id": "rider_cash_benefit",
+        "name": "Cash Benefit Rider - name",
+        "value": "Cash Benefit Rider",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 806,
+          "width": 320,
+          "height": 26
+        }
+      },
+      {
+        "id": "rider_cash_benefit_desc",
+        "name": "Cash Benefit Rider - description",
+        "value": "Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services. Available at initial application only; $1MM TBA not available. Benefits paid over annual IRC limit may be taxable.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 832,
+          "width": 680,
+          "height": 72
+        }
+      },
+      {
+        "id": "gpo_heading",
+        "name": "Guaranteed Purchase Option heading",
+        "value": "GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 916,
+          "width": 320,
+          "height": 48
+        }
+      },
+      {
+        "id": "gpo_bullets",
+        "name": "Guaranteed Purchase Option details",
+        "value": "Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting. Premium for increase in coverage is at attained age rates. Lifetime maximum increase available is 2x initial TBA and 2x initial MBA. Minimum of 25% of initial coverage must be purchased each time GPO is exercised. Rider ends at earlier of policy anniversary date after insured's 65th birthday, or when insured no longer eligible.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 964,
+          "width": 700,
+          "height": 24
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_plans_comparison",
+        "caption": "Plan comparison: SIMPLE ADVANTAGE PLAN vs CUSTOM ADVANTAGE PLAN",
+        "confidence": 0.8,
+        "columns": [
+          {
+            "key": "col_plan",
+            "header": "Plan",
+            "type": "string",
+            "confidence": 1.0
+          },
+          {
+            "key": "col_plan_type",
+            "header": "Plan Type",
+            "type": "string",
+            "confidence": 0.8
+          },
+          {
+            "key": "col_issue_ages",
+            "header": "Issue Ages",
+            "type": "string",
+            "confidence": 0.8
+          },
+          {
+            "key": "col_mba_tba",
+            "header": "MBA / TBA options",
+            "type": "string",
+            "confidence": 0.6
+          }
+        ],
+        "rows": [
+          [
+            {
+              "value": "SIMPLE ADVANTAGE\u00174 PLAN",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 44,
+                "y": 268,
+                "width": 320,
+                "height": 36
+              }
+            },
+            {
+              "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 48,
+                "y": 308,
+                "width": 320,
+                "height": 28
+              }
+            },
+            {
+              "value": "18 - 61 (premiums banded 18 - 30)",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 56,
+                "y": 340,
+                "width": 312,
+                "height": 26
+              }
+            },
+            {
+              "value": "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 48,
+                "y": 400,
+                "width": 320,
+                "height": 180
+              }
+            }
+          ],
+          [
+            {
+              "value": "CUSTOM ADVANTAGE\u00174 PLAN",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 404,
+                "y": 268,
+                "width": 328,
+                "height": 36
+              }
+            },
+            {
+              "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 408,
+                "y": 308,
+                "width": 320,
+                "height": 28
+              }
+            },
+            {
+              "value": "18 - 84 (premiums banded 18 - 30)",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 408,
+                "y": 340,
+                "width": 300,
+                "height": 26
+              }
+            },
+            {
+              "value": "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K, $1MM",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 412,
+                "y": 400,
+                "width": 320,
+                "height": 180
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "id": "table_optional_riders",
+        "caption": "Optional Riders Available (shared across plans)",
+        "confidence": 0.8,
+        "columns": [
+          {
+            "key": "col_rider",
+            "header": "Rider",
+            "type": "string",
+            "confidence": 1.0
+          },
+          {
+            "key": "col_description",
+            "header": "Description",
+            "type": "string",
+            "confidence": 0.6
+          }
+        ],
+        "rows": [
+          [
+            {
+              "value": "Shared Care Rider",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 48,
+                "y": 624,
+                "width": 320,
+                "height": 28
+              }
+            },
+            {
+              "value": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted; when insured dies, remaining TBA transfers to spouse/partner at no extra cost; available at any time subject to underwriting.",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 48,
+                "y": 652,
+                "width": 680,
+                "height": 52
+              }
+            }
+          ],
+          [
+            {
+              "value": "Nonforfeiture Rider",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 48,
+                "y": 708,
+                "width": 320,
+                "height": 26
+              }
+            },
+            {
+              "value": "Provides benefits if policy lapses for nonpayment or is cancelled; must be in effect for 3 years; provides full MBA and a reduced TBA equal to greater of premiums paid or 1x MBA; available at initial application only.",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 48,
+                "y": 734,
+                "width": 680,
+                "height": 64
+              }
+            }
+          ],
+          [
+            {
+              "value": "Cash Benefit Rider",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 48,
+                "y": 806,
+                "width": 320,
+                "height": 26
+              }
+            },
+            {
+              "value": "Full MBA paid as cash payment instead of reimbursement for covered services; available at initial application only; $1MM TBA not available; tax implications may apply.",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 48,
+                "y": 832,
+                "width": 680,
+                "height": 72
+              }
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}

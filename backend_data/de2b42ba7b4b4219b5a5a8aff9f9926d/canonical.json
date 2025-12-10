@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2025-12-10T00:00:00Z",
+  "documentTypes": [
+    "other"
+  ],
+  "facilityInvoice": {},
+  "cmrForm": {},
+  "ub04": {},
+  "notes": [
+    "Document classified as 'other' because content is an insurance product brochure (MetLife LTC LifeStage Advantage) rather than a facility invoice, CMR form, or UB-04 claim form.",
+    "Extracted title and company fields: Document Title (fieldId: title, page: 1) => 'MetLife LTC LifeStage AdvantageSM'; company_name (fieldId: company_name, page: 2) => 'Metropolitan Life Insurance Company'; company_address (fieldId: company_address, page: 2) => 'New York, NY 10166'.",
+    "Structured plan comparison data present in tables: top_comparison_table (tableId: top_comparison_table, page: 1) and merged table id 0809af4acea9456eba50a7b61b16b11c-merged (table group id referenced across pages 1-2).",
+    "No invoice-specific (policyNumber, invoiceNumber, totalAmount, balanceDue, provider billing info), CMR-specific (service dates, care level selection, signatures) or UB04-specific provider billing block fields were found, so those sections are left empty."
+  ]
+}

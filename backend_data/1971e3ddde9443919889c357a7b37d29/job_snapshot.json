@@ -1,0 +1,584 @@
+{
+  "jobId": "1971e3ddde9443919889c357a7b37d29",
+  "documentName": "alifestageadvan.pdf",
+  "sourcePdf": "source.pdf",
+  "status": {
+    "jobId": "1971e3ddde9443919889c357a7b37d29",
+    "totalPages": 2,
+    "processedPages": 1,
+    "state": "running",
+    "errors": [],
+    "startedAt": "2025-12-10T19:03:02.518825",
+    "finishedAt": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "status": "completed",
+      "fields": [
+        {
+          "id": "title_1",
+          "page": 1,
+          "name": "Document Title",
+          "value": "MetLife LTC LifeStage Advantage",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 40.0,
+            "y": 28.0,
+            "width": 688.0,
+            "height": 120.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "subtitle_1",
+          "page": 1,
+          "name": "Subtitle",
+          "value": "Plans-at-a-Glance",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 40.0,
+            "y": 110.0,
+            "width": 420.0,
+            "height": 40.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "insurance_header",
+          "page": 1,
+          "name": "Insurance Category",
+          "value": "INSURANCE | LONG-TERM CARE",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 520.0,
+            "y": 28.0,
+            "width": 220.0,
+            "height": 28.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "company_name",
+          "page": 1,
+          "name": "Company",
+          "value": "MetLife / Metropolitan Life Insurance Company (MetLife)",
+          "confidence": 1.0,
+          "bbox": {
+            "x": 40.0,
+            "y": 140.0,
+            "width": 688.0,
+            "height": 64.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "plan_heading_simple",
+          "page": 1,
+          "name": "Plan Heading - Simple",
+          "value": "SIMPLE ADVANTAGE PLAN",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 40.0,
+            "y": 218.0,
+            "width": 320.0,
+            "height": 32.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "plan_heading_custom",
+          "page": 1,
+          "name": "Plan Heading - Custom",
+          "value": "CUSTOM ADVANTAGE PLAN",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 408.0,
+            "y": 218.0,
+            "width": 320.0,
+            "height": 32.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "plan_type_simple",
+          "page": 1,
+          "name": "Plan Type (Simple)",
+          "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 40.0,
+            "y": 268.0,
+            "width": 320.0,
+            "height": 30.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "plan_type_custom",
+          "page": 1,
+          "name": "Plan Type (Custom)",
+          "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 408.0,
+            "y": 268.0,
+            "width": 320.0,
+            "height": 30.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "issue_ages_simple",
+          "page": 1,
+          "name": "Issue Ages (Simple)",
+          "value": "18 - 61 (premiums banded 18 - 30)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 40.0,
+            "y": 304.0,
+            "width": 320.0,
+            "height": 28.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "issue_ages_custom",
+          "page": 1,
+          "name": "Issue Ages (Custom)",
+          "value": "18 - 84 (premiums banded 18 - 30)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 408.0,
+            "y": 304.0,
+            "width": 320.0,
+            "height": 28.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "mba_values",
+          "page": 1,
+          "name": "Monthly Benefit Amounts (MBA)",
+          "value": "$3K, $6K, $9K, $12K, $15K",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 40.0,
+            "y": 344.0,
+            "width": 320.0,
+            "height": 110.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "tba_values",
+          "page": 1,
+          "name": "Total Benefit Amounts (TBA)",
+          "value": "$75K, $100K, $200K, $300K, $400K, $500K, $1MM",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 408.0,
+            "y": 344.0,
+            "width": 320.0,
+            "height": 110.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "tba_note",
+          "page": 1,
+          "name": "TBA Note",
+          "value": "*$1MM not available with Cash Benefit Rider",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 460.0,
+            "y": 462.0,
+            "width": 300.0,
+            "height": 20.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "optional_riders_header",
+          "page": 1,
+          "name": "Optional Riders Header",
+          "value": "OPTIONAL RIDERS AVAILABLE WITH BOTH SIMPLE ADVANTAGE AND CUSTOM ADVANTAGE",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 40.0,
+            "y": 492.0,
+            "width": 688.0,
+            "height": 28.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "rider_shared_care",
+          "page": 1,
+          "name": "Shared Care Rider",
+          "value": "Insured and spouse/partner can access benefits under each other's policy once the TBA under their own policy is exhausted; when insured dies, remaining TBA under his/her policy is transferred to the spouse's/partner's policy at no extra cost; rider available at any time, subject to underwriting; both spouse/partners must have identical policies",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 40.0,
+            "y": 524.0,
+            "width": 688.0,
+            "height": 56.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "rider_nonforfeiture",
+          "page": 1,
+          "name": "Nonforfeiture Rider",
+          "value": "Provides some benefits if policy lapses for nonpayment of premiums or is cancelled by insured; rider must be in effect for 3 years and be in effect when the policy ends; provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA; available at initial application only",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 40.0,
+            "y": 588.0,
+            "width": 688.0,
+            "height": 60.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "rider_cash_benefit",
+          "page": 1,
+          "name": "Cash Benefit Rider",
+          "value": "Full MBA paid as cash payment (regardless of actual charges incurred) instead of reimbursement for covered services; available at initial application only; $1MM TBA not available; benefits paid over annual IRC limit may be taxable",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 40.0,
+            "y": 652.0,
+            "width": 688.0,
+            "height": 56.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "gpo_header",
+          "page": 1,
+          "name": "Guaranteed Purchase Option (GPO) Header",
+          "value": "GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 40.0,
+            "y": 724.0,
+            "width": 340.0,
+            "height": 28.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "gpo_details",
+          "page": 1,
+          "name": "Guaranteed Purchase Option (GPO) Details",
+          "value": "Insured able to purchase additional coverage every 3 years, up to age 65, with no additional underwriting; premium for increase in coverage is at attained age rates; lifetime maximum increase available is 2x initial TBA and 2x initial MBA; minimum of 25% of initial coverage must be purchased each time GPO is exercised; increases will not occur if insured is eligible for benefits; if insured rejects two increase offers in a row rider will end; rider ends at the earlier of: policy anniversary date after insured's 65th birthday or when the insured is no longer eligible to receive offers under this rider; insured's premium will be reduced at any time that this rider ends; 10 Year Premium Payment Rider is not available with GPO",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 40.0,
+            "y": 756.0,
+            "width": 340.0,
+            "height": 160.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "benefit_increase_header",
+          "page": 1,
+          "name": "Benefit Increase Options Header",
+          "value": "BENEFIT INCREASE OPTIONS (AVAILABLE WITH CUSTOM ADVANTAGE ONLY)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 404.0,
+            "y": 724.0,
+            "width": 340.0,
+            "height": 28.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "fpo_details",
+          "page": 1,
+          "name": "Future Purchase Option (FPO) / Benefit Increase Details",
+          "value": "Increases the MBA and remaining portion of the TBA automatically by 5% of the MBA/remaining TBA in effect at the end of the previous policy year; increases occur unless insured rejects, in writing, prior to the Policy Anniversary of the year in which the increase is to take effect; corresponding increase in premium for increase in coverage at attained age rates; if insured rejects two times in a row, insured will no longer receive automatic increases but can request to have offers reinstated with no additional underwriting; increases will not occur if insured is eligible for benefits; rider available at any time, subject to underwriting; 10 Year Premium Payment Rider is not available with FPO",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 404.0,
+            "y": 756.0,
+            "width": 340.0,
+            "height": 160.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "automatic_compound_inflation",
+          "page": 1,
+          "name": "Automatic Compound Inflation Protection Riders",
+          "value": "Increases the MBA and remaining portion of TBA in effect at the end of the previous policy year, either 3% or 5%, with no corresponding increase in premium; coverage increases continue while insured is eligible for benefits; rider available at any time, with additional underwriting; 3% Automatic Compound Inflation Protection Rider; 5% Automatic Compound Inflation Protection Rider",
+          "confidence": 0.6,
+          "bbox": {
+            "x": 404.0,
+            "y": 880.0,
+            "width": 340.0,
+            "height": 80.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "footer_disclaimer",
+          "page": 1,
+          "name": "Footer Disclaimer",
+          "value": "FOR PRODUCER OR BROKER/DEALER USE ONLY. NOT FOR PUBLIC DISTRIBUTION.",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 40.0,
+            "y": 948.0,
+            "width": 520.0,
+            "height": 28.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        },
+        {
+          "id": "footer_company",
+          "page": 1,
+          "name": "Footer Company Name",
+          "value": "Metropolitan Life Insurance Company (MetLife)",
+          "confidence": 0.8,
+          "bbox": {
+            "x": 560.0,
+            "y": 948.0,
+            "width": 180.0,
+            "height": 28.0
+          },
+          "source_type": null,
+          "revised": false,
+          "original_value": null
+        }
+      ],
+      "tables": [
+        {
+          "id": "plan_comparison_table",
+          "page": 1,
+          "caption": "Simple Advantage Plan vs Custom Advantage Plan (top grid)",
+          "confidence": 0.6,
+          "columns": [
+            {
+              "key": "field",
+              "header": "Field",
+              "type": "string",
+              "confidence": 0.8
+            },
+            {
+              "key": "simple_plan",
+              "header": "Simple Advantage Plan",
+              "type": "string",
+              "confidence": 0.8
+            },
+            {
+              "key": "custom_plan",
+              "header": "Custom Advantage Plan",
+              "type": "string",
+              "confidence": 0.8
+            }
+          ],
+          "rows": [
+            [
+              {
+                "value": "Plan Type",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 28.0,
+                  "y": 268.0,
+                  "width": 180.0,
+                  "height": 30.0
+                }
+              },
+              {
+                "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 212.0,
+                  "y": 268.0,
+                  "width": 220.0,
+                  "height": 30.0
+                }
+              },
+              {
+                "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available)",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 436.0,
+                  "y": 268.0,
+                  "width": 300.0,
+                  "height": 30.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Issue Ages",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 28.0,
+                  "y": 304.0,
+                  "width": 180.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "18 - 61 (premiums banded 18 - 30)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 212.0,
+                  "y": 304.0,
+                  "width": 220.0,
+                  "height": 28.0
+                }
+              },
+              {
+                "value": "18 - 84 (premiums banded 18 - 30)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 436.0,
+                  "y": 304.0,
+                  "width": 300.0,
+                  "height": 28.0
+                }
+              }
+            ],
+            [
+              {
+                "value": "Benefit Options (MBA / TBA)",
+                "confidence": 0.8,
+                "bbox": {
+                  "x": 28.0,
+                  "y": 344.0,
+                  "width": 180.0,
+                  "height": 110.0
+                }
+              },
+              {
+                "value": "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 212.0,
+                  "y": 344.0,
+                  "width": 220.0,
+                  "height": 110.0
+                }
+              },
+              {
+                "value": "MBA: $3K, $6K, $9K, $12K, $15K; TBA: $75K, $100K, $200K, $300K, $400K, $500K, $1MM",
+                "confidence": 0.6,
+                "bbox": {
+                  "x": 436.0,
+                  "y": 344.0,
+                  "width": 300.0,
+                  "height": 110.0
+                }
+              }
+            ]
+          ],
+          "bbox": null,
+          "normalized": true,
+          "table_group_id": null,
+          "continuation_of": null,
+          "inferred_headers": false,
+          "row_start_index": 0
+        }
+      ],
+      "imagePath": "page-1.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": "other",
+      "documentTypeConfidence": 0.8
+    },
+    {
+      "pageNumber": 2,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-2.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    }
+  ],
+  "aggregated": {},
+  "metadata": {
+    "originalFilename": "alifestageadvan.pdf"
+  },
+  "documentType": null,
+  "canonical": null,
+  "mappingTrace": {},
+  "summary": {
+    "totalPages": 2,
+    "totalFields": 24,
+    "totalTables": 1,
+    "totalProcessingMs": null,
+    "startedAt": "2025-12-10T19:03:02.518825",
+    "finishedAt": null,
+    "confidenceBuckets": [
+      0,
+      0,
+      7,
+      15,
+      2,
+      0
+    ],
+    "lowConfidenceCount": 0
+  },
+  "lastModified": "2025-12-10T19:04:07.105757",
+  "snapshotVersion": 1
+}
