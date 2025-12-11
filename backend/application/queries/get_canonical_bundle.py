@@ -11,6 +11,7 @@ from backend.infrastructure.mapping.azure_mapping_client import (
     AzureMappingClient,
     MappingResult,
 )
+from backend.legacy.services.history_service import update_snapshot_with_canonical
 
 LegacyJobLoader = Optional[Callable[[str], Any]]
 
@@ -48,6 +49,12 @@ class GetCanonicalBundleHandler:
             table_groups=table_groups,
             metadata=metadata,
         )
+        # Persist canonical to snapshot store for backend_data visibility
+        try:
+            update_snapshot_with_canonical(job.job_id, result.canonical)
+        except Exception:
+            # Best-effort; do not block canonical response on snapshot persistence
+            pass
 
         document_categories = self._merge_document_categories(
             result,

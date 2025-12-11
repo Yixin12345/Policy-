@@ -1,0 +1,226 @@
+{
+  "page": 6,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"Contains insurance policy language and definitions (e.g., Policy, Benefit Provisions, Eligibility for Benefits)\",\n      \"No visual structure of invoices, CMR transport forms, or UB04 medical billing forms present\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Nursing Home Care\",\n      \"value\": \"Nursing Home Care means Qualified Long Term Care Services performed in a Nursing Home or an Assisted Living Facility, or Maintenance or Personal Care Services performed in an Assisted Living Facility.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 40,\n        \"width\": 688,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Plan of Care\",\n      \"value\": \"Plan of Care is a written plan prescribed by a Licensed Health Care Practitioner developed in consultation with you, based upon an assessment indicating you are Chronically Ill.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 110,\n        \"width\": 688,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"The Plan of Care (additional)\",\n      \"value\": \"The Plan of Care will recommend the necessary services to be performed. In addition, it will specifically identify the frequency and type of care most suitable to meet your needs, as well as the most appropriate providers for such care.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 180,\n        \"width\": 688,\n        \"height\": 70\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Policy\",\n      \"value\": \"Policy is this contract with Allianz Life Insurance Company of North America.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 260,\n        \"width\": 688,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Policy Effective Date\",\n      \"value\": \"Policy Effective Date is the date coverage under this Policy is first in force. This date is shown on the Benefit Schedule.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 300,\n        \"width\": 688,\n        \"height\": 45\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Qualified Long Term Care Services\",\n      \"value\": \"Qualified Long Term Care Services are necessary diagnostic, preventative, therapeutic, curing, treating, mitigating, rehabilitative services, and Maintenance or Personal Care Services which are required by you when you are Chronically Ill, and are provided pursuant to a Plan of Care.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 360,\n        \"width\": 688,\n        \"height\": 75\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Registered Nurse (RN)\",\n      \"value\": \"Registered Nurse (RN) means a duly licensed registered graduate professional nurse acting within the scope of their license at the time the treatment or service is performed.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 450,\n        \"width\": 688,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"RN restrictions\",\n      \"value\": \"The RN must not be a member of your Family. Nor can the RN, nor any member of the RN\u2019s Family, be an owner or in any way control the operation of a facility in which you receive care or treatment.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 510,\n        \"width\": 688,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Respite Care\",\n      \"value\": \"Respite Care is short term Qualified Long Term Care Services provided to relieve family or friends who are providing long term care to you in your residence.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 540,\n        \"width\": 688,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Substantial Assistance\",\n      \"value\": \"Substantial Assistance means hands-on or stand-by assistance of another person without which you would be unable to perform the Activities of Daily Living.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 590,\n        \"width\": 688,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"Substantial Supervision\",\n      \"value\": \"Substantial Supervision means continual supervision by another person to protect you or others from threats to health or safety. Such supervision may include cueing by verbal prompting, gestures, or other similar demonstrations.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 635,\n        \"width\": 688,\n        \"height\": 70\n      }\n    },\n    {\n      \"id\": \"f12\",\n      \"name\": \"Benefit Provisions (heading)\",\n      \"value\": \"BENEFIT PROVISIONS\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 240,\n        \"y\": 720,\n        \"width\": 288,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f13\",\n      \"name\": \"Eligibility for Benefits\",\n      \"value\": \"Eligibility for Benefits While this Policy is in force, you will be eligible for benefits if you are certified as being Chronically Ill, which means that within the previous 12 months, you have been certified by a Licensed Health Care Practitioner as: \u2022 being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity; or \u2022 having a severe Cognitive Impairment.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 760,\n        \"width\": 688,\n        \"height\": 130\n      }\n    },\n    {\n      \"id\": \"f14\",\n      \"name\": \"Payment of Benefits\",\n      \"value\": \"Payment of Benefits While this Policy is in force, you will receive benefits if:\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 900,\n        \"width\": 688,\n        \"height\": 50\n      }\n    },\n    {\n      \"id\": \"f15\",\n      \"name\": \"Form Number\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 965,\n        \"width\": 200,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f16\",\n      \"name\": \"Page Number\",\n      \"value\": \"Page 7\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 680,\n        \"y\": 965,\n        \"width\": 60,\n        \"height\": 20\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Contains insurance policy language and definitions (e.g., Policy, Benefit Provisions, Eligibility for Benefits)",
+        "No visual structure of invoices, CMR transport forms, or UB04 medical billing forms present"
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Nursing Home Care",
+        "value": "Nursing Home Care means Qualified Long Term Care Services performed in a Nursing Home or an Assisted Living Facility, or Maintenance or Personal Care Services performed in an Assisted Living Facility.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 40,
+          "width": 688,
+          "height": 60
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Plan of Care",
+        "value": "Plan of Care is a written plan prescribed by a Licensed Health Care Practitioner developed in consultation with you, based upon an assessment indicating you are Chronically Ill.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 110,
+          "width": 688,
+          "height": 60
+        }
+      },
+      {
+        "id": "f3",
+        "name": "The Plan of Care (additional)",
+        "value": "The Plan of Care will recommend the necessary services to be performed. In addition, it will specifically identify the frequency and type of care most suitable to meet your needs, as well as the most appropriate providers for such care.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 180,
+          "width": 688,
+          "height": 70
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Policy",
+        "value": "Policy is this contract with Allianz Life Insurance Company of North America.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 260,
+          "width": 688,
+          "height": 30
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Policy Effective Date",
+        "value": "Policy Effective Date is the date coverage under this Policy is first in force. This date is shown on the Benefit Schedule.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 300,
+          "width": 688,
+          "height": 45
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Qualified Long Term Care Services",
+        "value": "Qualified Long Term Care Services are necessary diagnostic, preventative, therapeutic, curing, treating, mitigating, rehabilitative services, and Maintenance or Personal Care Services which are required by you when you are Chronically Ill, and are provided pursuant to a Plan of Care.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 360,
+          "width": 688,
+          "height": 75
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Registered Nurse (RN)",
+        "value": "Registered Nurse (RN) means a duly licensed registered graduate professional nurse acting within the scope of their license at the time the treatment or service is performed.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 450,
+          "width": 688,
+          "height": 80
+        }
+      },
+      {
+        "id": "f8",
+        "name": "RN restrictions",
+        "value": "The RN must not be a member of your Family. Nor can the RN, nor any member of the RN\u2019s Family, be an owner or in any way control the operation of a facility in which you receive care or treatment.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 510,
+          "width": 688,
+          "height": 40
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Respite Care",
+        "value": "Respite Care is short term Qualified Long Term Care Services provided to relieve family or friends who are providing long term care to you in your residence.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 540,
+          "width": 688,
+          "height": 40
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Substantial Assistance",
+        "value": "Substantial Assistance means hands-on or stand-by assistance of another person without which you would be unable to perform the Activities of Daily Living.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 590,
+          "width": 688,
+          "height": 40
+        }
+      },
+      {
+        "id": "f11",
+        "name": "Substantial Supervision",
+        "value": "Substantial Supervision means continual supervision by another person to protect you or others from threats to health or safety. Such supervision may include cueing by verbal prompting, gestures, or other similar demonstrations.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 635,
+          "width": 688,
+          "height": 70
+        }
+      },
+      {
+        "id": "f12",
+        "name": "Benefit Provisions (heading)",
+        "value": "BENEFIT PROVISIONS",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 240,
+          "y": 720,
+          "width": 288,
+          "height": 30
+        }
+      },
+      {
+        "id": "f13",
+        "name": "Eligibility for Benefits",
+        "value": "Eligibility for Benefits While this Policy is in force, you will be eligible for benefits if you are certified as being Chronically Ill, which means that within the previous 12 months, you have been certified by a Licensed Health Care Practitioner as: \u2022 being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity; or \u2022 having a severe Cognitive Impairment.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 760,
+          "width": 688,
+          "height": 130
+        }
+      },
+      {
+        "id": "f14",
+        "name": "Payment of Benefits",
+        "value": "Payment of Benefits While this Policy is in force, you will receive benefits if:",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 900,
+          "width": 688,
+          "height": 50
+        }
+      },
+      {
+        "id": "f15",
+        "name": "Form Number",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 965,
+          "width": 200,
+          "height": 20
+        }
+      },
+      {
+        "id": "f16",
+        "name": "Page Number",
+        "value": "Page 7",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 680,
+          "y": 965,
+          "width": 60,
+          "height": 20
+        }
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "page": 9,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"Document contains policy language and headings such as 'Alternative Plan of Care Benefit' and 'Limitations or Conditions on Eligibility for Benefits', not matching invoice or standard forms (CMR/UB04).\",\n      \"Layout is continuous policy text with sections and bullet lists typical of an insurance policy or benefit brochure.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"title_1\",\n      \"name\": \"Title\",\n      \"value\": \"Alternative Plan of Care Benefit\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 28,\n        \"width\": 532,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"def_1\",\n      \"name\": \"Definition / Description\",\n      \"value\": \"An Alternative Plan of Care provides for Qualified Long Term Care Services which may include: equipment purchases or rentals; permanent or temporary modifications to your residence (such as ramps or rails); or care services not normally covered under the Home and Community Services Benefit. The Alternative Plan of Care is not available for providing Home and Community Services Benefits on policies providing Facility Care only. We reserve the right to make the final decision on any request for the Alternative Plan of Care Benefit.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 68,\n        \"width\": 532,\n        \"height\": 132\n      }\n    },\n    {\n      \"id\": \"we_will_pay_header\",\n      \"name\": \"We will pay header\",\n      \"value\": \"We will pay for an Alternative Plan of Care if:\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 210,\n        \"width\": 520,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"we_will_pay_bullets\",\n      \"name\": \"We will pay conditions\",\n      \"value\": \"you are in a Benefit Payment Period; and; you, your Licensed Health Care Practitioner, and we agree that an Alternative Plan of Care is: (a) medically acceptable; and (b) the most cost efficient manner in which to provide benefits for your claim under this Policy; and; you have not exhausted the Benefit Amount shown in the Benefit Schedule; and; you agree that you will not receive payments for any other benefits under this Policy while Alternative Plan of Care benefits are being paid.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 236,\n        \"width\": 520,\n        \"height\": 132\n      }\n    },\n    {\n      \"id\": \"all_benefits_subtracted\",\n      \"name\": \"All benefits note\",\n      \"value\": \"All benefits paid under an Alternative Plan of Care are subtracted from the Benefit Amount for Facility Care.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 364,\n        \"width\": 520,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"personal_care_title\",\n      \"name\": \"Personal Care Advisor Title\",\n      \"value\": \"Personal Care Advisor\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 392,\n        \"width\": 420,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"personal_care_desc\",\n      \"name\": \"Personal Care Advisor Description\",\n      \"value\": \"A Personal Care Advisor is available to assist you with questions regarding such matters as:\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 418,\n        \"width\": 520,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"personal_care_bullets\",\n      \"name\": \"Personal Care Advisor Topics\",\n      \"value\": \"Eligibility for Benefits; or; appropriate level of care; or; availability of facilities and other care and service resources in your area; or; any other questions you may have about a claim for benefits.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 446,\n        \"width\": 520,\n        \"height\": 88\n      }\n    },\n    {\n      \"id\": \"personal_care_contact\",\n      \"name\": \"Personal Care Advisor Contact\",\n      \"value\": \"You can contact your Personal Care Advisor by calling the toll-free number shown on the front of this Policy.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 540,\n        \"width\": 520,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"limitations_header\",\n      \"name\": \"Limitations main header\",\n      \"value\": \"LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 64,\n        \"y\": 588,\n        \"width\": 480,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"limitations_title\",\n      \"name\": \"Limitations and Exclusions Title\",\n      \"value\": \"Limitations and Exclusions\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 622,\n        \"width\": 420,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"limitations_intro\",\n      \"name\": \"Limitations intro\",\n      \"value\": \"No benefits will be paid for any confinement, care, treatment, or service(s):\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 648,\n        \"width\": 520,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"limitations_bullets\",\n      \"name\": \"Limitations and Exclusions list\",\n      \"value\": \"provided to you by a person in your Family; that results from attempted suicide or intentionally self-inflicted injury; that results from voluntary participation in a felony, attempted felony, or illegal occupation; provided outside the United States or Canada; that results from a sickness or injury for which benefits are provided under any state or federal worker\u2019s compensation law or similar law; for which you have no financial liability or that is provided at no charge in the absence of insurance; provided in a government facility (unless otherwise required by law); provided for the treatment of alcoholism or drug addiction, or in facilities operated primarily for such treatment; provided as a result of your being intoxicated or under the influence of a narcotic, except to the extent that the alcohol or narcotics are prescribed by a physician; or provided in facilities operated primarily for the treatment of Mental or Nervous Disorders.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 666,\n        \"width\": 520,\n        \"height\": 88\n      }\n    },\n    {\n      \"id\": \"footer_code\",\n      \"name\": \"Footer code\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 760,\n        \"width\": 140,\n        \"height\": 16\n      }\n    },\n    {\n      \"id\": \"page_number\",\n      \"name\": \"Page Number\",\n      \"value\": \"Page 10\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed_text\",\n      \"bbox\": {\n        \"x\": 520,\n        \"y\": 760,\n        \"width\": 64,\n        \"height\": 16\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Document contains policy language and headings such as 'Alternative Plan of Care Benefit' and 'Limitations or Conditions on Eligibility for Benefits', not matching invoice or standard forms (CMR/UB04).",
+        "Layout is continuous policy text with sections and bullet lists typical of an insurance policy or benefit brochure."
+      ]
+    },
+    "fields": [
+      {
+        "id": "title_1",
+        "name": "Title",
+        "value": "Alternative Plan of Care Benefit",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 40,
+          "y": 28,
+          "width": 532,
+          "height": 36
+        }
+      },
+      {
+        "id": "def_1",
+        "name": "Definition / Description",
+        "value": "An Alternative Plan of Care provides for Qualified Long Term Care Services which may include: equipment purchases or rentals; permanent or temporary modifications to your residence (such as ramps or rails); or care services not normally covered under the Home and Community Services Benefit. The Alternative Plan of Care is not available for providing Home and Community Services Benefits on policies providing Facility Care only. We reserve the right to make the final decision on any request for the Alternative Plan of Care Benefit.",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 40,
+          "y": 68,
+          "width": 532,
+          "height": 132
+        }
+      },
+      {
+        "id": "we_will_pay_header",
+        "name": "We will pay header",
+        "value": "We will pay for an Alternative Plan of Care if:",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 40,
+          "y": 210,
+          "width": 520,
+          "height": 22
+        }
+      },
+      {
+        "id": "we_will_pay_bullets",
+        "name": "We will pay conditions",
+        "value": "you are in a Benefit Payment Period; and; you, your Licensed Health Care Practitioner, and we agree that an Alternative Plan of Care is: (a) medically acceptable; and (b) the most cost efficient manner in which to provide benefits for your claim under this Policy; and; you have not exhausted the Benefit Amount shown in the Benefit Schedule; and; you agree that you will not receive payments for any other benefits under this Policy while Alternative Plan of Care benefits are being paid.",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 48,
+          "y": 236,
+          "width": 520,
+          "height": 132
+        }
+      },
+      {
+        "id": "all_benefits_subtracted",
+        "name": "All benefits note",
+        "value": "All benefits paid under an Alternative Plan of Care are subtracted from the Benefit Amount for Facility Care.",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 40,
+          "y": 364,
+          "width": 520,
+          "height": 20
+        }
+      },
+      {
+        "id": "personal_care_title",
+        "name": "Personal Care Advisor Title",
+        "value": "Personal Care Advisor",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 40,
+          "y": 392,
+          "width": 420,
+          "height": 22
+        }
+      },
+      {
+        "id": "personal_care_desc",
+        "name": "Personal Care Advisor Description",
+        "value": "A Personal Care Advisor is available to assist you with questions regarding such matters as:",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 40,
+          "y": 418,
+          "width": 520,
+          "height": 22
+        }
+      },
+      {
+        "id": "personal_care_bullets",
+        "name": "Personal Care Advisor Topics",
+        "value": "Eligibility for Benefits; or; appropriate level of care; or; availability of facilities and other care and service resources in your area; or; any other questions you may have about a claim for benefits.",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 48,
+          "y": 446,
+          "width": 520,
+          "height": 88
+        }
+      },
+      {
+        "id": "personal_care_contact",
+        "name": "Personal Care Advisor Contact",
+        "value": "You can contact your Personal Care Advisor by calling the toll-free number shown on the front of this Policy.",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 40,
+          "y": 540,
+          "width": 520,
+          "height": 28
+        }
+      },
+      {
+        "id": "limitations_header",
+        "name": "Limitations main header",
+        "value": "LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 64,
+          "y": 588,
+          "width": 480,
+          "height": 28
+        }
+      },
+      {
+        "id": "limitations_title",
+        "name": "Limitations and Exclusions Title",
+        "value": "Limitations and Exclusions",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 40,
+          "y": 622,
+          "width": 420,
+          "height": 20
+        }
+      },
+      {
+        "id": "limitations_intro",
+        "name": "Limitations intro",
+        "value": "No benefits will be paid for any confinement, care, treatment, or service(s):",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 40,
+          "y": 648,
+          "width": 520,
+          "height": 18
+        }
+      },
+      {
+        "id": "limitations_bullets",
+        "name": "Limitations and Exclusions list",
+        "value": "provided to you by a person in your Family; that results from attempted suicide or intentionally self-inflicted injury; that results from voluntary participation in a felony, attempted felony, or illegal occupation; provided outside the United States or Canada; that results from a sickness or injury for which benefits are provided under any state or federal worker\u2019s compensation law or similar law; for which you have no financial liability or that is provided at no charge in the absence of insurance; provided in a government facility (unless otherwise required by law); provided for the treatment of alcoholism or drug addiction, or in facilities operated primarily for such treatment; provided as a result of your being intoxicated or under the influence of a narcotic, except to the extent that the alcohol or narcotics are prescribed by a physician; or provided in facilities operated primarily for the treatment of Mental or Nervous Disorders.",
+        "confidence": 0.8,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 48,
+          "y": 666,
+          "width": 520,
+          "height": 88
+        }
+      },
+      {
+        "id": "footer_code",
+        "name": "Footer code",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 1.0,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 40,
+          "y": 760,
+          "width": 140,
+          "height": 16
+        }
+      },
+      {
+        "id": "page_number",
+        "name": "Page Number",
+        "value": "Page 10",
+        "confidence": 1.0,
+        "sourceType": "printed_text",
+        "bbox": {
+          "x": 520,
+          "y": 760,
+          "width": 64,
+          "height": 16
+        }
+      }
+    ],
+    "tables": []
+  }
+}

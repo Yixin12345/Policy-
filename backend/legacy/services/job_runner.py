@@ -11,7 +11,7 @@ from typing import Optional
 from ...models.job import ExtractionJob, JobStatus
 from .aggregation import aggregate_fields
 from .mapping_service import generate_canonical_bundle
-from .history_service import load_job_from_snapshot, save_job_snapshot
+from .history_service import _force_policy_conversion, load_job_from_snapshot, save_job_snapshot
 from .pdf_service import pdf_to_images
 from .store import job_store
 from . import table_grouping
@@ -134,13 +134,14 @@ def _process_job(job_id: str) -> None:
 
   try:
     canonical_bundle, trace = generate_canonical_bundle(job)
-    job.canonical = canonical_bundle
+    normalized_canonical = _force_policy_conversion(canonical_bundle)
+    job.canonical = normalized_canonical
     job.mapping_trace = trace
-    if not job.document_type:
-      document_types = canonical_bundle.get("documentTypes") or []
-      if document_types:
-        job.document_type = document_types[0]
-    job.metadata["canonicalDocumentTypes"] = job.canonical.get("documentTypes") if job.canonical else None
+
+    canonical_types = normalized_canonical.get("documentTypes") or []
+    if canonical_types:
+      job.document_type = canonical_types[0]
+      job.metadata["canonicalDocumentTypes"] = canonical_types
   except Exception as exc:  # pragma: no cover - defensive mapping failure
     logger.exception("Failed to generate canonical bundle for job %s: %s", job_id, exc)
     job.status.errors.append({"stage": "mapping", "message": str(exc)})

@@ -1,0 +1,68 @@
+{
+  "jobId": "1f5ab7f09d904dc3b2404266ea915e95",
+  "documentName": "alifestageadvan.pdf",
+  "sourcePdf": "source.pdf",
+  "status": {
+    "jobId": "1f5ab7f09d904dc3b2404266ea915e95",
+    "totalPages": 2,
+    "processedPages": 0,
+    "state": "running",
+    "errors": [],
+    "startedAt": "2025-12-10T19:21:40.387687",
+    "finishedAt": null
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-1.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 2,
+      "status": "pending",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-2.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": null,
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    }
+  ],
+  "aggregated": {},
+  "metadata": {
+    "originalFilename": "alifestageadvan.pdf"
+  },
+  "documentType": null,
+  "canonical": null,
+  "mappingTrace": {},
+  "summary": {
+    "totalPages": 2,
+    "totalFields": 0,
+    "totalTables": 0,
+    "totalProcessingMs": null,
+    "startedAt": "2025-12-10T19:21:40.387687",
+    "finishedAt": null,
+    "confidenceBuckets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lowConfidenceCount": 0
+  },
+  "lastModified": "2025-12-10T19:21:40.387687",
+  "snapshotVersion": 1
+}

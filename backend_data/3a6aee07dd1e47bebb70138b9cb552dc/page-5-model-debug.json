@@ -1,0 +1,317 @@
+{
+  "page": 5,
+  "usedJsonMode": true,
+  "rawContent": "{\"documentType\":{\"label\":\"other\",\"confidence\":1.0,\"reasons\":[\"Document is an informational policy/definition page without invoice layout, CMR structure, or UB-04 fields\"]},\"fields\":[{\"id\":\"f1\",\"name\":\"Hospice Care\",\"value\":\"Hospice Care is Qualified Long Term Care Services provided in the event you are diagnosed with a terminal disease. Hospice Care helps you, your primary caregiver and your Family with the physical, social and spiritual needs brought about by your terminal illness.\",\"confidence\":1.0,\"bbox\":{\"x\":65,\"y\":57,\"width\":680,\"height\":56}},{\"id\":\"f2\",\"name\":\"Hospital\",\"value\":\"Hospital is an institution or facility that is:\",\"confidence\":1.0,\"bbox\":{\"x\":66,\"y\":125,\"width\":305,\"height\":19}},{\"id\":\"f3\",\"name\":\"Hospital_condition_1\",\"value\":\"licensed as a Hospital by the proper authority of the state in which it is located; or\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":148,\"width\":666,\"height\":18}},{\"id\":\"f4\",\"name\":\"Hospital_condition_2\",\"value\":\"accredited as a Hospital by the Joint Commission on Accreditation of Hospitals (JCAH).\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":171,\"width\":666,\"height\":20}},{\"id\":\"f5\",\"name\":\"Licensed Health Care Practitioner\",\"value\":\"Licensed Health Care Practitioner is:\",\"confidence\":1.0,\"bbox\":{\"x\":66,\"y\":204,\"width\":338,\"height\":20}},{\"id\":\"f6\",\"name\":\"Licensed Health Care Practitioner_condition_1\",\"value\":\"a physician as defined in section 1861(r)(1) of the Social Security Act; or\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":228,\"width\":666,\"height\":19}},{\"id\":\"f7\",\"name\":\"Licensed Health Care Practitioner_condition_2\",\"value\":\"a Registered Nurse; or\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":250,\"width\":300,\"height\":19}},{\"id\":\"f8\",\"name\":\"Licensed Health Care Practitioner_condition_3\",\"value\":\"a Licensed Social Worker.\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":272,\"width\":280,\"height\":19}},{\"id\":\"f9\",\"name\":\"Licensed Health Care Practitioner_additional\",\"value\":\"The Licensed Health Care Practitioner must not be a member of your Family. Nor can the Licensed Health Care Practitioner nor any member of the Licensed Health Care Practitioner\u2019s Family be an owner or in any way control the operation of a facility in which you receive care or treatment.\",\"confidence\":1.0,\"bbox\":{\"x\":66,\"y\":298,\"width\":689,\"height\":54}},{\"id\":\"f10\",\"name\":\"Licensed Social Worker\",\"value\":\"Licensed Social Worker is a duly licensed social worker acting within the scope of their license at the time the treatment or service is performed.\",\"confidence\":1.0,\"bbox\":{\"x\":66,\"y\":359,\"width\":689,\"height\":37}},{\"id\":\"f11\",\"name\":\"Licensed Social Worker_additional\",\"value\":\"The Licensed Social Worker must not be a member of your Family. Nor can the Licensed Social Worker nor any member of the Licensed Social Worker\u2019s Family be an owner or in any way control the operation of a facility in which you receive care or treatment.\",\"confidence\":1.0,\"bbox\":{\"x\":66,\"y\":401,\"width\":689,\"height\":54}},{\"id\":\"f12\",\"name\":\"Maintenance or Personal Care Services\",\"value\":\"Maintenance or Personal Care Services is any care provided primarily to give needed assistance to you as a result of your being Chronically Ill (including protection of your health and safety due to a severe Cognitive Impairment).\",\"confidence\":1.0,\"bbox\":{\"x\":66,\"y\":463,\"width\":689,\"height\":54}},{\"id\":\"f13\",\"name\":\"Medicare\",\"value\":\"Medicare means the Health Insurance for the Aged Act, Title XVIII of the Social Security Amendments of 1965 as then constituted or later amended.\",\"confidence\":1.0,\"bbox\":{\"x\":66,\"y\":524,\"width\":689,\"height\":36}},{\"id\":\"f14\",\"name\":\"Mental or Nervous Disorders\",\"value\":\"Mental or Nervous Disorders are: affective disorders; anxiety disorders; personality disorders; psychotic disorders; or other mental or emotional disease or disorders. This does not include Alzheimer\u2019s, Parkinson\u2019s, or other demonstrable organic diseases such as senile dementia.\",\"confidence\":1.0,\"bbox\":{\"x\":66,\"y\":567,\"width\":689,\"height\":55}},{\"id\":\"f15\",\"name\":\"Nursing Home\",\"value\":\"Nursing Home is a facility or a distinctly separate part of a hospital or other institution which:\",\"confidence\":1.0,\"bbox\":{\"x\":66,\"y\":629,\"width\":689,\"height\":35}},{\"id\":\"f16\",\"name\":\"Nursing Home_condition_1\",\"value\":\"is licensed by the appropriate licensing agency to engage primarily in providing nursing care and related services to inpatients; and\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":666,\"width\":666,\"height\":19}},{\"id\":\"f17\",\"name\":\"Nursing Home_condition_2\",\"value\":\"provides 24-hour a day nursing service; and\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":689,\"width\":405,\"height\":19}},{\"id\":\"f18\",\"name\":\"Nursing Home_condition_3\",\"value\":\"has a nurse on duty or on call at all times; and\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":711,\"width\":430,\"height\":19}},{\"id\":\"f19\",\"name\":\"Nursing Home_condition_4\",\"value\":\"maintains clinical records for all patients.\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":733,\"width\":355,\"height\":20}},{\"id\":\"f20\",\"name\":\"Nursing Home_exclusions_intro\",\"value\":\"Nursing Home does not include:\",\"confidence\":1.0,\"bbox\":{\"x\":66,\"y\":761,\"width\":280,\"height\":19}},{\"id\":\"f21\",\"name\":\"Nursing Home_exclusion_1\",\"value\":\"facilities or parts thereof used or licensed as an Assisted Living Facility; or\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":783,\"width\":666,\"height\":19}},{\"id\":\"f22\",\"name\":\"Nursing Home_exclusion_2\",\"value\":\"convalescent homes, board and rest homes, homes for the aged, residential care facilities, domiciliary and retirement care facilities, or training centers; or\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":805,\"width\":666,\"height\":20}},{\"id\":\"f23\",\"name\":\"Nursing Home_exclusion_3\",\"value\":\"government or veterans facilities or any other facility where the patient is not required to pay.\",\"confidence\":1.0,\"bbox\":{\"x\":84,\"y\":828,\"width\":666,\"height\":19}},{\"id\":\"f24\",\"name\":\"form_number\",\"value\":\"N-3000-P-FL(Q)\",\"confidence\":1.0,\"bbox\":{\"x\":64,\"y\":945,\"width\":150,\"height\":18}},{\"id\":\"f25\",\"name\":\"page_number\",\"value\":\"Page 6\",\"confidence\":1.0,\"bbox\":{\"x\":690,\"y\":945,\"width\":70,\"height\":18}}],\"tables\":[]}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Document is an informational policy/definition page without invoice layout, CMR structure, or UB-04 fields"
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Hospice Care",
+        "value": "Hospice Care is Qualified Long Term Care Services provided in the event you are diagnosed with a terminal disease. Hospice Care helps you, your primary caregiver and your Family with the physical, social and spiritual needs brought about by your terminal illness.",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 65,
+          "y": 57,
+          "width": 680,
+          "height": 56
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Hospital",
+        "value": "Hospital is an institution or facility that is:",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 66,
+          "y": 125,
+          "width": 305,
+          "height": 19
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Hospital_condition_1",
+        "value": "licensed as a Hospital by the proper authority of the state in which it is located; or",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 148,
+          "width": 666,
+          "height": 18
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Hospital_condition_2",
+        "value": "accredited as a Hospital by the Joint Commission on Accreditation of Hospitals (JCAH).",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 171,
+          "width": 666,
+          "height": 20
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Licensed Health Care Practitioner",
+        "value": "Licensed Health Care Practitioner is:",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 66,
+          "y": 204,
+          "width": 338,
+          "height": 20
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Licensed Health Care Practitioner_condition_1",
+        "value": "a physician as defined in section 1861(r)(1) of the Social Security Act; or",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 228,
+          "width": 666,
+          "height": 19
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Licensed Health Care Practitioner_condition_2",
+        "value": "a Registered Nurse; or",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 250,
+          "width": 300,
+          "height": 19
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Licensed Health Care Practitioner_condition_3",
+        "value": "a Licensed Social Worker.",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 272,
+          "width": 280,
+          "height": 19
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Licensed Health Care Practitioner_additional",
+        "value": "The Licensed Health Care Practitioner must not be a member of your Family. Nor can the Licensed Health Care Practitioner nor any member of the Licensed Health Care Practitioner\u2019s Family be an owner or in any way control the operation of a facility in which you receive care or treatment.",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 66,
+          "y": 298,
+          "width": 689,
+          "height": 54
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Licensed Social Worker",
+        "value": "Licensed Social Worker is a duly licensed social worker acting within the scope of their license at the time the treatment or service is performed.",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 66,
+          "y": 359,
+          "width": 689,
+          "height": 37
+        }
+      },
+      {
+        "id": "f11",
+        "name": "Licensed Social Worker_additional",
+        "value": "The Licensed Social Worker must not be a member of your Family. Nor can the Licensed Social Worker nor any member of the Licensed Social Worker\u2019s Family be an owner or in any way control the operation of a facility in which you receive care or treatment.",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 66,
+          "y": 401,
+          "width": 689,
+          "height": 54
+        }
+      },
+      {
+        "id": "f12",
+        "name": "Maintenance or Personal Care Services",
+        "value": "Maintenance or Personal Care Services is any care provided primarily to give needed assistance to you as a result of your being Chronically Ill (including protection of your health and safety due to a severe Cognitive Impairment).",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 66,
+          "y": 463,
+          "width": 689,
+          "height": 54
+        }
+      },
+      {
+        "id": "f13",
+        "name": "Medicare",
+        "value": "Medicare means the Health Insurance for the Aged Act, Title XVIII of the Social Security Amendments of 1965 as then constituted or later amended.",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 66,
+          "y": 524,
+          "width": 689,
+          "height": 36
+        }
+      },
+      {
+        "id": "f14",
+        "name": "Mental or Nervous Disorders",
+        "value": "Mental or Nervous Disorders are: affective disorders; anxiety disorders; personality disorders; psychotic disorders; or other mental or emotional disease or disorders. This does not include Alzheimer\u2019s, Parkinson\u2019s, or other demonstrable organic diseases such as senile dementia.",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 66,
+          "y": 567,
+          "width": 689,
+          "height": 55
+        }
+      },
+      {
+        "id": "f15",
+        "name": "Nursing Home",
+        "value": "Nursing Home is a facility or a distinctly separate part of a hospital or other institution which:",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 66,
+          "y": 629,
+          "width": 689,
+          "height": 35
+        }
+      },
+      {
+        "id": "f16",
+        "name": "Nursing Home_condition_1",
+        "value": "is licensed by the appropriate licensing agency to engage primarily in providing nursing care and related services to inpatients; and",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 666,
+          "width": 666,
+          "height": 19
+        }
+      },
+      {
+        "id": "f17",
+        "name": "Nursing Home_condition_2",
+        "value": "provides 24-hour a day nursing service; and",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 689,
+          "width": 405,
+          "height": 19
+        }
+      },
+      {
+        "id": "f18",
+        "name": "Nursing Home_condition_3",
+        "value": "has a nurse on duty or on call at all times; and",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 711,
+          "width": 430,
+          "height": 19
+        }
+      },
+      {
+        "id": "f19",
+        "name": "Nursing Home_condition_4",
+        "value": "maintains clinical records for all patients.",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 733,
+          "width": 355,
+          "height": 20
+        }
+      },
+      {
+        "id": "f20",
+        "name": "Nursing Home_exclusions_intro",
+        "value": "Nursing Home does not include:",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 66,
+          "y": 761,
+          "width": 280,
+          "height": 19
+        }
+      },
+      {
+        "id": "f21",
+        "name": "Nursing Home_exclusion_1",
+        "value": "facilities or parts thereof used or licensed as an Assisted Living Facility; or",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 783,
+          "width": 666,
+          "height": 19
+        }
+      },
+      {
+        "id": "f22",
+        "name": "Nursing Home_exclusion_2",
+        "value": "convalescent homes, board and rest homes, homes for the aged, residential care facilities, domiciliary and retirement care facilities, or training centers; or",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 805,
+          "width": 666,
+          "height": 20
+        }
+      },
+      {
+        "id": "f23",
+        "name": "Nursing Home_exclusion_3",
+        "value": "government or veterans facilities or any other facility where the patient is not required to pay.",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 84,
+          "y": 828,
+          "width": 666,
+          "height": 19
+        }
+      },
+      {
+        "id": "f24",
+        "name": "form_number",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 64,
+          "y": 945,
+          "width": 150,
+          "height": 18
+        }
+      },
+      {
+        "id": "f25",
+        "name": "page_number",
+        "value": "Page 6",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 690,
+          "y": 945,
+          "width": 70,
+          "height": 18
+        }
+      }
+    ],
+    "tables": []
+  }
+}

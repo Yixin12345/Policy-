@@ -1,0 +1,109 @@
+{
+  "page": 7,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"The page contains policy text sections (Elimination Period, Benefit Payment Period, Benefit Amount) and does not match layouts of facility_invoice, cmr_form, or ub04.\",\n      \"No invoice fields, CMR transport fields, or UB-04 claim form blocks detected.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"pre_elimination_bullets\",\n      \"value\": \"you satisfy the Eligibility for Benefits provision; and\\nyou receive services covered under this Policy; and\\nyou satisfy the claim requirements in the CLAIM PROCEDURES section; and\\nyou are in a Benefit Payment Period; and\\nyour claim is not subject to any limitation or exclusion contained in this Policy.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 36,\n        \"width\": 672,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Elimination Period\",\n      \"value\": \"Your Elimination Period must be satisfied before we will pay you benefits, unless otherwise noted. Your Elimination Period is the number of days on which you:\\n\u2022 meet the requirements defined in the Eligibility for Benefits provision; and\\n\u2022 are receiving either Nursing Home Care, or if you have coverage under this Policy for Home and Community Services, are receiving Home and Community Services; and\\n\u2022 are not receiving benefits under this Policy.\\nYour Elimination Period is shown on the Benefit Schedule. Each day of covered services under this Policy, unless otherwise noted, counts towards your Elimination Period. Once you have satisfied the Elimination Period, no future Elimination Period is required. Days may be accumulated under separate claims in order to satisfy the Elimination Period. The Elimination Period applies to each insured individually in the case of joint coverage.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 156,\n        \"width\": 672,\n        \"height\": 240\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Benefit Payment Period\",\n      \"value\": \"A Benefit Payment Period will:\\n\u2022 begin on the date following your completion of the Elimination Period; and\\n\u2022 end on the date you either: (a) no longer meet the Payment of Benefits requirements in this Policy; or (b) exhaust the Benefit Amount, whichever occurs first.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 420,\n        \"width\": 672,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Benefit Amount\",\n      \"value\": \"Your Benefit Amount is shown on the Benefit Schedule.\\nThe Benefit Amount for Facility Care and the Benefit Amount for Home and Community Services (if shown on the Benefit Schedule) are separate amounts, and may not be combined.\\nYour Benefit Amount for Facility Care and your Benefit Amount for Home and Community Services are shown on the Benefit Schedule. All benefits paid under this Policy are subtracted from the applicable Benefit Amount.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 548,\n        \"width\": 672,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Restoration of the Benefit Amount\",\n      \"value\": \"The Benefit Amount may be restored, if for a period of 180 consecutive days:\\n\u2022 this Policy is in force; and\\n\u2022 you are not in a Benefit Payment Period; and\\n\u2022 you do not meet the Eligibility for Benefits requirements in this Policy (i.e. you must have recovered).\\nThe Benefit Amount for Facility Care and the Benefit Amount for Home and Community Services (if shown on the Benefit Schedule) are restored separately, and may not be combined.\\nThe Benefit Amount may be restored an unlimited number of times.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 708,\n        \"width\": 672,\n        \"height\": 200\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"form_id_footer\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 924,\n        \"width\": 200,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"page_number\",\n      \"value\": \"Page 8\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 664,\n        \"y\": 924,\n        \"width\": 56,\n        \"height\": 30\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "The page contains policy text sections (Elimination Period, Benefit Payment Period, Benefit Amount) and does not match layouts of facility_invoice, cmr_form, or ub04.",
+        "No invoice fields, CMR transport fields, or UB-04 claim form blocks detected."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "pre_elimination_bullets",
+        "value": "you satisfy the Eligibility for Benefits provision; and\nyou receive services covered under this Policy; and\nyou satisfy the claim requirements in the CLAIM PROCEDURES section; and\nyou are in a Benefit Payment Period; and\nyour claim is not subject to any limitation or exclusion contained in this Policy.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 36,
+          "width": 672,
+          "height": 120
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Elimination Period",
+        "value": "Your Elimination Period must be satisfied before we will pay you benefits, unless otherwise noted. Your Elimination Period is the number of days on which you:\n\u2022 meet the requirements defined in the Eligibility for Benefits provision; and\n\u2022 are receiving either Nursing Home Care, or if you have coverage under this Policy for Home and Community Services, are receiving Home and Community Services; and\n\u2022 are not receiving benefits under this Policy.\nYour Elimination Period is shown on the Benefit Schedule. Each day of covered services under this Policy, unless otherwise noted, counts towards your Elimination Period. Once you have satisfied the Elimination Period, no future Elimination Period is required. Days may be accumulated under separate claims in order to satisfy the Elimination Period. The Elimination Period applies to each insured individually in the case of joint coverage.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 156,
+          "width": 672,
+          "height": 240
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Benefit Payment Period",
+        "value": "A Benefit Payment Period will:\n\u2022 begin on the date following your completion of the Elimination Period; and\n\u2022 end on the date you either: (a) no longer meet the Payment of Benefits requirements in this Policy; or (b) exhaust the Benefit Amount, whichever occurs first.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 420,
+          "width": 672,
+          "height": 120
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Benefit Amount",
+        "value": "Your Benefit Amount is shown on the Benefit Schedule.\nThe Benefit Amount for Facility Care and the Benefit Amount for Home and Community Services (if shown on the Benefit Schedule) are separate amounts, and may not be combined.\nYour Benefit Amount for Facility Care and your Benefit Amount for Home and Community Services are shown on the Benefit Schedule. All benefits paid under this Policy are subtracted from the applicable Benefit Amount.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 548,
+          "width": 672,
+          "height": 140
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Restoration of the Benefit Amount",
+        "value": "The Benefit Amount may be restored, if for a period of 180 consecutive days:\n\u2022 this Policy is in force; and\n\u2022 you are not in a Benefit Payment Period; and\n\u2022 you do not meet the Eligibility for Benefits requirements in this Policy (i.e. you must have recovered).\nThe Benefit Amount for Facility Care and the Benefit Amount for Home and Community Services (if shown on the Benefit Schedule) are restored separately, and may not be combined.\nThe Benefit Amount may be restored an unlimited number of times.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 708,
+          "width": 672,
+          "height": 200
+        }
+      },
+      {
+        "id": "f6",
+        "name": "form_id_footer",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 924,
+          "width": 200,
+          "height": 30
+        }
+      },
+      {
+        "id": "f7",
+        "name": "page_number",
+        "value": "Page 8",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 664,
+          "y": 924,
+          "width": 56,
+          "height": 30
+        }
+      }
+    ],
+    "tables": []
+  }
+}

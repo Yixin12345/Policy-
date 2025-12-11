@@ -1,0 +1,175 @@
+{
+  "page": 6,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page contains policy language and definitions (e.g., Nursing Home Care, Plan of Care, Policy Effective Date, Benefit Provisions).\",\n      \"No features of facility invoice, CMR transport document, or UB-04 claim form present.\",\n      \"Layout is a contract/policy document page.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Nursing Home Care definition\",\n      \"value\": \"means Qualified Long Term Care Services performed in a Nursing Home or an Assisted Living Facility, or Maintenance or Personal Care Services performed in an Assisted Living Facility.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 40,\n        \"width\": 668,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Plan of Care definition\",\n      \"value\": \"is a written plan prescribed by a Licensed Health Care Practitioner developed in consultation with you, based upon an assessment indicating you are Chronically Ill.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 140,\n        \"width\": 668,\n        \"height\": 70\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Policy\",\n      \"value\": \"is this contract with Allianz Life Insurance Company of North America.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 230,\n        \"width\": 668,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Policy Effective Date\",\n      \"value\": \"is the date coverage under this Policy is first in force. This date is shown on the Benefit Schedule.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 270,\n        \"width\": 668,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Qualified Long Term Care Services definition\",\n      \"value\": \"are necessary diagnostic, preventative, therapeutic, curing, treating, mitigating, rehabilitative services, and Maintenance or Personal Care Services which are required by you when you are Chronically Ill, and are provided pursuant to a Plan of Care.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 320,\n        \"width\": 668,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Registered Nurse (RN) definition\",\n      \"value\": \"means a duly licensed registered graduate professional nurse acting within the scope of their license at the time the treatment or service is performed. The RN must not be a member of your Family. Nor can the RN, nor any member of the RN\u2019s Family, be an owner or in any way control the operation of a facility in which you receive care or treatment.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 390,\n        \"width\": 668,\n        \"height\": 110\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Substantial Assistance definition\",\n      \"value\": \"means hands-on or stand-by assistance of another person without which you would be unable to perform the Activities of Daily Living.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 520,\n        \"width\": 668,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Substantial Supervision definition\",\n      \"value\": \"means continual supervision by another person to protect you or others from threats to health or safety. Such supervision may include cueing by verbal prompting, gestures, or other similar demonstrations.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 560,\n        \"width\": 668,\n        \"height\": 70\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Section heading\",\n      \"value\": \"BENEFIT PROVISIONS\",\n      \"confidence\": 1.0,\n      \"bbox\": {\n        \"x\": 200,\n        \"y\": 650,\n        \"width\": 368,\n        \"height\": 50\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Eligibility for Benefits summary\",\n      \"value\": \"While this Policy is in force, you will be eligible for benefits if you are certified as being Chronically Ill, which means that within the previous 12 months, you have been certified by a Licensed Health Care Practitioner as: being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity; or having a severe Cognitive Impairment.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 700,\n        \"width\": 668,\n        \"height\": 160\n      }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"Payment of Benefits heading\",\n      \"value\": \"While this Policy is in force, you will receive benefits if:\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 870,\n        \"width\": 668,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f12\",\n      \"name\": \"Form code\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 1.0,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 950,\n        \"width\": 220,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f13\",\n      \"name\": \"Page number\",\n      \"value\": \"Page 7\",\n      \"confidence\": 1.0,\n      \"bbox\": {\n        \"x\": 640,\n        \"y\": 950,\n        \"width\": 80,\n        \"height\": 20\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page contains policy language and definitions (e.g., Nursing Home Care, Plan of Care, Policy Effective Date, Benefit Provisions).",
+        "No features of facility invoice, CMR transport document, or UB-04 claim form present.",
+        "Layout is a contract/policy document page."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Nursing Home Care definition",
+        "value": "means Qualified Long Term Care Services performed in a Nursing Home or an Assisted Living Facility, or Maintenance or Personal Care Services performed in an Assisted Living Facility.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 40,
+          "width": 668,
+          "height": 80
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Plan of Care definition",
+        "value": "is a written plan prescribed by a Licensed Health Care Practitioner developed in consultation with you, based upon an assessment indicating you are Chronically Ill.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 140,
+          "width": 668,
+          "height": 70
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Policy",
+        "value": "is this contract with Allianz Life Insurance Company of North America.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 230,
+          "width": 668,
+          "height": 30
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Policy Effective Date",
+        "value": "is the date coverage under this Policy is first in force. This date is shown on the Benefit Schedule.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 270,
+          "width": 668,
+          "height": 40
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Qualified Long Term Care Services definition",
+        "value": "are necessary diagnostic, preventative, therapeutic, curing, treating, mitigating, rehabilitative services, and Maintenance or Personal Care Services which are required by you when you are Chronically Ill, and are provided pursuant to a Plan of Care.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 320,
+          "width": 668,
+          "height": 80
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Registered Nurse (RN) definition",
+        "value": "means a duly licensed registered graduate professional nurse acting within the scope of their license at the time the treatment or service is performed. The RN must not be a member of your Family. Nor can the RN, nor any member of the RN\u2019s Family, be an owner or in any way control the operation of a facility in which you receive care or treatment.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 390,
+          "width": 668,
+          "height": 110
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Substantial Assistance definition",
+        "value": "means hands-on or stand-by assistance of another person without which you would be unable to perform the Activities of Daily Living.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 520,
+          "width": 668,
+          "height": 40
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Substantial Supervision definition",
+        "value": "means continual supervision by another person to protect you or others from threats to health or safety. Such supervision may include cueing by verbal prompting, gestures, or other similar demonstrations.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 560,
+          "width": 668,
+          "height": 70
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Section heading",
+        "value": "BENEFIT PROVISIONS",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 200,
+          "y": 650,
+          "width": 368,
+          "height": 50
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Eligibility for Benefits summary",
+        "value": "While this Policy is in force, you will be eligible for benefits if you are certified as being Chronically Ill, which means that within the previous 12 months, you have been certified by a Licensed Health Care Practitioner as: being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity; or having a severe Cognitive Impairment.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 700,
+          "width": 668,
+          "height": 160
+        }
+      },
+      {
+        "id": "f11",
+        "name": "Payment of Benefits heading",
+        "value": "While this Policy is in force, you will receive benefits if:",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 870,
+          "width": 668,
+          "height": 40
+        }
+      },
+      {
+        "id": "f12",
+        "name": "Form code",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 50,
+          "y": 950,
+          "width": 220,
+          "height": 20
+        }
+      },
+      {
+        "id": "f13",
+        "name": "Page number",
+        "value": "Page 7",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 640,
+          "y": 950,
+          "width": 80,
+          "height": 20
+        }
+      }
+    ],
+    "tables": []
+  }
+}

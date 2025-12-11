@@ -1,0 +1,239 @@
+{
+  "page": 11,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"Page contains policy/benefit narrative text, not an invoice, CMR, or UB-04 claim form\",\n      \"No structured billing or transport sections typical of classified document types\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Section Title 1\",\n      \"value\": \"Payment of Claims\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 318, \"width\": 220, \"height\": 28 }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Section Text 1\",\n      \"value\": \"We will pay all benefits to you or your assignee. Such payments will discharge us to the full extent of those payments. If unassigned benefits remain due upon your death, we will pay any amount remaining due as described in the Beneficiary section.\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 348, \"width\": 615, \"height\": 61 }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Section Title 2\",\n      \"value\": \"Extension of Benefits\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 413, \"width\": 260, \"height\": 30 }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Section Text 2\",\n      \"value\": \"Termination of this Policy will not terminate any benefits payable for Facility Care if your confinement begins while your Policy is in force and continues without interruption after the Policy terminates. Any benefits payable under this provision are subject to: the Benefit Amount; any applicable Elimination Period; and all other provisions and limitations of this Policy.\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 445, \"width\": 615, \"height\": 76 }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Section Title 3\",\n      \"value\": \"Coordination of Benefits with Medicare\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 523, \"width\": 420, \"height\": 30 }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Section Text 3\",\n      \"value\": \"Benefits are not payable under this Policy for expenses incurred to the extent that such expenses are reimbursable under Medicare or would be so reimbursable but for the application of a deductible or coinsurance amount.\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 555, \"width\": 615, \"height\": 55 }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Section Title 4\",\n      \"value\": \"Beneficiary\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 614, \"width\": 190, \"height\": 30 }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Section Text 4 Paragraph 1\",\n      \"value\": \"The Beneficiary will be the person or persons, named in the application or subsequently changed by written request, to receive any unassigned benefit payments due upon your death (second-to-die in the case of joint coverage).\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 646, \"width\": 615, \"height\": 50 }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Section Text 4 Paragraph 2\",\n      \"value\": \"You may change the Beneficiary at any time by giving us written notice. A change will not be effective until recorded by us. Once recorded, the change will apply as of the date the request was signed. We will not be liable for any action taken or payment made before a Beneficiary change is recorded. The Beneficiary\u2019s consent is not required to change the Policy or Beneficiary, unless the designation of the Beneficiary is irrevocable.\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 698, \"width\": 615, \"height\": 73 }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Section Text 4 Paragraph 3\",\n      \"value\": \"If you designate more than one person as Beneficiary, the interests of all Beneficiaries will be equal unless your designation specifically provides otherwise. The share of any Beneficiary who does not survive you shall pass equally to the surviving Beneficiaries, unless your designation specifically provides otherwise. If no Beneficiary is designated or no Beneficiary survives you, then your estate will be the Beneficiary.\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 772, \"width\": 615, \"height\": 88 }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"Footer Form Number\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 930, \"width\": 150, \"height\": 22 }\n    },\n    {\n      \"id\": \"f12\",\n      \"name\": \"Footer Page Number\",\n      \"value\": \"Page 12\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 646, \"y\": 930, \"width\": 80, \"height\": 22 }\n    },\n    {\n      \"id\": \"f13\",\n      \"name\": \"Body Text Intro\",\n      \"value\": \"We will reimburse all claims, or any portion of any claim from you or your assignees for payment under this policy, within 45 days after our receipt of the claim. If a claim or a portion of a claim is contested by us, we will notify you or your assignees, in writing, that the claim is contested or denied, within 45 days after our receipt of the claim. The notice that a claim is contested shall identify the contested portion of the claim and the reasons for contesting the claim.\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 72, \"width\": 615, \"height\": 98 }\n    },\n    {\n      \"id\": \"f14\",\n      \"name\": \"Body Text Paragraph 2\",\n      \"value\": \"Upon our receipt of any additional information we requested from you or your assignees, we will pay or deny the contested claim or a portion of the contested claim, within 60 days.\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 172, \"width\": 615, \"height\": 40 }\n    },\n    {\n      \"id\": \"f15\",\n      \"name\": \"Body Text Paragraph 3\",\n      \"value\": \"We will pay or deny any claim no later than 120 days after our receipt of the claim.\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 214, \"width\": 615, \"height\": 28 }\n    },\n    {\n      \"id\": \"f16\",\n      \"name\": \"Body Text Paragraph 4\",\n      \"value\": \"Payment shall be treated as being made on the date a draft or other valid instrument which is equivalent to payment was placed in the United States mail in a properly addressed, postpaid envelope or, if not so posted, on the date of delivery.\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 244, \"width\": 615, \"height\": 56 }\n    },\n    {\n      \"id\": \"f17\",\n      \"name\": \"Body Text Paragraph 5\",\n      \"value\": \"All overdue payment shall bear interest at the rate of 10 percent per year.\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"printed\",\n      \"bbox\": { \"x\": 71, \"y\": 302, \"width\": 615, \"height\": 22 }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Page contains policy/benefit narrative text, not an invoice, CMR, or UB-04 claim form",
+        "No structured billing or transport sections typical of classified document types"
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Section Title 1",
+        "value": "Payment of Claims",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 318,
+          "width": 220,
+          "height": 28
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Section Text 1",
+        "value": "We will pay all benefits to you or your assignee. Such payments will discharge us to the full extent of those payments. If unassigned benefits remain due upon your death, we will pay any amount remaining due as described in the Beneficiary section.",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 348,
+          "width": 615,
+          "height": 61
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Section Title 2",
+        "value": "Extension of Benefits",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 413,
+          "width": 260,
+          "height": 30
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Section Text 2",
+        "value": "Termination of this Policy will not terminate any benefits payable for Facility Care if your confinement begins while your Policy is in force and continues without interruption after the Policy terminates. Any benefits payable under this provision are subject to: the Benefit Amount; any applicable Elimination Period; and all other provisions and limitations of this Policy.",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 445,
+          "width": 615,
+          "height": 76
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Section Title 3",
+        "value": "Coordination of Benefits with Medicare",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 523,
+          "width": 420,
+          "height": 30
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Section Text 3",
+        "value": "Benefits are not payable under this Policy for expenses incurred to the extent that such expenses are reimbursable under Medicare or would be so reimbursable but for the application of a deductible or coinsurance amount.",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 555,
+          "width": 615,
+          "height": 55
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Section Title 4",
+        "value": "Beneficiary",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 614,
+          "width": 190,
+          "height": 30
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Section Text 4 Paragraph 1",
+        "value": "The Beneficiary will be the person or persons, named in the application or subsequently changed by written request, to receive any unassigned benefit payments due upon your death (second-to-die in the case of joint coverage).",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 646,
+          "width": 615,
+          "height": 50
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Section Text 4 Paragraph 2",
+        "value": "You may change the Beneficiary at any time by giving us written notice. A change will not be effective until recorded by us. Once recorded, the change will apply as of the date the request was signed. We will not be liable for any action taken or payment made before a Beneficiary change is recorded. The Beneficiary\u2019s consent is not required to change the Policy or Beneficiary, unless the designation of the Beneficiary is irrevocable.",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 698,
+          "width": 615,
+          "height": 73
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Section Text 4 Paragraph 3",
+        "value": "If you designate more than one person as Beneficiary, the interests of all Beneficiaries will be equal unless your designation specifically provides otherwise. The share of any Beneficiary who does not survive you shall pass equally to the surviving Beneficiaries, unless your designation specifically provides otherwise. If no Beneficiary is designated or no Beneficiary survives you, then your estate will be the Beneficiary.",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 772,
+          "width": 615,
+          "height": 88
+        }
+      },
+      {
+        "id": "f11",
+        "name": "Footer Form Number",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 930,
+          "width": 150,
+          "height": 22
+        }
+      },
+      {
+        "id": "f12",
+        "name": "Footer Page Number",
+        "value": "Page 12",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 646,
+          "y": 930,
+          "width": 80,
+          "height": 22
+        }
+      },
+      {
+        "id": "f13",
+        "name": "Body Text Intro",
+        "value": "We will reimburse all claims, or any portion of any claim from you or your assignees for payment under this policy, within 45 days after our receipt of the claim. If a claim or a portion of a claim is contested by us, we will notify you or your assignees, in writing, that the claim is contested or denied, within 45 days after our receipt of the claim. The notice that a claim is contested shall identify the contested portion of the claim and the reasons for contesting the claim.",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 72,
+          "width": 615,
+          "height": 98
+        }
+      },
+      {
+        "id": "f14",
+        "name": "Body Text Paragraph 2",
+        "value": "Upon our receipt of any additional information we requested from you or your assignees, we will pay or deny the contested claim or a portion of the contested claim, within 60 days.",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 172,
+          "width": 615,
+          "height": 40
+        }
+      },
+      {
+        "id": "f15",
+        "name": "Body Text Paragraph 3",
+        "value": "We will pay or deny any claim no later than 120 days after our receipt of the claim.",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 214,
+          "width": 615,
+          "height": 28
+        }
+      },
+      {
+        "id": "f16",
+        "name": "Body Text Paragraph 4",
+        "value": "Payment shall be treated as being made on the date a draft or other valid instrument which is equivalent to payment was placed in the United States mail in a properly addressed, postpaid envelope or, if not so posted, on the date of delivery.",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 244,
+          "width": 615,
+          "height": 56
+        }
+      },
+      {
+        "id": "f17",
+        "name": "Body Text Paragraph 5",
+        "value": "All overdue payment shall bear interest at the rate of 10 percent per year.",
+        "confidence": 1.0,
+        "sourceType": "printed",
+        "bbox": {
+          "x": 71,
+          "y": 302,
+          "width": 615,
+          "height": 22
+        }
+      }
+    ],
+    "tables": []
+  }
+}

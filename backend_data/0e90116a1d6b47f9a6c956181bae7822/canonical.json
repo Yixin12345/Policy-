@@ -1,0 +1,689 @@
+{
+  "schemaVersion": "2025-12-10",
+  "generatedAt": "2025-12-10T12:00:00Z",
+  "policyConversion": {
+    "Benefit Type": {
+      "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 1,
+          "fieldId": "49e36f47-8042-4d4a-9912-1140f9c57c04",
+          "snippet": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)"
+        },
+        {
+          "page": 1,
+          "tableId": "317103df-9181-4dc2-8d50-a7f5cf2ed3af",
+          "snippet": "Plan Type | Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)"
+        }
+      ]
+    },
+    "Days or Dollar Based": {
+      "value": "Dollar Based (Monthly Reimbursement)",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 1,
+          "fieldId": "49e36f47-8042-4d4a-9912-1140f9c57c04",
+          "snippet": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)"
+        }
+      ]
+    },
+    "Elimination Period": {
+      "value": "100 Calendar Days; Once per lifetime and cumulative",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "8d548d80-e1ee-4e4a-80a7-c46d4c907e1f"
+        }
+      ]
+    },
+    "EP Calendar or Service Days": {
+      "value": "Calendar Days",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "8d548d80-e1ee-4e4a-80a7-c46d4c907e1f",
+          "snippet": "100 Calendar Days; Once per lifetime and cumulative"
+        }
+      ]
+    },
+    "EP Renewal or Lifetime": {
+      "value": "Once per lifetime and cumulative",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "8d548d80-e1ee-4e4a-80a7-c46d4c907e1f",
+          "snippet": "100 Calendar Days; Once per lifetime and cumulative"
+        }
+      ]
+    },
+    "Elim Period Exemptions": {
+      "value": "Initial Needs Assessment: EP does not need to be satisfied",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "60d3fb05-ddd8-4637-8cf3-375132315bef",
+          "snippet": "1 visit per lifetime; EP does not need to be satisfied; ... reimbursed up to $275 per lifetime"
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Initial Needs Assessment | 1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost; If Care Management organization is selected by the insured \u2013 reimbursed up to $275 per lifetime"
+        }
+      ]
+    },
+    "Maximum Benefit Period": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Maximum Monthly Limit": {
+      "value": "$15K (MBA options up to $15K)",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "page": 1,
+          "fieldId": "0431478b-f430-404b-8325-2702c2adda02",
+          "snippet": "MBA options: $3K, $6K, $9K, $12K, $15K."
+        },
+        {
+          "page": 1,
+          "tableId": "317103df-9181-4dc2-8d50-a7f5cf2ed3af",
+          "snippet": "MBA options: $3K, $6K, $9K, $12K, $15K"
+        }
+      ]
+    },
+    "Maximum Lifetime $Benefit": {
+      "value": "$1,000,000 (TBA option; $1MM not available with Cash Benefit Rider)",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "page": 1,
+          "fieldId": "0431478b-f430-404b-8325-2702c2adda02",
+          "snippet": "TBA options: $75K, $100K, $200K, $300K, $400K, $500K, $1MM* (*$1MM not available with Cash Benefit Rider)."
+        },
+        {
+          "page": 1,
+          "tableId": "317103df-9181-4dc2-8d50-a7f5cf2ed3af",
+          "snippet": "TBA options shown: $75K, $100K, $200K, $300K, $400K, $500K, $1MM*"
+        }
+      ]
+    },
+    "ADL\u2019s Required": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Ambulating": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Bathing": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Continence": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Dressing": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Eating": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Medications": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Toileting": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Transferring": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Care Coordination": {
+      "value": "MetLife Care Coordinators available to answer questions about LTC coverage, services and discounts; provide advice about caring for a loved one",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "9a1b806e-bc6d-4698-ad5b-e090fe5f07a0",
+          "snippet": "MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area. An insured can also call for advice about caring for a loved one who needs LTC services, even if their family member is not insured with MetLife."
+        },
+        {
+          "page": 2,
+          "tableId": "790a8ef2-0991-4c23-8231-8a83ad6725c0",
+          "snippet": "Care Coordination Services | MetLife Care Coordinators available to answer questions about LTC coverage, services and discounts; can provide advice about caring for loved ones"
+        }
+      ]
+    },
+    "Nursing Home": {
+      "value": "Covered; reimbursed up to 100% of MBA",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "d7226fa8-cd8c-42f8-9595-084b38810685",
+          "snippet": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility"
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Facility Care | Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility"
+        }
+      ]
+    },
+    "NH/ALF Bed Reservation Amount": {
+      "value": "Actual charges incurred (to reserve insured's bed)",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "afda6316-8eae-42ec-8333-16e8c659eff3",
+          "snippet": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason"
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Bed Reservation | Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason"
+        }
+      ]
+    },
+    "NH/ALF Bed Reservation Days": {
+      "value": "Up to 50 days per calendar year",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "afda6316-8eae-42ec-8333-16e8c659eff3",
+          "snippet": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason"
+        }
+      ]
+    },
+    "Assisted Living": {
+      "value": "Covered; reimbursed up to 100% of MBA",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "d7226fa8-cd8c-42f8-9595-084b38810685",
+          "snippet": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility"
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Facility Care | Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility"
+        }
+      ]
+    },
+    "Home Health Care": {
+      "value": "Reimbursed up to 100% of MBA; includes Nursing Care, Therapy services, Care Advisory Services, Homemaker Services; services may be provided by Home Care Aide, Social Worker, Independent Caregiver",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "9821b3f2-a016-4e0f-b73a-a69207d0ec87",
+          "snippet": "Reimbursed up to 100% of MBA; Home care services \u2013 Nursing Care, Therapy services, Care Advisory Services, Homemaker Services; Services provided by a Home Care Aide, Social Worker or Independent Caregiver \u2013 Hospice Care; Adult Day Care"
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Home and Community Care | Reimbursed up to 100% of MBA; Home care services \u2013 Nursing Care, Therapy services, Care Advisory Services, Homemaker Services; ... Adult Day Care"
+        }
+      ]
+    },
+    "HHC Bed Reservation Amount": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "HHC Bed Reservation Days": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Adult Day Care": {
+      "value": "Covered as part of Home and Community Care",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "9821b3f2-a016-4e0f-b73a-a69207d0ec87",
+          "snippet": "Services provided by a Home Care Aide, Social Worker or Independent Caregiver \u2013 Hospice Care; Adult Day Care"
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Home and Community Care | ... Adult Day Care"
+        }
+      ]
+    },
+    "Alternative Plan of Care": {
+      "value": "A MetLife Care Coordinator may authorize benefits for OLTC services not specifically defined as covered services under the policy if service meets insured's needs and is cost-effective",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "4ff77126-eba9-415f-8fc7-de282efc0d2b",
+          "snippet": "A MetLife Care Coordinator may authorize benefits for OLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative."
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Alternate Service Provision | A MetLife Care Coordinator may authorize benefits for OLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative."
+        }
+      ]
+    },
+    "Caregiver Training": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Durable Medical Equipment (DME)": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Emergency Medical System/Devices": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Home Modifications": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Homemaker Services": {
+      "value": "Included under Home and Community Care; reimbursed up to 100% of MBA",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "9821b3f2-a016-4e0f-b73a-a69207d0ec87",
+          "snippet": "Home care services \u2013 Nursing Care, Therapy services, Care Advisory Services, Homemaker Services"
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Home and Community Care | ... Homemaker Services"
+        }
+      ]
+    },
+    "Hospice Amount": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Hospice Days": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Personal Care Advisor": {
+      "value": "Care Advisory Services / MetLife Care Coordinators available to provide advice",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "9821b3f2-a016-4e0f-b73a-a69207d0ec87",
+          "snippet": "Home care services \u2013 ... Care Advisory Services;"
+        },
+        {
+          "page": 2,
+          "fieldId": "9a1b806e-bc6d-4698-ad5b-e090fe5f07a0",
+          "snippet": "MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area. An insured can also call for advice about caring for a loved one who needs LTC services..."
+        }
+      ]
+    },
+    "Personal Care Services": {
+      "value": "Included as part of Home and Community Care; reimbursed up to 100% of MBA (nursing care, caregiver services, therapy services referenced)",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "9821b3f2-a016-4e0f-b73a-a69207d0ec87",
+          "snippet": "Home care services \u2013 Nursing Care, Therapy services, Care Advisory Services, Homemaker Services; Services provided by a Home Care Aide, Social Worker or Independent Caregiver \u2013 Hospice Care; Adult Day Care"
+        }
+      ]
+    },
+    "Prescription Drugs": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Respite Amount": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Respite Days": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Therapeutic Equipment Rental": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Nonforfeiture Benefit": {
+      "value": "Nonforfeiture Rider: provides some benefits if policy lapses for nonpayment or is cancelled by insured; must be in effect for 3 years and when policy ends; provides full MBA and reduced TBA equal to greater of total premiums paid or 1x MBA; available at initial application only",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "page": 1,
+          "fieldId": "63988815-9e4b-47bf-bf23-d6a9057c2af9",
+          "snippet": "Nonforfeiture Rider: Provides some benefits if policy lapses for nonpayment or is cancelled by insured; must be in effect for 3 years and be in effect when policy ends; provides full MBA and reduced TBA equal to the greater of total amount of premium paid or 1x MBA; available at initial application only."
+        },
+        {
+          "page": 2,
+          "fieldId": "0f469cc0-7db9-4529-8645-13b56e09baa0",
+          "snippet": "Contingent Benefit Upon Lapse | Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA"
+        }
+      ]
+    },
+    "Premium Payment Options": {
+      "value": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider available at initial application only; N/A with FPO or GPO",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "d86546c3-11fd-4206-8e39-f973fb00c71c",
+          "snippet": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO;"
+        },
+        {
+          "page": 2,
+          "tableId": "790a8ef2-0991-4c23-8231-8a83ad6725c0",
+          "snippet": "Payment Options | Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO;"
+        }
+      ]
+    },
+    "Restoration of Benefits": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Return/Refund of Premium": {
+      "value": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "cbb0e48b-b0fd-4702-ac99-4883af214eed",
+          "snippet": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate"
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Return of Premium | If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate"
+        }
+      ]
+    },
+    "Simple Inflation": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Compound Inflation": {
+      "value": "Automatic Compound Inflation Protection Rider available: 3% or 5% compound (Custom Advantage only)",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "page": 1,
+          "fieldId": "e294be23-73f5-4bfc-8095-6c9f5f13954c",
+          "snippet": "Automatic Compound Inflation Protection Riders: Increases the MBA and remaining portion of TBA ... by either 3% or 5% ... 3% Automatic Compound Inflation Protection Rider and 5% Automatic Compound Inflation Protection Rider available."
+        },
+        {
+          "page": 1,
+          "tableId": "317103df-9181-4dc2-8d50-a7f5cf2ed3af",
+          "snippet": "Benefit Increase Options | Automatic Compound Inflation Protection Riders: ... 3% or 5% available."
+        }
+      ]
+    },
+    "Extension of Benefits": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Waiver of Premium": {
+      "value": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "ff8b08e3-a022-4ae2-b566-53fc5dfb73e3",
+          "snippet": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits"
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Premium Waiver | Premiums waived when EP is satisfied and the insured is receiving payment of benefits"
+        }
+      ]
+    },
+    "Survivorship": {
+      "value": "Shared Care Rider: when insured dies remaining TBA transfers to spouse/partner at no extra cost",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "page": 1,
+          "fieldId": "63988815-9e4b-47bf-bf23-d6a9057c2af9",
+          "snippet": "Shared Care Rider: Insured and spouse/partner can access each other's benefits once TBA under their own policy is exhausted; when insured dies remaining TBA transfers to spouse/partner at no extra cost."
+        }
+      ]
+    },
+    "Guaranteed Purchase Option": {
+      "value": "Included with Simple Advantage only. Insured able to purchase additional coverage every 3 years to age 65 with no additional underwriting; lifetime max increase 2x initial TBA and 2x initial MBA; minimum 25% of initial coverage must be purchased each time",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "page": 1,
+          "fieldId": "5c898781-3044-4801-b49c-0ebd7a44bbd4",
+          "snippet": "Included with Simple Advantage only. Insured able to purchase additional coverage every 3 years to age 65 with no additional underwriting; premium for increase in coverage is at attained age rates; lifetime maximum increase available is 2x initial TBA and 2x initial MBA; minimum of 25% of initial coverage must be purchased each time GPO is exercised; increases will not occur if insured is eligible for benefits."
+        },
+        {
+          "page": 1,
+          "tableId": "317103df-9181-4dc2-8d50-a7f5cf2ed3af",
+          "snippet": "Guaranteed Purchase Option (GPO) | Included with Simple Advantage only..."
+        }
+      ]
+    },
+    "Indemnity Benefit": {
+      "value": "Cash Benefit Rider: Full MBA paid as cash payment instead of reimbursement for covered services; available at initial application only; may be taxable; $1MM TBA not available with rider",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "page": 1,
+          "fieldId": "63988815-9e4b-47bf-bf23-d6a9057c2af9",
+          "snippet": "Cash Benefit Rider: Full MBA paid as cash payment instead of reimbursement for covered services; available at initial application only; $1MM TBA not available; benefits may be taxable."
+        }
+      ]
+    },
+    "Substantial Assistance": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Standby Assistance": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Substantial Supervision": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Premium Refund at Death": {
+      "value": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "cbb0e48b-b0fd-4702-ac99-4883af214eed",
+          "snippet": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate"
+        }
+      ]
+    },
+    "Renewal Premium": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Cancellation": {
+      "value": "Policy may end due to non-payment of premiums or insured's written request to cancel following a substantial premium increase; limited coverage (contingent benefit upon lapse) provided",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 2,
+          "fieldId": "0f469cc0-7db9-4529-8645-13b56e09baa0",
+          "snippet": "Limited coverage is provided if the insured's policy ends due to non-payment of premiums, or the insured's written request to cancel, following a substantial premium increase; Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA;"
+        },
+        {
+          "page": 2,
+          "tableId": "abed64b8-310c-461a-b991-940641a1ecd7",
+          "snippet": "Contingent Benefit Upon Lapse | Limited coverage if policy ends due to non-payment or written cancellation following a substantial premium increase..."
+        }
+      ]
+    },
+    "Additional Benefits: (Enter Benefit Description Here)": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    }
+  },
+  "documentTypes": [
+    "policy_conversion"
+  ],
+  "documentCategories": [
+    "policy_conversion"
+  ],
+  "sourceMap": {
+    "ELIMINATION_PERIOD": {
+      "page": 2,
+      "fieldId": "8d548d80-e1ee-4e4a-80a7-c46d4c907e1f",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "100 Calendar Days; Once per lifetime and cumulative"
+    },
+    "PLAN_TYPE": {
+      "page": 1,
+      "fieldId": "49e36f47-8042-4d4a-9912-1140f9c57c04",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)"
+    },
+    "MBA_TBA_OPTIONS": {
+      "page": 1,
+      "fieldId": "0431478b-f430-404b-8325-2702c2adda02",
+      "confidence": 0.6,
+      "source": "extraction",
+      "snippet": "MBA options: $3K, $6K, $9K, $12K, $15K. TBA options: $75K, $100K, $200K, $300K, $400K, $500K, $1MM* (*$1MM not available with Cash Benefit Rider)."
+    },
+    "HOME_AND_COMMUNITY_CARE": {
+      "page": 2,
+      "fieldId": "9821b3f2-a016-4e0f-b73a-a69207d0ec87",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "Reimbursed up to 100% of MBA; Home care services \u2013 Nursing Care, Therapy services, Care Advisory Services, Homemaker Services; Services provided by a Home Care Aide, Social Worker or Independent Caregiver \u2013 Hospice Care; Adult Day Care"
+    },
+    "FACILITY_CARE": {
+      "page": 2,
+      "fieldId": "d7226fa8-cd8c-42f8-9595-084b38810685",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility"
+    },
+    "BED_RESERVATION": {
+      "page": 2,
+      "fieldId": "afda6316-8eae-42ec-8333-16e8c659eff3",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason"
+    },
+    "RETURN_OF_PREMIUM": {
+      "page": 2,
+      "fieldId": "cbb0e48b-b0fd-4702-ac99-4883af214eed",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate"
+    },
+    "INTERNATIONAL_BENEFIT": {
+      "page": 2,
+      "fieldId": "a87be973-16e3-4213-b338-59b1329b2282",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA is limited ... EP for International Benefit is doubled to 200 Calendar Days; If Cash Benefit Rider is added to policy: International Benefit is modified; pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days"
+    },
+    "INITIAL_NEEDS_ASSESSMENT": {
+      "page": 2,
+      "fieldId": "60d3fb05-ddd8-4637-8cf3-375132315bef",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife \u2013 no cost to the insured; If Care Management organization is selected by the insured \u2013 reimbursed up to $275 per lifetime"
+    },
+    "PREMIUM_WAIVER": {
+      "page": 2,
+      "fieldId": "ff8b08e3-a022-4ae2-b566-53fc5dfb73e3",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits"
+    },
+    "PAYMENT_OPTIONS": {
+      "page": 2,
+      "fieldId": "d86546c3-11fd-4206-8e39-f973fb00c71c",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider \u2013 available at initial application only; N/A with FPO or GPO;"
+    },
+    "CARE_COORDINATION_SERVICES": {
+      "page": 2,
+      "fieldId": "9a1b806e-bc6d-4698-ad5b-e090fe5f07a0",
+      "confidence": 0.8,
+      "source": "extraction",
+      "snippet": "MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area."
+    },
+    "OPTIONAL_RIDERS": {
+      "page": 1,
+      "fieldId": "63988815-9e4b-47bf-bf23-d6a9057c2af9",
+      "confidence": 0.6,
+      "source": "extraction",
+      "snippet": "Shared Care Rider; Nonforfeiture Rider; Cash Benefit Rider: Full MBA paid as cash payment instead of reimbursement..."
+    },
+    "BENEFIT_INCREASE_OPTIONS": {
+      "page": 1,
+      "fieldId": "e294be23-73f5-4bfc-8095-6c9f5f13954c",
+      "confidence": 0.6,
+      "source": "extraction",
+      "snippet": "Future Purchase Option (FPO) and Automatic Compound Inflation Protection Riders (3% or 5%)"
+    }
+  },
+  "reasoningNotes": [
+    "Populated fields only where explicit evidence appears in the extraction JSON; did not infer ADL criteria or specific rehabilitation/service-level triggers because no ADL definitions were present in the source.",
+    "Elimination Period entries were taken verbatim. EP related fields (EP Calendar/Service Days and EP Renewal or Lifetime) were derived from the elimination period text '100 Calendar Days; Once per lifetime and cumulative'. Confidence 0.8 reflects clear extraction.",
+    "Benefit amounts (MBA/TBA) pulled from page 1 had lower confidence (0.6) in source extraction; therefore Maximum Monthly Limit and Maximum Lifetime $Benefit set with 0.6 confidence and include note about $1MM not available with Cash Benefit Rider.",
+    "Where Home and Community Care and Facility Care list covered services, mapped those descriptions to corresponding schema fields (Home Health Care, Homemaker Services, Nursing Home, Assisted Living, Adult Day Care, Personal Care Services, Personal Care Advisor, Care Coordination). These mappings are semantic and based on explicit phrases in the source.",
+    "Nonforfeiture/Contingent Benefit language appears in two places (Optional Riders on page 1 and Contingent Benefit Upon Lapse on page 2); combined into Nonforfeiture Benefit field and Cancellation/Contingent-lapse explanation.",
+    "Indemnity Benefit populated from Cash Benefit Rider description. Confidence moderate (0.6) because original extraction confidence was 0.6.",
+    "Several fields remain null due to absence of explicit text in the provided extraction (ADL specifics, DME amounts, respite specifics, hospice amounts/days, many assistance-level fields). Per rules, these were left null rather than fabricated."
+  ]
+}

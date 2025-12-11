@@ -1,0 +1,650 @@
+{
+  "jobId": "dca0acf9b7f04c0c937385cdbfb4b996",
+  "documentName": "Policy1 - example.pdf",
+  "sourcePdf": "source.pdf",
+  "status": {
+    "jobId": "dca0acf9b7f04c0c937385cdbfb4b996",
+    "totalPages": 17,
+    "processedPages": 17,
+    "state": "partial",
+    "errors": [
+      {
+        "page": 1,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 2,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 3,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 4,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 5,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 6,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 7,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 8,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 9,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 10,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 11,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 12,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 13,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 14,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 15,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 16,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "page": 17,
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      },
+      {
+        "stage": "mapping",
+        "message": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}"
+      }
+    ],
+    "startedAt": "2025-12-11T00:36:25.960291",
+    "finishedAt": "2025-12-11T00:36:28.910850"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-1.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 2,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-2.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 3,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-3.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 4,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-4.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 5,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-5.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 6,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-6.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 7,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-7.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 8,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-8.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 9,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-9.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 10,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-10.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 11,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-11.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 12,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-12.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 13,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-13.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 14,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-14.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 90,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 15,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-15.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 16,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-16.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    },
+    {
+      "pageNumber": 17,
+      "status": "error",
+      "fields": [],
+      "tables": [],
+      "imagePath": "page-17.png",
+      "imageMime": "image/png",
+      "markdownText": null,
+      "errorMessage": "Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}",
+      "rotationApplied": 0,
+      "documentTypeHint": null,
+      "documentTypeConfidence": null
+    }
+  ],
+  "aggregated": {
+    "jobId": "dca0acf9b7f04c0c937385cdbfb4b996",
+    "fields": []
+  },
+  "metadata": {
+    "originalFilename": "Policy1 - example.pdf",
+    "tableGroups": {},
+    "mergedTables": {},
+    "canonicalDocumentTypes": [
+      "policy_conversion"
+    ]
+  },
+  "documentType": "policy_conversion",
+  "canonical": {
+    "policyConversion": {
+      "Benefit Type": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Days or Dollar Based": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Elimination Period": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "EP Calendar or Service Days": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "EP Renewal or Lifetime": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Elim Period Exemptions": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Maximum Benefit Period": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Maximum Monthly Limit": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Maximum Lifetime $Benefit": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "ADL\u2019s Required": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Ambulating": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Bathing": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Continence": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Dressing": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Eating": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Medications": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Toileting": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Transferring": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Care Coordination": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Nursing Home": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "NH/ALF Bed Reservation Amount": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "NH/ALF Bed Reservation Days": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Assisted Living": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Home Health Care": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "HHC Bed Reservation Amount": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "HHC Bed Reservation Days": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Adult Day Care": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Alternative Plan of Care": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Caregiver Training": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Durable Medical Equipment (DME)": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Emergency Medical System/Devices": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Home Modifications": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Homemaker Services": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Hospice Amount": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Hospice Days": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Personal Care Advisor": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Personal Care Services": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Prescription Drugs": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Respite Amount": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Respite Days": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Therapeutic Equipment Rental": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Nonforfeiture Benefit": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Premium Payment Options": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Restoration of Benefits": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Return/Refund of Premium": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Simple Inflation": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Compound Inflation": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Extension of Benefits": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Waiver of Premium": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Survivorship": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Guaranteed Purchase Option": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Indemnity Benefit": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Substantial Assistance": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Standby Assistance": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Substantial Supervision": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Premium Refund at Death": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Renewal Premium": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Cancellation": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      },
+      "Additional Benefits: (Enter Benefit Description Here)": {
+        "value": null,
+        "confidence": null,
+        "sources": []
+      }
+    },
+    "documentTypes": [
+      "policy_conversion"
+    ],
+    "documentCategories": [
+      "policy_conversion"
+    ],
+    "generatedAt": "2025-12-11T00:36:28.910850",
+    "reasoningNotes": []
+  },
+  "mappingTrace": {},
+  "summary": {
+    "totalPages": 17,
+    "totalFields": 0,
+    "totalTables": 0,
+    "totalProcessingMs": 2950,
+    "startedAt": "2025-12-11T00:36:25.960291",
+    "finishedAt": "2025-12-11T00:36:28.910850",
+    "confidenceBuckets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lowConfidenceCount": 0
+  },
+  "lastModified": "2025-12-11T00:36:28.910850",
+  "snapshotVersion": 1
+}

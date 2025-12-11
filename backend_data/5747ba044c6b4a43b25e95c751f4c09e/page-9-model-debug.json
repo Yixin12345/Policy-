@@ -1,0 +1,408 @@
+{
+  "page": 9,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Document appears to be an insurance/policy benefit description with titled sections and explanatory paragraphs rather than an invoice, CMR form, or UB04 claim form.\",\n      \"Page contains headings like 'Alternative Plan of Care Benefit' and 'Limitations or Conditions on Eligibility for Benefits' typical of policy or benefits documents.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"title_01\",\n      \"name\": \"Document Title\",\n      \"value\": \"Alternative Plan of Care Benefit\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 28,\n        \"width\": 672,\n        \"height\": 44\n      }\n    },\n    {\n      \"id\": \"alt_plan_paragraph\",\n      \"name\": \"Alternative Plan of Care Benefit - Description\",\n      \"value\": \"An Alternative Plan of Care provides for Qualified Long Term Care Services which may include: equipment purchases or rentals; permanent or temporary modifications to your residence (such as ramps or rails); or care services not normally covered under the Home and Community Services Benefit. The Alternative Plan of Care is not available for providing Home and Community Services Benefits on policies providing Facility Care only. We reserve the right to make the final decision on any request for the Alternative Plan of Care Benefit.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 72,\n        \"width\": 672,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"we_will_pay_header\",\n      \"name\": \"We will pay for an Alternative Plan of Care if - Header\",\n      \"value\": \"We will pay for an Alternative Plan of Care if:\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 196,\n        \"width\": 560,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"condition_1\",\n      \"name\": \"Condition - Benefit Payment Period\",\n      \"value\": \"you are in a Benefit Payment Period; and\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 220,\n        \"width\": 620,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"condition_2\",\n      \"name\": \"Condition - Licensed Health Care Practitioner Agreement\",\n      \"value\": \"you, your Licensed Health Care Practitioner, and we agree that an Alternative Plan of Care is: (a) medically acceptable; and (b) the most cost efficient manner in which to provide benefits for your claim under this Policy; and\",\n      \"confidence\": 0.7,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 240,\n        \"width\": 640,\n        \"height\": 62\n      }\n    },\n    {\n      \"id\": \"condition_3\",\n      \"name\": \"Condition - Benefit Amount not exhausted\",\n      \"value\": \"you have not exhausted the Benefit Amount shown in the Benefit Schedule; and\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 306,\n        \"width\": 620,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"condition_4\",\n      \"name\": \"Condition - No other payments\",\n      \"value\": \"you agree that you will not receive payments for any other benefits under this Policy while Alternative Plan of Care benefits are being paid.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 326,\n        \"width\": 640,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"alt_plan_subtraction\",\n      \"name\": \"Benefit Subtraction Note\",\n      \"value\": \"All benefits paid under an Alternative Plan of Care are subtracted from the Benefit Amount for Facility Care.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 366,\n        \"width\": 672,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"personal_care_title\",\n      \"name\": \"Section Title\",\n      \"value\": \"Personal Care Advisor\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 412,\n        \"width\": 420,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"personal_care_description\",\n      \"name\": \"Personal Care Advisor - Description\",\n      \"value\": \"A Personal Care Advisor is available to assist you with questions regarding such matters as:\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 448,\n        \"width\": 672,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"personal_bullet_1\",\n      \"name\": \"Personal Care Advisor - Eligibility bullet\",\n      \"value\": \"Eligibility for Benefits; or\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 472,\n        \"width\": 620,\n        \"height\": 16\n      }\n    },\n    {\n      \"id\": \"personal_bullet_2\",\n      \"name\": \"Personal Care Advisor - Appropriate level of care bullet\",\n      \"value\": \"appropriate level of care; or\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 490,\n        \"width\": 620,\n        \"height\": 16\n      }\n    },\n    {\n      \"id\": \"personal_bullet_3\",\n      \"name\": \"Personal Care Advisor - Availability of facilities bullet\",\n      \"value\": \"availability of facilities and other care and service resources in your area; or\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 508,\n        \"width\": 640,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"personal_bullet_4\",\n      \"name\": \"Personal Care Advisor - Other questions bullet\",\n      \"value\": \"any other questions you may have about a claim for benefits.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 536,\n        \"width\": 640,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"personal_contact_note\",\n      \"name\": \"Personal Care Advisor - Contact note\",\n      \"value\": \"You can contact your Personal Care Advisor by calling the toll-free number shown on the front of this Policy.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 556,\n        \"width\": 672,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"limitations_header\",\n      \"name\": \"Centered Section Title\",\n      \"value\": \"LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 96,\n        \"y\": 612,\n        \"width\": 576,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"limitations_subheader\",\n      \"name\": \"Limitations and Exclusions - Subheader\",\n      \"value\": \"Limitations and Exclusions\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 656,\n        \"width\": 420,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"limitations_intro\",\n      \"name\": \"Limitations Intro\",\n      \"value\": \"No benefits will be paid for any confinement, care, treatment, or service(s):\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 686,\n        \"width\": 672,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"exclusion_1\",\n      \"name\": \"Exclusion - Provided by family\",\n      \"value\": \"provided to you by a person in your Family;\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 712,\n        \"width\": 640,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"exclusion_2\",\n      \"name\": \"Exclusion - Suicide or self-inflicted injury\",\n      \"value\": \"that results from attempted suicide or intentionally self-inflicted injury;\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 730,\n        \"width\": 640,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"exclusion_3\",\n      \"name\": \"Exclusion - Felony participation\",\n      \"value\": \"that results from voluntary participation in a felony, attempted felony, or illegal occupation;\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 748,\n        \"width\": 640,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"exclusion_4\",\n      \"name\": \"Exclusion - Outside US or Canada\",\n      \"value\": \"provided outside the United States or Canada;\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 766,\n        \"width\": 640,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"exclusion_5\",\n      \"name\": \"Exclusion - Worker compensation\",\n      \"value\": \"that results from a sickness or injury for which benefits are provided under any state or federal worker's compensation law or similar law;\",\n      \"confidence\": 0.7,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 784,\n        \"width\": 640,\n        \"height\": 34\n      }\n    },\n    {\n      \"id\": \"exclusion_6\",\n      \"name\": \"Exclusion - No financial liability\",\n      \"value\": \"for which you have no financial liability or that is provided at no charge in the absence of insurance;\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 820,\n        \"width\": 640,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"exclusion_7\",\n      \"name\": \"Exclusion - Government facility\",\n      \"value\": \"provided in a government facility (unless otherwise required by law);\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 838,\n        \"width\": 640,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"exclusion_8\",\n      \"name\": \"Exclusion - Alcoholism or drug addiction treatment\",\n      \"value\": \"provided for the treatment of alcoholism or drug addiction, or in facilities operated primarily for such treatment;\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 856,\n        \"width\": 640,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"exclusion_9\",\n      \"name\": \"Exclusion - Intoxication or narcotics\",\n      \"value\": \"provided as a result of your being intoxicated or under the influence of a narcotic, except to the extent that the alcohol or narcotics are prescribed by a physician; or\",\n      \"confidence\": 0.7,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 874,\n        \"width\": 640,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"exclusion_10\",\n      \"name\": \"Exclusion - Mental or Nervous Disorders facilities\",\n      \"value\": \"provided in facilities operated primarily for the treatment of Mental or Nervous Disorders.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 68,\n        \"y\": 906,\n        \"width\": 640,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"form_code\",\n      \"name\": \"Form Code\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 952,\n        \"width\": 220,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"page_number\",\n      \"name\": \"Page Number\",\n      \"value\": \"Page 10\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 640,\n        \"y\": 952,\n        \"width\": 88,\n        \"height\": 18\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Document appears to be an insurance/policy benefit description with titled sections and explanatory paragraphs rather than an invoice, CMR form, or UB04 claim form.",
+        "Page contains headings like 'Alternative Plan of Care Benefit' and 'Limitations or Conditions on Eligibility for Benefits' typical of policy or benefits documents."
+      ]
+    },
+    "fields": [
+      {
+        "id": "title_01",
+        "name": "Document Title",
+        "value": "Alternative Plan of Care Benefit",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 28,
+          "width": 672,
+          "height": 44
+        }
+      },
+      {
+        "id": "alt_plan_paragraph",
+        "name": "Alternative Plan of Care Benefit - Description",
+        "value": "An Alternative Plan of Care provides for Qualified Long Term Care Services which may include: equipment purchases or rentals; permanent or temporary modifications to your residence (such as ramps or rails); or care services not normally covered under the Home and Community Services Benefit. The Alternative Plan of Care is not available for providing Home and Community Services Benefits on policies providing Facility Care only. We reserve the right to make the final decision on any request for the Alternative Plan of Care Benefit.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 72,
+          "width": 672,
+          "height": 120
+        }
+      },
+      {
+        "id": "we_will_pay_header",
+        "name": "We will pay for an Alternative Plan of Care if - Header",
+        "value": "We will pay for an Alternative Plan of Care if:",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 196,
+          "width": 560,
+          "height": 20
+        }
+      },
+      {
+        "id": "condition_1",
+        "name": "Condition - Benefit Payment Period",
+        "value": "you are in a Benefit Payment Period; and",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 220,
+          "width": 620,
+          "height": 18
+        }
+      },
+      {
+        "id": "condition_2",
+        "name": "Condition - Licensed Health Care Practitioner Agreement",
+        "value": "you, your Licensed Health Care Practitioner, and we agree that an Alternative Plan of Care is: (a) medically acceptable; and (b) the most cost efficient manner in which to provide benefits for your claim under this Policy; and",
+        "confidence": 0.7,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 240,
+          "width": 640,
+          "height": 62
+        }
+      },
+      {
+        "id": "condition_3",
+        "name": "Condition - Benefit Amount not exhausted",
+        "value": "you have not exhausted the Benefit Amount shown in the Benefit Schedule; and",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 306,
+          "width": 620,
+          "height": 18
+        }
+      },
+      {
+        "id": "condition_4",
+        "name": "Condition - No other payments",
+        "value": "you agree that you will not receive payments for any other benefits under this Policy while Alternative Plan of Care benefits are being paid.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 326,
+          "width": 640,
+          "height": 36
+        }
+      },
+      {
+        "id": "alt_plan_subtraction",
+        "name": "Benefit Subtraction Note",
+        "value": "All benefits paid under an Alternative Plan of Care are subtracted from the Benefit Amount for Facility Care.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 366,
+          "width": 672,
+          "height": 20
+        }
+      },
+      {
+        "id": "personal_care_title",
+        "name": "Section Title",
+        "value": "Personal Care Advisor",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 412,
+          "width": 420,
+          "height": 28
+        }
+      },
+      {
+        "id": "personal_care_description",
+        "name": "Personal Care Advisor - Description",
+        "value": "A Personal Care Advisor is available to assist you with questions regarding such matters as:",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 448,
+          "width": 672,
+          "height": 20
+        }
+      },
+      {
+        "id": "personal_bullet_1",
+        "name": "Personal Care Advisor - Eligibility bullet",
+        "value": "Eligibility for Benefits; or",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 472,
+          "width": 620,
+          "height": 16
+        }
+      },
+      {
+        "id": "personal_bullet_2",
+        "name": "Personal Care Advisor - Appropriate level of care bullet",
+        "value": "appropriate level of care; or",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 490,
+          "width": 620,
+          "height": 16
+        }
+      },
+      {
+        "id": "personal_bullet_3",
+        "name": "Personal Care Advisor - Availability of facilities bullet",
+        "value": "availability of facilities and other care and service resources in your area; or",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 508,
+          "width": 640,
+          "height": 24
+        }
+      },
+      {
+        "id": "personal_bullet_4",
+        "name": "Personal Care Advisor - Other questions bullet",
+        "value": "any other questions you may have about a claim for benefits.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 536,
+          "width": 640,
+          "height": 18
+        }
+      },
+      {
+        "id": "personal_contact_note",
+        "name": "Personal Care Advisor - Contact note",
+        "value": "You can contact your Personal Care Advisor by calling the toll-free number shown on the front of this Policy.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 556,
+          "width": 672,
+          "height": 20
+        }
+      },
+      {
+        "id": "limitations_header",
+        "name": "Centered Section Title",
+        "value": "LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 96,
+          "y": 612,
+          "width": 576,
+          "height": 28
+        }
+      },
+      {
+        "id": "limitations_subheader",
+        "name": "Limitations and Exclusions - Subheader",
+        "value": "Limitations and Exclusions",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 656,
+          "width": 420,
+          "height": 22
+        }
+      },
+      {
+        "id": "limitations_intro",
+        "name": "Limitations Intro",
+        "value": "No benefits will be paid for any confinement, care, treatment, or service(s):",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 686,
+          "width": 672,
+          "height": 18
+        }
+      },
+      {
+        "id": "exclusion_1",
+        "name": "Exclusion - Provided by family",
+        "value": "provided to you by a person in your Family;",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 712,
+          "width": 640,
+          "height": 18
+        }
+      },
+      {
+        "id": "exclusion_2",
+        "name": "Exclusion - Suicide or self-inflicted injury",
+        "value": "that results from attempted suicide or intentionally self-inflicted injury;",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 730,
+          "width": 640,
+          "height": 18
+        }
+      },
+      {
+        "id": "exclusion_3",
+        "name": "Exclusion - Felony participation",
+        "value": "that results from voluntary participation in a felony, attempted felony, or illegal occupation;",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 748,
+          "width": 640,
+          "height": 18
+        }
+      },
+      {
+        "id": "exclusion_4",
+        "name": "Exclusion - Outside US or Canada",
+        "value": "provided outside the United States or Canada;",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 766,
+          "width": 640,
+          "height": 18
+        }
+      },
+      {
+        "id": "exclusion_5",
+        "name": "Exclusion - Worker compensation",
+        "value": "that results from a sickness or injury for which benefits are provided under any state or federal worker's compensation law or similar law;",
+        "confidence": 0.7,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 784,
+          "width": 640,
+          "height": 34
+        }
+      },
+      {
+        "id": "exclusion_6",
+        "name": "Exclusion - No financial liability",
+        "value": "for which you have no financial liability or that is provided at no charge in the absence of insurance;",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 820,
+          "width": 640,
+          "height": 18
+        }
+      },
+      {
+        "id": "exclusion_7",
+        "name": "Exclusion - Government facility",
+        "value": "provided in a government facility (unless otherwise required by law);",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 838,
+          "width": 640,
+          "height": 18
+        }
+      },
+      {
+        "id": "exclusion_8",
+        "name": "Exclusion - Alcoholism or drug addiction treatment",
+        "value": "provided for the treatment of alcoholism or drug addiction, or in facilities operated primarily for such treatment;",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 856,
+          "width": 640,
+          "height": 18
+        }
+      },
+      {
+        "id": "exclusion_9",
+        "name": "Exclusion - Intoxication or narcotics",
+        "value": "provided as a result of your being intoxicated or under the influence of a narcotic, except to the extent that the alcohol or narcotics are prescribed by a physician; or",
+        "confidence": 0.7,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 874,
+          "width": 640,
+          "height": 28
+        }
+      },
+      {
+        "id": "exclusion_10",
+        "name": "Exclusion - Mental or Nervous Disorders facilities",
+        "value": "provided in facilities operated primarily for the treatment of Mental or Nervous Disorders.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 68,
+          "y": 906,
+          "width": 640,
+          "height": 24
+        }
+      },
+      {
+        "id": "form_code",
+        "name": "Form Code",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 952,
+          "width": 220,
+          "height": 18
+        }
+      },
+      {
+        "id": "page_number",
+        "name": "Page Number",
+        "value": "Page 10",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 640,
+          "y": 952,
+          "width": 88,
+          "height": 18
+        }
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "page": 17,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Document is an insurance policy cover page (Allianz) not matching invoice, CMR, or UB04 formats\",\n      \"Contains policy title and company header/logo rather than billing or transport form fields\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"company_name\",\n      \"name\": \"Company Name\",\n      \"value\": \"Allianz Life Insurance Company of North America\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 40,\n        \"width\": 320,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"home_office\",\n      \"name\": \"Home Office\",\n      \"value\": \"Home Office: Minneapolis, MN\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 80,\n        \"width\": 320,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"administrative_office\",\n      \"name\": \"Administrative Office\",\n      \"value\": \"Long Term Care Administrative Office\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 104,\n        \"width\": 320,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"address_line1\",\n      \"name\": \"Address Line 1\",\n      \"value\": \"Post Office Box 4243\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 128,\n        \"width\": 320,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"address_line2\",\n      \"name\": \"Address Line 2\",\n      \"value\": \"Woodland Hills, CA 91365-4243\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 152,\n        \"width\": 320,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"phone\",\n      \"name\": \"Phone\",\n      \"value\": \"(888) 503-8106\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 176,\n        \"width\": 320,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"logo_text\",\n      \"name\": \"Logo Text\",\n      \"value\": \"Allianz\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 480,\n        \"y\": 40,\n        \"width\": 260,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"title_line1\",\n      \"name\": \"Title Line 1\",\n      \"value\": \"GUARANTEED RENEWABLE\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 144,\n        \"y\": 420,\n        \"width\": 480,\n        \"height\": 48\n      }\n    },\n    {\n      \"id\": \"title_line2\",\n      \"name\": \"Title Line 2\",\n      \"value\": \"LONG TERM CARE INSURANCE POLICY\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 144,\n        \"y\": 468,\n        \"width\": 480,\n        \"height\": 72\n      }\n    },\n    {\n      \"id\": \"form_id\",\n      \"name\": \"Form ID / Code\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 960,\n        \"width\": 200,\n        \"height\": 24\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Document is an insurance policy cover page (Allianz) not matching invoice, CMR, or UB04 formats",
+        "Contains policy title and company header/logo rather than billing or transport form fields"
+      ]
+    },
+    "fields": [
+      {
+        "id": "company_name",
+        "name": "Company Name",
+        "value": "Allianz Life Insurance Company of North America",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 40,
+          "width": 320,
+          "height": 40
+        }
+      },
+      {
+        "id": "home_office",
+        "name": "Home Office",
+        "value": "Home Office: Minneapolis, MN",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 80,
+          "width": 320,
+          "height": 24
+        }
+      },
+      {
+        "id": "administrative_office",
+        "name": "Administrative Office",
+        "value": "Long Term Care Administrative Office",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 104,
+          "width": 320,
+          "height": 24
+        }
+      },
+      {
+        "id": "address_line1",
+        "name": "Address Line 1",
+        "value": "Post Office Box 4243",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 128,
+          "width": 320,
+          "height": 24
+        }
+      },
+      {
+        "id": "address_line2",
+        "name": "Address Line 2",
+        "value": "Woodland Hills, CA 91365-4243",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 152,
+          "width": 320,
+          "height": 24
+        }
+      },
+      {
+        "id": "phone",
+        "name": "Phone",
+        "value": "(888) 503-8106",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 60,
+          "y": 176,
+          "width": 320,
+          "height": 20
+        }
+      },
+      {
+        "id": "logo_text",
+        "name": "Logo Text",
+        "value": "Allianz",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 480,
+          "y": 40,
+          "width": 260,
+          "height": 120
+        }
+      },
+      {
+        "id": "title_line1",
+        "name": "Title Line 1",
+        "value": "GUARANTEED RENEWABLE",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 144,
+          "y": 420,
+          "width": 480,
+          "height": 48
+        }
+      },
+      {
+        "id": "title_line2",
+        "name": "Title Line 2",
+        "value": "LONG TERM CARE INSURANCE POLICY",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 144,
+          "y": 468,
+          "width": 480,
+          "height": 72
+        }
+      },
+      {
+        "id": "form_id",
+        "name": "Form ID / Code",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 960,
+          "width": 200,
+          "height": 24
+        }
+      }
+    ],
+    "tables": []
+  }
+}

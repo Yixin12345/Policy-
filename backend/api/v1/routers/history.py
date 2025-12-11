@@ -2,6 +2,9 @@
 from __future__ import annotations
 
 from io import BytesIO
+import json
+import logging
+from pathlib import Path
 from typing import Any, Dict, List, Optional, Iterable
 
 from fastapi import APIRouter, Depends, HTTPException, Response, status
@@ -66,7 +69,6 @@ from backend.application.queries.list_low_confidence_fields import (
     ListLowConfidenceFieldsHandler,
     ListLowConfidenceFieldsQuery,
 )
-from backend.repositories.snapshot_repository import load_snapshot, load_canonical
 from backend.domain.value_objects import CanonicalFieldIndex
 from backend.domain.entities.field_extraction import FieldExtraction
 from backend.domain.entities.page_extraction import PageExtraction
@@ -89,6 +91,7 @@ from backend.models.job import (
 from openpyxl import Workbook
 import re
 
+logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/history", tags=["history"])
 
 
@@ -121,53 +124,23 @@ def list_history_jobs(
 
 
 @router.get("/jobs/{job_id}/canonical.xlsx")
-def download_canonical_excel(
-    job_id: str,
-    handler: GetHistoryJobDetailHandler = Depends(get_history_job_detail_handler),
-):
-    canonical: Dict[str, Any] | None = None
-    try:
-        detail = handler.handle(GetHistoryJobDetailQuery(job_id=job_id))
-        if detail and detail.canonical:
-            canonical = detail.canonical  # type: ignore[assignment]
-    except Exception:
-        canonical = None
+def download_canonical_excel(job_id: str):
+    """Export canonical policy conversion data to Excel strictly from canonical.json."""
 
-    if canonical is None:
-        canonical = load_canonical(job_id)
-    if canonical is None:
-        snapshot = load_snapshot(job_id)
-        if snapshot is None:
-            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Snapshot not found")
-        canonical = snapshot.get("canonical") or {}
+    canonical_path = Path("backend_data") / job_id / "canonical.json"
+    if not canonical_path.exists():
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="canonical.json not found")
+
+    try:
+        canonical: Dict[str, Any] = json.loads(canonical_path.read_text(encoding="utf-8"))
+        logger.info("Loaded canonical.json for job %s with %d top-level keys", job_id, len(canonical))
+    except Exception as exc:
+        logger.error("Failed to read canonical.json for job %s: %s", job_id, exc)
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to read canonical.json")
 
     policy = canonical.get("policyConversion") or canonical.get("policy_conversion") or {}
     if not isinstance(policy, dict):
-        policy = {}
-
-    # Build a lightweight fallback from snapshot fields if canonical is sparse
-    snapshot = load_snapshot(job_id)
-    field_lookup: Dict[str, Dict[str, Any]] = {}
-    if snapshot and isinstance(snapshot, dict):
-        pages = snapshot.get("pages") or []
-        for page in pages:
-            if not isinstance(page, dict):
-                continue
-            page_num = page.get("pageNumber") or page.get("page_number")
-            for field in page.get("fields", []):
-                if not isinstance(field, dict):
-                    continue
-                name = (field.get("fieldName") or field.get("name") or "").strip()
-                if not name:
-                    continue
-                norm = _normalize_label(name)
-                if norm in field_lookup:
-                    continue
-                field_lookup[norm] = {
-                    "value": field.get("value"),
-                    "confidence": field.get("confidence"),
-                    "sources": [{"page": page_num, "fieldId": field.get("id")}],
-                }
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Canonical policyConversion section missing")
 
     wb = Workbook()
     ws = wb.active
@@ -186,15 +159,6 @@ def download_canonical_excel(
             sources = entry.get("sources") or []
             pages = sorted({source.get("page") for source in sources if isinstance(source, dict) and source.get("page") is not None})
             pages_str = ", ".join(str(page) for page in pages) if pages else ""
-        if (value is None or value == ""):
-            # Fallback to snapshot field match
-            fallback = field_lookup.get(_normalize_label(field.label))
-            if fallback:
-                value = fallback.get("value") or "not provided"
-                confidence = confidence or fallback.get("confidence")
-                sources = fallback.get("sources") or []
-                pages = sorted({source.get("page") for source in sources if isinstance(source, dict) and source.get("page") is not None})
-                pages_str = ", ".join(str(page) for page in pages) if pages else pages_str
         if value is None or value == "":
             value = "not provided"
         ws.append([field.label, value, confidence, pages_str])

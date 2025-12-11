@@ -1,0 +1,113 @@
+{
+  "page": 14,
+  "usedJsonMode": true,
+  "rawContent": "{\"documentType\":{\"label\":\"other\",\"confidence\":1.0,\"reasons\":[\"Insurance policy text page without invoice, CMR, or UB-04 formatting\"]},\"fields\":[{\"id\":\"f1\",\"name\":\"Page Number\",\"value\":\"Page 15\",\"confidence\":1.0,\"bbox\":{\"x\":26,\"y\":701,\"width\":71,\"height\":29}},{\"id\":\"f2\",\"name\":\"Form Number\",\"value\":\"N-3000-P-FL(0)\",\"confidence\":1.0,\"bbox\":{\"x\":21,\"y\":35,\"width\":84,\"height\":23}},{\"id\":\"f3\",\"name\":\"Section Title 1\",\"value\":\"Joint Coverage Provision\",\"confidence\":1.0,\"bbox\":{\"x\":439,\"y\":72,\"width\":127,\"height\":20}},{\"id\":\"f4\",\"name\":\"Section Body 1\",\"value\":\"This Policy provides equal coverage for two individuals if both apply and are issued coverage under this Policy. The name of each Insured is covered under the Policy is shown on the Benefit Schedule. Benefits and limitations and Exclusions described in this Policy apply to each Insured. All premiums shown on the Benefit Schedule apply to each Insured. When one of you dies, upon receipt of proof of death acceptable to us, this Policy will continue in force for the survivor, subject to the provisions of this Policy. The Insured coverage will be revised as of the premium due date at the time of your death. The premium for the continued coverage will be due on the Policy\u2019s next Premium Due Date following the date of death. The new premium for the continued coverage will be based on your original issue age.\",\"confidence\":0.8,\"bbox\":{\"x\":438,\"y\":92,\"width\":445,\"height\":599}},{\"id\":\"f5\",\"name\":\"Section Title 2\",\"value\":\"Reinstatement \u2013 Lapse Due to Nonpayment of Premium\",\"confidence\":1.0,\"bbox\":{\"x\":748,\"y\":40,\"width\":217,\"height\":21}},{\"id\":\"f6\",\"name\":\"Section Body 2\",\"value\":\"If you request reinstatement, we may require an application and unpaid premiums and any nonforfeiture benefits paid to you once after lapse. Those payments will reinstate your Policy and put it back in force. We require an application for reinstatement, your coverage may be reinstated within one year after lapse before the due date prior. Upon reinstatement of your policy both you and we shall have the same rights that existed prior to the last premium due date. However, on the forty-fifth day following the date of the conditional receipt, if we have not previously declined your reinstatement by application will be effective on the 45th day following the date of the conditional receipt, if we have not previously declined your reinstatement by application in writing and any nonforfeiture benefits paid to you at reinstatement, and the Policy will be considered void from the residue date. Your reinstated Policy will cover only loss due to: \u2022 sickness that is caused more than 10 days after the date of reinstatement; and \u2022 injury caused after the date of reinstatement.\",\"confidence\":0.8,\"bbox\":{\"x\":746,\"y\":60,\"width\":223,\"height\":692}},{\"id\":\"f7\",\"name\":\"Section Title 3\",\"value\":\"Policy Conversion\",\"confidence\":0.8,\"bbox\":{\"x\":209,\"y\":73,\"width\":115,\"height\":18}},{\"id\":\"f8\",\"name\":\"Section Body 3\",\"value\":\"If you divorce or legally separate and request termination of joint coverage, upon receipt of proof of divorce or legal separation, we will convert the joint Policy to separate individual policies. The same coverage that was provided under this Policy for the same premium rate that would have been charged for an individual Policy at your effective date of conversion is effective. However, the premium will be based on the premium rate table in effect on the date conversion is effective. Each of you will have 30 days to convert your converted Policy. Otherwise, it may be returned to us or you within 31 days after we receive your premium paid for the converted coverage and the Policy will be considered void from the residue date.\",\"confidence\":0.8,\"bbox\":{\"x\":209,\"y\":91,\"width\":196,\"height\":601}}],\"tables\":[]}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Insurance policy text page without invoice, CMR, or UB-04 formatting"
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Page Number",
+        "value": "Page 15",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 26,
+          "y": 701,
+          "width": 71,
+          "height": 29
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Form Number",
+        "value": "N-3000-P-FL(0)",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 21,
+          "y": 35,
+          "width": 84,
+          "height": 23
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Section Title 1",
+        "value": "Joint Coverage Provision",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 439,
+          "y": 72,
+          "width": 127,
+          "height": 20
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Section Body 1",
+        "value": "This Policy provides equal coverage for two individuals if both apply and are issued coverage under this Policy. The name of each Insured is covered under the Policy is shown on the Benefit Schedule. Benefits and limitations and Exclusions described in this Policy apply to each Insured. All premiums shown on the Benefit Schedule apply to each Insured. When one of you dies, upon receipt of proof of death acceptable to us, this Policy will continue in force for the survivor, subject to the provisions of this Policy. The Insured coverage will be revised as of the premium due date at the time of your death. The premium for the continued coverage will be due on the Policy\u2019s next Premium Due Date following the date of death. The new premium for the continued coverage will be based on your original issue age.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 438,
+          "y": 92,
+          "width": 445,
+          "height": 599
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Section Title 2",
+        "value": "Reinstatement \u2013 Lapse Due to Nonpayment of Premium",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 748,
+          "y": 40,
+          "width": 217,
+          "height": 21
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Section Body 2",
+        "value": "If you request reinstatement, we may require an application and unpaid premiums and any nonforfeiture benefits paid to you once after lapse. Those payments will reinstate your Policy and put it back in force. We require an application for reinstatement, your coverage may be reinstated within one year after lapse before the due date prior. Upon reinstatement of your policy both you and we shall have the same rights that existed prior to the last premium due date. However, on the forty-fifth day following the date of the conditional receipt, if we have not previously declined your reinstatement by application will be effective on the 45th day following the date of the conditional receipt, if we have not previously declined your reinstatement by application in writing and any nonforfeiture benefits paid to you at reinstatement, and the Policy will be considered void from the residue date. Your reinstated Policy will cover only loss due to: \u2022 sickness that is caused more than 10 days after the date of reinstatement; and \u2022 injury caused after the date of reinstatement.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 746,
+          "y": 60,
+          "width": 223,
+          "height": 692
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Section Title 3",
+        "value": "Policy Conversion",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 209,
+          "y": 73,
+          "width": 115,
+          "height": 18
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Section Body 3",
+        "value": "If you divorce or legally separate and request termination of joint coverage, upon receipt of proof of divorce or legal separation, we will convert the joint Policy to separate individual policies. The same coverage that was provided under this Policy for the same premium rate that would have been charged for an individual Policy at your effective date of conversion is effective. However, the premium will be based on the premium rate table in effect on the date conversion is effective. Each of you will have 30 days to convert your converted Policy. Otherwise, it may be returned to us or you within 31 days after we receive your premium paid for the converted coverage and the Policy will be considered void from the residue date.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 209,
+          "y": 91,
+          "width": 196,
+          "height": 601
+        }
+      }
+    ],
+    "tables": []
+  }
+}

@@ -30,7 +30,7 @@ class AzureSearchClient:
         *,
         fields: Sequence[CanonicalField],
         job_id: str,
-        top_k: int = 3,
+        top_k: int = 5,
     ) -> Dict[str, List[dict]]:
         """Return top-K hits per canonical field identifier."""
 
@@ -44,8 +44,14 @@ class AzureSearchClient:
         }
         results: Dict[str, List[dict]] = {}
         for field in fields:
+            # Include both the canonical label and description in the search text to
+            # increase recall when snippets are stored with descriptive phrasing.
+            search_terms = [field.label]
+            if getattr(field, "description", None):
+                search_terms.append(field.description)
+
             payload = {
-                "search": field.label,
+                "search": " ".join(search_terms),
                 "queryType": "simple",
                 "top": top_k,
                 "filter": f"jobId eq '{job_id}'",

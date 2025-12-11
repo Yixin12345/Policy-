@@ -1,0 +1,838 @@
+{
+  "schemaVersion": "2025-12-10",
+  "generatedAt": "2025-12-11T00:18:43.003531+00:00",
+  "policyConversion": {
+    "Benefit Type": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Days or Dollar Based": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Elimination Period": {
+      "value": "Your Elimination Period is shown on the Benefit Schedule.",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "page": 7,
+          "fieldId": "a56d4e6d-05cb-4ab8-8d6e-e8836392b0c7",
+          "snippet": "Your Elimination Period is shown on the Benefit Schedule."
+        }
+      ]
+    },
+    "EP Calendar or Service Days": {
+      "value": "Each day of covered services under this Policy, unless otherwise noted, counts towards your Elimination Period.",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 7,
+          "fieldId": "a56d4e6d-05cb-4ab8-8d6e-e8836392b0c7",
+          "snippet": "Each day of covered services under this Policy, unless otherwise noted, counts towards your Elimination Period."
+        }
+      ]
+    },
+    "EP Renewal or Lifetime": {
+      "value": "Once you have satisfied the Elimination Period, no future Elimination Period is required.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "page": 7,
+          "fieldId": "a56d4e6d-05cb-4ab8-8d6e-e8836392b0c7",
+          "snippet": "Once you have satisfied the Elimination Period, no future Elimination Period is required."
+        }
+      ]
+    },
+    "Elim Period Exemptions": {
+      "value": "Days on which you receive a Respite Care Benefit will not count towards the Elimination Period.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "page": 8,
+          "fieldId": "0e18f4cf-997d-4e4e-aceb-5416855ab014",
+          "snippet": "Days on which you receive a Respite Care Benefit will not count towards the Elimination Period."
+        }
+      ]
+    },
+    "Maximum Benefit Period": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Maximum Monthly Limit": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Maximum Lifetime $Benefit": {
+      "value": "Benefit Amount for Facility Care and Benefit Amount for Home and Community Services shown on the Benefit Schedule; all benefits paid are subtracted from the applicable Benefit Amount.",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "page": 7,
+          "fieldId": "771becaa-e835-4232-b6fd-29b308917310",
+          "snippet": "The Benefit Amount for Facility Care and the Benefit Amount for Home and Community Services (if shown on the Benefit Schedule) are separate amounts, and may not be combined."
+        },
+        {
+          "page": 7,
+          "fieldId": "e5cb6c1f-7d49-44af-ace3-c29b427d5d06",
+          "snippet": "All benefits paid under this Policy are subtracted from the applicable Benefit Amount."
+        }
+      ]
+    },
+    "ADL\u2019s Required": {
+      "value": "Being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 4,
+          "fieldId": "18aa4408-5759-4a46-a0dd-726df3c26a05",
+          "snippet": "being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity"
+        },
+        {
+          "page": 6,
+          "fieldId": "07645bbb-7c25-49f0-bb3a-1b9bf1a1e848",
+          "snippet": "being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days"
+        }
+      ]
+    },
+    "Ambulating": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Bathing": {
+      "value": "Bathing: washing oneself by sponge bath; or in either a tub or shower, including the task of getting into or out of the tub or shower.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 3,
+          "fieldId": "1faa1b2c-ef60-4e55-ab15-14c05ac1371a",
+          "snippet": "Bathing: washing oneself by sponge bath; or in either a tub or shower, including the task of getting into or out of the tub or shower."
+        }
+      ]
+    },
+    "Continence": {
+      "value": "Continence: the ability to maintain control of bowel and bladder function; or, when unable to maintain control of bowel or bladder function, the ability to perform associated personal hygiene (including caring for catheter or colostomy bag).",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 3,
+          "fieldId": "a35391a9-fe69-469a-b41f-c812b1ff7624",
+          "snippet": "Continence: the ability to maintain control of bowel and bladder function; or, when unable to maintain control of bowel or bladder function, the ability to perform associated personal hygiene"
+        }
+      ]
+    },
+    "Dressing": {
+      "value": "Dressing: putting on and taking off all items of clothing and any necessary braces, fasteners, or artificial limbs.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 3,
+          "fieldId": "2c64c8e1-964f-45de-a366-a3dfbce31b66",
+          "snippet": "Dressing: putting on and taking off all items of clothing and any necessary braces, fasteners, or artificial limbs."
+        }
+      ]
+    },
+    "Eating": {
+      "value": "Eating: feeding oneself by getting food into the body from a receptacle (such as a plate, cup or table) or by a feeding tube or intravenously.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 3,
+          "fieldId": "41616d7a-f6fd-442c-bd63-af277d3a9c10",
+          "snippet": "Eating: feeding oneself by getting food into the body from a receptacle (such as a plate, cup or table) or by a feeding tube or intravenously."
+        }
+      ]
+    },
+    "Medications": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Toileting": {
+      "value": "Toileting: getting to and from the toilet, getting on and off the toilet, and performing associated personal hygiene.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 3,
+          "fieldId": "5e072369-a451-4dbe-83c6-7acb96eb6d7b",
+          "snippet": "Toileting: getting to and from the toilet, getting on and off the toilet, and performing associated personal hygiene."
+        }
+      ]
+    },
+    "Transferring": {
+      "value": "Transferring: moving into or out of a bed, chair, or wheelchair.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 3,
+          "fieldId": "2eee54cb-c9d8-40e8-9677-b5dcd71a3c6c",
+          "snippet": "Transferring: moving into or out of a bed, chair, or wheelchair."
+        }
+      ]
+    },
+    "Care Coordination": {
+      "value": "A Personal Care Advisor is available to assist you with questions regarding eligibility for benefits, level of care, availability of facilities and services, and claim questions.",
+      "confidence": 0.85,
+      "sources": [
+        {
+          "page": 9,
+          "fieldId": "028ff691-e46c-43a4-80e6-d8b4ca2b49b8",
+          "snippet": "Personal Care Advisor"
+        },
+        {
+          "page": 9,
+          "fieldId": "85428e3a-0bb5-4035-8bb9-0de7825013c7",
+          "snippet": "A Personal Care Advisor is available to assist you with questions regarding such matters as:"
+        }
+      ]
+    },
+    "Nursing Home": {
+      "value": "Nursing Home is a facility or a distinctly separate part of a hospital or other institution which:",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 5,
+          "fieldId": "fd87b921-eaa5-40a3-8c63-2c5414ad5ba7"
+        }
+      ]
+    },
+    "NH/ALF Bed Reservation Amount": {
+      "value": "Actual daily Nursing Home or Assisted Living Facility charges you incur, up to the Nursing Home Daily Benefit or Assisted Living Facility Daily Benefit.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 8,
+          "fieldId": "a5e41fa7-7ac4-4f9f-a378-40724403a049",
+          "snippet": "Payment will be the actual daily Nursing Home or Assisted Living Facility charges you incur, up to the Nursing Home Daily Benefit or Assisted Living Facility Daily Benefit"
+        }
+      ]
+    },
+    "NH/ALF Bed Reservation Days": {
+      "value": "Maximum of 21 days per calendar year.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 8,
+          "fieldId": "a5e41fa7-7ac4-4f9f-a378-40724403a049",
+          "snippet": "This benefit is payable for a maximum of 21 days per calendar year."
+        }
+      ]
+    },
+    "Assisted Living": {
+      "value": "Assisted Living Facility is a facility engaged primarily in providing ongoing care and related services to adults who require such services, in one location, providing services for a period exceeding 24 hours; continuous room and board; Maintenance or Personal Care due to inability to perform ADLs or Cognitive Impairment; and is licensed under Florida law. It does not include Hospitals.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 3,
+          "fieldId": "d761929f-5bb0-43a2-b4a2-2929d26f68fa",
+          "snippet": "Assisted Living Facility is a facility engaged primarily in providing ongoing care and related services"
+        },
+        {
+          "page": 3,
+          "fieldId": "cb404e87-7e5b-43e9-994c-02167af9865f",
+          "snippet": "Assisted Living Facility does not include Hospitals."
+        }
+      ]
+    },
+    "Home Health Care": {
+      "value": "Home Care is a program of services provided to you through a Home Health Care Agency, including professional nursing care, care by a Home Health Aide, therapeutic care services, and homemaker services, provided in a setting other than a Nursing Home, Hospital, or Assisted Living Facility.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 4,
+          "fieldId": "ad24b6ae-fea5-4a92-bd1f-6f0f373993f7",
+          "snippet": "Home Care is a program of services provided to you through a Home Health Care Agency, including:"
+        },
+        {
+          "page": 4,
+          "fieldId": "3eefe76e-b28d-4257-b216-188044a23ec5",
+          "snippet": "therapeutic care services by or under the supervision of a speech, occupational, physical, or respiratory therapist"
+        },
+        {
+          "page": 4,
+          "fieldId": "4fa4b50c-8844-475d-ae50-ddb4e0b655e6",
+          "snippet": "homemaker services."
+        },
+        {
+          "page": 4,
+          "fieldId": "e69adeb8-e9fb-4a4a-938a-33cfc14aab8d",
+          "snippet": "Home Care can be provided to you in a setting other than a Nursing Home, Hospital, or an Assisted Living Facility."
+        }
+      ]
+    },
+    "HHC Bed Reservation Amount": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "HHC Bed Reservation Days": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Adult Day Care": {
+      "value": "Adult Day Care is a program of services provided through an Adult Day Care Center that includes care for six or more individuals, health-related services, Maintenance or Personal Care Services, and recreational and social services during the day in a community group setting, to support frail or disabled adults who do not require 24-hour institutional care.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 3,
+          "fieldId": "53b2e4d2-72e0-4aca-b230-b64deb07f760",
+          "snippet": "Adult Day Care is a program of services provided through an Adult Day Care Center that includes:"
+        },
+        {
+          "page": 3,
+          "fieldId": "cf160955-0b88-4bbc-a008-366931033dea",
+          "snippet": "care for six (6) or more individuals; and health-related services; and Maintenance or Personal Care Services; and recreational and social services"
+        },
+        {
+          "page": 3,
+          "fieldId": "a8d987c8-9b3e-4108-9a4a-f10e9ccdd288",
+          "snippet": "The purpose of such a program is to support frail, impaired elderly or other disabled adults"
+        }
+      ]
+    },
+    "Alternative Plan of Care": {
+      "value": "Alternative Plan of Care provides for Qualified Long Term Care Services which may include equipment purchases or rentals, permanent or temporary home modifications, or care services not normally covered under the Home and Community Services Benefit, when agreed by you, your Licensed Health Care Practitioner, and the insurer; benefits paid are subtracted from the Benefit Amount for Facility Care.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 9,
+          "fieldId": "c888206e-0150-4563-95b9-2ed932d72069",
+          "snippet": "An Alternative Plan of Care provides for Qualified Long Term Care Services which may include: equipment purchases or rentals; permanent or temporary modifications to your residence"
+        },
+        {
+          "page": 9,
+          "fieldId": "8d229df9-bb98-4cef-86b4-1672903065fa",
+          "snippet": "All benefits paid under an Alternative Plan of Care are subtracted from the Benefit Amount for Facility Care."
+        }
+      ]
+    },
+    "Caregiver Training": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Durable Medical Equipment (DME)": {
+      "value": "Equipment purchases or rentals may be covered under an approved Alternative Plan of Care.",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "page": 9,
+          "fieldId": "c888206e-0150-4563-95b9-2ed932d72069",
+          "snippet": "may include: equipment purchases or rentals; permanent or temporary modifications to your residence"
+        }
+      ]
+    },
+    "Emergency Medical System/Devices": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Home Modifications": {
+      "value": "Permanent or temporary modifications to your residence (such as ramps or rails) may be covered under an approved Alternative Plan of Care.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "page": 9,
+          "fieldId": "c888206e-0150-4563-95b9-2ed932d72069",
+          "snippet": "may include: equipment purchases or rentals; permanent or temporary modifications to your residence (such as ramps or rails)"
+        }
+      ]
+    },
+    "Homemaker Services": {
+      "value": "Homemaker services are included as part of covered Home Care services provided through a Home Health Care Agency.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 4,
+          "fieldId": "4fa4b50c-8844-475d-ae50-ddb4e0b655e6",
+          "snippet": "homemaker services."
+        }
+      ]
+    },
+    "Hospice Amount": {
+      "value": "Payment will be the actual Home and Community Services charges you incur, up to the Home and Community Services Daily Benefit, which includes Hospice Care.",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "page": 8,
+          "fieldId": "0464d762-993a-497b-bdc6-fe028b2c1c6c",
+          "snippet": "Home and Community Services (Adult Day Care, Home Care, Hospice Care)"
+        },
+        {
+          "page": 8,
+          "fieldId": "a97319fa-cc1d-417f-9062-2c5b8908da7e",
+          "snippet": "Payment will be the actual Home and Community Services charges you incur, up to the Home and Community Services Daily Benefit."
+        }
+      ]
+    },
+    "Hospice Days": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Personal Care Advisor": {
+      "value": "A Personal Care Advisor is available to assist you with questions regarding eligibility for benefits, appropriate level of care, availability of facilities and services, and any other claim questions; you may contact the Advisor via the toll-free number on the front of the policy.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 9,
+          "fieldId": "028ff691-e46c-43a4-80e6-d8b4ca2b49b8",
+          "snippet": "Personal Care Advisor"
+        },
+        {
+          "page": 9,
+          "fieldId": "85428e3a-0bb5-4035-8bb9-0de7825013c7",
+          "snippet": "A Personal Care Advisor is available to assist you with questions regarding such matters as:"
+        },
+        {
+          "page": 9,
+          "fieldId": "ab56fe38-63fc-4dfe-b15a-cbc800752ec0",
+          "snippet": "You can contact your Personal Care Advisor by calling the toll-free number shown on the front of this Policy."
+        }
+      ]
+    },
+    "Personal Care Services": {
+      "value": "Maintenance or Personal Care Services are care provided primarily to give needed assistance as a result of being Chronically Ill, including protection of health and safety due to severe Cognitive Impairment.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 5,
+          "fieldId": "00e3c3fc-c583-4441-8046-b8ae73f9683a",
+          "snippet": "Maintenance or Personal Care Services is any care provided primarily to give needed assistance to you as a result of your being Chronically Ill"
+        }
+      ]
+    },
+    "Prescription Drugs": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Respite Amount": {
+      "value": "For Respite Care in a Nursing Home: actual daily Nursing Home Care charges up to the Nursing Home Daily Benefit. For Respite Care Home and Community Services: actual expenses up to the Home and Community Services Daily Benefit.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 8,
+          "fieldId": "180555f4-c9cc-4e54-bdb4-62e55fc073a0",
+          "snippet": "actual daily charges you incur for each day of Nursing Home Care in a Nursing Home, up to the Nursing Home Daily Benefit"
+        },
+        {
+          "page": 8,
+          "fieldId": "33d7ee50-2c05-4bc4-9cf4-88dfd612d8c8",
+          "snippet": "actual expenses you incur for each day you receive Home and Community Services ... up to the Home and Community Services Daily Benefit."
+        }
+      ]
+    },
+    "Respite Days": {
+      "value": "Maximum of 21 days per calendar year.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 8,
+          "fieldId": "0e18f4cf-997d-4e4e-aceb-5416855ab014",
+          "snippet": "The Respite Care Benefit is payable for a maximum of 21 days per calendar year."
+        }
+      ]
+    },
+    "Therapeutic Equipment Rental": {
+      "value": "Equipment purchases or rentals may be covered under an approved Alternative Plan of Care.",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "page": 9,
+          "fieldId": "c888206e-0150-4563-95b9-2ed932d72069",
+          "snippet": "may include: equipment purchases or rentals"
+        }
+      ]
+    },
+    "Nonforfeiture Benefit": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Premium Payment Options": {
+      "value": "First premium is due on the Policy Effective Date; thereafter premiums are due in the amount and frequency shown on your premium statement and may be paid as long as coverage remains in force.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "page": 13,
+          "fieldId": "3f645668-9232-46a2-869c-b3ee3c224790",
+          "snippet": "The first premium is due on the Policy Effective Date. After the first premium, premiums will be due in the amount and frequency shown on your premium statement."
+        },
+        {
+          "page": 13,
+          "fieldId": "b1752b8b-4451-40be-8033-f1130956ac2c",
+          "snippet": "You are responsible for payment of all your premiums due while coverage is in force."
+        }
+      ]
+    },
+    "Restoration of Benefits": {
+      "value": "Benefit Amount for Facility Care and for Home and Community Services may each be restored an unlimited number of times if, for 180 consecutive days, the policy is in force, you are not in a Benefit Payment Period, and you no longer meet Eligibility for Benefits.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 7,
+          "fieldId": "a935efc5-35e7-4319-9913-f13c8d743c76",
+          "snippet": "The Benefit Amount may be restored, if for a period of 180 consecutive days:"
+        },
+        {
+          "page": 7,
+          "fieldId": "eb2c5cce-2463-4a72-8c5e-7f215c936939",
+          "snippet": "are restored separately, and may not be combined."
+        },
+        {
+          "page": 7,
+          "fieldId": "ca28e6d6-6ddf-4d02-840b-377ddf3a2218",
+          "snippet": "The Benefit Amount may be restored an unlimited number of times."
+        }
+      ]
+    },
+    "Return/Refund of Premium": {
+      "value": "Upon your death, any unearned premium is refunded to the Beneficiary on a pro-rata basis within 30 days of proof of death. If you cancel the policy, any unearned premium is refunded to you on a pro-rata basis; cancellation is effective upon receipt of your request or a later date you specify.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 15,
+          "fieldId": "61b3e1e1-7df9-4930-b553-fee7cb729c0b",
+          "snippet": "Upon your death ... we will refund any unearned premium for this Policy to your Beneficiary on a pro-rata basis."
+        },
+        {
+          "page": 15,
+          "fieldId": "801a389b-04ca-4837-b08f-1e3adc8baf70",
+          "snippet": "If you ... request in writing to cancel this Policy, we will refund any unearned premium to you on a pro-rata basis."
+        }
+      ]
+    },
+    "Simple Inflation": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Compound Inflation": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Extension of Benefits": {
+      "value": "If confinement for Facility Care begins while the Policy is in force and continues without interruption after termination, benefits payable for that confinement continue, subject to the Benefit Amount, any applicable Elimination Period, and all other provisions and limitations.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 11,
+          "fieldId": "9f2bba9e-589d-47b7-96c9-cb6d04497d78",
+          "snippet": "Termination of this Policy will not terminate any benefits payable for Facility Care if your confinement begins while your Policy is in force"
+        }
+      ]
+    },
+    "Waiver of Premium": {
+      "value": "After confinement in a Nursing Home or Assisted Living Facility for 90 days while meeting Eligibility for Benefits, premiums are waived following the 90th day for that claim period; waived premiums already paid are refunded pro-rata. Premiums resume after confinement ends. A subsequent confinement separated by at least 180 consecutive days is a new claim period subject to a new 90-day waiting period.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 13,
+          "fieldId": "46e68c08-2f8f-4e92-b683-9a0754dd7862",
+          "snippet": "After you ... have been confined in a Nursing Home or an Assisted Living Facility for a period of 90 days ... no premiums will be due following the 90th day."
+        }
+      ]
+    },
+    "Survivorship": {
+      "value": "For joint coverage, when one insured dies, the policy continues in force for the survivor; the survivor\u2019s coverage and premium are revised as of the premium due date at the time of death, with the new premium based on the survivor\u2019s original issue age.",
+      "confidence": 0.85,
+      "sources": [
+        {
+          "page": 14,
+          "fieldId": "93a6c2ea-ea77-44b6-be96-c49c73053966",
+          "snippet": "When one of you dies ... this Policy will continue in force for the survivor"
+        }
+      ]
+    },
+    "Guaranteed Purchase Option": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Indemnity Benefit": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    },
+    "Substantial Assistance": {
+      "value": "Substantial Assistance means hands-on or stand-by assistance of another person without which you would be unable to perform the Activities of Daily Living.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 6,
+          "fieldId": "3ebd1eab-6185-44d1-8b2a-5bf7cdcd2553",
+          "snippet": "Substantial Assistance means hands-on or stand-by assistance of another person without which you would be unable to perform the Activities of Daily Living."
+        }
+      ]
+    },
+    "Standby Assistance": {
+      "value": "Included within the definition of Substantial Assistance as stand-by assistance of another person without which you would be unable to perform the Activities of Daily Living.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "page": 6,
+          "fieldId": "3ebd1eab-6185-44d1-8b2a-5bf7cdcd2553",
+          "snippet": "Substantial Assistance means hands-on or stand-by assistance of another person"
+        }
+      ]
+    },
+    "Substantial Supervision": {
+      "value": "Substantial Supervision means continual supervision by another person to protect you or others from threats to health or safety, including cueing by verbal prompting, gestures, or other similar demonstrations.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 6,
+          "fieldId": "b59e039f-e2b8-4e30-92aa-c9779c613614",
+          "snippet": "Substantial Supervision means continual supervision by another person to protect you or others from threats to health or safety."
+        }
+      ]
+    },
+    "Premium Refund at Death": {
+      "value": "Upon your death (second-to-die for joint coverage), any unearned premium is refunded to your Beneficiary on a pro-rata basis within 30 days of receipt of proof of death.",
+      "confidence": 1.0,
+      "sources": [
+        {
+          "page": 15,
+          "fieldId": "654f1164-6857-4c00-916f-042af80d8bb0",
+          "snippet": "Upon your death (second-to-die in the case of joint coverage), we will refund any unearned premium for this Policy to your Beneficiary on a pro-rata basis."
+        }
+      ]
+    },
+    "Renewal Premium": {
+      "value": "Policy is guaranteed renewable for life; premiums are subject to change on a class basis by state and form, with at least 45 days written notice before premium changes.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 1,
+          "fieldId": "748abd43-f712-4a98-b687-5621dfd11062",
+          "snippet": "RENEWABILITY: This Policy is guaranteed renewable for life... Premiums are subject to change... if we change premiums for everyone in your state with the same Policy form."
+        }
+      ]
+    },
+    "Cancellation": {
+      "value": "You may cancel the policy by written request; cancellation is effective upon receipt or a later date you specify. The policy also terminates at the end of the Grace Period if premium remains unpaid, or on your death (second-to-die for joint coverage).",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "page": 13,
+          "fieldId": "dcec9e91-af3e-42e9-a74a-a0e5df857a9f",
+          "snippet": "This Policy will terminate ... on the earliest of:"
+        },
+        {
+          "page": 13,
+          "fieldId": "e94695f0-8647-47e9-b2e4-23e577acf382",
+          "snippet": "the date we receive a written request from you ... to cancel this Policy"
+        },
+        {
+          "page": 13,
+          "fieldId": "88c78600-2020-4731-9643-e60d5fa8025a",
+          "snippet": "the date the Grace Period ends"
+        }
+      ]
+    },
+    "Additional Benefits: (Enter Benefit Description Here)": {
+      "value": null,
+      "confidence": null,
+      "sources": []
+    }
+  },
+  "documentTypes": [
+    "policy_conversion"
+  ],
+  "documentCategories": [
+    "policy_conversion"
+  ],
+  "sourceMap": {
+    "ELIMINATION_PERIOD": {
+      "page": 7,
+      "fieldId": "a56d4e6d-05cb-4ab8-8d6e-e8836392b0c7",
+      "confidence": 0.7,
+      "snippet": "Your Elimination Period is shown on the Benefit Schedule."
+    },
+    "ELIM_PERIOD_EXEMPTIONS": {
+      "page": 8,
+      "fieldId": "0e18f4cf-997d-4e4e-aceb-5416855ab014",
+      "confidence": 0.9,
+      "snippet": "Days on which you receive a Respite Care Benefit will not count towards the Elimination Period."
+    },
+    "MAX_LIFETIME_BENEFIT": {
+      "page": 7,
+      "confidence": 0.7,
+      "snippet": "Benefit Amount for Facility Care and the Benefit Amount for Home and Community Services ... All benefits paid under this Policy are subtracted from the applicable Benefit Amount."
+    },
+    "ADLS_REQUIRED": {
+      "page": 4,
+      "fieldId": "18aa4408-5759-4a46-a0dd-726df3c26a05",
+      "confidence": 0.95,
+      "snippet": "being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days"
+    },
+    "BATHING": {
+      "page": 3,
+      "fieldId": "1faa1b2c-ef60-4e55-ab15-14c05ac1371a",
+      "confidence": 1.0,
+      "snippet": "Bathing: washing oneself by sponge bath; or in either a tub or shower"
+    },
+    "CONTINENCE": {
+      "page": 3,
+      "fieldId": "a35391a9-fe69-469a-b41f-c812b1ff7624",
+      "confidence": 1.0,
+      "snippet": "Continence: the ability to maintain control of bowel and bladder function"
+    },
+    "DRESSING": {
+      "page": 3,
+      "fieldId": "2c64c8e1-964f-45de-a366-a3dfbce31b66",
+      "confidence": 1.0,
+      "snippet": "Dressing: putting on and taking off all items of clothing"
+    },
+    "EATING": {
+      "page": 3,
+      "fieldId": "41616d7a-f6fd-442c-bd63-af277d3a9c10",
+      "confidence": 1.0,
+      "snippet": "Eating: feeding oneself by getting food into the body"
+    },
+    "TOILETING": {
+      "page": 3,
+      "fieldId": "5e072369-a451-4dbe-83c6-7acb96eb6d7b",
+      "confidence": 1.0,
+      "snippet": "Toileting: getting to and from the toilet"
+    },
+    "TRANSFERRING": {
+      "page": 3,
+      "fieldId": "2eee54cb-c9d8-40e8-9677-b5dcd71a3c6c",
+      "confidence": 1.0,
+      "snippet": "Transferring: moving into or out of a bed, chair, or wheelchair."
+    },
+    "CARE_COORDINATION": {
+      "page": 9,
+      "fieldId": "028ff691-e46c-43a4-80e6-d8b4ca2b49b8",
+      "confidence": 0.85,
+      "snippet": "A Personal Care Advisor is available to assist you with questions"
+    },
+    "NURSING_HOME": {
+      "page": 5,
+      "fieldId": "fd87b921-eaa5-40a3-8c63-2c5414ad5ba7",
+      "confidence": 1.0,
+      "snippet": "Nursing Home is a facility or a distinctly separate part of a hospital or other institution which:"
+    },
+    "NH_ALF_BED_RESERVATION": {
+      "page": 8,
+      "fieldId": "a5e41fa7-7ac4-4f9f-a378-40724403a049",
+      "confidence": 0.95,
+      "snippet": "Payment will be the actual daily Nursing Home or Assisted Living Facility charges you incur, up to the Nursing Home Daily Benefit or Assisted Living Facility Daily Benefit"
+    },
+    "NH_ALF_BED_RESERVATION_DAYS": {
+      "page": 8,
+      "fieldId": "a5e41fa7-7ac4-4f9f-a378-40724403a049",
+      "confidence": 1.0,
+      "snippet": "This benefit is payable for a maximum of 21 days per calendar year."
+    },
+    "ASSISTED_LIVING": {
+      "page": 3,
+      "fieldId": "d761929f-5bb0-43a2-b4a2-2929d26f68fa",
+      "confidence": 0.95,
+      "snippet": "Assisted Living Facility is a facility engaged primarily in providing ongoing care and related services"
+    },
+    "HOME_HEALTH_CARE": {
+      "page": 4,
+      "fieldId": "ad24b6ae-fea5-4a92-bd1f-6f0f373993f7",
+      "confidence": 0.95,
+      "snippet": "Home Care is a program of services provided to you through a Home Health Care Agency"
+    },
+    "ADULT_DAY_CARE": {
+      "page": 3,
+      "fieldId": "53b2e4d2-72e0-4aca-b230-b64deb07f760",
+      "confidence": 0.95,
+      "snippet": "Adult Day Care is a program of services provided through an Adult Day Care Center"
+    },
+    "ALTERNATIVE_PLAN_OF_CARE": {
+      "page": 9,
+      "fieldId": "c888206e-0150-4563-95b9-2ed932d72069",
+      "confidence": 0.95,
+      "snippet": "An Alternative Plan of Care provides for Qualified Long Term Care Services which may include: equipment purchases or rentals; permanent or temporary modifications to your residence"
+    },
+    "HOSPICE": {
+      "page": 5,
+      "fieldId": "c4f6ea6d-3fb4-4a79-a463-2598c8f541fc",
+      "confidence": 0.8,
+      "snippet": "Hospice Care is Qualified Long Term Care Services provided in the event you are diagnosed with a terminal disease."
+    },
+    "PERSONAL_CARE_ADVISOR": {
+      "page": 9,
+      "fieldId": "028ff691-e46c-43a4-80e6-d8b4ca2b49b8",
+      "confidence": 1.0,
+      "snippet": "Personal Care Advisor"
+    },
+    "RESPITE_CARE": {
+      "page": 8,
+      "fieldId": "28020cfd-4480-46b9-b98b-efd346eb730d",
+      "confidence": 0.95,
+      "snippet": "Respite Care Benefit"
+    },
+    "NONFORFEITURE": {
+      "confidence": 0.0,
+      "snippet": "No explicit nonforfeiture benefit language located in provided pages."
+    },
+    "WAIVER_OF_PREMIUM": {
+      "page": 13,
+      "fieldId": "46e68c08-2f8f-4e92-b683-9a0754dd7862",
+      "confidence": 1.0,
+      "snippet": "Waiver of Premium"
+    },
+    "EXTENSION_OF_BENEFITS": {
+      "page": 11,
+      "fieldId": "9f2bba9e-589d-47b7-96c9-cb6d04497d78",
+      "confidence": 0.95,
+      "snippet": "Termination of this Policy will not terminate any benefits payable for Facility Care if your confinement begins while your Policy is in force"
+    },
+    "SURVIVORSHIP": {
+      "page": 14,
+      "fieldId": "93a6c2ea-ea77-44b6-be96-c49c73053966",
+      "confidence": 0.85,
+      "snippet": "When one of you dies, upon receipt of proof of death acceptable to us, this Policy will continue in force for the survivor"
+    },
+    "SUBSTANTIAL_ASSISTANCE": {
+      "page": 6,
+      "fieldId": "3ebd1eab-6185-44d1-8b2a-5bf7cdcd2553",
+      "confidence": 1.0,
+      "snippet": "Substantial Assistance means hands-on or stand-by assistance of another person"
+    },
+    "SUBSTANTIAL_SUPERVISION": {
+      "page": 6,
+      "fieldId": "b59e039f-e2b8-4e30-92aa-c9779c613614",
+      "confidence": 1.0,
+      "snippet": "Substantial Supervision means continual supervision by another person to protect you or others from threats to health or safety."
+    },
+    "PREMIUM_REFUND_AT_DEATH": {
+      "page": 15,
+      "fieldId": "654f1164-6857-4c00-916f-042af80d8bb0",
+      "confidence": 1.0,
+      "snippet": "we will refund any unearned premium for this Policy to your Beneficiary on a pro-rata basis."
+    },
+    "RENEWAL_PREMIUM": {
+      "page": 1,
+      "fieldId": "748abd43-f712-4a98-b687-5621dfd11062",
+      "confidence": 0.95,
+      "snippet": "This Policy is guaranteed renewable for life. ... Premiums are subject to change."
+    },
+    "CANCELLATION": {
+      "page": 13,
+      "fieldId": "dcec9e91-af3e-42e9-a74a-a0e5df857a9f",
+      "confidence": 0.95,
+      "snippet": "This Policy will terminate ... on the earliest of:"
+    }
+  },
+  "reasoningNotes": [
+    "No Azure Search snippets were available; all mappings are based solely on the provided extraction JSON.",
+    "Where the policy references amounts or durations only by referring to the Benefit Schedule (e.g., Benefit Amount, Elimination Period length), those numeric values are not populated because the actual schedule page was not included.",
+    "Fields related to inflation protection (Simple Inflation, Compound Inflation), explicit Nonforfeiture Benefit details, Indemnity Benefit structure, and Guaranteed Purchase Option were not found in the extracted text and are left null.",
+    "For DME and therapeutic equipment rental, the only explicit reference is within the Alternative Plan of Care description; these mappings are interpreted from that context and assigned moderate confidence.",
+    "Standby Assistance is not separately defined but is explicitly mentioned within the definition of Substantial Assistance; this was used to populate that field."
+  ]
+}

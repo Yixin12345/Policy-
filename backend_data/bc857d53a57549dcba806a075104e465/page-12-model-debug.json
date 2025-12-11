@@ -1,0 +1,148 @@
+{
+  "page": 12,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"Page contains policy/legal text and section headings (Examinations, Appealing a Claim, POLICY ADMINISTRATION) rather than invoice, CMR or UB04 specific fields.\",\n      \"Layout is continuous prose with headings and paragraphs, not structured forms or bills.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Examinations - heading and paragraph\",\n      \"value\": \"Examinations\\nWe may require that a physician or other individuals practicing within the scope of their licenses examine you, while a claim is pending or while you are receiving benefits, as often as reasonably required. We will pay for these examinations and will choose the individual to perform them.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 40,\n        \"width\": 672,\n        \"height\": 100\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Appealing a Claim - heading and paragraph\",\n      \"value\": \"Appealing a Claim\\nWe will evaluate your claim based on the provisions of this Policy and the information given by you, your physician, and other available sources. We will inform you in writing if we deny your claim or any part of your claim. If you do not agree with a claim decision, you or your representative may appeal the denial. The appeal must be in writing to us and include all information that pertains to the claim. No special form is needed. We will review your request and notify you or your representative of our decision within 30 days of receiving the request.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 148,\n        \"width\": 672,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Right of Recovery - heading and paragraph\",\n      \"value\": \"Right of Recovery\\nIf we make any errors in processing your claim, we have the right to recover any overpayment of benefits. We will recover by offset any amounts that have not been previously recovered at the time we make another benefit payment.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 300,\n        \"width\": 672,\n        \"height\": 64\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Legal Action - heading and paragraph\",\n      \"value\": \"Legal Action\\nLegal action to recover benefits under this Policy may not be started earlier than 60 days after required Proof of Loss has been filed with us. Further, no legal action may be started after the expiration of the applicable Statute of Limitation from the time required Proof of Loss is required to be filed with us.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 366,\n        \"width\": 672,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"POLICY ADMINISTRATION - heading\",\n      \"value\": \"POLICY ADMINISTRATION\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 456,\n        \"width\": 308,\n        \"height\": 32\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Entire Contract; Changes - paragraph\",\n      \"value\": \"Entire Contract; Changes\\nThis Policy and the attached application, plus any additional attachments, is the entire contract. No agent, employee, or person other than one of our officers has authority to change the Policy. Any change must be shown on your Policy and approved in writing.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 492,\n        \"width\": 672,\n        \"height\": 78\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Incontestability - heading and paragraphs\",\n      \"value\": \"Incontestability\\nIf your Policy has been in force for less than six (6) months, upon a showing of misrepresentation that is material to the acceptance of coverage, we may rescind your Policy or deny an otherwise valid claim on your Policy.\\n\\nIf your Policy has been in force for at least six (6) months, but less than (2) years, and if we can show the misrepresentation is both material to the acceptance of coverage and that it pertains to the condition for which benefits are sought, we may rescind your Policy or deny an otherwise valid claim on your Policy.\\n\\nAfter this Policy has been in force for two (2) years it is not contestable upon the grounds of misrepresentation alone. After two (2) years, the Policy may be contested only upon a showing that you knowingly and intentionally misrepresented relevant facts relating to your health.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 580,\n        \"width\": 672,\n        \"height\": 200\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Misstatement of Age - heading and paragraph\",\n      \"value\": \"Misstatement of Age\\nIf your age is misstated on the application, we may, at any time, adjust your benefits and/or premiums to reflect your correct age. If no coverage would have been provided based on your correct age, our liability will be limited to a refund of any premium paid for this Policy, and the Policy is null and void as of the Policy Effective Date.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 784,\n        \"width\": 672,\n        \"height\": 130\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Document code / form identifier (footer)\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 48,\n        \"y\": 930,\n        \"width\": 180,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Page number (footer)\",\n      \"value\": \"Page 13\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 648,\n        \"y\": 930,\n        \"width\": 72,\n        \"height\": 28\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Page contains policy/legal text and section headings (Examinations, Appealing a Claim, POLICY ADMINISTRATION) rather than invoice, CMR or UB04 specific fields.",
+        "Layout is continuous prose with headings and paragraphs, not structured forms or bills."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Examinations - heading and paragraph",
+        "value": "Examinations\nWe may require that a physician or other individuals practicing within the scope of their licenses examine you, while a claim is pending or while you are receiving benefits, as often as reasonably required. We will pay for these examinations and will choose the individual to perform them.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 40,
+          "width": 672,
+          "height": 100
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Appealing a Claim - heading and paragraph",
+        "value": "Appealing a Claim\nWe will evaluate your claim based on the provisions of this Policy and the information given by you, your physician, and other available sources. We will inform you in writing if we deny your claim or any part of your claim. If you do not agree with a claim decision, you or your representative may appeal the denial. The appeal must be in writing to us and include all information that pertains to the claim. No special form is needed. We will review your request and notify you or your representative of our decision within 30 days of receiving the request.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 148,
+          "width": 672,
+          "height": 140
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Right of Recovery - heading and paragraph",
+        "value": "Right of Recovery\nIf we make any errors in processing your claim, we have the right to recover any overpayment of benefits. We will recover by offset any amounts that have not been previously recovered at the time we make another benefit payment.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 300,
+          "width": 672,
+          "height": 64
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Legal Action - heading and paragraph",
+        "value": "Legal Action\nLegal action to recover benefits under this Policy may not be started earlier than 60 days after required Proof of Loss has been filed with us. Further, no legal action may be started after the expiration of the applicable Statute of Limitation from the time required Proof of Loss is required to be filed with us.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 366,
+          "width": 672,
+          "height": 80
+        }
+      },
+      {
+        "id": "f5",
+        "name": "POLICY ADMINISTRATION - heading",
+        "value": "POLICY ADMINISTRATION",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 456,
+          "width": 308,
+          "height": 32
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Entire Contract; Changes - paragraph",
+        "value": "Entire Contract; Changes\nThis Policy and the attached application, plus any additional attachments, is the entire contract. No agent, employee, or person other than one of our officers has authority to change the Policy. Any change must be shown on your Policy and approved in writing.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 492,
+          "width": 672,
+          "height": 78
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Incontestability - heading and paragraphs",
+        "value": "Incontestability\nIf your Policy has been in force for less than six (6) months, upon a showing of misrepresentation that is material to the acceptance of coverage, we may rescind your Policy or deny an otherwise valid claim on your Policy.\n\nIf your Policy has been in force for at least six (6) months, but less than (2) years, and if we can show the misrepresentation is both material to the acceptance of coverage and that it pertains to the condition for which benefits are sought, we may rescind your Policy or deny an otherwise valid claim on your Policy.\n\nAfter this Policy has been in force for two (2) years it is not contestable upon the grounds of misrepresentation alone. After two (2) years, the Policy may be contested only upon a showing that you knowingly and intentionally misrepresented relevant facts relating to your health.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 580,
+          "width": 672,
+          "height": 200
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Misstatement of Age - heading and paragraph",
+        "value": "Misstatement of Age\nIf your age is misstated on the application, we may, at any time, adjust your benefits and/or premiums to reflect your correct age. If no coverage would have been provided based on your correct age, our liability will be limited to a refund of any premium paid for this Policy, and the Policy is null and void as of the Policy Effective Date.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 784,
+          "width": 672,
+          "height": 130
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Document code / form identifier (footer)",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 48,
+          "y": 930,
+          "width": 180,
+          "height": 28
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Page number (footer)",
+        "value": "Page 13",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 648,
+          "y": 930,
+          "width": 72,
+          "height": 28
+        }
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,699 @@
+{
+  "page": 2,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"Document is a MetLife informational brochure page listing policy features and additional information, not an invoice, CMR, or UB04 form.\",\n      \"Layout contains descriptive sections and bulleted benefits rather than structured billing or shipping form fields.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"title_01\",\n      \"name\": \"document_title\",\n      \"value\": \"Policy Features and Benefits May Vary By State\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 200,\n        \"y\": 12,\n        \"width\": 394,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"section_01\",\n      \"name\": \"main_section_header\",\n      \"value\": \"FEATURES & BENEFITS AVAILABLE WITH BOTH SIMPLE ADVANTAGE\u2122 AND CUSTOM ADVANTAGE\u2122\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 30,\n        \"y\": 46,\n        \"width\": 734,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f_home_community\",\n      \"name\": \"Home and Community Care\",\n      \"value\": \"Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services; Services provided by a Home Care Aide, Social Worker or Independent Caregiver; Hospice Care; Adult Day Care\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 76,\n        \"width\": 540,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"f_facility_care\",\n      \"name\": \"Facility Care\",\n      \"value\": \"Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 140,\n        \"width\": 540,\n        \"height\": 44\n      }\n    },\n    {\n      \"id\": \"f_elimination_period\",\n      \"name\": \"Elimination Period\",\n      \"value\": \"100 Calendar Days; Once per lifetime and cumulative\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 195,\n        \"width\": 540,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"f_alternate_service\",\n      \"name\": \"Alternate Service Provision\",\n      \"value\": \"A MetLife Care Coordinator may authorize benefits for OLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 235,\n        \"width\": 540,\n        \"height\": 56\n      }\n    },\n    {\n      \"id\": \"f_bed_reservation\",\n      \"name\": \"Bed Reservation\",\n      \"value\": \"Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 298,\n        \"width\": 540,\n        \"height\": 44\n      }\n    },\n    {\n      \"id\": \"f_return_of_premium\",\n      \"name\": \"Return of Premium\",\n      \"value\": \"If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 346,\n        \"width\": 540,\n        \"height\": 48\n      }\n    },\n    {\n      \"id\": \"f_international_benefit\",\n      \"name\": \"International Benefit\",\n      \"value\": \"Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA is limited to the lesser of: (1) TBA less benefits paid while insured is in the U.S.; or (2) 50% of TBA; EP for International Benefit is doubled to 200 Calendar Days; If Cash Benefit Rider is added to policy: International Benefit is modified; pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 396,\n        \"width\": 540,\n        \"height\": 88\n      }\n    },\n    {\n      \"id\": \"f_contingent_lapse\",\n      \"name\": \"Contingent Benefit Upon Lapse\",\n      \"value\": \"Limited coverage if policy ends due to non-payment of premiums or insured's written request to cancel, following a substantial premium increase; Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA; Total benefits paid to insured will not exceed the TBA in effect immediately prior to the nonforfeiture date\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 488,\n        \"width\": 540,\n        \"height\": 88\n      }\n    },\n    {\n      \"id\": \"f_initial_needs_assessment\",\n      \"name\": \"Initial Needs Assessment\",\n      \"value\": \"1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife - no cost to the insured; If Care Management organization is selected by the insured - reimbursed up to $275 per lifetime\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 584,\n        \"width\": 540,\n        \"height\": 56\n      }\n    },\n    {\n      \"id\": \"f_premium_waiver\",\n      \"name\": \"Premium Waiver\",\n      \"value\": \"Premiums waived when EP is satisfied and the insured is receiving payment of benefits\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 648,\n        \"width\": 540,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"f_coordination_of_benefits\",\n      \"name\": \"Coordination of Benefits\",\n      \"value\": \"Coordination of Benefits (COB) and non-duplication of coverage with other MetLife LTCI coverage and Medicare (COB and non-duplication of coverage not applicable with Cash Benefit Rider)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 692,\n        \"width\": 540,\n        \"height\": 44\n      }\n    },\n    {\n      \"id\": \"addinfo_header\",\n      \"name\": \"additional_information_header\",\n      \"value\": \"ADDITIONAL INFORMATION FOR ALL POLICIES\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 30,\n        \"y\": 734,\n        \"width\": 734,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"ai_payment_options\",\n      \"name\": \"Payment Options\",\n      \"value\": \"Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider - available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; client should consult a tax advisor for further clarification\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 270,\n        \"y\": 770,\n        \"width\": 500,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"ai_care_coordination_services\",\n      \"name\": \"Care Coordination Services\",\n      \"value\": \"MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area. An insured can also call for advice about caring for a loved one who needs LTC services, even if their family member is not insured with MetLife.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 270,\n        \"y\": 836,\n        \"width\": 500,\n        \"height\": 56\n      }\n    },\n    {\n      \"id\": \"ai_discounts\",\n      \"name\": \"Discounts\",\n      \"value\": \"30% Spousal** - 15% Marital** - 15% Residential - 10% Preferred Health (N/A for insureds age 80 - 84) - 5% or 10% Multi-Life Discount for approved cases\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 30,\n        \"y\": 770,\n        \"width\": 230,\n        \"height\": 64\n      }\n    },\n    {\n      \"id\": \"ai_underwriting_classes\",\n      \"name\": \"Underwriting Classes\",\n      \"value\": \"Preferred (N/A for insureds age 80 - 84), Standard & Substandard (Always quote Standard!)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 30,\n        \"y\": 840,\n        \"width\": 230,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"ai_policy_effective_dates\",\n      \"name\": \"Policy Effective Dates\",\n      \"value\": \"With Premium (Conditional Receipt may apply): Date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 30,\n        \"y\": 884,\n        \"width\": 740,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"ai_free_look_period\",\n      \"name\": \"Free Look Period\",\n      \"value\": \"Insured has 30 days to review policy and if desired, return it for a full refund\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 30,\n        \"y\": 920,\n        \"width\": 360,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"ai_policy_delivery\",\n      \"name\": \"Policy Delivery\",\n      \"value\": \"Policy Delivery Receipt (PDR) must be signed within 30 days of Policy Approval Date\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 410,\n        \"y\": 920,\n        \"width\": 360,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"footer_company\",\n      \"name\": \"company_name_address\",\n      \"value\": \"Metropolitan Life Insurance Company, New York, NY 10166\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 520,\n        \"y\": 960,\n        \"width\": 260,\n        \"height\": 28\n      }\n    }\n  ],\n  \"tables\": [\n    {\n      \"id\": \"table_features\",\n      \"caption\": \"Features & Benefits (left = feature, right = description)\",\n      \"confidence\": 0.8,\n      \"columns\": [\n        {\n          \"key\": \"feature\",\n          \"header\": \"Feature\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        },\n        {\n          \"key\": \"description\",\n          \"header\": \"Description\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        }\n      ],\n      \"rows\": [\n        [\n          {\n            \"value\": \"Home and Community Care\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 76,\n              \"width\": 190,\n              \"height\": 60\n            }\n          },\n          {\n            \"value\": \"Reimbursed up to 100% of MBA; Home care services including Nursing Care, Therapy services, Care Advisory Services, Homemaker Services; Services provided by a Home Care Aide, Social Worker or Independent Caregiver; Hospice Care; Adult Day Care\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 76,\n              \"width\": 540,\n              \"height\": 60\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Facility Care\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 140,\n              \"width\": 190,\n              \"height\": 44\n            }\n          },\n          {\n            \"value\": \"Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 140,\n              \"width\": 540,\n              \"height\": 44\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Elimination Period\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 195,\n              \"width\": 190,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"100 Calendar Days; Once per lifetime and cumulative\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 195,\n              \"width\": 540,\n              \"height\": 36\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Alternate Service Provision\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 235,\n              \"width\": 190,\n              \"height\": 56\n            }\n          },\n          {\n            \"value\": \"A MetLife Care Coordinator may authorize benefits for OLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is cost-effective.\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 235,\n              \"width\": 540,\n              \"height\": 56\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Bed Reservation\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 298,\n              \"width\": 190,\n              \"height\": 44\n            }\n          },\n          {\n            \"value\": \"Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 298,\n              \"width\": 540,\n              \"height\": 44\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Return of Premium\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 346,\n              \"width\": 190,\n              \"height\": 48\n            }\n          },\n          {\n            \"value\": \"If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 346,\n              \"width\": 540,\n              \"height\": 48\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"International Benefit\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 396,\n              \"width\": 190,\n              \"height\": 88\n            }\n          },\n          {\n            \"value\": \"Pays cash benefit equal to 50% of MBA when insured is outside the U.S.; TBA limited to lesser of TBA less benefits paid while insured in U.S. or 50% of TBA; EP for International Benefit doubled to 200 Calendar Days; If Cash Benefit Rider added, pays 100% of MBA outside US; EP 100 Calendar Days\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 396,\n              \"width\": 540,\n              \"height\": 88\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Contingent Benefit Upon Lapse\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 488,\n              \"width\": 190,\n              \"height\": 88\n            }\n          },\n          {\n            \"value\": \"Limited coverage if policy ends due to non-payment of premiums or insured's written request to cancel following a substantial premium increase; provides full MBA and a reduced TBA equal to greater of premium paid or 1x MBA; total benefits will not exceed prior TBA\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 488,\n              \"width\": 540,\n              \"height\": 88\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Initial Needs Assessment\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 584,\n              \"width\": 190,\n              \"height\": 56\n            }\n          },\n          {\n            \"value\": \"1 visit per lifetime; EP does not need to be satisfied; Care Management by MetLife - no cost; If selected by insured - reimbursed up to $275 per lifetime\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 584,\n              \"width\": 540,\n              \"height\": 56\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Premium Waiver\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 648,\n              \"width\": 190,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"Premiums waived when EP is satisfied and insured is receiving payment of benefits\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 648,\n              \"width\": 540,\n              \"height\": 36\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Coordination of Benefits\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 692,\n              \"width\": 190,\n              \"height\": 44\n            }\n          },\n          {\n            \"value\": \"Coordination of Benefits (COB) and non-duplication with other MetLife LTCI and Medicare; COB not applicable with Cash Benefit Rider\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 230,\n              \"y\": 692,\n              \"width\": 540,\n              \"height\": 44\n            }\n          }\n        ]\n      ]\n    },\n    {\n      \"id\": \"table_additional_info\",\n      \"caption\": \"Additional Information for All Policies (topic and details)\",\n      \"confidence\": 0.8,\n      \"columns\": [\n        {\n          \"key\": \"topic\",\n          \"header\": \"Topic\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        },\n        {\n          \"key\": \"details\",\n          \"header\": \"Details\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        }\n      ],\n      \"rows\": [\n        [\n          {\n            \"value\": \"Payment Options\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 770,\n              \"width\": 230,\n              \"height\": 60\n            }\n          },\n          {\n            \"value\": \"Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider available at initial application only; N/A with FPO or GPO; may impact tax deductibility; consult tax advisor\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 270,\n              \"y\": 770,\n              \"width\": 500,\n              \"height\": 60\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Care Coordination Services\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 836,\n              \"width\": 230,\n              \"height\": 56\n            }\n          },\n          {\n            \"value\": \"MetLife Care Coordinators available to answer questions about LTC coverage, services and discounts; insureds can call for advice about caring for a loved one even if that family member is not insured with MetLife\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 270,\n              \"y\": 836,\n              \"width\": 500,\n              \"height\": 56\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Discounts\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 898,\n              \"width\": 230,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"30% Spousal, 15% Marital, 15% Residential, 10% Preferred Health (N/A ages 80-84), 5% or 10% Multi-Life Discount for approved cases\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 270,\n              \"y\": 898,\n              \"width\": 500,\n              \"height\": 36\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Underwriting Classes\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 940,\n              \"width\": 230,\n              \"height\": 28\n            }\n          },\n          {\n            \"value\": \"Preferred (N/A ages 80-84), Standard & Substandard\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 270,\n              \"y\": 940,\n              \"width\": 500,\n              \"height\": 28\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"Policy Effective Dates\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 30,\n              \"y\": 972,\n              \"width\": 230,\n              \"height\": 28\n            }\n          },\n          {\n            \"value\": \"With Premium (Conditional Receipt may apply): date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 270,\n              \"y\": 972,\n              \"width\": 500,\n              \"height\": 28\n            }\n          }\n        ]\n      ]\n    }\n  ]\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Document is a MetLife informational brochure page listing policy features and additional information, not an invoice, CMR, or UB04 form.",
+        "Layout contains descriptive sections and bulleted benefits rather than structured billing or shipping form fields."
+      ]
+    },
+    "fields": [
+      {
+        "id": "title_01",
+        "name": "document_title",
+        "value": "Policy Features and Benefits May Vary By State",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 200,
+          "y": 12,
+          "width": 394,
+          "height": 28
+        }
+      },
+      {
+        "id": "section_01",
+        "name": "main_section_header",
+        "value": "FEATURES & BENEFITS AVAILABLE WITH BOTH SIMPLE ADVANTAGE\u2122 AND CUSTOM ADVANTAGE\u2122",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 30,
+          "y": 46,
+          "width": 734,
+          "height": 28
+        }
+      },
+      {
+        "id": "f_home_community",
+        "name": "Home and Community Care",
+        "value": "Reimbursed up to 100% of MBA; Home care services - Nursing Care, Therapy services, Care Advisory Services, Homemaker Services; Services provided by a Home Care Aide, Social Worker or Independent Caregiver; Hospice Care; Adult Day Care",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 76,
+          "width": 540,
+          "height": 60
+        }
+      },
+      {
+        "id": "f_facility_care",
+        "name": "Facility Care",
+        "value": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 140,
+          "width": 540,
+          "height": 44
+        }
+      },
+      {
+        "id": "f_elimination_period",
+        "name": "Elimination Period",
+        "value": "100 Calendar Days; Once per lifetime and cumulative",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 195,
+          "width": 540,
+          "height": 36
+        }
+      },
+      {
+        "id": "f_alternate_service",
+        "name": "Alternate Service Provision",
+        "value": "A MetLife Care Coordinator may authorize benefits for OLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is a cost-effective alternative.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 235,
+          "width": 540,
+          "height": 56
+        }
+      },
+      {
+        "id": "f_bed_reservation",
+        "name": "Bed Reservation",
+        "value": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 298,
+          "width": 540,
+          "height": 44
+        }
+      },
+      {
+        "id": "f_return_of_premium",
+        "name": "Return of Premium",
+        "value": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 346,
+          "width": 540,
+          "height": 48
+        }
+      },
+      {
+        "id": "f_international_benefit",
+        "name": "International Benefit",
+        "value": "Pays a cash benefit equal to 50% of the MBA when the insured is outside the U.S.; TBA is limited to the lesser of: (1) TBA less benefits paid while insured is in the U.S.; or (2) 50% of TBA; EP for International Benefit is doubled to 200 Calendar Days; If Cash Benefit Rider is added to policy: International Benefit is modified; pays benefits outside US at 100% of MBA; EP will be 100 Calendar Days",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 396,
+          "width": 540,
+          "height": 88
+        }
+      },
+      {
+        "id": "f_contingent_lapse",
+        "name": "Contingent Benefit Upon Lapse",
+        "value": "Limited coverage if policy ends due to non-payment of premiums or insured's written request to cancel, following a substantial premium increase; Provides full MBA and a reduced TBA equal to the greater of: the total amount of premium paid; or 1x MBA; Total benefits paid to insured will not exceed the TBA in effect immediately prior to the nonforfeiture date",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 488,
+          "width": 540,
+          "height": 88
+        }
+      },
+      {
+        "id": "f_initial_needs_assessment",
+        "name": "Initial Needs Assessment",
+        "value": "1 visit per lifetime; EP does not need to be satisfied; If Care Management organization is selected by MetLife - no cost to the insured; If Care Management organization is selected by the insured - reimbursed up to $275 per lifetime",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 584,
+          "width": 540,
+          "height": 56
+        }
+      },
+      {
+        "id": "f_premium_waiver",
+        "name": "Premium Waiver",
+        "value": "Premiums waived when EP is satisfied and the insured is receiving payment of benefits",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 648,
+          "width": 540,
+          "height": 36
+        }
+      },
+      {
+        "id": "f_coordination_of_benefits",
+        "name": "Coordination of Benefits",
+        "value": "Coordination of Benefits (COB) and non-duplication of coverage with other MetLife LTCI coverage and Medicare (COB and non-duplication of coverage not applicable with Cash Benefit Rider)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 692,
+          "width": 540,
+          "height": 44
+        }
+      },
+      {
+        "id": "addinfo_header",
+        "name": "additional_information_header",
+        "value": "ADDITIONAL INFORMATION FOR ALL POLICIES",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 30,
+          "y": 734,
+          "width": 734,
+          "height": 28
+        }
+      },
+      {
+        "id": "ai_payment_options",
+        "name": "Payment Options",
+        "value": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider - available at initial application only; N/A with FPO or GPO; May impact the tax deductibility of the premium; client should consult a tax advisor for further clarification",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 270,
+          "y": 770,
+          "width": 500,
+          "height": 60
+        }
+      },
+      {
+        "id": "ai_care_coordination_services",
+        "name": "Care Coordination Services",
+        "value": "MetLife Care Coordinators are available to answer questions about LTC coverage, services and discounts in the insured's area. An insured can also call for advice about caring for a loved one who needs LTC services, even if their family member is not insured with MetLife.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 270,
+          "y": 836,
+          "width": 500,
+          "height": 56
+        }
+      },
+      {
+        "id": "ai_discounts",
+        "name": "Discounts",
+        "value": "30% Spousal** - 15% Marital** - 15% Residential - 10% Preferred Health (N/A for insureds age 80 - 84) - 5% or 10% Multi-Life Discount for approved cases",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 30,
+          "y": 770,
+          "width": 230,
+          "height": 64
+        }
+      },
+      {
+        "id": "ai_underwriting_classes",
+        "name": "Underwriting Classes",
+        "value": "Preferred (N/A for insureds age 80 - 84), Standard & Substandard (Always quote Standard!)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 30,
+          "y": 840,
+          "width": 230,
+          "height": 36
+        }
+      },
+      {
+        "id": "ai_policy_effective_dates",
+        "name": "Policy Effective Dates",
+        "value": "With Premium (Conditional Receipt may apply): Date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 30,
+          "y": 884,
+          "width": 740,
+          "height": 36
+        }
+      },
+      {
+        "id": "ai_free_look_period",
+        "name": "Free Look Period",
+        "value": "Insured has 30 days to review policy and if desired, return it for a full refund",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 30,
+          "y": 920,
+          "width": 360,
+          "height": 28
+        }
+      },
+      {
+        "id": "ai_policy_delivery",
+        "name": "Policy Delivery",
+        "value": "Policy Delivery Receipt (PDR) must be signed within 30 days of Policy Approval Date",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 410,
+          "y": 920,
+          "width": 360,
+          "height": 28
+        }
+      },
+      {
+        "id": "footer_company",
+        "name": "company_name_address",
+        "value": "Metropolitan Life Insurance Company, New York, NY 10166",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 520,
+          "y": 960,
+          "width": 260,
+          "height": 28
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "table_features",
+        "caption": "Features & Benefits (left = feature, right = description)",
+        "confidence": 0.8,
+        "columns": [
+          {
+            "key": "feature",
+            "header": "Feature",
+            "type": "string",
+            "confidence": 0.8
+          },
+          {
+            "key": "description",
+            "header": "Description",
+            "type": "string",
+            "confidence": 0.8
+          }
+        ],
+        "rows": [
+          [
+            {
+              "value": "Home and Community Care",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 76,
+                "width": 190,
+                "height": 60
+              }
+            },
+            {
+              "value": "Reimbursed up to 100% of MBA; Home care services including Nursing Care, Therapy services, Care Advisory Services, Homemaker Services; Services provided by a Home Care Aide, Social Worker or Independent Caregiver; Hospice Care; Adult Day Care",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 76,
+                "width": 540,
+                "height": 60
+              }
+            }
+          ],
+          [
+            {
+              "value": "Facility Care",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 140,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "value": "Reimbursed up to 100% of MBA; Assisted Living Facility, Nursing Home, Hospice Facility",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 140,
+                "width": 540,
+                "height": 44
+              }
+            }
+          ],
+          [
+            {
+              "value": "Elimination Period",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 195,
+                "width": 190,
+                "height": 36
+              }
+            },
+            {
+              "value": "100 Calendar Days; Once per lifetime and cumulative",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 195,
+                "width": 540,
+                "height": 36
+              }
+            }
+          ],
+          [
+            {
+              "value": "Alternate Service Provision",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 235,
+                "width": 190,
+                "height": 56
+              }
+            },
+            {
+              "value": "A MetLife Care Coordinator may authorize benefits for OLTC services not specifically defined as covered services under the policy, as long as the service meets the needs of the insured and is cost-effective.",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 235,
+                "width": 540,
+                "height": 56
+              }
+            }
+          ],
+          [
+            {
+              "value": "Bed Reservation",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 298,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "value": "Reimburses up to 50 days per calendar year for actual charges incurred, to reserve insured's bed in a facility for any reason",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 298,
+                "width": 540,
+                "height": 44
+              }
+            }
+          ],
+          [
+            {
+              "value": "Return of Premium",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 346,
+                "width": 190,
+                "height": 48
+              }
+            },
+            {
+              "value": "If insured dies on or before his/her 70th birthday, 100% of premiums paid, minus any benefits paid or payable, will be returned to insured's beneficiary or estate",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 346,
+                "width": 540,
+                "height": 48
+              }
+            }
+          ],
+          [
+            {
+              "value": "International Benefit",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 396,
+                "width": 190,
+                "height": 88
+              }
+            },
+            {
+              "value": "Pays cash benefit equal to 50% of MBA when insured is outside the U.S.; TBA limited to lesser of TBA less benefits paid while insured in U.S. or 50% of TBA; EP for International Benefit doubled to 200 Calendar Days; If Cash Benefit Rider added, pays 100% of MBA outside US; EP 100 Calendar Days",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 396,
+                "width": 540,
+                "height": 88
+              }
+            }
+          ],
+          [
+            {
+              "value": "Contingent Benefit Upon Lapse",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 488,
+                "width": 190,
+                "height": 88
+              }
+            },
+            {
+              "value": "Limited coverage if policy ends due to non-payment of premiums or insured's written request to cancel following a substantial premium increase; provides full MBA and a reduced TBA equal to greater of premium paid or 1x MBA; total benefits will not exceed prior TBA",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 488,
+                "width": 540,
+                "height": 88
+              }
+            }
+          ],
+          [
+            {
+              "value": "Initial Needs Assessment",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 584,
+                "width": 190,
+                "height": 56
+              }
+            },
+            {
+              "value": "1 visit per lifetime; EP does not need to be satisfied; Care Management by MetLife - no cost; If selected by insured - reimbursed up to $275 per lifetime",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 584,
+                "width": 540,
+                "height": 56
+              }
+            }
+          ],
+          [
+            {
+              "value": "Premium Waiver",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 648,
+                "width": 190,
+                "height": 36
+              }
+            },
+            {
+              "value": "Premiums waived when EP is satisfied and insured is receiving payment of benefits",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 648,
+                "width": 540,
+                "height": 36
+              }
+            }
+          ],
+          [
+            {
+              "value": "Coordination of Benefits",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 692,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "value": "Coordination of Benefits (COB) and non-duplication with other MetLife LTCI and Medicare; COB not applicable with Cash Benefit Rider",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 230,
+                "y": 692,
+                "width": 540,
+                "height": 44
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "id": "table_additional_info",
+        "caption": "Additional Information for All Policies (topic and details)",
+        "confidence": 0.8,
+        "columns": [
+          {
+            "key": "topic",
+            "header": "Topic",
+            "type": "string",
+            "confidence": 0.8
+          },
+          {
+            "key": "details",
+            "header": "Details",
+            "type": "string",
+            "confidence": 0.8
+          }
+        ],
+        "rows": [
+          [
+            {
+              "value": "Payment Options",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 770,
+                "width": 230,
+                "height": 60
+              }
+            },
+            {
+              "value": "Standard Pay: Annual, Semi-Annual, Quarterly, Monthly (EFT); 10 Year Premium Payment Rider available at initial application only; N/A with FPO or GPO; may impact tax deductibility; consult tax advisor",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 270,
+                "y": 770,
+                "width": 500,
+                "height": 60
+              }
+            }
+          ],
+          [
+            {
+              "value": "Care Coordination Services",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 836,
+                "width": 230,
+                "height": 56
+              }
+            },
+            {
+              "value": "MetLife Care Coordinators available to answer questions about LTC coverage, services and discounts; insureds can call for advice about caring for a loved one even if that family member is not insured with MetLife",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 270,
+                "y": 836,
+                "width": 500,
+                "height": 56
+              }
+            }
+          ],
+          [
+            {
+              "value": "Discounts",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 898,
+                "width": 230,
+                "height": 36
+              }
+            },
+            {
+              "value": "30% Spousal, 15% Marital, 15% Residential, 10% Preferred Health (N/A ages 80-84), 5% or 10% Multi-Life Discount for approved cases",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 270,
+                "y": 898,
+                "width": 500,
+                "height": 36
+              }
+            }
+          ],
+          [
+            {
+              "value": "Underwriting Classes",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 940,
+                "width": 230,
+                "height": 28
+              }
+            },
+            {
+              "value": "Preferred (N/A ages 80-84), Standard & Substandard",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 270,
+                "y": 940,
+                "width": 500,
+                "height": 28
+              }
+            }
+          ],
+          [
+            {
+              "value": "Policy Effective Dates",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 30,
+                "y": 972,
+                "width": 230,
+                "height": 28
+              }
+            },
+            {
+              "value": "With Premium (Conditional Receipt may apply): date all underwriting requirements are met; Without Premium: 28 days following underwriting approval date",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 270,
+                "y": 972,
+                "width": 500,
+                "height": 28
+              }
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}

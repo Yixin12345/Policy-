@@ -1,0 +1,109 @@
+{
+  "page": 14,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page contains insurance policy language (headings like 'Reinstatement - Lapse Due to Nonpayment of Premium' and 'Joint Coverage Provision') rather than an invoice, CMR form, or UB04 medical billing form.\",\n      \"Layout is prose with bulleted conditions and provisions typical of a policy document.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"title_reinstatement\",\n      \"value\": \"Reinstatement - Lapse Due to Nonpayment of Premium\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 720,\n        \"y\": 10,\n        \"width\": 295,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"reinstatement_summary\",\n      \"value\": \"Without requiring an application, we may accept your past due and unpaid premiums and any nonforfeiture benefits paid to you, up to one year after lapse. Those payments will reinstate your Policy and put it back in force. If we require an application for reinstatement, your coverage may be reinstated within one year after lapse before we require an application for reinstatement.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 720,\n        \"y\": 120,\n        \"width\": 295,\n        \"height\": 630\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"reinstatement_conditions\",\n      \"value\": \"Conditions (bulleted): you request reinstatement in writing; you remit past due and unpaid premiums; you complete application for reinstatement (if required); you are insurable under underwriting rules in effect when you apply; on the date we approve your application; your reinstated Policy will cover only loss due to sickness incurred more than 10 days after the date of reinstatement, and injury sustained after the date of reinstatement.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 720,\n        \"y\": 160,\n        \"width\": 295,\n        \"height\": 540\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"title_joint_coverage\",\n      \"value\": \"Joint Coverage Provision\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 320,\n        \"y\": 20,\n        \"width\": 360,\n        \"height\": 70\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"joint_coverage_summary\",\n      \"value\": \"This Policy provides equal coverage for two individuals. All benefits, conditions and provisions of this Policy are applicable to each insured. When more than one individual is insured under this Policy, one of you dies, upon receipt of proof of death the Benefit for the deceased will be paid to the surviving insured or beneficiary. Premium rates for the reinstated Policy will be based on your original issue age.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 320,\n        \"y\": 90,\n        \"width\": 360,\n        \"height\": 640\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"left_margin_code\",\n      \"value\": \"N 3000-P FI (O)\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 4,\n        \"y\": 4,\n        \"width\": 76,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"page_number\",\n      \"value\": \"Page 15\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 2,\n        \"y\": 660,\n        \"width\": 92,\n        \"height\": 96\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page contains insurance policy language (headings like 'Reinstatement - Lapse Due to Nonpayment of Premium' and 'Joint Coverage Provision') rather than an invoice, CMR form, or UB04 medical billing form.",
+        "Layout is prose with bulleted conditions and provisions typical of a policy document."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "title_reinstatement",
+        "value": "Reinstatement - Lapse Due to Nonpayment of Premium",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 720,
+          "y": 10,
+          "width": 295,
+          "height": 120
+        }
+      },
+      {
+        "id": "f2",
+        "name": "reinstatement_summary",
+        "value": "Without requiring an application, we may accept your past due and unpaid premiums and any nonforfeiture benefits paid to you, up to one year after lapse. Those payments will reinstate your Policy and put it back in force. If we require an application for reinstatement, your coverage may be reinstated within one year after lapse before we require an application for reinstatement.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 720,
+          "y": 120,
+          "width": 295,
+          "height": 630
+        }
+      },
+      {
+        "id": "f3",
+        "name": "reinstatement_conditions",
+        "value": "Conditions (bulleted): you request reinstatement in writing; you remit past due and unpaid premiums; you complete application for reinstatement (if required); you are insurable under underwriting rules in effect when you apply; on the date we approve your application; your reinstated Policy will cover only loss due to sickness incurred more than 10 days after the date of reinstatement, and injury sustained after the date of reinstatement.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 720,
+          "y": 160,
+          "width": 295,
+          "height": 540
+        }
+      },
+      {
+        "id": "f4",
+        "name": "title_joint_coverage",
+        "value": "Joint Coverage Provision",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 320,
+          "y": 20,
+          "width": 360,
+          "height": 70
+        }
+      },
+      {
+        "id": "f5",
+        "name": "joint_coverage_summary",
+        "value": "This Policy provides equal coverage for two individuals. All benefits, conditions and provisions of this Policy are applicable to each insured. When more than one individual is insured under this Policy, one of you dies, upon receipt of proof of death the Benefit for the deceased will be paid to the surviving insured or beneficiary. Premium rates for the reinstated Policy will be based on your original issue age.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 320,
+          "y": 90,
+          "width": 360,
+          "height": 640
+        }
+      },
+      {
+        "id": "f6",
+        "name": "left_margin_code",
+        "value": "N 3000-P FI (O)",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 4,
+          "y": 4,
+          "width": 76,
+          "height": 140
+        }
+      },
+      {
+        "id": "f7",
+        "name": "page_number",
+        "value": "Page 15",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 2,
+          "y": 660,
+          "width": 92,
+          "height": 96
+        }
+      }
+    ],
+    "tables": []
+  }
+}

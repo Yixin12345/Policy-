@@ -1,0 +1,534 @@
+{
+  "page": 2,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Document is a table of contents / policy guide (not a facility invoice, CMR, or UB04).\",\n      \"Contains headings and page numbers (GUIDE TO YOUR POLICY, section titles and dots with page numbers).\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"title\",\n      \"name\": \"Title\",\n      \"value\": \"GUIDE TO YOUR POLICY\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 200,\n        \"y\": 22,\n        \"width\": 368,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"renewability\",\n      \"name\": \"RENEWABILITY\",\n      \"value\": \"1\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 88,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"benefit_schedule\",\n      \"name\": \"BENEFIT SCHEDULE\",\n      \"value\": \"3\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 112,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"definitions\",\n      \"name\": \"DEFINITIONS\",\n      \"value\": \"4\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 136,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"benefit_provisions\",\n      \"name\": \"BENEFIT PROVISIONS\",\n      \"value\": \"7\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 160,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"eligibility_for_benefits\",\n      \"name\": \"Eligibility for Benefits\",\n      \"value\": \"7\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 184,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"payment_of_benefits\",\n      \"name\": \"Payment of Benefits\",\n      \"value\": \"8\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 206,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"elimination_period\",\n      \"name\": \"Elimination Period\",\n      \"value\": \"8\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 228,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"benefit_payment_period\",\n      \"name\": \"Benefit Payment Period\",\n      \"value\": \"8\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 250,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"benefit_amount\",\n      \"name\": \"Benefit Amount\",\n      \"value\": \"8\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 272,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"restoration_of_the_benefit_amount\",\n      \"name\": \"Restoration of the Benefit Amount\",\n      \"value\": \"8\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 294,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"nursing_home_benefit\",\n      \"name\": \"Nursing Home Benefit\",\n      \"value\": \"9\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 316,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"assisted_living_facility_benefit\",\n      \"name\": \"Assisted Living Facility Benefit\",\n      \"value\": \"9\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 338,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"home_and_community_services_benefit\",\n      \"name\": \"Home and Community Services Benefit\",\n      \"value\": \"9\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 360,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"bed_reservation_benefit\",\n      \"name\": \"Bed Reservation Benefit\",\n      \"value\": \"9\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 382,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"limitations_or_conditions_on_eligibility\",\n      \"name\": \"LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS\",\n      \"value\": \"10\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 418,\n        \"width\": 300,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"limitations_and_exclusions\",\n      \"name\": \"Limitations and Exclusions\",\n      \"value\": \"10\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 444,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"pre-existing_conditions_limitation\",\n      \"name\": \"Pre-Existing Conditions Limitation\",\n      \"value\": \"11\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 466,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"claim_procedures\",\n      \"name\": \"CLAIM PROCEDURES\",\n      \"value\": \"11\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 60,\n        \"y\": 498,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"notice_of_claim\",\n      \"name\": \"Notice of Claim\",\n      \"value\": \"11\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 522,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"right_col_time_of_payment_of_claims\",\n      \"name\": \"Time of Payment of Claims\",\n      \"value\": \"11\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 88,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"payment_of_claims_right\",\n      \"name\": \"Payment of Claims\",\n      \"value\": \"12\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 112,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"extension_of_benefits\",\n      \"name\": \"Extension of Benefits\",\n      \"value\": \"12\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 136,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"coordination_of_benefits_with_medicare\",\n      \"name\": \"Coordination of Benefits with Medicare\",\n      \"value\": \"12\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 160,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"beneficiary\",\n      \"name\": \"Beneficiary\",\n      \"value\": \"12\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 184,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"examinations\",\n      \"name\": \"Examinations\",\n      \"value\": \"13\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 206,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"appealing_a_claim\",\n      \"name\": \"Appealing a Claim\",\n      \"value\": \"13\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 228,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"right_of_recovery\",\n      \"name\": \"Right of Recovery\",\n      \"value\": \"13\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 250,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"legal_action\",\n      \"name\": \"Legal Action\",\n      \"value\": \"13\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 272,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"policy_administration\",\n      \"name\": \"POLICY ADMINISTRATION\",\n      \"value\": \"13\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 400,\n        \"y\": 298,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"entire_contract_changes\",\n      \"name\": \"Entire Contract; Changes\",\n      \"value\": \"13\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 324,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"incontestability\",\n      \"name\": \"Incontestability\",\n      \"value\": \"13\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 346,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"misstatement_of_age\",\n      \"name\": \"Misstatement of Age\",\n      \"value\": \"13\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 368,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"premium_due_dates\",\n      \"name\": \"Premium Due Dates\",\n      \"value\": \"14\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 390,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"waiver_of_premium\",\n      \"name\": \"Waiver of Premium\",\n      \"value\": \"14\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 412,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"reinstatement_lapse_due_to_cognitive_impairment\",\n      \"name\": \"Reinstatement - Lapse Due to Cognitive Impairment or Functional Incapacity\",\n      \"value\": \"14\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 438,\n        \"width\": 300,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"reinstatement_lapse_due_to_nonpayment\",\n      \"name\": \"Reinstatement - Lapse Due to Nonpayment of Premium\",\n      \"value\": \"15\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 468,\n        \"width\": 300,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"policy_ownership\",\n      \"name\": \"Policy Ownership\",\n      \"value\": \"16\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 498,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"assignment\",\n      \"name\": \"Assignment\",\n      \"value\": \"16\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 520,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"refund_of_unearned_premium\",\n      \"name\": \"Refund of Unearned Premium\",\n      \"value\": \"16\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 542,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"conformity_with_state_statutes\",\n      \"name\": \"Conformity with State Statutes\",\n      \"value\": \"16\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 564,\n        \"width\": 280,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"form_code\",\n      \"name\": \"Form Code\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 920,\n        \"width\": 200,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"page_number\",\n      \"name\": \"Page Number\",\n      \"value\": \"Page 2\",\n      \"confidence\": 1.0,\n      \"bbox\": {\n        \"x\": 680,\n        \"y\": 920,\n        \"width\": 84,\n        \"height\": 18\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Document is a table of contents / policy guide (not a facility invoice, CMR, or UB04).",
+        "Contains headings and page numbers (GUIDE TO YOUR POLICY, section titles and dots with page numbers)."
+      ]
+    },
+    "fields": [
+      {
+        "id": "title",
+        "name": "Title",
+        "value": "GUIDE TO YOUR POLICY",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 200,
+          "y": 22,
+          "width": 368,
+          "height": 36
+        }
+      },
+      {
+        "id": "renewability",
+        "name": "RENEWABILITY",
+        "value": "1",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 88,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "benefit_schedule",
+        "name": "BENEFIT SCHEDULE",
+        "value": "3",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 112,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "definitions",
+        "name": "DEFINITIONS",
+        "value": "4",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 136,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "benefit_provisions",
+        "name": "BENEFIT PROVISIONS",
+        "value": "7",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 160,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "eligibility_for_benefits",
+        "name": "Eligibility for Benefits",
+        "value": "7",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 184,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "payment_of_benefits",
+        "name": "Payment of Benefits",
+        "value": "8",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 206,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "elimination_period",
+        "name": "Elimination Period",
+        "value": "8",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 228,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "benefit_payment_period",
+        "name": "Benefit Payment Period",
+        "value": "8",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 250,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "benefit_amount",
+        "name": "Benefit Amount",
+        "value": "8",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 272,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "restoration_of_the_benefit_amount",
+        "name": "Restoration of the Benefit Amount",
+        "value": "8",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 294,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "nursing_home_benefit",
+        "name": "Nursing Home Benefit",
+        "value": "9",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 316,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "assisted_living_facility_benefit",
+        "name": "Assisted Living Facility Benefit",
+        "value": "9",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 338,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "home_and_community_services_benefit",
+        "name": "Home and Community Services Benefit",
+        "value": "9",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 360,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "bed_reservation_benefit",
+        "name": "Bed Reservation Benefit",
+        "value": "9",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 382,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "limitations_or_conditions_on_eligibility",
+        "name": "LIMITATIONS OR CONDITIONS ON ELIGIBILITY FOR BENEFITS",
+        "value": "10",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 418,
+          "width": 300,
+          "height": 22
+        }
+      },
+      {
+        "id": "limitations_and_exclusions",
+        "name": "Limitations and Exclusions",
+        "value": "10",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 444,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "pre-existing_conditions_limitation",
+        "name": "Pre-Existing Conditions Limitation",
+        "value": "11",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 466,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "claim_procedures",
+        "name": "CLAIM PROCEDURES",
+        "value": "11",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 60,
+          "y": 498,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "notice_of_claim",
+        "name": "Notice of Claim",
+        "value": "11",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 522,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "right_col_time_of_payment_of_claims",
+        "name": "Time of Payment of Claims",
+        "value": "11",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 400,
+          "y": 88,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "payment_of_claims_right",
+        "name": "Payment of Claims",
+        "value": "12",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 400,
+          "y": 112,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "extension_of_benefits",
+        "name": "Extension of Benefits",
+        "value": "12",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 400,
+          "y": 136,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "coordination_of_benefits_with_medicare",
+        "name": "Coordination of Benefits with Medicare",
+        "value": "12",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 400,
+          "y": 160,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "beneficiary",
+        "name": "Beneficiary",
+        "value": "12",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 400,
+          "y": 184,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "examinations",
+        "name": "Examinations",
+        "value": "13",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 400,
+          "y": 206,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "appealing_a_claim",
+        "name": "Appealing a Claim",
+        "value": "13",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 400,
+          "y": 228,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "right_of_recovery",
+        "name": "Right of Recovery",
+        "value": "13",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 400,
+          "y": 250,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "legal_action",
+        "name": "Legal Action",
+        "value": "13",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 400,
+          "y": 272,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "policy_administration",
+        "name": "POLICY ADMINISTRATION",
+        "value": "13",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 400,
+          "y": 298,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "entire_contract_changes",
+        "name": "Entire Contract; Changes",
+        "value": "13",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 324,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "incontestability",
+        "name": "Incontestability",
+        "value": "13",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 346,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "misstatement_of_age",
+        "name": "Misstatement of Age",
+        "value": "13",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 368,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "premium_due_dates",
+        "name": "Premium Due Dates",
+        "value": "14",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 390,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "waiver_of_premium",
+        "name": "Waiver of Premium",
+        "value": "14",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 412,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "reinstatement_lapse_due_to_cognitive_impairment",
+        "name": "Reinstatement - Lapse Due to Cognitive Impairment or Functional Incapacity",
+        "value": "14",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 438,
+          "width": 300,
+          "height": 28
+        }
+      },
+      {
+        "id": "reinstatement_lapse_due_to_nonpayment",
+        "name": "Reinstatement - Lapse Due to Nonpayment of Premium",
+        "value": "15",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 468,
+          "width": 300,
+          "height": 24
+        }
+      },
+      {
+        "id": "policy_ownership",
+        "name": "Policy Ownership",
+        "value": "16",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 498,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "assignment",
+        "name": "Assignment",
+        "value": "16",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 520,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "refund_of_unearned_premium",
+        "name": "Refund of Unearned Premium",
+        "value": "16",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 542,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "conformity_with_state_statutes",
+        "name": "Conformity with State Statutes",
+        "value": "16",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 564,
+          "width": 280,
+          "height": 18
+        }
+      },
+      {
+        "id": "form_code",
+        "name": "Form Code",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 40,
+          "y": 920,
+          "width": 200,
+          "height": 18
+        }
+      },
+      {
+        "id": "page_number",
+        "name": "Page Number",
+        "value": "Page 2",
+        "confidence": 1.0,
+        "bbox": {
+          "x": 680,
+          "y": 920,
+          "width": 84,
+          "height": 18
+        }
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,720 @@
+{
+  "page": 1,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Document is a MetLife insurance brochure / plan summary (not an invoice, CMR, or UB04).\",\n      \"Contains marketing/header text, plan comparison, and rider descriptions typical of an insurance product sheet.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"title_1\",\n      \"name\": \"Document Title\",\n      \"value\": \"MetLife LTC LifeStage Advantage\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 30,\n        \"width\": 688,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"subtitle_1\",\n      \"name\": \"Subtitle\",\n      \"value\": \"Plans-at-a-Glance\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 120,\n        \"width\": 400,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"insurance_type\",\n      \"name\": \"Insurance Type\",\n      \"value\": \"INSURANCE | LONG-TERM CARE\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 520,\n        \"y\": 40,\n        \"width\": 200,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"company_name\",\n      \"name\": \"Company\",\n      \"value\": \"Metropolitan Life Insurance Company (MetLife)\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 950,\n        \"width\": 330,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"plan_table_header_simple\",\n      \"name\": \"Plan Name - Simple\",\n      \"value\": \"SIMPLE ADVANTAGE\\u0011 PLAN\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 205,\n        \"width\": 300,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"plan_table_header_custom\",\n      \"name\": \"Plan Name - Custom\",\n      \"value\": \"CUSTOM ADVANTAGE\\u0011 PLAN\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 410,\n        \"y\": 205,\n        \"width\": 300,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"plantype_simple\",\n      \"name\": \"Plan Type (Simple)\",\n      \"value\": \"Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 240,\n        \"width\": 320,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"plantype_custom\",\n      \"name\": \"Plan Type (Custom)\",\n      \"value\": \"Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 410,\n        \"y\": 240,\n        \"width\": 320,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"issue_ages_simple\",\n      \"name\": \"Issue Ages (Simple)\",\n      \"value\": \"18 - 61 (premiums banded 18 - 30)\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 285,\n        \"width\": 320,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"issue_ages_custom\",\n      \"name\": \"Issue Ages (Custom)\",\n      \"value\": \"18 - 84 (premiums banded 18 - 30)\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 410,\n        \"y\": 285,\n        \"width\": 320,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"mba_tba_label\",\n      \"name\": \"Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA) label\",\n      \"value\": \"Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 320,\n        \"width\": 600,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"optional_riders\",\n      \"name\": \"Optional Riders Available\",\n      \"value\": \"Shared Care Rider; Nonforfeiture Rider; Cash Benefit Rider (with brief descriptions)\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 430,\n        \"width\": 688,\n        \"height\": 260\n      }\n    },\n    {\n      \"id\": \"gpo_header\",\n      \"name\": \"Guaranteed Purchase Option (GPO) header\",\n      \"value\": \"GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 700,\n        \"width\": 330,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"fpo_header\",\n      \"name\": \"Benefit Increase Options header\",\n      \"value\": \"BENEFIT INCREASE OPTIONS (AVAILABLE WITH CUSTOM ADVANTAGE ONLY)\",\n      \"confidence\": 0.6,\n      \"bbox\": {\n        \"x\": 380,\n        \"y\": 700,\n        \"width\": 348,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"disclaimer\",\n      \"name\": \"Footer Disclaimer\",\n      \"value\": \"FOR PRODUCER OR BROKER/DEALER USE ONLY. NOT FOR PUBLIC DISTRIBUTION.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 920,\n        \"width\": 540,\n        \"height\": 30\n      }\n    }\n  ],\n  \"tables\": [\n    {\n      \"id\": \"t1\",\n      \"caption\": \"Plan comparison (Simple vs Custom)\",\n      \"confidence\": 0.8,\n      \"columns\": [\n        {\n          \"key\": \"plan\",\n          \"header\": \"Plan\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        },\n        {\n          \"key\": \"plan_type\",\n          \"header\": \"Plan Type\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        },\n        {\n          \"key\": \"issue_ages\",\n          \"header\": \"Issue Ages\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        },\n        {\n          \"key\": \"mba_tba\",\n          \"header\": \"Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)\",\n          \"type\": \"string\",\n          \"confidence\": 0.8\n        }\n      ],\n      \"rows\": [\n        [\n          {\n            \"value\": \"SIMPLE ADVANTAGE\\u0011 PLAN\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 50,\n              \"y\": 205,\n              \"width\": 300,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 50,\n              \"y\": 240,\n              \"width\": 320,\n              \"height\": 40\n            }\n          },\n          {\n            \"value\": \"18 - 61 (premiums banded 18 - 30)\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 50,\n              \"y\": 285,\n              \"width\": 320,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"MBA/TBA grid (see table)\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 80,\n              \"y\": 320,\n              \"width\": 600,\n              \"height\": 120\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"CUSTOM ADVANTAGE\\u0011 PLAN\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 410,\n              \"y\": 205,\n              \"width\": 300,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 410,\n              \"y\": 240,\n              \"width\": 320,\n              \"height\": 40\n            }\n          },\n          {\n            \"value\": \"18 - 84 (premiums banded 18 - 30)\",\n            \"confidence\": 0.8,\n            \"bbox\": {\n              \"x\": 410,\n              \"y\": 285,\n              \"width\": 320,\n              \"height\": 30\n            }\n          },\n          {\n            \"value\": \"MBA/TBA grid (see table)\",\n            \"confidence\": 0.6,\n            \"bbox\": {\n              \"x\": 80,\n              \"y\": 320,\n              \"width\": 600,\n              \"height\": 120\n            }\n          }\n        ]\n      ]\n    },\n    {\n      \"id\": \"t2\",\n      \"caption\": \"MBA (rows) vs TBA (columns) checkbox grid\",\n      \"confidence\": 0.4,\n      \"columns\": [\n        {\n          \"key\": \"tba_75k\",\n          \"header\": \"$75K\",\n          \"confidence\": 0.4\n        },\n        {\n          \"key\": \"tba_100k\",\n          \"header\": \"$100K\",\n          \"confidence\": 0.4\n        },\n        {\n          \"key\": \"tba_200k\",\n          \"header\": \"$200K\",\n          \"confidence\": 0.4\n        },\n        {\n          \"key\": \"tba_300k\",\n          \"header\": \"$300K\",\n          \"confidence\": 0.4\n        },\n        {\n          \"key\": \"tba_400k\",\n          \"header\": \"$400K\",\n          \"confidence\": 0.4\n        },\n        {\n          \"key\": \"tba_500k\",\n          \"header\": \"$500K\",\n          \"confidence\": 0.4\n        },\n        {\n          \"key\": \"tba_1mm\",\n          \"header\": \"$1MM*\",\n          \"confidence\": 0.4\n        }\n      ],\n      \"rows\": [\n        [\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 120,\n              \"y\": 320,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 194,\n              \"y\": 320,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 268,\n              \"y\": 320,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 342,\n              \"y\": 320,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 416,\n              \"y\": 320,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 490,\n              \"y\": 320,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 564,\n              \"y\": 320,\n              \"width\": 74,\n              \"height\": 36\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 120,\n              \"y\": 356,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 194,\n              \"y\": 356,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 268,\n              \"y\": 356,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 342,\n              \"y\": 356,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 416,\n              \"y\": 356,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 490,\n              \"y\": 356,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 564,\n              \"y\": 356,\n              \"width\": 74,\n              \"height\": 36\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 120,\n              \"y\": 392,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 194,\n              \"y\": 392,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 268,\n              \"y\": 392,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 342,\n              \"y\": 392,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 416,\n              \"y\": 392,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 490,\n              \"y\": 392,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 564,\n              \"y\": 392,\n              \"width\": 74,\n              \"height\": 36\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 120,\n              \"y\": 428,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 194,\n              \"y\": 428,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 268,\n              \"y\": 428,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 342,\n              \"y\": 428,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 416,\n              \"y\": 428,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 490,\n              \"y\": 428,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 564,\n              \"y\": 428,\n              \"width\": 74,\n              \"height\": 36\n            }\n          }\n        ],\n        [\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 120,\n              \"y\": 464,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 194,\n              \"y\": 464,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 268,\n              \"y\": 464,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 342,\n              \"y\": 464,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 416,\n              \"y\": 464,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 490,\n              \"y\": 464,\n              \"width\": 74,\n              \"height\": 36\n            }\n          },\n          {\n            \"value\": \"checkbox\",\n            \"confidence\": 0.4,\n            \"bbox\": {\n              \"x\": 564,\n              \"y\": 464,\n              \"width\": 74,\n              \"height\": 36\n            }\n          }\n        ]\n      ]\n    }\n  ]\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Document is a MetLife insurance brochure / plan summary (not an invoice, CMR, or UB04).",
+        "Contains marketing/header text, plan comparison, and rider descriptions typical of an insurance product sheet."
+      ]
+    },
+    "fields": [
+      {
+        "id": "title_1",
+        "name": "Document Title",
+        "value": "MetLife LTC LifeStage Advantage",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 40,
+          "y": 30,
+          "width": 688,
+          "height": 120
+        }
+      },
+      {
+        "id": "subtitle_1",
+        "name": "Subtitle",
+        "value": "Plans-at-a-Glance",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 40,
+          "y": 120,
+          "width": 400,
+          "height": 40
+        }
+      },
+      {
+        "id": "insurance_type",
+        "name": "Insurance Type",
+        "value": "INSURANCE | LONG-TERM CARE",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 520,
+          "y": 40,
+          "width": 200,
+          "height": 30
+        }
+      },
+      {
+        "id": "company_name",
+        "name": "Company",
+        "value": "Metropolitan Life Insurance Company (MetLife)",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 420,
+          "y": 950,
+          "width": 330,
+          "height": 30
+        }
+      },
+      {
+        "id": "plan_table_header_simple",
+        "name": "Plan Name - Simple",
+        "value": "SIMPLE ADVANTAGE\u0011 PLAN",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 205,
+          "width": 300,
+          "height": 30
+        }
+      },
+      {
+        "id": "plan_table_header_custom",
+        "name": "Plan Name - Custom",
+        "value": "CUSTOM ADVANTAGE\u0011 PLAN",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 410,
+          "y": 205,
+          "width": 300,
+          "height": 30
+        }
+      },
+      {
+        "id": "plantype_simple",
+        "name": "Plan Type (Simple)",
+        "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 240,
+          "width": 320,
+          "height": 40
+        }
+      },
+      {
+        "id": "plantype_custom",
+        "name": "Plan Type (Custom)",
+        "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 410,
+          "y": 240,
+          "width": 320,
+          "height": 40
+        }
+      },
+      {
+        "id": "issue_ages_simple",
+        "name": "Issue Ages (Simple)",
+        "value": "18 - 61 (premiums banded 18 - 30)",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 50,
+          "y": 285,
+          "width": 320,
+          "height": 30
+        }
+      },
+      {
+        "id": "issue_ages_custom",
+        "name": "Issue Ages (Custom)",
+        "value": "18 - 84 (premiums banded 18 - 30)",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 410,
+          "y": 285,
+          "width": 320,
+          "height": 30
+        }
+      },
+      {
+        "id": "mba_tba_label",
+        "name": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA) label",
+        "value": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 80,
+          "y": 320,
+          "width": 600,
+          "height": 40
+        }
+      },
+      {
+        "id": "optional_riders",
+        "name": "Optional Riders Available",
+        "value": "Shared Care Rider; Nonforfeiture Rider; Cash Benefit Rider (with brief descriptions)",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 40,
+          "y": 430,
+          "width": 688,
+          "height": 260
+        }
+      },
+      {
+        "id": "gpo_header",
+        "name": "Guaranteed Purchase Option (GPO) header",
+        "value": "GUARANTEED PURCHASE OPTION (GPO) (INCLUDED WITH SIMPLE ADVANTAGE ONLY)",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 40,
+          "y": 700,
+          "width": 330,
+          "height": 120
+        }
+      },
+      {
+        "id": "fpo_header",
+        "name": "Benefit Increase Options header",
+        "value": "BENEFIT INCREASE OPTIONS (AVAILABLE WITH CUSTOM ADVANTAGE ONLY)",
+        "confidence": 0.6,
+        "bbox": {
+          "x": 380,
+          "y": 700,
+          "width": 348,
+          "height": 120
+        }
+      },
+      {
+        "id": "disclaimer",
+        "name": "Footer Disclaimer",
+        "value": "FOR PRODUCER OR BROKER/DEALER USE ONLY. NOT FOR PUBLIC DISTRIBUTION.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 40,
+          "y": 920,
+          "width": 540,
+          "height": 30
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "t1",
+        "caption": "Plan comparison (Simple vs Custom)",
+        "confidence": 0.8,
+        "columns": [
+          {
+            "key": "plan",
+            "header": "Plan",
+            "type": "string",
+            "confidence": 0.8
+          },
+          {
+            "key": "plan_type",
+            "header": "Plan Type",
+            "type": "string",
+            "confidence": 0.8
+          },
+          {
+            "key": "issue_ages",
+            "header": "Issue Ages",
+            "type": "string",
+            "confidence": 0.8
+          },
+          {
+            "key": "mba_tba",
+            "header": "Monthly Benefit Amount (MBA) and Total Benefit Amount (TBA)",
+            "type": "string",
+            "confidence": 0.8
+          }
+        ],
+        "rows": [
+          [
+            {
+              "value": "SIMPLE ADVANTAGE\u0011 PLAN",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 50,
+                "y": 205,
+                "width": 300,
+                "height": 30
+              }
+            },
+            {
+              "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 50,
+                "y": 240,
+                "width": 320,
+                "height": 40
+              }
+            },
+            {
+              "value": "18 - 61 (premiums banded 18 - 30)",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 50,
+                "y": 285,
+                "width": 320,
+                "height": 30
+              }
+            },
+            {
+              "value": "MBA/TBA grid (see table)",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 80,
+                "y": 320,
+                "width": 600,
+                "height": 120
+              }
+            }
+          ],
+          [
+            {
+              "value": "CUSTOM ADVANTAGE\u0011 PLAN",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 410,
+                "y": 205,
+                "width": 300,
+                "height": 30
+              }
+            },
+            {
+              "value": "Comprehensive; Monthly Reimbursement (Cash Benefit Rider available - see below)",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 410,
+                "y": 240,
+                "width": 320,
+                "height": 40
+              }
+            },
+            {
+              "value": "18 - 84 (premiums banded 18 - 30)",
+              "confidence": 0.8,
+              "bbox": {
+                "x": 410,
+                "y": 285,
+                "width": 320,
+                "height": 30
+              }
+            },
+            {
+              "value": "MBA/TBA grid (see table)",
+              "confidence": 0.6,
+              "bbox": {
+                "x": 80,
+                "y": 320,
+                "width": 600,
+                "height": 120
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "id": "t2",
+        "caption": "MBA (rows) vs TBA (columns) checkbox grid",
+        "confidence": 0.4,
+        "columns": [
+          {
+            "key": "tba_75k",
+            "header": "$75K",
+            "confidence": 0.4
+          },
+          {
+            "key": "tba_100k",
+            "header": "$100K",
+            "confidence": 0.4
+          },
+          {
+            "key": "tba_200k",
+            "header": "$200K",
+            "confidence": 0.4
+          },
+          {
+            "key": "tba_300k",
+            "header": "$300K",
+            "confidence": 0.4
+          },
+          {
+            "key": "tba_400k",
+            "header": "$400K",
+            "confidence": 0.4
+          },
+          {
+            "key": "tba_500k",
+            "header": "$500K",
+            "confidence": 0.4
+          },
+          {
+            "key": "tba_1mm",
+            "header": "$1MM*",
+            "confidence": 0.4
+          }
+        ],
+        "rows": [
+          [
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 120,
+                "y": 320,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 194,
+                "y": 320,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 268,
+                "y": 320,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 342,
+                "y": 320,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 416,
+                "y": 320,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 490,
+                "y": 320,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 564,
+                "y": 320,
+                "width": 74,
+                "height": 36
+              }
+            }
+          ],
+          [
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 120,
+                "y": 356,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 194,
+                "y": 356,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 268,
+                "y": 356,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 342,
+                "y": 356,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 416,
+                "y": 356,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 490,
+                "y": 356,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 564,
+                "y": 356,
+                "width": 74,
+                "height": 36
+              }
+            }
+          ],
+          [
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 120,
+                "y": 392,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 194,
+                "y": 392,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 268,
+                "y": 392,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 342,
+                "y": 392,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 416,
+                "y": 392,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 490,
+                "y": 392,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 564,
+                "y": 392,
+                "width": 74,
+                "height": 36
+              }
+            }
+          ],
+          [
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 120,
+                "y": 428,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 194,
+                "y": 428,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 268,
+                "y": 428,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 342,
+                "y": 428,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 416,
+                "y": 428,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 490,
+                "y": 428,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 564,
+                "y": 428,
+                "width": 74,
+                "height": 36
+              }
+            }
+          ],
+          [
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 120,
+                "y": 464,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 194,
+                "y": 464,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 268,
+                "y": 464,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 342,
+                "y": 464,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 416,
+                "y": 464,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 490,
+                "y": 464,
+                "width": 74,
+                "height": 36
+              }
+            },
+            {
+              "value": "checkbox",
+              "confidence": 0.4,
+              "bbox": {
+                "x": 564,
+                "y": 464,
+                "width": 74,
+                "height": 36
+              }
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}

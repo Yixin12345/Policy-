@@ -1,0 +1,161 @@
+{
+  "page": 4,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page contains policy language and definitions (Benefit Schedule, Chronically Ill, Cognitive Impairment) rather than invoice or transport CMR/UB04 fields\",\n      \"Layout is a terms/definitions page from an insurance policy document\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Benefit Schedule statement\",\n      \"value\": \"Benefit Schedule is page 3 of this Policy that shows: insured information; Policy information; and benefit information.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 30,\n        \"width\": 688,\n        \"height\": 50\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Chronically Ill definition\",\n      \"value\": \"Chronically Ill means that within the previous 12 months, you have been certified by a Licensed Health Care Practitioner as: being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity; or having a severe Cognitive Impairment.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 90,\n        \"width\": 688,\n        \"height\": 150\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Cognitive Impairment definition\",\n      \"value\": \"Cognitive Impairment is your deterioration or loss of intellectual capacity, which requires Substantial Supervision by another person to protect yourself or others from threats to health and safety. It is measured by clinical evidence and standardized tests that reliably measure your impairment in: short or long term memory; your orientation as to person (such as who you are), place (such as your location) and time (such as day, date and year); deductive or abstract reasoning. A Cognitive Impairment includes Alzheimer\u2019s disease and similar forms of irreversible dementia.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 250,\n        \"width\": 688,\n        \"height\": 160\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Facility Care definition\",\n      \"value\": \"Facility Care is care provided to you in a Nursing Home or an Assisted Living Facility.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 430,\n        \"width\": 688,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Family definition\",\n      \"value\": \"Family includes you or your spouse; and the mother, father, sister, brother, and children of either you or your spouse.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 470,\n        \"width\": 688,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Home and Community Services definition\",\n      \"value\": \"Home and Community Services are Qualified Long Term Care Services provided to you through: Adult Day Care; Home Care; and Hospice Care.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 500,\n        \"width\": 688,\n        \"height\": 24\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Home Care definition and services\",\n      \"value\": \"Home Care is a program of services provided to you through a Home Health Care Agency, including: professional nursing care by or under the supervision of a RN or nurse; or care by a Home Health Aide; or therapeutic care services by or under the supervision of a speech, occupational, physical, or respiratory therapist licensed under state law, if any; or homemaker services. Home Care can be provided to you in a setting other than a Nursing Home, Hospital, or an Assisted Living Facility.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 540,\n        \"width\": 688,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Home Health Aide definition and licensing\",\n      \"value\": \"Home Health Aide is a person, other than a RN or nurse, who provides: Maintenance or Personal Care; medical; speech; occupational; physical; or respiratory therapeutic care services under the supervision of a Home Health Care Agency. A Home Health Aide must be duly licensed or certified under state law, if any; and acting within the scope of his or her license or certification at the time the treatment or service is performed.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 690,\n        \"width\": 688,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Home Health Care Agency definition\",\n      \"value\": \"Home Health Care Agency is a Hospital, agency, or other provider licensed under state law, if any, to provide Home Care.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 820,\n        \"width\": 688,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Form code\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 960,\n        \"width\": 200,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"Page number\",\n      \"value\": \"Page 5\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 680,\n        \"y\": 960,\n        \"width\": 80,\n        \"height\": 20\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page contains policy language and definitions (Benefit Schedule, Chronically Ill, Cognitive Impairment) rather than invoice or transport CMR/UB04 fields",
+        "Layout is a terms/definitions page from an insurance policy document"
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Benefit Schedule statement",
+        "value": "Benefit Schedule is page 3 of this Policy that shows: insured information; Policy information; and benefit information.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 30,
+          "width": 688,
+          "height": 50
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Chronically Ill definition",
+        "value": "Chronically Ill means that within the previous 12 months, you have been certified by a Licensed Health Care Practitioner as: being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity; or having a severe Cognitive Impairment.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 90,
+          "width": 688,
+          "height": 150
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Cognitive Impairment definition",
+        "value": "Cognitive Impairment is your deterioration or loss of intellectual capacity, which requires Substantial Supervision by another person to protect yourself or others from threats to health and safety. It is measured by clinical evidence and standardized tests that reliably measure your impairment in: short or long term memory; your orientation as to person (such as who you are), place (such as your location) and time (such as day, date and year); deductive or abstract reasoning. A Cognitive Impairment includes Alzheimer\u2019s disease and similar forms of irreversible dementia.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 250,
+          "width": 688,
+          "height": 160
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Facility Care definition",
+        "value": "Facility Care is care provided to you in a Nursing Home or an Assisted Living Facility.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 430,
+          "width": 688,
+          "height": 24
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Family definition",
+        "value": "Family includes you or your spouse; and the mother, father, sister, brother, and children of either you or your spouse.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 470,
+          "width": 688,
+          "height": 24
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Home and Community Services definition",
+        "value": "Home and Community Services are Qualified Long Term Care Services provided to you through: Adult Day Care; Home Care; and Hospice Care.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 500,
+          "width": 688,
+          "height": 24
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Home Care definition and services",
+        "value": "Home Care is a program of services provided to you through a Home Health Care Agency, including: professional nursing care by or under the supervision of a RN or nurse; or care by a Home Health Aide; or therapeutic care services by or under the supervision of a speech, occupational, physical, or respiratory therapist licensed under state law, if any; or homemaker services. Home Care can be provided to you in a setting other than a Nursing Home, Hospital, or an Assisted Living Facility.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 540,
+          "width": 688,
+          "height": 140
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Home Health Aide definition and licensing",
+        "value": "Home Health Aide is a person, other than a RN or nurse, who provides: Maintenance or Personal Care; medical; speech; occupational; physical; or respiratory therapeutic care services under the supervision of a Home Health Care Agency. A Home Health Aide must be duly licensed or certified under state law, if any; and acting within the scope of his or her license or certification at the time the treatment or service is performed.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 690,
+          "width": 688,
+          "height": 120
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Home Health Care Agency definition",
+        "value": "Home Health Care Agency is a Hospital, agency, or other provider licensed under state law, if any, to provide Home Care.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 820,
+          "width": 688,
+          "height": 40
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Form code",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 960,
+          "width": 200,
+          "height": 20
+        }
+      },
+      {
+        "id": "f11",
+        "name": "Page number",
+        "value": "Page 5",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 680,
+          "y": 960,
+          "width": 80,
+          "height": 20
+        }
+      }
+    ],
+    "tables": []
+  }
+}

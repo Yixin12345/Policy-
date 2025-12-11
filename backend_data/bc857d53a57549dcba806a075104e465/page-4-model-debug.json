@@ -1,0 +1,187 @@
+{
+  "page": 4,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page contains policy definitions and explanatory paragraphs (Benefit Schedule, Chronically Ill, Cognitive Impairment, etc.)\",\n      \"Layout and content do not match facility invoice, CMR form, or UB04 fields\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Benefit Schedule\",\n      \"value\": \"Benefit Schedule is page 3 of this Policy that shows: insured information; Policy information; and benefit information.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 30,\n        \"width\": 688,\n        \"height\": 44\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Chronically Ill (heading)\",\n      \"value\": \"Chronically Ill means that within the previous 12 months, you have been certified by a Licensed Health Care Practitioner as:\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 84,\n        \"width\": 688,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Chronically Ill (bullets)\",\n      \"value\": \"\u2022 being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity; or \u2022 having a severe Cognitive Impairment.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 118,\n        \"width\": 688,\n        \"height\": 86\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Cognitive Impairment (heading)\",\n      \"value\": \"Cognitive Impairment is your deterioration or loss of intellectual capacity, which requires Substantial Supervision by another person to protect yourself or others from threats to health and safety.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 208,\n        \"width\": 688,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Cognitive Impairment (details)\",\n      \"value\": \"It is measured by clinical evidence and standardized tests that reliably measure your impairment in: short or long term memory; your orientation as to person (such as who you are), place (such as your location) and time (such as day, date and year); deductive or abstract reasoning. A Cognitive Impairment includes Alzheimer\u2019s disease and similar forms of irreversible dementia.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 248,\n        \"width\": 688,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Facility Care\",\n      \"value\": \"Facility Care is care provided to you in a Nursing Home or an Assisted Living Facility.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 384,\n        \"width\": 688,\n        \"height\": 26\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Family\",\n      \"value\": \"Family includes you or your spouse; and the mother, father, sister, brother, and children of either you or your spouse.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 420,\n        \"width\": 688,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Home and Community Services\",\n      \"value\": \"Home and Community Services are Qualified Long Term Care Services provided to you through: Adult Day Care; Home Care; and Hospice Care.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 456,\n        \"width\": 688,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Home Care (heading)\",\n      \"value\": \"Home Care is a program of services provided to you through a Home Health Care Agency, including:\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 492,\n        \"width\": 688,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Home Care (bullets)\",\n      \"value\": \"\u2022 professional nursing care by or under the supervision of a RN or nurse; or \u2022 care by a Home Health Aide; or \u2022 therapeutic care services by or under the supervision of a speech, occupational, physical, or respiratory therapist licensed under state law, if any; or \u2022 homemaker services. Home Care can be provided to you in a setting other than a Nursing Home, Hospital, or an Assisted Living Facility.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 524,\n        \"width\": 688,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"Home Health Aide\",\n      \"value\": \"Home Health Aide is a person, other than a RN or nurse, who provides: Maintenance or Personal Care; medical; speech; occupational; physical; or respiratory therapeutic care services under the supervision of a Home Health Care Agency. A Home Health Aide must be duly licensed or certified under state law, if any; and acting within the scope of his or her license or certification at the time the treatment or service is performed.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 656,\n        \"width\": 688,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f12\",\n      \"name\": \"Home Health Care Agency\",\n      \"value\": \"Home Health Care Agency is a Hospital, agency, or other provider licensed under state law, if any, to provide Home Care.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 788,\n        \"width\": 688,\n        \"height\": 36\n      }\n    },\n    {\n      \"id\": \"f13\",\n      \"name\": \"Document code and page\",\n      \"value\": \"N-3000-P-FL(Q)    Page 5\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 952,\n        \"width\": 688,\n        \"height\": 32\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page contains policy definitions and explanatory paragraphs (Benefit Schedule, Chronically Ill, Cognitive Impairment, etc.)",
+        "Layout and content do not match facility invoice, CMR form, or UB04 fields"
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Benefit Schedule",
+        "value": "Benefit Schedule is page 3 of this Policy that shows: insured information; Policy information; and benefit information.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 30,
+          "width": 688,
+          "height": 44
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Chronically Ill (heading)",
+        "value": "Chronically Ill means that within the previous 12 months, you have been certified by a Licensed Health Care Practitioner as:",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 84,
+          "width": 688,
+          "height": 30
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Chronically Ill (bullets)",
+        "value": "\u2022 being unable to perform, without Substantial Assistance, at least two Activities of Daily Living for a period of at least 90 days due to loss of functional capacity; or \u2022 having a severe Cognitive Impairment.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 118,
+          "width": 688,
+          "height": 86
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Cognitive Impairment (heading)",
+        "value": "Cognitive Impairment is your deterioration or loss of intellectual capacity, which requires Substantial Supervision by another person to protect yourself or others from threats to health and safety.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 208,
+          "width": 688,
+          "height": 40
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Cognitive Impairment (details)",
+        "value": "It is measured by clinical evidence and standardized tests that reliably measure your impairment in: short or long term memory; your orientation as to person (such as who you are), place (such as your location) and time (such as day, date and year); deductive or abstract reasoning. A Cognitive Impairment includes Alzheimer\u2019s disease and similar forms of irreversible dementia.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 248,
+          "width": 688,
+          "height": 120
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Facility Care",
+        "value": "Facility Care is care provided to you in a Nursing Home or an Assisted Living Facility.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 384,
+          "width": 688,
+          "height": 26
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Family",
+        "value": "Family includes you or your spouse; and the mother, father, sister, brother, and children of either you or your spouse.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 420,
+          "width": 688,
+          "height": 30
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Home and Community Services",
+        "value": "Home and Community Services are Qualified Long Term Care Services provided to you through: Adult Day Care; Home Care; and Hospice Care.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 456,
+          "width": 688,
+          "height": 28
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Home Care (heading)",
+        "value": "Home Care is a program of services provided to you through a Home Health Care Agency, including:",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 492,
+          "width": 688,
+          "height": 28
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Home Care (bullets)",
+        "value": "\u2022 professional nursing care by or under the supervision of a RN or nurse; or \u2022 care by a Home Health Aide; or \u2022 therapeutic care services by or under the supervision of a speech, occupational, physical, or respiratory therapist licensed under state law, if any; or \u2022 homemaker services. Home Care can be provided to you in a setting other than a Nursing Home, Hospital, or an Assisted Living Facility.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 524,
+          "width": 688,
+          "height": 120
+        }
+      },
+      {
+        "id": "f11",
+        "name": "Home Health Aide",
+        "value": "Home Health Aide is a person, other than a RN or nurse, who provides: Maintenance or Personal Care; medical; speech; occupational; physical; or respiratory therapeutic care services under the supervision of a Home Health Care Agency. A Home Health Aide must be duly licensed or certified under state law, if any; and acting within the scope of his or her license or certification at the time the treatment or service is performed.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 656,
+          "width": 688,
+          "height": 120
+        }
+      },
+      {
+        "id": "f12",
+        "name": "Home Health Care Agency",
+        "value": "Home Health Care Agency is a Hospital, agency, or other provider licensed under state law, if any, to provide Home Care.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 788,
+          "width": 688,
+          "height": 36
+        }
+      },
+      {
+        "id": "f13",
+        "name": "Document code and page",
+        "value": "N-3000-P-FL(Q)    Page 5",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 952,
+          "width": 688,
+          "height": 32
+        }
+      }
+    ],
+    "tables": []
+  }
+}

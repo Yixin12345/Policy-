@@ -1,0 +1,14 @@
+{
+  "page": 16,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.0,\n    \"reasons\": []\n  },\n  \"fields\": [],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.0,
+      "reasons": []
+    },
+    "fields": [],
+    "tables": []
+  }
+}

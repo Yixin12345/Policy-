@@ -1,0 +1,226 @@
+{
+  "page": 10,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page is a policy/claims information page (text paragraphs and section headings) rather than an invoice, CMR, or UB04 form.\",\n      \"Contains sections like 'Pre-Existing Conditions Limitation' and 'CLAIM PROCEDURES' typical of insurance policy documentation.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"section_pre_existing_title\",\n      \"value\": \"Pre-Existing Conditions Limitation\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 40,\n        \"width\": 668,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"pre_existing_definition\",\n      \"value\": \"A Pre-Existing Condition is a condition for which medical advice or treatment was recommended by, or received from, a provider of health care services in the 6 months immediately prior to the Policy Effective Date.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 100,\n        \"width\": 668,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"pre_existing_exclusion_period\",\n      \"value\": \"We will not pay benefits for a loss due to a Pre-Existing Condition if the loss begins during the first 6 months after your Policy Effective Date.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 160,\n        \"width\": 668,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"section_claim_procedures_title\",\n      \"value\": \"CLAIM PROCEDURES\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 230,\n        \"y\": 260,\n        \"width\": 300,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"notice_of_claim_title\",\n      \"value\": \"Notice of Claim\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 310,\n        \"width\": 668,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"notice_of_claim_requirement\",\n      \"value\": \"You must give us written Notice of Claim within 30 days after you begin receiving care or services covered under this Policy, or as soon thereafter as reasonably possible. The notice must provide us with sufficient information to identify you.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 340,\n        \"width\": 668,\n        \"height\": 100\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"claim_forms_title\",\n      \"value\": \"Claim Forms\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 450,\n        \"width\": 668,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"claim_forms_instructions\",\n      \"value\": \"After you notify us of a claim, we will send you or your representative a claim form used for filing Proof of Loss. You or your representative must complete it and return it to us. If we do not send you a claim form within 15 days of your notice to us, you may meet the Proof of Loss requirement by giving us a written statement within the time limit stated in the Proof of Loss section.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 480,\n        \"width\": 668,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"proof_of_loss_title\",\n      \"value\": \"Proof of Loss\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 570,\n        \"width\": 668,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"proof_of_loss_requirements\",\n      \"value\": \"Proof of Loss must be sent to us within 90 days after the date of your loss. You will be considered to have provided Proof of Loss when we receive a completed claim form and any necessary statements or bills which include the date, nature, and charges for all covered care you have received. If not possible to give timely Proof of Loss, we will not reduce or deny your claim if Proof of Loss is filed as soon as you reasonably can provide the information.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 600,\n        \"width\": 668,\n        \"height\": 140\n      }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"proof_of_loss_additional\",\n      \"value\": \"If we do not pay benefits upon receipt of written Proof of Loss, we will mail you within 30 working days a letter stating our reasons for not paying the claim and provide a written itemization of any documents or other information needed.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 700,\n        \"width\": 668,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"f12\",\n      \"name\": \"proof_of_loss_time_limit_exception\",\n      \"value\": \"In no event, except in the absence of legal capacity, can Proof of Loss be submitted later than one year from 90 days after the date of your loss.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 760,\n        \"width\": 668,\n        \"height\": 40\n      }\n    },\n    {\n      \"id\": \"f13\",\n      \"name\": \"time_of_payment_title\",\n      \"value\": \"Time of Payment of Claims\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 740,\n        \"width\": 668,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f14\",\n      \"name\": \"time_of_payment_instructions\",\n      \"value\": \"After we receive written proof of loss, we will pay monthly all benefits then due for Long Term Care. Benefits for any other loss covered by this policy will be paid as soon as we receive proper written proof.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 780,\n        \"width\": 668,\n        \"height\": 80\n      }\n    },\n    {\n      \"id\": \"f15\",\n      \"name\": \"form_id_code\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 50,\n        \"y\": 930,\n        \"width\": 200,\n        \"height\": 30\n      }\n    },\n    {\n      \"id\": \"f16\",\n      \"name\": \"page_number\",\n      \"value\": \"Page 11\",\n      \"confidence\": 1.0,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 680,\n        \"y\": 930,\n        \"width\": 80,\n        \"height\": 30\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page is a policy/claims information page (text paragraphs and section headings) rather than an invoice, CMR, or UB04 form.",
+        "Contains sections like 'Pre-Existing Conditions Limitation' and 'CLAIM PROCEDURES' typical of insurance policy documentation."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "section_pre_existing_title",
+        "value": "Pre-Existing Conditions Limitation",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 40,
+          "width": 668,
+          "height": 80
+        }
+      },
+      {
+        "id": "f2",
+        "name": "pre_existing_definition",
+        "value": "A Pre-Existing Condition is a condition for which medical advice or treatment was recommended by, or received from, a provider of health care services in the 6 months immediately prior to the Policy Effective Date.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 100,
+          "width": 668,
+          "height": 140
+        }
+      },
+      {
+        "id": "f3",
+        "name": "pre_existing_exclusion_period",
+        "value": "We will not pay benefits for a loss due to a Pre-Existing Condition if the loss begins during the first 6 months after your Policy Effective Date.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 160,
+          "width": 668,
+          "height": 120
+        }
+      },
+      {
+        "id": "f4",
+        "name": "section_claim_procedures_title",
+        "value": "CLAIM PROCEDURES",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 230,
+          "y": 260,
+          "width": 300,
+          "height": 40
+        }
+      },
+      {
+        "id": "f5",
+        "name": "notice_of_claim_title",
+        "value": "Notice of Claim",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 310,
+          "width": 668,
+          "height": 30
+        }
+      },
+      {
+        "id": "f6",
+        "name": "notice_of_claim_requirement",
+        "value": "You must give us written Notice of Claim within 30 days after you begin receiving care or services covered under this Policy, or as soon thereafter as reasonably possible. The notice must provide us with sufficient information to identify you.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 340,
+          "width": 668,
+          "height": 100
+        }
+      },
+      {
+        "id": "f7",
+        "name": "claim_forms_title",
+        "value": "Claim Forms",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 450,
+          "width": 668,
+          "height": 30
+        }
+      },
+      {
+        "id": "f8",
+        "name": "claim_forms_instructions",
+        "value": "After you notify us of a claim, we will send you or your representative a claim form used for filing Proof of Loss. You or your representative must complete it and return it to us. If we do not send you a claim form within 15 days of your notice to us, you may meet the Proof of Loss requirement by giving us a written statement within the time limit stated in the Proof of Loss section.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 480,
+          "width": 668,
+          "height": 80
+        }
+      },
+      {
+        "id": "f9",
+        "name": "proof_of_loss_title",
+        "value": "Proof of Loss",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 570,
+          "width": 668,
+          "height": 30
+        }
+      },
+      {
+        "id": "f10",
+        "name": "proof_of_loss_requirements",
+        "value": "Proof of Loss must be sent to us within 90 days after the date of your loss. You will be considered to have provided Proof of Loss when we receive a completed claim form and any necessary statements or bills which include the date, nature, and charges for all covered care you have received. If not possible to give timely Proof of Loss, we will not reduce or deny your claim if Proof of Loss is filed as soon as you reasonably can provide the information.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 600,
+          "width": 668,
+          "height": 140
+        }
+      },
+      {
+        "id": "f11",
+        "name": "proof_of_loss_additional",
+        "value": "If we do not pay benefits upon receipt of written Proof of Loss, we will mail you within 30 working days a letter stating our reasons for not paying the claim and provide a written itemization of any documents or other information needed.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 700,
+          "width": 668,
+          "height": 60
+        }
+      },
+      {
+        "id": "f12",
+        "name": "proof_of_loss_time_limit_exception",
+        "value": "In no event, except in the absence of legal capacity, can Proof of Loss be submitted later than one year from 90 days after the date of your loss.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 760,
+          "width": 668,
+          "height": 40
+        }
+      },
+      {
+        "id": "f13",
+        "name": "time_of_payment_title",
+        "value": "Time of Payment of Claims",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 740,
+          "width": 668,
+          "height": 30
+        }
+      },
+      {
+        "id": "f14",
+        "name": "time_of_payment_instructions",
+        "value": "After we receive written proof of loss, we will pay monthly all benefits then due for Long Term Care. Benefits for any other loss covered by this policy will be paid as soon as we receive proper written proof.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 780,
+          "width": 668,
+          "height": 80
+        }
+      },
+      {
+        "id": "f15",
+        "name": "form_id_code",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 50,
+          "y": 930,
+          "width": 200,
+          "height": 30
+        }
+      },
+      {
+        "id": "f16",
+        "name": "page_number",
+        "value": "Page 11",
+        "confidence": 1.0,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 680,
+          "y": 930,
+          "width": 80,
+          "height": 30
+        }
+      }
+    ],
+    "tables": []
+  }
+}

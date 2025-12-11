@@ -1,0 +1,278 @@
+{
+  "page": 1,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 1.0,\n    \"reasons\": [\n      \"Document is an insurance policy cover page (Allianz Life) rather than a facility invoice, CMR form, or UB04.\",\n      \"Layout and content include policy statements, notices, and signatures typical of an insurance policy document.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Company Name\",\n      \"value\": \"Allianz Life Insurance Company of North America\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 28,\n        \"width\": 520,\n        \"height\": 48\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Home Office\",\n      \"value\": \"Home Office: Minneapolis, MN\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 78,\n        \"width\": 420,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Administrative Office\",\n      \"value\": \"Long Term Care Administrative Office\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 106,\n        \"width\": 460,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Mailing Address Line 1\",\n      \"value\": \"Post Office Box 4243\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 128,\n        \"width\": 420,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Mailing Address Line 2\",\n      \"value\": \"Woodland Hills, CA 91365-4243\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 148,\n        \"width\": 460,\n        \"height\": 22\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Phone\",\n      \"value\": \"(888) 503-8106\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 170,\n        \"width\": 220,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Policy Title\",\n      \"value\": \"Guaranteed Renewable Long Term Care Insurance\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 80,\n        \"y\": 240,\n        \"width\": 640,\n        \"height\": 44\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Qualified Long Term Care Insurance Notice (boxed header)\",\n      \"value\": \"THIS POLICY IS INTENDED TO BE A QUALIFIED LONG TERM CARE INSURANCE CONTRACT AS DEFINED UNDER SECTION 7702B(b) OF THE INTERNAL REVENUE CODE OF 1986 and will be endorsed to conform to changes in that definition.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 290,\n        \"width\": 714,\n        \"height\": 112\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Notice To Buyer (heading paragraph start)\",\n      \"value\": \"NOTICE TO BUYER: This Policy may not cover all of the costs associated with long term care which you may incur during the period of coverage.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 408,\n        \"width\": 714,\n        \"height\": 60\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Important Notice (address to return application)\",\n      \"value\": \"IMPORTANT NOTICE: Please read the copy of the application attached to this Policy. Check the application and write to the Company, ALLIANZ LIFE INSURANCE COMPANY OF NORTH AMERICA, P.O. Box 4243, Woodland Hills, CA 91365-4243, within 10 days, if any information shown on it is not correct and complete.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 470,\n        \"width\": 714,\n        \"height\": 120\n      }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"Toll Free Number for assistance\",\n      \"value\": \"1-888-503-8106\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 596,\n        \"width\": 300,\n        \"height\": 18\n      }\n    },\n    {\n      \"id\": \"f12\",\n      \"name\": \"Renewability statement (excerpt)\",\n      \"value\": \"RENEWABILITY: This Policy is guaranteed renewable for life. To renew, pay the premium due by the Premium Due Date or within the Grace Period.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 620,\n        \"width\": 714,\n        \"height\": 70\n      }\n    },\n    {\n      \"id\": \"f13\",\n      \"name\": \"30 Day Right to Examine\",\n      \"value\": \"YOUR 30 DAY RIGHT TO EXAMINE YOUR POLICY: If you are not satisfied with this Policy, you may return it to our agent or us within 30 days from the date you receive it. We will then refund any premium you have paid and the Policy... will be considered void from the start.\",\n      \"confidence\": 0.6,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 692,\n        \"width\": 714,\n        \"height\": 70\n      }\n    },\n    {\n      \"id\": \"f14\",\n      \"name\": \"Executed for the Company location\",\n      \"value\": \"Executed for the Company at its Home Office in Minneapolis, Minnesota.\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 764,\n        \"width\": 714,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f15\",\n      \"name\": \"Signature - Left Name\",\n      \"value\": \"Michael T. Westermeyer\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 96,\n        \"y\": 808,\n        \"width\": 260,\n        \"height\": 90\n      }\n    },\n    {\n      \"id\": \"f16\",\n      \"name\": \"Signature - Left Title\",\n      \"value\": \"Secretary\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 140,\n        \"y\": 880,\n        \"width\": 200,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f17\",\n      \"name\": \"Signature - Right Name\",\n      \"value\": \"Margery G. Hughes\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 420,\n        \"y\": 808,\n        \"width\": 300,\n        \"height\": 90\n      }\n    },\n    {\n      \"id\": \"f18\",\n      \"name\": \"Signature - Right Title\",\n      \"value\": \"President\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 480,\n        \"y\": 880,\n        \"width\": 160,\n        \"height\": 28\n      }\n    },\n    {\n      \"id\": \"f19\",\n      \"name\": \"Form Number\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 40,\n        \"y\": 948,\n        \"width\": 220,\n        \"height\": 26\n      }\n    },\n    {\n      \"id\": \"f20\",\n      \"name\": \"Page Number\",\n      \"value\": \"Page 1\",\n      \"confidence\": 0.8,\n      \"sourceType\": \"ocr\",\n      \"bbox\": {\n        \"x\": 700,\n        \"y\": 948,\n        \"width\": 80,\n        \"height\": 26\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 1.0,
+      "reasons": [
+        "Document is an insurance policy cover page (Allianz Life) rather than a facility invoice, CMR form, or UB04.",
+        "Layout and content include policy statements, notices, and signatures typical of an insurance policy document."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Company Name",
+        "value": "Allianz Life Insurance Company of North America",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 28,
+          "width": 520,
+          "height": 48
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Home Office",
+        "value": "Home Office: Minneapolis, MN",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 78,
+          "width": 420,
+          "height": 28
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Administrative Office",
+        "value": "Long Term Care Administrative Office",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 106,
+          "width": 460,
+          "height": 22
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Mailing Address Line 1",
+        "value": "Post Office Box 4243",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 128,
+          "width": 420,
+          "height": 20
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Mailing Address Line 2",
+        "value": "Woodland Hills, CA 91365-4243",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 148,
+          "width": 460,
+          "height": 22
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Phone",
+        "value": "(888) 503-8106",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 170,
+          "width": 220,
+          "height": 20
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Policy Title",
+        "value": "Guaranteed Renewable Long Term Care Insurance",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 80,
+          "y": 240,
+          "width": 640,
+          "height": 44
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Qualified Long Term Care Insurance Notice (boxed header)",
+        "value": "THIS POLICY IS INTENDED TO BE A QUALIFIED LONG TERM CARE INSURANCE CONTRACT AS DEFINED UNDER SECTION 7702B(b) OF THE INTERNAL REVENUE CODE OF 1986 and will be endorsed to conform to changes in that definition.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 290,
+          "width": 714,
+          "height": 112
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Notice To Buyer (heading paragraph start)",
+        "value": "NOTICE TO BUYER: This Policy may not cover all of the costs associated with long term care which you may incur during the period of coverage.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 408,
+          "width": 714,
+          "height": 60
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Important Notice (address to return application)",
+        "value": "IMPORTANT NOTICE: Please read the copy of the application attached to this Policy. Check the application and write to the Company, ALLIANZ LIFE INSURANCE COMPANY OF NORTH AMERICA, P.O. Box 4243, Woodland Hills, CA 91365-4243, within 10 days, if any information shown on it is not correct and complete.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 470,
+          "width": 714,
+          "height": 120
+        }
+      },
+      {
+        "id": "f11",
+        "name": "Toll Free Number for assistance",
+        "value": "1-888-503-8106",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 596,
+          "width": 300,
+          "height": 18
+        }
+      },
+      {
+        "id": "f12",
+        "name": "Renewability statement (excerpt)",
+        "value": "RENEWABILITY: This Policy is guaranteed renewable for life. To renew, pay the premium due by the Premium Due Date or within the Grace Period.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 620,
+          "width": 714,
+          "height": 70
+        }
+      },
+      {
+        "id": "f13",
+        "name": "30 Day Right to Examine",
+        "value": "YOUR 30 DAY RIGHT TO EXAMINE YOUR POLICY: If you are not satisfied with this Policy, you may return it to our agent or us within 30 days from the date you receive it. We will then refund any premium you have paid and the Policy... will be considered void from the start.",
+        "confidence": 0.6,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 692,
+          "width": 714,
+          "height": 70
+        }
+      },
+      {
+        "id": "f14",
+        "name": "Executed for the Company location",
+        "value": "Executed for the Company at its Home Office in Minneapolis, Minnesota.",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 764,
+          "width": 714,
+          "height": 28
+        }
+      },
+      {
+        "id": "f15",
+        "name": "Signature - Left Name",
+        "value": "Michael T. Westermeyer",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 96,
+          "y": 808,
+          "width": 260,
+          "height": 90
+        }
+      },
+      {
+        "id": "f16",
+        "name": "Signature - Left Title",
+        "value": "Secretary",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 140,
+          "y": 880,
+          "width": 200,
+          "height": 28
+        }
+      },
+      {
+        "id": "f17",
+        "name": "Signature - Right Name",
+        "value": "Margery G. Hughes",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 420,
+          "y": 808,
+          "width": 300,
+          "height": 90
+        }
+      },
+      {
+        "id": "f18",
+        "name": "Signature - Right Title",
+        "value": "President",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 480,
+          "y": 880,
+          "width": 160,
+          "height": 28
+        }
+      },
+      {
+        "id": "f19",
+        "name": "Form Number",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 40,
+          "y": 948,
+          "width": 220,
+          "height": 26
+        }
+      },
+      {
+        "id": "f20",
+        "name": "Page Number",
+        "value": "Page 1",
+        "confidence": 0.8,
+        "sourceType": "ocr",
+        "bbox": {
+          "x": 700,
+          "y": 948,
+          "width": 80,
+          "height": 26
+        }
+      }
+    ],
+    "tables": []
+  }
+}

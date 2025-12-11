@@ -23,6 +23,7 @@ from .aggregation import aggregate_fields
 from .store import job_store
 from ...constants import SNAPSHOT_VERSION
 from ...repositories.snapshot_repository import save_snapshot_payload, load_snapshot as load_snapshot_repo, list_snapshot_raw
+from ...domain.value_objects.canonical_field import CanonicalFieldIndex
 from ...config import get_settings
 
 logger = logging.getLogger(__name__)
@@ -50,6 +51,77 @@ def _snapshot_path(job_id: str) -> Path:
 
 def _canonical_path(job_id: str) -> Path:
   return _job_dir(job_id) / CANONICAL_FILENAME
+
+
+def _force_policy_conversion(canonical: Any) -> Dict[str, Any]:
+  """Normalize canonical payload to policyConversion schema with 60 fields."""
+
+  normalized: Dict[str, Any] = {}
+  if isinstance(canonical, dict):
+    normalized.update(canonical)
+
+  policy = normalized.get("policyConversion") or normalized.get("policy_conversion")
+  if not isinstance(policy, dict):
+    policy = {}
+
+  # Strip legacy sections
+  for legacy_key in ("facilityInvoice", "invoice", "cmr", "cmrForm", "ub04", "ub04LineItems", "invoiceLineItems"):
+    normalized.pop(legacy_key, None)
+
+  completed_policy: Dict[str, Any] = dict(policy)
+  for field in CanonicalFieldIndex.ordered():
+    if field.label not in completed_policy or completed_policy[field.label] is None:
+      completed_policy[field.label] = {"value": None, "confidence": None, "sources": []}
+  normalized["policyConversion"] = completed_policy
+
+  normalized["documentTypes"] = ["policy_conversion"]
+  normalized["documentCategories"] = ["policy_conversion"]
+  normalized.setdefault("generatedAt", datetime.utcnow().isoformat())
+  normalized.setdefault("reasoningNotes", [])
+
+  allowed_keys = {
+    "policyConversion",
+    "schemaVersion",
+    "generatedAt",
+    "reasoningNotes",
+    "notes",
+    "documentCategories",
+    "documentTypes",
+    "sourceMap",
+    "trace",
+  }
+  for key in list(normalized.keys()):
+    if key not in allowed_keys:
+      normalized.pop(key, None)
+
+  return normalized
+
+
+def update_snapshot_with_canonical(job_id: str, canonical: Dict[str, Any]) -> None:
+  """Persist canonical payload into the existing snapshot and canonical.json."""
+  try:
+    snapshot = load_snapshot_repo(job_id)
+  except Exception as exc:  # pragma: no cover - defensive
+    logger.warning("Failed to load snapshot for %s: %s", job_id, exc)
+    return
+
+  if not snapshot:
+    return
+
+  # Use the LLM canonical as-is to avoid dropping populated values; only backfill doc types.
+  canonical_types = canonical.get("documentTypes") or ["policy_conversion"]
+  document_type = snapshot.get("documentType") or (canonical_types[0] if canonical_types else None)
+  metadata = snapshot.get("metadata") or {}
+  metadata["canonicalDocumentTypes"] = canonical_types
+
+  snapshot["canonical"] = canonical
+  snapshot["metadata"] = metadata
+  snapshot["documentType"] = document_type
+
+  try:
+    save_snapshot_payload(job_id, snapshot)
+  except Exception as exc:  # pragma: no cover - defensive
+    logger.warning("Failed to save canonical snapshot for %s: %s", job_id, exc)
 
 
 def _normalise_confidence(value: Any) -> float:
@@ -102,6 +174,16 @@ def _compute_confidence_stats_from_page_dicts(pages: Sequence[Dict[str, Any]]) -
 
 def save_job_snapshot(job: ExtractionJob) -> None:  # compatibility shim
   summary = _job_summary(job)
+  canonical = _force_policy_conversion(job.canonical)
+  canonical_types = canonical.get("documentTypes") or []
+
+  # Preserve metadata without mutating the in-memory job
+  metadata = dict(job.metadata) if isinstance(job.metadata, dict) else {}
+  if canonical_types:
+    metadata["canonicalDocumentTypes"] = canonical_types
+
+  document_type = job.document_type or (canonical_types[0] if canonical_types else None)
+
   payload = {
     "jobId": job.status.job_id,
     "documentName": job.metadata.get("originalFilename", job.pdf_path.name),
@@ -109,9 +191,9 @@ def save_job_snapshot(job: ExtractionJob) -> None:  # compatibility shim
     "status": _status_to_dict(job.status),
     "pages": [_page_to_dict(page, job.output_dir) for page in job.pages],
     "aggregated": job.aggregated,
-    "metadata": job.metadata,
-    "documentType": job.document_type,
-    "canonical": job.canonical,
+    "metadata": metadata,
+    "documentType": document_type,
+    "canonical": canonical,
     "mappingTrace": job.mapping_trace,
     "summary": summary,
     "lastModified": datetime.utcnow().isoformat(),
@@ -122,7 +204,7 @@ def save_job_snapshot(job: ExtractionJob) -> None:  # compatibility shim
     _ensure_storage_dir()
     canonical_path = _canonical_path(job.status.job_id)
     canonical_path.parent.mkdir(parents=True, exist_ok=True)
-    canonical_path.write_text(json.dumps(job.canonical or {}, indent=2), encoding="utf-8")
+    canonical_path.write_text(json.dumps(canonical or {}, indent=2), encoding="utf-8")
   except Exception as exc:  # pragma: no cover - best effort
     logger.warning("Failed to persist canonical JSON for %s: %s", job.status.job_id, exc)
 

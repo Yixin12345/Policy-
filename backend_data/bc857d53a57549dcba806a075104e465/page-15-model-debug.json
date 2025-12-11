@@ -1,0 +1,162 @@
+{
+  "page": 15,
+  "usedJsonMode": true,
+  "rawContent": "{\n  \"documentType\": {\n    \"label\": \"other\",\n    \"confidence\": 0.8,\n    \"reasons\": [\n      \"Page contains policy contract language and section headings (Policy Ownership, Assignment, Refund of Unearned Premium, Conformity with State Statutes).\",\n      \"Layout does not match facility_invoice, cmr_form, or ub04 templates.\"\n    ]\n  },\n  \"fields\": [\n    {\n      \"id\": \"f1\",\n      \"name\": \"Conversion to individual Policy clause\",\n      \"value\": \"Other than divorce or legal separation, there is no right of conversion to an individual Policy. Coverage may be continued by timely payment of the joint premium rate, even if one of you no longer wants to be covered. In the event of the death of one of you, continued individual coverage will be offered as described above.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 72,\n        \"y\": 36,\n        \"width\": 624,\n        \"height\": 84\n      }\n    },\n    {\n      \"id\": \"f2\",\n      \"name\": \"Policy Ownership - heading\",\n      \"value\": \"Policy Ownership\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 72,\n        \"y\": 128,\n        \"width\": 300,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f3\",\n      \"name\": \"Policy Ownership - text\",\n      \"value\": \"You (both insureds in the case of joint coverage) are the owner of this Policy unless otherwise provided in the application or changed by written request. While you are living, the owner may exercise every right and receive every benefit provided by this Policy. If the owner is not you and the owner dies while you are living, unless otherwise provided, all rights of the owner shall be transferred to the owner's executors or administrators.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 72,\n        \"y\": 148,\n        \"width\": 624,\n        \"height\": 142\n      }\n    },\n    {\n      \"id\": \"f4\",\n      \"name\": \"Assignment - heading\",\n      \"value\": \"Assignment\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 72,\n        \"y\": 300,\n        \"width\": 200,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f5\",\n      \"name\": \"Assignment - text\",\n      \"value\": \"No assignment of interest under your Policy shall be binding upon us unless the original or a copy of the assignment is filed with us at our Long Term Care Administrative Office. We do not assume any responsibility for the validity of an assignment.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 72,\n        \"y\": 320,\n        \"width\": 624,\n        \"height\": 76\n      }\n    },\n    {\n      \"id\": \"f6\",\n      \"name\": \"Refund of Unearned Premium - heading\",\n      \"value\": \"Refund of Unearned Premium\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 72,\n        \"y\": 404,\n        \"width\": 360,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f7\",\n      \"name\": \"Refund of Unearned Premium - paragraph 1\",\n      \"value\": \"Upon your death (second-to-die in the case of joint coverage), we will refund any unearned premium for this Policy to your Beneficiary on a pro-rata basis. We will make this refund within 30 days of receipt of proof of your death.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 72,\n        \"y\": 424,\n        \"width\": 624,\n        \"height\": 64\n      }\n    },\n    {\n      \"id\": \"f8\",\n      \"name\": \"Refund of Unearned Premium - paragraph 2\",\n      \"value\": \"If you (both insureds in the case of joint coverage) request in writing to cancel this Policy, we will refund any unearned premium to you on a pro-rata basis. Cancellation will be effective upon: receipt of your request; or a later date specified by you. Cancellation will be without prejudice to any claim originating prior to the effective date of cancellation.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 72,\n        \"y\": 492,\n        \"width\": 624,\n        \"height\": 128\n      }\n    },\n    {\n      \"id\": \"f9\",\n      \"name\": \"Conformity with State Statutes - heading\",\n      \"value\": \"Conformity with State Statutes\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 72,\n        \"y\": 632,\n        \"width\": 360,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f10\",\n      \"name\": \"Conformity with State Statutes - text\",\n      \"value\": \"Any part of this Policy that, on the Policy Effective Date, conflicts with the laws of the state in which you reside on such date, is hereby amended to meet the minimum requirements of those laws.\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 72,\n        \"y\": 652,\n        \"width\": 624,\n        \"height\": 64\n      }\n    },\n    {\n      \"id\": \"f11\",\n      \"name\": \"Form identifier\",\n      \"value\": \"N-3000-P-FL(Q)\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 20,\n        \"y\": 948,\n        \"width\": 160,\n        \"height\": 20\n      }\n    },\n    {\n      \"id\": \"f12\",\n      \"name\": \"Page number\",\n      \"value\": \"Page 16\",\n      \"confidence\": 0.8,\n      \"bbox\": {\n        \"x\": 660,\n        \"y\": 948,\n        \"width\": 88,\n        \"height\": 20\n      }\n    }\n  ],\n  \"tables\": []\n}",
+  "parsedPayload": {
+    "documentType": {
+      "label": "other",
+      "confidence": 0.8,
+      "reasons": [
+        "Page contains policy contract language and section headings (Policy Ownership, Assignment, Refund of Unearned Premium, Conformity with State Statutes).",
+        "Layout does not match facility_invoice, cmr_form, or ub04 templates."
+      ]
+    },
+    "fields": [
+      {
+        "id": "f1",
+        "name": "Conversion to individual Policy clause",
+        "value": "Other than divorce or legal separation, there is no right of conversion to an individual Policy. Coverage may be continued by timely payment of the joint premium rate, even if one of you no longer wants to be covered. In the event of the death of one of you, continued individual coverage will be offered as described above.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 72,
+          "y": 36,
+          "width": 624,
+          "height": 84
+        }
+      },
+      {
+        "id": "f2",
+        "name": "Policy Ownership - heading",
+        "value": "Policy Ownership",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 72,
+          "y": 128,
+          "width": 300,
+          "height": 20
+        }
+      },
+      {
+        "id": "f3",
+        "name": "Policy Ownership - text",
+        "value": "You (both insureds in the case of joint coverage) are the owner of this Policy unless otherwise provided in the application or changed by written request. While you are living, the owner may exercise every right and receive every benefit provided by this Policy. If the owner is not you and the owner dies while you are living, unless otherwise provided, all rights of the owner shall be transferred to the owner's executors or administrators.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 72,
+          "y": 148,
+          "width": 624,
+          "height": 142
+        }
+      },
+      {
+        "id": "f4",
+        "name": "Assignment - heading",
+        "value": "Assignment",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 72,
+          "y": 300,
+          "width": 200,
+          "height": 20
+        }
+      },
+      {
+        "id": "f5",
+        "name": "Assignment - text",
+        "value": "No assignment of interest under your Policy shall be binding upon us unless the original or a copy of the assignment is filed with us at our Long Term Care Administrative Office. We do not assume any responsibility for the validity of an assignment.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 72,
+          "y": 320,
+          "width": 624,
+          "height": 76
+        }
+      },
+      {
+        "id": "f6",
+        "name": "Refund of Unearned Premium - heading",
+        "value": "Refund of Unearned Premium",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 72,
+          "y": 404,
+          "width": 360,
+          "height": 20
+        }
+      },
+      {
+        "id": "f7",
+        "name": "Refund of Unearned Premium - paragraph 1",
+        "value": "Upon your death (second-to-die in the case of joint coverage), we will refund any unearned premium for this Policy to your Beneficiary on a pro-rata basis. We will make this refund within 30 days of receipt of proof of your death.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 72,
+          "y": 424,
+          "width": 624,
+          "height": 64
+        }
+      },
+      {
+        "id": "f8",
+        "name": "Refund of Unearned Premium - paragraph 2",
+        "value": "If you (both insureds in the case of joint coverage) request in writing to cancel this Policy, we will refund any unearned premium to you on a pro-rata basis. Cancellation will be effective upon: receipt of your request; or a later date specified by you. Cancellation will be without prejudice to any claim originating prior to the effective date of cancellation.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 72,
+          "y": 492,
+          "width": 624,
+          "height": 128
+        }
+      },
+      {
+        "id": "f9",
+        "name": "Conformity with State Statutes - heading",
+        "value": "Conformity with State Statutes",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 72,
+          "y": 632,
+          "width": 360,
+          "height": 20
+        }
+      },
+      {
+        "id": "f10",
+        "name": "Conformity with State Statutes - text",
+        "value": "Any part of this Policy that, on the Policy Effective Date, conflicts with the laws of the state in which you reside on such date, is hereby amended to meet the minimum requirements of those laws.",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 72,
+          "y": 652,
+          "width": 624,
+          "height": 64
+        }
+      },
+      {
+        "id": "f11",
+        "name": "Form identifier",
+        "value": "N-3000-P-FL(Q)",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 20,
+          "y": 948,
+          "width": 160,
+          "height": 20
+        }
+      },
+      {
+        "id": "f12",
+        "name": "Page number",
+        "value": "Page 16",
+        "confidence": 0.8,
+        "bbox": {
+          "x": 660,
+          "y": 948,
+          "width": 88,
+          "height": 20
+        }
+      }
+    ],
+    "tables": []
+  }
+}
